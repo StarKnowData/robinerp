@@ -11,7 +11,7 @@ namespace QPS.Web
 {
     public partial class NewsCenter : System.Web.UI.Page
     {
-        QPS.BLL.Trends  Btrend = new QPS.BLL.Trends ();
+        QPS.NEW.BLL.Trends  Btrend = new QPS.NEW.BLL.Trends ();
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
