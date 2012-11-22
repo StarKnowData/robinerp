@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Personnal.Master.cs" Inherits="QPS.Web.UserMan.Personnal" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title></title>
+<link href="css/gruser.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    <!--box[[-->
+<div class="box">
+     <!--header[[-->
+     <div class="header"><img src="grimg/grimg1.jpg"><p><asp:Label ID="lbldate" runat="server" Text="Label"></asp:Label></p></div>
+     <!--header]]-->
+     <div class="wel">
+          <p>欢迎&nbsp;&nbsp;个人会员&nbsp;&nbsp;<asp:Label ID="lblpersonnalinfo" runat="server" Text=""></asp:Label>[ <a href="../Default.aspx">首页</a> ] [ <a href="../Login.aspx">退出</a> ] </p>
+     </div>     <!--grmiddle[[-->
+     <div class="grmiddle">
+          <!--grleft[[-->
+          <div class="grleft">
+               <ul>
+                   <li><a href="PersonnalInfo.aspx">信息管理</a></li>
+                   <li><a href="OrderMan.aspx">订单管理</a></li>
+                   <li><a href="ModPwd.aspx">密码修改</a></li>
+                   <li><a href="ScoreInfo.aspx">积分信息</a></li>
+                   <li><a href="LeavaWords.aspx">留言信息</a></li>  
+               </ul>
+          </div>
+          <!--grleft]]-->
+     
+               <!--grbox[[-->
+       <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+               <!--grbox]]-->
+          <!--grright]]-->
+     </div>
+     <!--grmiddle]]-->
+     <!--footer[[-->
+     <div class="footer">
+          <a href="#">关于我们</a><strong>|</strong><a href="#">意见反馈</a><strong>|</strong><a href="#">免责声明</a>Copyright © 2012 87win.cn.　All Rights Reserved.　鄂ICP证12012180号
+     </div><div style="clear:both; overflow:hidden; height:0; font-size:1px"></div>
+     <!--footer]]-->
+</div>
+<!--box]]-->
+     
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+body { margin:0; padding:0;}
+
+
+.wel { width:1003px; height:30px; float:left; margin:0; padding:0; background-image:url(../grimg/grbg2.jpg);}
+.wel p { width:400px; height:20px; line-height:20px; float:left; margin:8px 0 0 20px; display:inline; padding:0; font-size:12px; font-weight:normal; color:#fff; text-align:left;}
+.wel p a { margin:0 5px 0 5px; font-size:12px; font-weight:normal; color:#fff; text-decoration:none;}
+.wel p a:hover { color:#DACDE8;}
+
+.grmiddle { width:1003px; height:auto; float:left; margin:15px 0 0 0; padding:0 0 20px 0; background-color:#fff;}
+.grleft { width:151px; height:500px; float:left; margin:0 0 0 10px; display:inline; padding:0; border-left:1px solid #CFCDD4; background-image:url(../grimg/grbg3.jpg); background-position:right 0;}
+.grleft ul { width:149px; height:500px; float:left; margin:0; padding:0; border-bottom:1px solid #CFCDD4; list-style:none;}
+.grleft ul li { width:120px; height:25px; line-height:25px; float:left; margin:0 0 20px 0; padding:5px 0 0 28px; display:inline; background-image:url(../grimg/grbg4.jpg);}
+.grleft ul li a { font-size:13px; font-weight:bold; color:#333333; text-decoration:none;}
+
+.grright { width:790px; height:500px; float:left; margin:0 0 0 10px; display:inline; padding:0; border:1px solid #CFCDD4;}
+.grtitlea { width:770px; height:29px; float:left; margin:15px 0 0 10px; display:inline; padding:0; background-image:url(../grimg/grbg5.jpg);}
+.grtitlea span { width:102px; height:22px; line-height:22px; float:left; margin:0 0 0 10px; display:inline; padding:7px 0 0 0; background-image:url(../grimg/grbg6.jpg); font-size:13px; font-weight:bold; color:#333; text-align:center;}
+.grtitlea p { width:200px; height:22px; line-height:22px; float:left; margin:0 0 0 10px; display:inline; padding:4px 0 0 0;  font-size:14px; font-weight:bold; color:#333; text-align:left;}
+.grtitlea p a{  font-size:14px; font-weight:normal; color:#0000ff; text-decoration:none;}
+
+.grboxa { width:770px; height:auto;  margin:0 auto; padding:0;}
+
+.grbox { width:770px; height:auto; float:left; margin:15px 0 0 10px; display:inline; padding:0;}
+
+.grxxa { width:650px; height:auto; float:left; margin:20px 0 20px 85px; display:inline; padding:0 0 20px 0;}
+.grxxa ul { width:650px; height:auto; float:left; margin:0; padding:0; list-style:none;}
+.grxxa ul li { width:650px; height:auto; float:left; margin:0; padding:0;}
+.grxxa ul li h3 { width:100px; height:23px; line-height:23px; float:left; margin:15px 0 0 10px; display:inline; padding:0; font-size:12px; font-weight:normal; color:#000; text-align:right;}
+.grxxa ul li p { width:auto; height:23px; line-height:23px; float:left; margin:15px 0 0 10px; display:inline; padding:0; font-size:12px; font-weight:normal; color:#000; text-align:left;}
+.cja1 { width:210px; height:23px; line-height:23px; float:left; margin:15px 0 0 7px; display:inline; padding:0; border:1px solid #E6E6E6;}
+.cja2 { width:71px; height:24px; float:left; margin:20px 0 0 120px; display:inline; padding:0; border:0; background-image:url(../grimg/grbg7.jpg); cursor:pointer;}
+.cja3 { width:71px; height:24px; float:left; margin:20px 0 0 20px; display:inline; padding:0; border:0; background-image:url(../grimg/grbg8.jpg); cursor:pointer;}
+.cja4 { float:left; margin:20px 0 0 10px; display:inline; padding:0;}
+.cja5 { width:71px; height:24px; float:left; margin:20px 0 0 120px; display:inline; padding:0; border:0; background-image:url(../grimg/grbg8.jpg); cursor:pointer;}
+
+
+.cjaaa {  float:left; margin:15px 0 0 175px; display:inline; padding:0; }
+.cja6 { width:410px; height:80px; line-height:23px; float:left; margin:15px 0 0 7px; display:inline; padding:0; border:1px solid #E6E6E6;}
+.grxxa ul li h4 { width:250px; height:23px; line-height:23px; float:left; margin:15px 0 0 10px; display:inline; padding:0 0 0 5px; font-size:12px; font-weight:normal; color:#000; text-align:left; border:1px solid #ff0000;}
+
+.footer { width:1003px; height:47px; float:left; margin:0; padding:5px 0 0 0; font-size:12px; font-weight:normal; color:#666666; text-align:center;}
+.footer a { margin:0 8px 0 8px; font-size:12px; font-weight:normal; color:#666666; text-decoration:none;}
+
+
+
+
+
