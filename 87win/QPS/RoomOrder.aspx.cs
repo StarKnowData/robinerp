@@ -7,6 +7,7 @@ using System.Web.UI.WebControls;
 using System.Data;
 using System.Text;
 using System.Collections;
+
 namespace QPS.Web
 {
     public partial class RoomOrder : System.Web.UI.Page
@@ -18,7 +19,7 @@ namespace QPS.Web
             get { return _hashtable; }
         }
         private static string username = String.Empty;
-        QPS.BLL.Room room = new QPS.BLL.Room();
+        QPS.NEW.BLL.Room room = new QPS.NEW.BLL.Room();
         public string[] items;
         public DataSet ds;
         public DataSet dsorder;
@@ -28,7 +29,14 @@ namespace QPS.Web
         {
             if (!IsPostBack)
             {
-                dsorder = Maticsoft.DBUtility.DbHelperSQL.Query("SELECT Are,count(Are) as 'Sum' FROM Room GROUP BY Are ");
+                // === modified by jeffery
+                //dsorder = Maticsoft.DBUtility.DbHelperSQL.Query("SELECT Are,count(Are) as 'Sum' FROM Room GROUP BY Are ");
+                QPS.NEW.DAL.SQLHelper sqlHelper = new NEW.DAL.SQLHelper(null);
+                dsorder = sqlHelper.GetDataSet("SELECT Are,count(Are) as 'Sum' FROM Room GROUP BY Are ",
+                    CommandType.Text,
+                    null);
+                // ===
+
                 DataList2.DataSource = dsorder;
                 DataList2.DataBind();
 

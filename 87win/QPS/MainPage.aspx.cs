@@ -8,18 +8,21 @@ using System.Text;
 using System.Data;
 using System.Collections;
 using System.Data.SqlClient;
+
 namespace QPS.Web
 {
     public partial class MainPage : System.Web.UI.Page
     {
-        QPS.BLL.Trends Btrend = new QPS.BLL.Trends();
-        QPS.BLL.Room room = new QPS.BLL.Room();
+        
+        QPS.NEW.BLL.Trends Btrend = new QPS.NEW.BLL.Trends();
+        QPS.NEW.BLL.Room room = new QPS.NEW.BLL.Room();
         private static Hashtable _hashtable;
         public Hashtable hashtable
         {
             set { _hashtable = value; }
             get { return _hashtable; }
         }
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
@@ -37,7 +40,7 @@ namespace QPS.Web
         private void GetRecommendRoom()
         {
             string tempstr = string.Empty;
-            QPS.BLL.Room room = new QPS.BLL.Room();
+            QPS.NEW.BLL.Room room = new QPS.NEW.BLL.Room();
             DataTable dt = room.GetDataTableList("select top 50 * from Room where IfRecommend=0 order by id desc");
             if (dt!=null)
             {
