@@ -1,0 +1,35 @@
+ 驱动器 E 中的卷是 document
+ 卷的序列号是 A0DB-D6F8
+
+ E:\QPS\QPS\ckeditor\plugins 的目录
+
+2012/11/21  21:21    <DIR>          .
+2012/11/21  21:21    <DIR>          ..
+2012/11/21  20:54    <DIR>          a11yhelp
+2012/11/21  20:54    <DIR>          about
+2012/11/21  20:54    <DIR>          clipboard
+2012/11/21  20:54    <DIR>          colordialog
+2012/11/21  20:54    <DIR>          dialog
+2012/11/21  21:21                 
+2012/11/21  20:54    <DIR>          div
+2012/11/21  20:54    <DIR>          find
+2012/11/21  20:54    <DIR>          flash
+2012/11/21  20:54    <DIR>          forms
+2012/11/21  20:54    <DIR>          iframedialog
+2012/11/21  20:54    <DIR>          image
+2012/11/21  20:54    <DIR>          link
+2012/11/21  20:54    <DIR>          pagebreak
+2012/11/21  20:54    <DIR>          pastefromword
+2012/11/21  20:54    <DIR>          pastetext
+2012/11/21  20:54    <DIR>          scayt
+2012/11/21  20:54    <DIR>          showblocks
+2012/11/21  20:54    <DIR>          smiley
+2012/11/21  20:54    <DIR>          specialchar
+2012/11/21  20:54    <DIR>          stylescombo
+2012/11/21  20:54    <DIR>          table
+2012/11/21  20:54    <DIR>          tabletools
+2012/11/21  20:54    <DIR>          templates
+2012/11/21  20:54    <DIR>          uicolor
+2012/11/21  20:54    <DIR>          wsc
+               1 个文件              0 字节
+              27 个目录 68,630,425,600 可用字节

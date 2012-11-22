@@ -1,0 +1,46 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.wel { width:1003px; height:30px; float:left; margin:0; padding:0; background-image:url(../grimg/grbg2.jpg);}
+.wel p { width:400px; height:20px; line-height:20px; float:left; margin:8px 0 0 20px; display:inline; padding:0; font-size:12px; font-weight:normal; color:#fff; text-align:left;}
+.wel p a { margin:0 5px 0 5px; font-size:12px; font-weight:normal; color:#fff; text-decoration:none;}
+.wel p a:hover { color:#DACDE8;}
+
+.grmiddle { width:1003px; height:auto; float:left; margin:15px 0 0 0; padding:0 0 20px 0; background-color:#fff;}
+
+
+.grright { width:790px; height:500px; float:left; margin:0 0 0 10px; display:inline; padding:0; border:1px solid #CFCDD4;}
+.grtitlea { width:770px; height:29px; float:left; margin:15px 0 0 10px; display:inline; padding:0; background-image:url(../grimg/grbg5.jpg);}
+.grtitlea span { width:102px; height:22px; line-height:22px; float:left; margin:0 0 0 10px; display:inline; padding:7px 0 0 0; background-image:url(../grimg/grbg6.jpg); font-size:13px; font-weight:bold; color:#333; text-align:center;}
+
+.grbox { width:770px; height:236px; 
+float:left; margin:15px 0 0 10px; display:inline; padding:0;
+}
+
+.grxxa { width:650px; height:auto; float:left; margin:20px 0 20px 85px; display:inline; padding:0 0 20px 0;}
+.grxxa ul { width:650px; height:auto; float:left; margin:0; padding:0; list-style:none;}
+.grxxa ul li { width:650px; height:auto; float:left; margin:0; padding:0;}
+.grxxa ul li h3 { width:100px; height:23px; line-height:23px; float:left; margin:15px 0 0 10px; display:inline; padding:0; font-size:12px; font-weight:normal; color:#000; text-align:right;}
+.grxxa ul li p { width:auto; height:23px; line-height:23px; float:left; margin:15px 0 0 10px; display:inline; padding:0; font-size:12px; font-weight:normal; color:#000; text-align:left;}
+.cja1 { width:210px; height:23px; line-height:23px; float:left; margin:15px 0 0 7px; display:inline; padding:0; border:1px solid #E6E6E6;}
+.cja2 { border-style: none;
+	border-color: inherit;
+	border-width: 0;
+	width:71px; 	float:left; 	margin:20px 0 0 120px; 	display:inline; 	padding:0; background-image:url('../grimg/grbg7.jpg'); 
+	cursor:pointer;
+	height: 22px;
+}
+.cja3 { width:71px; height:24px; float:left; margin:20px 0 0 20px; display:inline; padding:0; border:0; background-image:url(../grimg/grbg8.jpg); cursor:pointer;}
+.cja4 { float:left; margin:20px 0 0 10px; display:inline; padding:0;}
+.cja5 { width:71px; height:24px; float:left; margin:20px 0 0 120px; display:inline; padding:0; border:0; background-image:url(../grimg/grbg8.jpg); cursor:pointer;}
+
+.cja6 { width:410px; height:80px; line-height:23px; float:left; margin:15px 0 0 7px; display:inline; padding:0; border:1px solid #E6E6E6;}
+.grxxa ul li h4 { width:250px; height:23px; line-height:23px; float:left; margin:15px 0 0 10px; display:inline; padding:0 0 0 5px; font-size:12px; font-weight:normal; color:#000; text-align:left; border:1px solid #ff0000;}
+
+.footer { width:1003px; height:47px; float:left; margin:0; padding:5px 0 0 0; font-size:12px; font-weight:normal; color:#666666; text-align:center;}
+.footer a { margin:0 8px 0 8px; font-size:12px; font-weight:normal; color:#666666; text-decoration:none;}
+
+
+
+
+

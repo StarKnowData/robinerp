@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="gif.aspx.cs" Inherits="QPS.Web.Manage.gif" %>
