@@ -41,6 +41,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Enterprise.cs" />
+    <Compile Include="Integral.cs" />
+    <Compile Include="Orderform.cs" />
+    <Compile Include="Room.cs" />
     <Compile Include="Users.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

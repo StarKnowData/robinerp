@@ -31,10 +31,7 @@ namespace QPS.Web
         {
             try
             {
-                // === modified by jeffery
-                //string celpattern = @"(^189\d{8}$)|(^13\d{9}$)|(^15\d{9}$)";
-                string celpattern = @"^1[3|4|5|8][0-9]\d{8}$";
-                // ===
+                string celpattern = @"(^189\d{8}$)|(^13\d{9}$)|(^15\d{9}$)";
                 if (txtPwd.Value != txtRePwd.Value)
                 {
                     Response.Write("<script>alert('确认密码与原密码不一致 ，请重新输入！ ')</script>");

@@ -12,7 +12,15 @@ namespace QPS.Web
         protected void Page_Load(object sender, EventArgs e)
         {
             string query = "select DContent from Document where DType='5' ";
-            DataSet ds = Maticsoft.DBUtility.DbHelperSQL.Query(query);
+            // === modified by jeffery
+            //DataSet ds = Maticsoft.DBUtility.DbHelperSQL.Query(query);
+            QPS.NEW.DAL.SQLHelper sqlhelper = new NEW.DAL.SQLHelper(null);
+            DataSet ds = sqlhelper.GetDataSet(
+                query,
+                System.Data.CommandType.Text,
+                null
+                );
+            // ===
             RepeaterYx.DataSource = ds;
             RepeaterYx.DataBind();
         }
