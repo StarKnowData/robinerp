@@ -35,5 +35,17 @@ namespace QPS.NEW.BLL
 
             return ds;
         }
+
+        public DataSet GetList(string strWhere)
+        {
+            DataSet ds = null;
+            string strsql = "select Title,time Content from Trends where ";
+
+            strsql += strWhere;
+
+            ds = sqlHelper_.GetDataSet(strsql, CommandType.Text, null);
+
+            return ds;
+        }
     }
 }
