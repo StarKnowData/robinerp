@@ -12,8 +12,8 @@ namespace QPS.Web
     public partial class RoomDetail : System.Web.UI.Page
     {
         public DataSet ds;
-        QPS.BLL.Room room = new QPS.BLL.Room();
-        QPS.BLL.Poster poster = new QPS.BLL.Poster();
+        QPS.NEW.BLL.Room room = new QPS.NEW.BLL.Room();
+        QPS.NEW.BLL.Poster poster = new QPS.NEW.BLL.Poster();
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
