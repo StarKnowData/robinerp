@@ -15,7 +15,7 @@ namespace QPS.Web
 {
     public partial class NewsDatail : System.Web.UI.Page
     {
-        QPS.BLL.Trends t = new QPS.BLL.Trends();
+        QPS.NEW.BLL.Trends t = new QPS.NEW.BLL.Trends();
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
