@@ -13,9 +13,9 @@ namespace QPS.Web
     {
         public static Hashtable ht;
         public DataSet ds;
-        QPS.BLL.Users Buser = new QPS.BLL.Users();
-        QPS.Model.Users Muser = new QPS.Model.Users();
-        QPS.BLL.Integral BInt = new QPS.BLL.Integral();
+        QPS.NEW.BLL.Users Buser = new QPS.NEW.BLL.Users();
+        QPS.NEW.Model.Users Muser = new QPS.NEW.Model.Users();
+        QPS.NEW.BLL.Integral BInt = new QPS.NEW.BLL.Integral();
         static int userid;
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -113,7 +113,8 @@ namespace QPS.Web
                         string uname = ht["username"].ToString();
                         DataSet dsUser = Buser.GetList("Username='" + uname + "'");
                         userid = Convert.ToInt32(dsUser.Tables[0].Rows[0]["Id"]);
-                        QPS.Model.Integral  u = BInt.GetModel(userid);
+                        QPS.NEW.Model.Integral u = BInt.GetModel(userid);
+
                         if (u.Content == (int)ht["originalscore"])
                         {
                             u.Content = +(int)ht["score"];
@@ -136,7 +137,7 @@ namespace QPS.Web
                         string uname = ht["username"].ToString();
                         DataSet dsUser = Buser.GetList("Username='" + uname + "'");
                         userid = Convert.ToInt32(dsUser.Tables[0].Rows[0]["Id"]);
-                        QPS.Model.Users u = Buser.GetModel(userid);
+                        QPS.NEW.Model.Users u = Buser.GetModel(userid);
                         u.Password = ht["newpassword"].ToString();
                         if (Buser.Update(u))
                         {
