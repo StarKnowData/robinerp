@@ -9,7 +9,7 @@ namespace QPS.NEW.BLL
 {
     public class Trends
     {
-        private QPS.NEW.DAL.SQLHelper sqlHelper_;
+        private SQLHelper sqlHelper_;
 
         public Trends()
         {

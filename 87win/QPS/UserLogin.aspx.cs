@@ -16,8 +16,8 @@ namespace QPS.Web
         {
             string UserName = txbUserName.Text.Trim();
             string UserPwd = txbPwd.Text.Trim();
-            QPS.BLL.Users bll = new QPS.BLL.Users();
-            QPS.BLL.Enterprise Benter = new QPS.BLL.Enterprise();
+            QPS.NEW.BLL.Users bll = new QPS.NEW.BLL.Users();
+            QPS.NEW.BLL.Enterprise Benter = new QPS.NEW.BLL.Enterprise();
             try
             {
                 if (rbtuser.Checked)

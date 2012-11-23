@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{EEE2C269-4C00-46C1-B5D4-B26C3248BEDD}</ProjectGuid>
+    <ProjectGuid>{EB49B820-540A-44A8-8F9C-F85E32FA524A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>QPS.NEW.BLL</RootNamespace>
-    <AssemblyName>QPS.NEW.BLL</AssemblyName>
+    <RootNamespace>QPS.NEW.Model</RootNamespace>
+    <AssemblyName>QPS.NEW.Model</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -31,12 +31,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="QPS.NEW.DAL">
-      <HintPath>..\QPS\bin\QPS.NEW.DAL.dll</HintPath>
-    </Reference>
-    <Reference Include="QPS.NEW.Model">
-      <HintPath>..\QPS\bin\QPS.NEW.Model.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,11 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Enterprise.cs" />
-    <Compile Include="Poster.cs" />
-    <Compile Include="Room.cs" />
-    <Compile Include="Trends.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Users.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QPS.NEW.DAL", "QPS.DAL\QPS.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QPS.NEW.BLL", "QPS.BLL\QPS.NEW.BLL.csproj", "{EEE2C269-4C00-46C1-B5D4-B26C3248BEDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QPS.NEW.Model", "QPS.NEW.Model\QPS.NEW.Model.csproj", "{EB49B820-540A-44A8-8F9C-F85E32FA524A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{EEE2C269-4C00-46C1-B5D4-B26C3248BEDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEE2C269-4C00-46C1-B5D4-B26C3248BEDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEE2C269-4C00-46C1-B5D4-B26C3248BEDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB49B820-540A-44A8-8F9C-F85E32FA524A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB49B820-540A-44A8-8F9C-F85E32FA524A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB49B820-540A-44A8-8F9C-F85E32FA524A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB49B820-540A-44A8-8F9C-F85E32FA524A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

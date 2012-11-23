@@ -9,10 +9,10 @@ namespace QPS.Web
 {
     public partial class UserReg : System.Web.UI.Page
     {
-        QPS.BLL.Users Buser = new QPS.BLL.Users();
-        QPS.Model.Users Uuser = new QPS.Model.Users();
-        QPS.BLL.Enterprise Euser = new QPS.BLL.Enterprise();
-        QPS.Model.Enterprise Muser = new QPS.Model.Enterprise();
+        QPS.NEW.BLL.Users Buser = new QPS.NEW.BLL.Users();
+        QPS.NEW.Model.Users Uuser = new QPS.NEW.Model.Users();
+        QPS.NEW.BLL.Enterprise Euser = new QPS.NEW.BLL.Enterprise();
+        QPS.NEW.Model.Enterprise Muser = new QPS.NEW.Model.Enterprise();
         DataHandler.PageAction pa = new DataHandler.PageAction();
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -31,8 +31,10 @@ namespace QPS.Web
         {
             try
             {
-
-                string celpattern = @"(^189\d{8}$)|(^13\d{9}$)|(^15\d{9}$)";
+                // === modified by jeffery
+                //string celpattern = @"(^189\d{8}$)|(^13\d{9}$)|(^15\d{9}$)";
+                string celpattern = @"^1[3|4|5|8][0-9]\d{8}$";
+                // ===
                 if (txtPwd.Value != txtRePwd.Value)
                 {
                     Response.Write("<script>alert('确认密码与原密码不一致 ，请重新输入！ ')</script>");

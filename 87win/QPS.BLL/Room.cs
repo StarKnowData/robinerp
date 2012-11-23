@@ -9,7 +9,7 @@ namespace QPS.NEW.BLL
 {
     public class Room
     {
-        private QPS.NEW.DAL.SQLHelper sqlHelper_;
+        private SQLHelper sqlHelper_;
 
         public Room()
         {
@@ -29,7 +29,7 @@ namespace QPS.NEW.BLL
         {
             DataSet ds = null;
             string strSql =
-                "select ImagePath,Address,Name,Content,RoomPrice,Id from Room where ";
+                "select Id,ImagePath,Address,Name,Content,RoomPrice,Content,Are from Room where ";
 
             strSql += strWhere;
             ds = sqlHelper_.GetDataSet(strSql, CommandType.Text, null);

@@ -82,6 +82,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\QPS.NEW.DAL.dll</HintPath>
     </Reference>
+    <Reference Include="QPS.NEW.Model, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\QPS.NEW.Model.dll</HintPath>
+    </Reference>
     <Reference Include="QPS.Web, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\QPS.Web.dll</HintPath>
