@@ -13,10 +13,10 @@ namespace QPS.Web.BusiMan
         protected void Page_Load(object sender, EventArgs e)
       {
               orderid =Convert.ToInt32(Request.QueryString["id"]);
-              QPS.BLL.Orderform Border = new QPS.BLL.Orderform();
-              QPS.Model.Orderform Morder = Border.GetModel(orderid);
-              QPS.BLL.Users u = new QPS.BLL.Users();
-              QPS.BLL.Room r = new QPS.BLL.Room();
+              QPS.NEW.BLL.Orderform Border = new QPS.NEW.BLL.Orderform();
+              QPS.NEW.Model.Orderform Morder = Border.GetModel(orderid);
+              QPS.NEW.BLL.Users u = new QPS.NEW.BLL.Users();
+              QPS.NEW.BLL.Room r = new QPS.NEW.BLL.Room();
               int roomid=(int)  Morder.Roomid;
               int userid =(int) Morder.Userid;
              txfRoomName.Value = r.GetModel(roomid).Name;
@@ -30,8 +30,8 @@ namespace QPS.Web.BusiMan
             try
             { //转换为整数
                 int ID = Convert.ToInt32(orderid);
-                QPS.BLL.Orderform Border = new QPS.BLL.Orderform();
-                QPS.Model.Orderform order = Border.GetModel(ID);
+                QPS.NEW.BLL.Orderform Border = new QPS.NEW.BLL.Orderform();
+                QPS.NEW.Model.Orderform order = Border.GetModel(ID);
                 order.Beveragecost = Convert.ToDecimal(txfBeverageCost.Text);
                 if (Border.Update(order))
                 {

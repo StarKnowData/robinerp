@@ -11,8 +11,8 @@ namespace QPS.Web.UserMan
     public partial class ModPwd : System.Web.UI.Page
     {
         public DataSet ds;
-        QPS.BLL.Users user = new QPS.BLL.Users();
-        QPS.Model.Users Muser = new QPS.Model.Users();
+        QPS.NEW.BLL.Users user = new QPS.NEW.BLL.Users();
+        QPS.NEW.Model.Users Muser = new QPS.NEW.Model.Users();
         static int   userid;
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -35,14 +35,18 @@ namespace QPS.Web.UserMan
         {
             try
             {
-                DataHandler.PageAction pa = new DataHandler.PageAction();
-                QPS.BLL.Users Buser = new QPS.BLL.Users();
-                QPS.Model.Users Muser = Buser.GetModel(userid);
-                if (pa.getStatus(pa.ModifyPwd("http://59.175.238.107:8080", Session["username"].ToString(), txfModPwd.Value, "dfd8915f711b45c78c2b15ef70528699")) != "true")
-                {
-                    Response.Write("<script>alert('修改密码失败')</script>");
-                    return;
-                }
+                // === modified bu jeffery
+                //DataHandler.PageAction pa = new DataHandler.PageAction();
+                // ===
+                QPS.NEW.BLL.Users Buser = new QPS.NEW.BLL.Users();
+                QPS.NEW.Model.Users Muser = Buser.GetModel(userid);
+                // === modified by jeffery
+                //if (pa.getStatus(pa.ModifyPwd("http://59.175.238.107:8080", Session["username"].ToString(), txfModPwd.Value, "dfd8915f711b45c78c2b15ef70528699")) != "true")
+                //{
+                //    Response.Write("<script>alert('修改密码失败')</script>");
+                //    return;
+                //}
+                // ===
                 if (txfOriginalPwd.Value != Muser.Password)
                 {
                     Response.Write("<script>alert('原始密码错误，请重新输入')</script>");

@@ -8,6 +8,12 @@ namespace QPS.NEW.Model
     [Serializable]
     public class Users
     {
+        public Users()
+        {
+            userID_ = -999;
+            userType_ = -999;
+        }
+
         private int userID_;
 
         public int Id

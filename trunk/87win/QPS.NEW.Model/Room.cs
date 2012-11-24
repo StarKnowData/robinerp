@@ -7,6 +7,16 @@ namespace QPS.NEW.Model
     [Serializable]
     public class Room
     {
+        public Room()
+        {
+            roomExamine_ = -999;
+            roomId_ = -999;
+            roomIfRecommend_ = -999;
+            roomState_ = -999;
+            roomOwnerID_ = -999;
+            roomPrice_ = -999;
+        }
+
         private string roomAddress_;
         public string Address
         {

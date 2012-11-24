@@ -14,15 +14,15 @@ namespace QPS.Web.BusiMan
         public DataTable databind()
         {
           DataTable dt = new DataTable();
-         
-        QPS.BLL.Enterprise user = new QPS.BLL.Enterprise();
-        QPS.BLL.Users u = new QPS.BLL.Users();
-        QPS.BLL.Room BRoom = new QPS.BLL.Room();
-        QPS.Model.Room Mroom = new QPS.Model.Room();
-        QPS.BLL.Orderform Border = new QPS.BLL.Orderform();
-        List<QPS.Model.Room> roomList = new List<QPS.Model.Room>();
-        List<QPS.Model.Orderform> orderList = new List<QPS.Model.Orderform>();
-        List<QPS.Model.Users> userList = new List<QPS.Model.Users>();
+
+          QPS.NEW.BLL.Enterprise user = new QPS.NEW.BLL.Enterprise();
+        QPS.NEW.BLL.Users u = new QPS.NEW.BLL.Users();
+        QPS.NEW.BLL.Room BRoom = new QPS.NEW.BLL.Room();
+        QPS.NEW.Model.Room Mroom = new QPS.NEW.Model.Room();
+        QPS.NEW.BLL.Orderform Border = new QPS.NEW.BLL.Orderform();
+        List<QPS.NEW.Model.Room> roomList = new List<QPS.NEW.Model.Room>();
+        List<QPS.NEW.Model.Orderform> orderList = new List<QPS.NEW.Model.Orderform>();
+        List<QPS.NEW.Model.Users> userList = new List<QPS.NEW.Model.Users>();
          DataColumn dc0 = dt.Columns.Add("订单编号", typeof(int));
         DataColumn dc1 = dt.Columns.Add("棋牌室名称", typeof(string));
         DataColumn dc2 = dt.Columns.Add("用户", typeof(string));
@@ -39,7 +39,7 @@ namespace QPS.Web.BusiMan
                 for (int i = 0; i < dsRoom.Tables[0].Rows.Count; i++)
                 {
                     int  roomid =Convert.ToInt32(dsRoom.Tables[0].Rows[i]["Id"]);
-                    QPS.Model.Room r=   BRoom.GetModel(roomid);
+                    QPS.NEW.Model.Room r = BRoom.GetModel(roomid);
                     DataSet dsOrder = Border.GetList("Roomid='" + roomid + "' and IsDelete=0");
                     if (dsOrder.Tables[0].Rows.Count == 0)
                         continue;
@@ -121,20 +121,21 @@ namespace QPS.Web.BusiMan
                 {
                     ok = 0; 
                 }
-                QPS.BLL.Orderform Border = new QPS.BLL.Orderform();
-                QPS.Model.Orderform order = Border.GetModel(Convert.ToInt32(id));
+
+                QPS.NEW.BLL.Orderform Border = new QPS.NEW.BLL.Orderform();
+                QPS.NEW.Model.Orderform order = Border.GetModel(Convert.ToInt32(id));
                 Border.UpdateType(id,type);
                 //订单有效 则加上积分  否则 如果存在积分 则删除
-                QPS.BLL.Integral Bint = new QPS.BLL.Integral();
-                QPS.Model.Integral Mint = new QPS.Model.Integral();
+                QPS.NEW.BLL.Integral Bint = new QPS.NEW.BLL.Integral();
+                QPS.NEW.Model.Integral Mint = new QPS.NEW.Model.Integral();
                      if (Bint.GetList("OrderId='" + id + "'").Tables[0].Rows.Count > 0)//删除已有积分
                     {
                         Bint.Delete(Convert.ToInt32(Bint.GetList("OrderId='" + id + "'").Tables[0].Rows[0]["Id"]));
                     }
                 if (ok == 1)//有效
                 {
-                        QPS.BLL.Room Broom = new QPS.BLL.Room();
-                        QPS.Model.Room r = Broom.GetModel(order.Roomid);
+                    QPS.NEW.BLL.Room Broom = new QPS.NEW.BLL.Room();
+                    QPS.NEW.Model.Room r = Broom.GetModel(order.Roomid);
                         Mint.OrderId = Convert.ToInt32(id);
                         Mint.RoomId = order.Roomid;
                         Mint.UserID = order.Userid.ToString();
@@ -157,8 +158,8 @@ namespace QPS.Web.BusiMan
             string rowToDelete = this.gdvOrder.DataKeys[e.RowIndex].Values[0].ToString();
             //转换为整数
             int ID = Convert.ToInt32(rowToDelete);
-            QPS.BLL.Orderform Border = new QPS.BLL.Orderform();
-            QPS.Model.Orderform morder = Border.GetModel(ID);
+            QPS.NEW.BLL.Orderform Border = new QPS.NEW.BLL.Orderform();
+            QPS.NEW.Model.Orderform morder = Border.GetModel(ID);
             morder.IsDelete = 1;
             Border.Update(morder);
             gdvOrder.DataSource= databind();

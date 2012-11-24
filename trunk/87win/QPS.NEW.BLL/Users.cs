@@ -7,6 +7,7 @@ using System.Data.SqlClient;
 using QPS.NEW.DAL;
 using QPS.NEW.Model;
 
+
 namespace QPS.NEW.BLL
 {
     public class Users
@@ -161,30 +162,109 @@ namespace QPS.NEW.BLL
 
         public bool Update(QPS.NEW.Model.Users model)
         {
-            string strSql = "";
             bool res = false;
 
-            strSql = "update Users set Username=@username,Password=@password,Nickname=@nickname,";
-            strSql += "Phone=@phone,Address=@address,Mail=@mail,Usertype=@usertype,";
-            strSql += "Action=@action,Sign=@sign ";
-            strSql += " where Id=@id";
+            string[] filedName = new string[50];
+            string[] paramName = new string[50];
+            SqlParameter[] sqlParams = new SqlParameter[50];
+            int Count = 0;
+
+            if (model.Id == -999)
+                return false;
+
+            if (model.Id != -999)
+            {
+                filedName[Count] = "Id";
+                paramName[Count] = "@" + filedName[Count];
+                sqlParams[Count] = new SqlParameter(paramName[Count], model.Id);
+                Count++;
+            }
+            if (model.Username != null)
+            {
+                filedName[Count] = "Username";
+                paramName[Count] = "@" + filedName[Count];
+                sqlParams[Count] = new SqlParameter(paramName[Count], model.Username);
+                Count++;
+            }
+            if (model.Password != null)
+            {
+                filedName[Count] = "Password";
+                paramName[Count] = "@" + filedName[Count];
+                sqlParams[Count] = new SqlParameter(paramName[Count], model.Password);
+                Count++;
+            }
+            if (model.Nickname != null)
+            {
+                filedName[Count] = "Nickname";
+                paramName[Count] = "@" + filedName[Count];
+                sqlParams[Count] = new SqlParameter(paramName[Count], model.Nickname);
+                Count++;
+            }
+            if (model.Phone != null)
+            {
+                filedName[Count] = "Phone";
+                paramName[Count] = "@" + filedName[Count];
+                sqlParams[Count] = new SqlParameter(paramName[Count], model.Phone);
+                Count++;
+            }
+            if (model.Address != null)
+            {
+                filedName[Count] = "Address";
+                paramName[Count] = "@" + filedName[Count];
+                sqlParams[Count] = new SqlParameter(paramName[Count], model.Address);
+                Count++;
+            }
+            if (model.Mail != null)
+            {
+                filedName[Count] = "Mail";
+                paramName[Count] = "@" + filedName[Count];
+                sqlParams[Count] = new SqlParameter(paramName[Count], model.Mail);
+                Count++;
+            }
+            if (model.Usertype != -999)
+            {
+                filedName[Count] = "Usertype";
+                paramName[Count] = "@" + filedName[Count];
+                sqlParams[Count] = new SqlParameter(paramName[Count], model.Usertype);
+                Count++;
+            }
+            if (model.Action != null)
+            {
+                filedName[Count] = "Action";
+                paramName[Count] = "@" + filedName[Count];
+                sqlParams[Count] = new SqlParameter(paramName[Count], model.Action);
+                Count++;
+            }
+            if (model.Sign != null)
+            {
+                filedName[Count] = "Sign";
+                paramName[Count] = "@" + filedName[Count];
+                sqlParams[Count] = new SqlParameter(paramName[Count], model.Sign);
+                Count++;
+            }
+
+            StringBuilder strSql = new StringBuilder();
+            strSql.Append("update Users set ");
+            for (int i = 1; i < Count; i++)      // i begin with 0 !!!
+            {
+                strSql.Append(filedName[i]);
+                strSql.Append("=");
+                strSql.Append(paramName[i]);
+                if (i != Count - 1)
+                {
+                    strSql.Append(",");
+                }
+            }
+            strSql.Append(" where ");
+            strSql.Append(filedName[0] + "=" + paramName[0]);
+
 
             int num = Convert.ToInt32(sqlHelper_.ExecuteCommand(
-                strSql,
+                strSql.ToString(),
                 CommandType.Text,
-                new SqlParameter[]{
-                    new SqlParameter("@username",model.Username),
-                    new SqlParameter("@password",model.Password),
-                    new SqlParameter("@nickname",model.Nickname),
-                    new SqlParameter("@phone",model.Phone),
-                    new SqlParameter("@address",model.Address),
-                    new SqlParameter("@mail",model.Mail),
-                    new SqlParameter("@usertype",model.Usertype),
-                    new SqlParameter("@action",model.Action),
-                    new SqlParameter("@sign",model.Sign),
-                    new SqlParameter("@id",model.Id)
-                }
+                sqlParams
                 ));
+
             if (num != 1)
             {
                 throw new Exception("Error:更新数据库失败");

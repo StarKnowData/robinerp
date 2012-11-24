@@ -7,6 +7,12 @@ namespace QPS.NEW.Model
 {
     public class Enterprise
     {
+        public Enterprise()
+        {
+            enterpriseId_ = -999;
+            enterpriseIfChecked_ = -999;
+        }
+
         private int enterpriseId_;
 
         public int Id
