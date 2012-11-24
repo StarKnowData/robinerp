@@ -22,7 +22,7 @@
           </div>
      </div>
      <div class="welaaaa">
-          <p>欢迎&nbsp;&nbsp;企业会员&nbsp;&nbsp;<asp:Label ID="lblpersonnalinfo" runat="server" Text=""></asp:Label>[ <a href="../Login.aspx">退出</a> ] </p>
+          <p>欢迎&nbsp;&nbsp;企业会员&nbsp;&nbsp;<asp:Label ID="lblpersonnalinfo" runat="server" Text=""></asp:Label>[ <a href="../UserLogin.aspx">退出</a> ] </p>
      </div>
 </div>
 <!--mid[[-->
@@ -31,11 +31,13 @@
           <div class="gltitlea">
                <span>我的八旗赢</span>       
                <ul>
-                   <li>企业会员<a href="#"></li></ul> </div>
-          <div class="glmenu">
+                   <li><a href="#">企业会员</a></li>
+               </ul> 
+          </div>
+          <div  class="glmenu">
               <ul>
                    <li><a href="PersonnalInfo.aspx">个人信息</a></li>
-                      <li><a href="orderMan.aspx">订单管理</a></li>
+                   <li><a href="orderMan.aspx">订单管理</a></li>
                    <li><a href="RoomMan.aspx">房间管理</a></li>
                    <li><a href="ModPwd.aspx">密码修改</a></li>
                    <li><a href="ScoreMan.aspx">积分信息</a></li>
@@ -43,8 +45,7 @@
           </div>
      </div>
      <div class="glright">
-   <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         </asp:ContentPlaceHolder>
      </div>
 </div>

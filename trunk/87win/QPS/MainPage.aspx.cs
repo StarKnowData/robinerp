@@ -41,7 +41,7 @@ namespace QPS.Web
         {
             string tempstr = string.Empty;
             QPS.NEW.BLL.Room room = new QPS.NEW.BLL.Room();
-            DataTable dt = room.GetDataTableList("select top 50 * from Room where IfRecommend=0 order by id desc");
+            DataTable dt = room.GetDataTableList("select top 50 * from Room where IfRecommend=1 order by id desc");
             if (dt!=null)
             {
                 for (int i = 0; i < dt.Rows.Count;i++ )

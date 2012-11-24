@@ -18,12 +18,12 @@ namespace QPS.Web.BusiMan
         public DataTable  Gettable()
         {   
             DataTable dt = new DataTable();
-            QPS.BLL.Enterprise user = new QPS.BLL.Enterprise();
-            QPS.BLL.Users u = new QPS.BLL.Users();
-            QPS.Model.Room Mroom = new QPS.Model.Room();
-            QPS.BLL.Room Broom = new QPS.BLL.Room();
-            QPS.BLL.Orderform Border = new QPS.BLL.Orderform();
-            QPS.BLL.Integral Bint=new QPS.BLL.Integral();
+            QPS.NEW.BLL.Enterprise user = new QPS.NEW.BLL.Enterprise();
+            QPS.NEW.BLL.Users u = new QPS.NEW.BLL.Users();
+            QPS.NEW.Model.Room Mroom = new QPS.NEW.Model.Room();
+            QPS.NEW.BLL.Room Broom = new QPS.NEW.BLL.Room();
+            QPS.NEW.BLL.Orderform Border = new QPS.NEW.BLL.Orderform();
+            QPS.NEW.BLL.Integral Bint = new QPS.NEW.BLL.Integral();
             List<QPS.Model.Room> roomList = new List<QPS.Model.Room>();
             List<QPS.Model.Orderform> orderlist = new List<QPS.Model.Orderform>();
             //创建新列
@@ -57,7 +57,7 @@ namespace QPS.Web.BusiMan
                         dr[0] = intId;
                         dr[2] = Broom.GetModel(rId).Name;
                         dr[1] = u.GetModel(userid).Username;
-                        QPS.Model.Orderform order = Border.GetModel(orId);
+                        QPS.NEW.Model.Orderform order = Border.GetModel(orId);
                         DateTime starttime, endtime;
                         starttime = (DateTime)order.StartTime;
                         endtime = (DateTime)order.endTime;
@@ -67,7 +67,7 @@ namespace QPS.Web.BusiMan
                         int cost=Convert.ToInt32(ts.Hours * (double)Broom.GetModel(roomid).RoomPrice + beCost);
                         dr[3] =cost;
                         dr[4]=order.StartTime;
-                        QPS.Model.Integral mint = Bint.GetModel(intId);
+                        QPS.NEW.Model.Integral mint = Bint.GetModel(intId);
                         mint.Content=cost;
                         Bint.Update(mint);
                         dt.Rows.Add(dr);

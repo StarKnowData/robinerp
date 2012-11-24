@@ -106,36 +106,4 @@ function CheckForm()
 			</table>
 		</form>
 	</body>
-<%--<body>
-    <form id="form1" runat="server">
-    <div>
-    <table>
-        <tr>
-            <td>用户名：</td>
-            <td>
-                <asp:TextBox ID="txtName" runat="server"></asp:TextBox>
-            </td>
-            <td></td>
-        </tr>
-         <tr>
-            <td>密码：</td>
-            <td>
-                <asp:TextBox ID="txtPwd" runat="server"></asp:TextBox>
-            </td>
-            <td></td>
-        </tr>
-         <tr>
-            <td></td>
-            <td>
-            <asp:Button ID="Button1" runat="server" Text="登陆" onclick="Button1_Click" />
-            <asp:Button ID="Button2" runat="server" Text="取消" onclick="Button2_Click" />
-                <asp:LinkButton ID="LinkButton1" runat="server" onclick="LinkButton1_Click">注册</asp:LinkButton>
-            </td>
-            <td></td>
-        </tr>
-    
-    </table>       
-    </div>
-    </form>
-</body>--%>
 </html>
