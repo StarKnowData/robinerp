@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ad.cs" />
+    <Compile Include="Document.cs" />
     <Compile Include="Enterprise.cs" />
     <Compile Include="Integral.cs" />
     <Compile Include="Leaveword.cs" />

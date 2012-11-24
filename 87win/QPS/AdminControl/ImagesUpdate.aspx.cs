@@ -28,7 +28,7 @@ namespace QPS.Web.AdminControl
         void BindShow()
         {
             DataSet dse = new DataSet();
-            QPS.BLL.Ad pt = new QPS.BLL.Ad();
+            QPS.NEW.BLL.Ad pt = new QPS.NEW.BLL.Ad();
             dse = pt.GetList("  id =" + tempID + " ");
             this.txtUrl.Text = dse.Tables[0].Rows[0]["adUrl"].ToString();
             this.Photo.Text = dse.Tables[0].Rows[0]["adImg"].ToString();
@@ -44,12 +44,12 @@ namespace QPS.Web.AdminControl
             string name = this.txtUrl.Text; //链接地址
             string imagePath = this.Photo.Text;
 
-            QPS.Model.ad a = new QPS.Model.ad();
+            QPS.NEW.Model.ad a = new QPS.NEW.Model.ad();
             a.Id = Convert.ToInt32(id);
             a.AdUrl = name;
             a.AdImg = imagePath;
 
-            QPS.BLL.Ad Ba = new QPS.BLL.Ad();
+            QPS.NEW.BLL.Ad Ba = new QPS.NEW.BLL.Ad();
             //rm.Add(Mro);
             if (Ba.Update(a))
             {

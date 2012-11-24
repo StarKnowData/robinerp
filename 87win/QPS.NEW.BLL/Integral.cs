@@ -216,5 +216,75 @@ namespace QPS.NEW.BLL
 
             return 1;
         }
+
+        public DataSet Select(int pageSize, int currentPage)
+        {
+            int hasShowedPage = 0;
+
+            hasShowedPage = currentPage - 1 >= 0 ? currentPage - 1 : 0;
+
+            string strSql = "select top ";
+            strSql += pageSize.ToString();
+            strSql +=
+                " * from Integral where Id not in (select top ";
+            strSql += (hasShowedPage * pageSize).ToString();
+            strSql += " Id from Integral)";
+
+            DataSet ds = null;
+            ds = sqlHelper_.GetDataSet(
+                strSql,
+                CommandType.Text,
+                null
+                );
+
+            return ds;
+        }
+
+        public int GetCount()
+        {
+            int res = -999;
+
+            res = Convert.ToInt32(
+                sqlHelper_.GetSingle(
+                "select count(*) from Integral",
+                CommandType.Text,
+                null
+                )
+                );
+
+            return res;
+        }
+
+        public DataSet SelectByName(string strWhere)
+        {
+            DataSet ds = null;
+
+            return ds;
+        }
+
+        public bool UpdateContent(QPS.NEW.Model.Integral model)
+        {
+            bool res = false;
+
+            int num = Convert.ToInt32(sqlHelper_.ExecuteCommand(
+               "update Integral set Content=@content",
+               CommandType.Text,
+               new SqlParameter[]
+               {
+                   new SqlParameter("@content",model.Content)
+               }
+               ));
+
+            if (num != 1)
+            {
+                throw new Exception("Error:更新数据库失败");
+            }
+            else
+            {
+                res = true;
+            }
+
+            return res;
+        }
     }
 }

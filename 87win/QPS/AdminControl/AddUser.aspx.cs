@@ -29,7 +29,7 @@ namespace QPS.Web.AdminControl
             string mail = this.TextMail.Text;
             string type = this.TextUsertype.Text;
 
-            QPS.Model.Users us = new QPS.Model.Users();
+            QPS.NEW.Model.Users us = new QPS.NEW.Model.Users();
             us.Username = name;
             us.Password = pwd;
             us.Phone = phone;
@@ -37,7 +37,7 @@ namespace QPS.Web.AdminControl
             us.Mail = mail;
             us.Usertype = int.Parse(type);
 
-            QPS.BLL.Users user =new QPS.BLL.Users();
+            QPS.NEW.BLL.Users user = new QPS.NEW.BLL.Users();
             user.Add(us);
             int i = user.Add(us);
             if (i > 0)

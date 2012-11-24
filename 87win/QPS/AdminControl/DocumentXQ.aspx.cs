@@ -14,8 +14,8 @@ namespace QPS.Web.AdminControl
             if (!IsPostBack)
             {
                 string ID = Convert.ToString(Request["id"]);
-                Model.Document dc = new QPS.Model.Document();
-                QPS.BLL.Document Bdc = new QPS.BLL.Document();
+                NEW.Model.Document dc = new QPS.NEW.Model.Document();
+                QPS.NEW.BLL.Document Bdc = new QPS.NEW.BLL.Document();
                 dc = Bdc.GetModel(Convert.ToInt32(ID));
                 this.txtTitle.Text = dc.DTity;
                 this.Content.Text = dc.DContent;
@@ -27,12 +27,12 @@ namespace QPS.Web.AdminControl
             string id = Request["ID"].ToString();
             string title = this.txtTitle.Text;
             string con = this.Content.Text;
-            Model.Document mdc = new QPS.Model.Document();
+            NEW.Model.Document mdc = new QPS.NEW.Model.Document();
             mdc.Id = Convert.ToInt32(id);
             mdc.DTity = title;
             mdc.DContent = con;
             mdc.DTime = DateTime.Now.ToString();
-            QPS.BLL.Document Bdc = new QPS.BLL.Document();
+            QPS.NEW.BLL.Document Bdc = new QPS.NEW.BLL.Document();
             if (Bdc.Update(mdc))
             {
                 Response.Write("<script>alert('修改成功!!');window.location.href = 'DocumentInfro.aspx';</script>");
