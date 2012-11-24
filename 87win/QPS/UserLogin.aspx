@@ -17,15 +17,15 @@
                <div class="titled">欢迎注册成为八旗赢棋牌联盟用户</div>
               <div id="xzmenu">
                  <asp:RadioButton ID="rbtuser" runat="server" Text="普通用户" GroupName="xzmenu" 
-                     Checked="True"  />
-                      <asp:RadioButton ID="rbtBusiuser" runat="server" Text="企业用户" 
+                       />
+                      <asp:RadioButton ID="rbtBusiuser" runat="server" Text="企业用户" Checked="True"
                      GroupName="xzmenu"  />
                </div>
                <div class="zcb">
                     <div class="dla" id="cotant_1">
                         <ul>
-                            <li><h3>用户名：</h3> <asp:TextBox ID="txbUserName" runat="server" cssClass="zca1"></asp:TextBox></li>
-                            <li><h3>密码：</h3>       <asp:TextBox ID="txbPwd" runat="server" CssClass="zca1" TextMode="Password"></asp:TextBox></li>
+                            <li><h3>用户名：</h3> <asp:TextBox ID="txbUserName" runat="server" cssClass="zca1" Text="jiangxue"></asp:TextBox></li>
+                            <li><h3>密码：</h3>       <asp:TextBox ID="txbPwd" runat="server" CssClass="zca1" TextMode="Password" Text="123456"></asp:TextBox></li>
                             <li><h3>验证码：</h3><asp:TextBox ID="txbCode" runat="server" CssClass="zca1"></asp:TextBox>
                        <img id="imgCode" alt="看不清，请点击我！" src="checkcode.aspx"  style="cursor: hand; width: 76px; height: 21px; margin-top:20px;" onclick="this.src=this.src+'?'"  /></li>
                                <li>

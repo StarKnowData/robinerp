@@ -130,16 +130,10 @@ var demo=document.getElementById("demo");
             return document.getElementById(el);
         };
 
-		        var	ul = id('scroll'),
-            lis = ul.getElementsByTagName('li'),
-            itemCount = lis.length,
-            width = lis[0].offsetWidth;//ܱփÿٶimgɝǷք࠭׈
-
-
-
-
-
-
+    var	ul = id('scroll'),
+    lis = ul.getElementsByTagName('li'),
+    itemCount = lis.length,
+    width = lis[0].offsetWidth;
 
 function MarqueeLeft(){
 

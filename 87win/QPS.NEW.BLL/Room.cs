@@ -288,7 +288,7 @@ namespace QPS.NEW.BLL
                     room.RoomState = Convert.ToInt32(dt.Rows[i]["RoomState"]);
                     room.OwnerID = Convert.ToInt32(dt.Rows[i]["OwnerID"]);
                     room.IfRecommend = Convert.ToInt32(dt.Rows[i]["IfRecommend"]);
-                    room.Examine = Convert.ToInt32(dt.Rows[i]["Examine"]);
+                    room.Examine = Convert.ToInt32(dt.Rows[i]["IfExamine"]);
 
                     if (dt.Rows[i]["RecommendTime"] == DBNull.Value)
                         room.RecommendTime = null;

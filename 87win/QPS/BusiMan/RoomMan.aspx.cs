@@ -101,7 +101,7 @@ namespace QPS.Web.BusiMan
         {
             string roomid = this.gdvRoom.DataKeys[e.RowIndex].Values[0].ToString();
             int ID = Convert.ToInt32(roomid);
-            Response.Write("<script>window.open('RoomMod.aspx? roomid="+ID+"', 'newwindow', 'height=600, width=850, toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no')</script>");
+            Response.Write("<script>window.open('RoomMod.aspx?roomid="+ID+"', 'newwindow', 'height=600, width=850, toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no')</script>");
         }
     }
 }

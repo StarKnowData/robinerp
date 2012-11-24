@@ -10,18 +10,17 @@ namespace QPS.Web.BusiMan
     public partial class RoomMod : System.Web.UI.Page
     {   
         
-        static    int  roomid;
-        static int ownerid;
+        private int  roomid;
+        private int ownerid;
         protected void Page_Load(object sender, EventArgs e)
         {
-
             if (!IsPostBack)
             {
                 if (Session["username"] != null)
                 {
-                    roomid = Convert.ToInt32(Request.QueryString[" roomid"]);
-                    QPS.BLL.Room Broom = new QPS.BLL.Room();
-                    QPS.Model.Room Mroom = Broom.GetModel(roomid);
+                    roomid = Convert.ToInt32(Request.QueryString["roomid"]);
+                    QPS.NEW.BLL.Room Broom = new QPS.NEW.BLL.Room();
+                    QPS.NEW.Model.Room Mroom = Broom.GetModel(roomid);
                     ownerid = Mroom.OwnerID;
                     txfAddress.Value = Mroom.Address;
                     txfArea.Value = Mroom.Are;
@@ -37,8 +36,8 @@ namespace QPS.Web.BusiMan
         {
             try
             {
-                QPS.BLL.Room Broom = new QPS.BLL.Room();
-                QPS.Model.Room Mroom = Broom.GetModel(roomid);
+                QPS.NEW.BLL.Room Broom = new QPS.NEW.BLL.Room();
+                QPS.NEW.Model.Room Mroom = Broom.GetModel(roomid);
                 if (this.fulImg.FileName == "")
                 {
                     //this.lblMessage.Text = "<font color=#FF0000>请选择上传的图片!</font>";
@@ -93,6 +92,7 @@ namespace QPS.Web.BusiMan
                 return;
             }
         }
+
         public static string Upload(FileUpload fileupload)
         {
             //上传文件  
