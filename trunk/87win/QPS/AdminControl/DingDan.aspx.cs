@@ -30,7 +30,7 @@ namespace QPS.Web.Manage.AdminControl
             }
             int pageSize = this.Pager1.PageSize;
 
-            QPS.BLL.Orderform of = new QPS.BLL.Orderform();
+            QPS.NEW.BLL.Orderform of = new QPS.NEW.BLL.Orderform();
             ds = of.SelectRoom(pageSize, currentpage);
             dgExamProj.DataSource = ds;
             this.Pager1.ItemCount = of.GetCount();
@@ -43,7 +43,7 @@ namespace QPS.Web.Manage.AdminControl
         {
             string name = this.txtId .Text;
             string xingm = this.txtName .Text;
-            QPS.BLL.Orderform of = new QPS.BLL.Orderform();
+            QPS.NEW.BLL.Orderform of = new QPS.NEW.BLL.Orderform();
             ds = of.SelectList("id = '" + name + "' or (select UserName From Users where id= o.Userid) = '" + xingm + "' ");
             dgExamProj.DataSource = ds;
             dgExamProj.DataBind();
@@ -75,7 +75,7 @@ namespace QPS.Web.Manage.AdminControl
             string command = e.CommandName.ToString();
             //两个参数  1.当前订单ID，2.当前订单状态
             string strArgument = e.CommandArgument.ToString();
-            QPS.BLL.Orderform of = new QPS.BLL.Orderform();
+            QPS.NEW.BLL.Orderform of = new QPS.NEW.BLL.Orderform();
 
             switch (command)
             { 
@@ -117,7 +117,7 @@ namespace QPS.Web.Manage.AdminControl
         {
             string Rname = this.TextRname.Text;
             //string zhuangt = this.TextType.Text;
-            QPS.BLL.Orderform of = new QPS.BLL.Orderform();
+            QPS.NEW.BLL.Orderform of = new QPS.NEW.BLL.Orderform();
             ds = of.SelectList("(select Name from Room where id=o.roomid)= '" + Rname + "' ");
             dgExamProj.DataSource = ds;
             dgExamProj.DataBind();

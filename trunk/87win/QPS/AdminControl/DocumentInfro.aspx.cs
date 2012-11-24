@@ -26,7 +26,7 @@ namespace QPS.Web.AdminControl
         /// </summary>
         public void Bind()
         {
-            QPS.BLL.Document dc = new QPS.BLL.Document();
+            QPS.NEW.BLL.Document dc = new QPS.NEW.BLL.Document();
             ds = dc.SelectList();
             dgExamProj.DataSource = ds;
             dgExamProj.DataBind();

@@ -346,5 +346,78 @@ namespace QPS.NEW.BLL
 
             return res;
         }
+
+
+        public DataSet SelectRoom(int pageSize, int currentPage)
+        {
+            int hasShowedPage=0;
+
+            hasShowedPage=currentPage-1>=0?currentPage-1:0;
+
+            string strSql="select top ";
+            strSql+=pageSize.ToString();
+            strSql +=
+                " * from Orderform where Id not in (select top ";
+            strSql+=(hasShowedPage*pageSize).ToString();
+            strSql+=" Id from Orderform)";
+            
+            DataSet ds=null;
+            ds = sqlHelper_.GetDataSet(
+                strSql,
+                CommandType.Text,
+                null
+                );
+
+            return ds;
+        }
+
+        public DataSet SelectList(string strWhere)
+        {
+            DataSet ds = null;
+            ds = sqlHelper_.GetDataSet(
+                "select * from Orderform where "+strWhere,
+                CommandType.Text,
+                null
+                );
+
+            return ds;
+        }
+
+        public int GetCount()
+        {
+            int res = -999;
+
+            res =Convert.ToInt32( 
+                sqlHelper_.GetSingle(
+                "select count(*) from Orderform",
+                CommandType.Text,
+                null
+                )
+                );
+
+            return res;
+        }
+
+        public bool UpdateIsDelete(string Id, string ifDelete)
+        {
+            bool res = false;
+            string strSql = "update Orderform set IsDelete=@isDelete where Id=@Id";
+            int num =
+                sqlHelper_.ExecuteCommand(
+                strSql,
+                CommandType.Text,
+                new SqlParameter[]
+                {
+                    new SqlParameter("@isDelete",ifDelete),
+                    new SqlParameter("@Id",Id)
+                }
+                );
+            if (num == 1)
+            {
+                res = true;
+            }
+
+            return res;
+        }
     }
 }

@@ -29,7 +29,7 @@ namespace QPS.Web.AdminControl
                 currentpage = this.Pager1.CurrentIndex;
             }
             int pageSize = this.Pager1.PageSize;
-            QPS.BLL.Integral intgl = new QPS.BLL.Integral();
+            QPS.NEW.BLL.Integral intgl = new QPS.NEW.BLL.Integral();
             ds = intgl.Select(pageSize, currentpage);
             dgExamProj.DataSource = ds;
             this.Pager1.ItemCount = intgl.GetCount();
@@ -40,7 +40,7 @@ namespace QPS.Web.AdminControl
         protected void Button1_Click(object sender, EventArgs e)
         {
             string name = this.txlogin.Text;
-            QPS.BLL.Integral intgl = new QPS.BLL.Integral();
+            QPS.NEW.BLL.Integral intgl = new QPS.NEW.BLL.Integral();
             ds = intgl.SelectByName(" (select Username from Users where id=a.UserId)='" + name + "'");
             dgExamProj.DataSource = ds;
             dgExamProj.DataBind();
@@ -70,7 +70,7 @@ namespace QPS.Web.AdminControl
                     break;
 
                 case "delete"://删除
-                    QPS.BLL.Integral il = new QPS.BLL.Integral();
+                    QPS.NEW.BLL.Integral il = new QPS.NEW.BLL.Integral();
                     il.Delete(Convert.ToInt32(m_commandArg));
                     this.Bind();
                     break;

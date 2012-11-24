@@ -28,7 +28,7 @@ namespace QPS.Web.AdminControl
         public void BindShow()
         {
             DataSet dse = new DataSet();
-            QPS.BLL.Users Bus = new QPS.BLL.Users();
+            QPS.NEW.BLL.Users Bus = new QPS.NEW.BLL.Users();
             dse = Bus.GetList("  id =" + tempID + " ");
 
             this.txtId.Text = tempID.ToString();
@@ -44,12 +44,12 @@ namespace QPS.Web.AdminControl
             string uname = this.txtName.Text;
             string jf = this.txtJf.Text;
 
-            QPS.Model.Integral Mgral = new QPS.Model.Integral();
+            QPS.NEW.Model.Integral Mgral = new QPS.NEW.Model.Integral();
             Mgral.UserID = uid;
             Mgral.Content = Convert.ToInt32(jf);
             Mgral.CreateTime = DateTime.Now;
 
-            QPS.BLL.Integral Bin =new QPS.BLL.Integral ();
+            QPS.NEW.BLL.Integral Bin = new QPS.NEW.BLL.Integral();
             int i=Bin.Add(Mgral);
             if (i >= 0)
             {

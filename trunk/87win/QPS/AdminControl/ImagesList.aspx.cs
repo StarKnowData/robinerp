@@ -31,7 +31,7 @@ namespace QPS.Web.AdminControl
             }
             int pageSize = this.Pager1.PageSize;
 
-            QPS.BLL.Ad a = new QPS.BLL.Ad();
+            QPS.NEW.BLL.Ad a = new QPS.NEW.BLL.Ad();
 
             ds = a.Select(pageSize, currentpage);
             dgExamProj.DataSource = ds;
