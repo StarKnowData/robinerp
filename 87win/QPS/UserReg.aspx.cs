@@ -117,6 +117,9 @@ namespace QPS.Web
                     Muser.Password = txtPwd.Value.Trim();
                     Muser.Phone = txtShouj.Value.Trim();
                     Muser.Nickname = txtNickname.Value.Trim();
+                    // === jeffery add
+                    Muser.IfChecked = 0;
+                    // ===
                     Euser.Add(Muser);
                     Response.Write("<script>alert('创建企业用户成功，等待审核！ ')</script>");
                     Response.Redirect("UserLogin.aspx");

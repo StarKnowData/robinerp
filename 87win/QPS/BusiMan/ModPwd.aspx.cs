@@ -12,8 +12,8 @@ namespace QPS.Web.BusiMan
     {
 
         public DataSet ds;
-        QPS.BLL.Enterprise user = new QPS.BLL.Enterprise();
-        QPS.Model.Enterprise Muser = new QPS.Model.Enterprise();
+        QPS.NEW.BLL.Enterprise user = new QPS.NEW.BLL.Enterprise();
+        QPS.NEW.Model.Enterprise Muser = new QPS.NEW.Model.Enterprise();
         static int userid;
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -27,13 +27,17 @@ namespace QPS.Web.BusiMan
                 }
             }
         }
+
         protected void btnModPwd_Click(object sender, EventArgs e)
         {
             try
             {
-                QPS.BLL.Enterprise Buser = new QPS.BLL.Enterprise();
-              QPS.Model.Enterprise   Muser =Buser.GetModel(userid);
-                if (txfOriginalPwd.Value != Buser.GetModel(userid).Password)
+                QPS.NEW.BLL.Enterprise Buser = new QPS.NEW.BLL.Enterprise();
+              QPS.NEW.Model.Enterprise   Muser =Buser.GetModel(userid);
+                // === modified by jeffery
+                //if (txfOriginalPwd.Value != Buser.GetModel(userid).Password)
+              if (txfOriginalPwd.Value != Muser.Password)
+                // ===
                 {
                     Response.Write("<script>alert('原始密码错误，请重新输入')</script>");
                     return;

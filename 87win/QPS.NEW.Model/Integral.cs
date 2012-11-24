@@ -6,6 +6,15 @@ namespace QPS.NEW.Model
     [Serializable]
     public class Integral
     {
+        public Integral()
+        {
+            Content_ =null;
+            Id_ = -999;
+            OrderId_ = null;
+            RoomId_ = null;
+            CreateTime_ = null;
+        }
+
         private int? Content_;
 
         public int? Content

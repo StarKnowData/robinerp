@@ -11,8 +11,8 @@ namespace QPS.Web.BusiMan
     public partial class PersonnalInfo : System.Web.UI.Page
     {
         public DataSet ds;
-        QPS.BLL.Enterprise Benter = new QPS.BLL.Enterprise();
-        QPS.Model.Enterprise Menter = new QPS.Model.Enterprise();
+        QPS.NEW.BLL.Enterprise Benter = new QPS.NEW.BLL.Enterprise();
+        QPS.NEW.Model.Enterprise Menter = new QPS.NEW.Model.Enterprise();
         static int userid;
         protected void Page_Load(object sender, EventArgs e)
         {

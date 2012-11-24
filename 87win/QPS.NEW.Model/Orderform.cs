@@ -6,6 +6,20 @@ namespace QPS.NEW.Model
     [Serializable]
     public class Orderform
     {
+        public Orderform()
+        {
+            Id_ = -999;
+            IsDelete_ = -999;
+            IsValidity_ =null;
+            Beveragecost_ =null;
+            Roomid_ = -999;
+            RoomType_ = null;
+            Userid_ = -999;
+            endTime_ = null;
+            StartTime_ = null;
+        }
+
+
         private decimal? Beveragecost_;
 
         public decimal? Beveragecost

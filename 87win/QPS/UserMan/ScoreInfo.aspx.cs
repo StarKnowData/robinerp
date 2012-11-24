@@ -13,8 +13,8 @@ namespace QPS.Web.UserMan
         {
             if (!IsPostBack)
             {
-                QPS.BLL.Users user = new QPS.BLL.Users();
-                QPS.BLL.Integral Bint = new QPS.BLL.Integral();
+                QPS.NEW.BLL.Users user = new QPS.NEW.BLL.Users();
+                QPS.NEW.BLL.Integral Bint = new QPS.NEW.BLL.Integral();
                 if (Session["username"] != null)
                 {
                     //获取Uid
@@ -24,9 +24,18 @@ namespace QPS.Web.UserMan
                     DataSet dsInt = Bint.GetListlocalize("UserId='" + uid + "'");
                     GridView1.DataSource = dsInt;
                     GridView1.DataBind();
-                    if (Bint.GetSum(uid).Tables[0].Rows[0][0].ToString() == "0")
-                    { lblSum.Text =" 0"; }
-                    lblSum.Text = Bint.GetSum(uid).Tables[0].Rows[0][0].ToString();
+                    // === modified by jeffery 
+                    DataTable dt = Bint.GetSum(uid).Tables[0];
+
+                    if (dt == null || dt.Rows.Count <= 0 || dt.Rows[0][0].ToString().Trim() == "")
+                    {
+                        lblSum.Text = " 0";
+                    }
+                    else
+                    {
+                        lblSum.Text = Bint.GetSum(uid).Tables[0].Rows[0][0].ToString();
+                    }
+                    // ===
                 }
             }
         }

@@ -11,8 +11,8 @@ namespace QPS.Web.UserMan
     public partial class PersonnalInfo : System.Web.UI.Page
     {
         public DataSet ds;
-        QPS.BLL.Users user = new QPS.BLL.Users();
-        QPS.Model.Users Muser = new QPS.Model.Users();
+        QPS.NEW.BLL.Users user = new QPS.NEW.BLL.Users();
+        QPS.NEW.Model.Users Muser = new QPS.NEW.Model.Users();
       static  int  userid;
         protected void Page_Load(object sender, EventArgs e)
         {

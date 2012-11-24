@@ -10,8 +10,8 @@ namespace QPS.Web.BusiMan
     public partial class Room : System.Web.UI.Page
     {
         public DataSet ds;
-        QPS.BLL.Enterprise user = new QPS.BLL.Enterprise();
-        QPS.Model.Enterprise Muser = new QPS.Model.Enterprise();
+        QPS.NEW.BLL.Enterprise user = new QPS.NEW.BLL.Enterprise();
+        QPS.NEW.Model.Enterprise Muser = new QPS.NEW.Model.Enterprise();
         static int userid;
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -30,8 +30,8 @@ namespace QPS.Web.BusiMan
         {
             try
             {
-                QPS.BLL.Room Broom = new QPS.BLL.Room();
-                QPS.Model.Room Mroom = new QPS.Model.Room();
+                QPS.NEW.BLL.Room Broom = new QPS.NEW.BLL.Room();
+                QPS.NEW.Model.Room Mroom = new QPS.NEW.Model.Room();
                 if (this.fulImg.FileName == "")
                 {
                     //this.lblMessage.Text = "<font color=#FF0000>请选择上传的图片!</font>";

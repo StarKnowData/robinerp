@@ -10,7 +10,7 @@ namespace QPS.Web.UserMan
 {
     public partial class OrderMan : System.Web.UI.Page
     {
-        public DataTable Gettable(List<QPS.Model.Room> roomlist)
+        public DataTable Gettable(List<QPS.NEW.Model.Room> roomlist)
         {
             try
             {
@@ -24,7 +24,7 @@ namespace QPS.Web.UserMan
                 DataColumn dc4 = dt.Columns.Add("地区", typeof(string));
                 DataColumn dc5 = dt.Columns.Add("地址", typeof(string));
                 //DataColumn dc6 = dt.Columns.Add("退订", typeof(Button));
-                foreach (QPS.Model.Room r in roomlist)
+                foreach (QPS.NEW.Model.Room r in roomlist)
                 {
                     DataRow dr = dt.NewRow();
                     dr[0] = r.Id;
@@ -46,18 +46,18 @@ namespace QPS.Web.UserMan
         }
         public void databind(GridView  gdv)
         {
-            QPS.BLL.Users user = new QPS.BLL.Users();
-            QPS.Model.Room Mroom = new QPS.Model.Room();
-            QPS.BLL.Room Broom = new QPS.BLL.Room();
-            QPS.BLL.Orderform Border = new QPS.BLL.Orderform();
-            List<QPS.Model.Room> roomList = new List<QPS.Model.Room>();
+            QPS.NEW.BLL.Users user = new QPS.NEW.BLL.Users();
+            QPS.NEW.Model.Room Mroom = new QPS.NEW.Model.Room();
+            QPS.NEW.BLL.Room Broom = new QPS.NEW.BLL.Room();
+            QPS.NEW.BLL.Orderform Border = new QPS.NEW.BLL.Orderform();
+            List<QPS.NEW.Model.Room> roomList = new List<QPS.NEW.Model.Room>();
             if (Session["username"] != null)
             {
                 string uname = Session["username"].ToString();
                 DataSet dsUser = user.GetList("Username='" + uname + "'");
                 int uid = Convert.ToInt32(dsUser.Tables[0].Rows[0]["Id"]);
-                List<QPS.Model.Orderform> orderlist = Border.GetModelList("Userid='" + uid + "'");
-                foreach (QPS.Model.Orderform o in orderlist)
+                List<QPS.NEW.Model.Orderform> orderlist = Border.GetModelList("Userid='" + uid + "'");
+                foreach (QPS.NEW.Model.Orderform o in orderlist)
                 {
                     int roomid = (int)o.Roomid;
                     roomList.Add(Broom.GetModel(roomid));
@@ -79,13 +79,13 @@ namespace QPS.Web.UserMan
             string rowToDelete = gdvPersonnalOrder.DataKeys[e.RowIndex].Values[0].ToString();
           //转换为整数
            int ID=Convert.ToInt32(rowToDelete);
-           QPS.BLL.Orderform Border = new QPS.BLL.Orderform();
-           QPS.BLL.Room Broom = new QPS.BLL.Room();
+           QPS.NEW.BLL.Orderform Border = new QPS.NEW.BLL.Orderform();
+           QPS.NEW.BLL.Room Broom = new QPS.NEW.BLL.Room();
   
            DataSet dsorder= Border.GetList("Roomid ='" + ID + "'");
            int Oid = Convert.ToInt32(dsorder.Tables[0].Rows[0]["Id"]);
            Border.Delete(Oid);
-           QPS.Model.Room r = Broom.GetModel(ID);
+           QPS.NEW.Model.Room r = Broom.GetModel(ID);
            r.RoomState = 0;
            Broom.Update(r);
            databind(gdvPersonnalOrder);

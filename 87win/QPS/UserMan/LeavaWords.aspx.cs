@@ -13,8 +13,8 @@ namespace QPS.Web.UserMan
         {
             if (!IsPostBack)
             {
-                QPS.BLL.Users user = new QPS.BLL.Users();
-                QPS.BLL.Leaveword  Bleave= new QPS.BLL.Leaveword();
+                QPS.NEW.BLL.Users user = new QPS.NEW.BLL.Users();
+                QPS.NEW.BLL.Leaveword  Bleave= new QPS.NEW.BLL.Leaveword();
                 if (Session["username"] != null)
                 {
                     //获取Uid
