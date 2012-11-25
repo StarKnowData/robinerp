@@ -33,7 +33,7 @@ namespace QPS.Web.AdminControl
             {
                 IfR = "0";
             }
-            QPS.Model.Room Mro = new QPS.Model.Room();
+            QPS.NEW.Model.Room Mro = new QPS.NEW.Model.Room();
             Mro.Name = name;
             Mro.RoomType = type;
             Mro.RoomPrice = Convert.ToDecimal(Price);
@@ -43,7 +43,7 @@ namespace QPS.Web.AdminControl
             Mro.Content = content;
             Mro.IfRecommend =Convert.ToInt32(IfR);
 
-            QPS.BLL.Room rm = new QPS.BLL.Room();
+            QPS.NEW.BLL.Room rm = new QPS.NEW.BLL.Room();
             //rm.Add(Mro);
             int i = rm.Add(Mro);
             if (i > 0)

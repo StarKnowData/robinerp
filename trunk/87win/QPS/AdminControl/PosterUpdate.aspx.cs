@@ -28,7 +28,7 @@ namespace QPS.Web.AdminControl
         public void BindShow()
         {
             DataSet dse = new DataSet();
-            QPS.BLL.Poster pt = new QPS.BLL.Poster();
+            QPS.NEW.BLL.Poster pt = new QPS.NEW.BLL.Poster();
             dse = pt.GetList("  id =" + tempID + " ");
             this.txName.Text = dse.Tables[0].Rows[0]["Url"].ToString();
             this.Photo.Text = dse.Tables[0].Rows[0]["PhotoUrL"].ToString();
@@ -43,12 +43,12 @@ namespace QPS.Web.AdminControl
             string name = this.txName.Text; //链接地址
             string imagePath = this.Photo.Text;
 
-            QPS.Model.Poster mpt = new QPS.Model.Poster();
+            QPS.NEW.Model.Poster mpt = new QPS.NEW.Model.Poster();
             mpt.Id = Convert.ToInt32(id);
             mpt.URL = name;
             mpt.URL = imagePath;
 
-            QPS.BLL.Poster pt =new QPS.BLL.Poster ();
+            QPS.NEW.BLL.Poster pt =new QPS.NEW.BLL.Poster ();
             //rm.Add(Mro);
             if (pt.Update(mpt))
             {

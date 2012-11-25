@@ -32,7 +32,7 @@ namespace QPS.Web.AdminControl
             }
             int pageSize = this.Pager1.PageSize;
 
-            QPS.BLL.Poster poster = new QPS.BLL.Poster();
+            QPS.NEW.BLL.Poster poster = new QPS.NEW.BLL.Poster();
             ds = poster.Select(pageSize, currentpage);
             dgExamProj.DataSource = ds;
             this.Pager1.ItemCount = poster.GetCount();
@@ -50,7 +50,7 @@ namespace QPS.Web.AdminControl
             if (e.CommandName == "delete")
             {
                 string id = e.CommandArgument.ToString();
-                QPS.BLL.Room rm = new QPS.BLL.Room();
+                QPS.NEW.BLL.Room rm = new QPS.NEW.BLL.Room();
                 try
                 {
                     rm.Delete(Convert.ToInt32(id));

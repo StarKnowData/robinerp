@@ -15,9 +15,9 @@ namespace QPS.Web.AdminControl
             {
                 if (Request["UserID"]!=null)
                 {
-                    QPS.BLL.Users us = new QPS.BLL.Users();
+                    QPS.NEW.BLL.Users us = new QPS.NEW.BLL.Users();
                     string userid = Request["UserID"].ToString();
-                    Model.Users user = us.GetUserByID(Convert.ToInt32(userid));
+                    NEW.Model.Users user = us.GetUserByID(Convert.ToInt32(userid));
                     if (user!=null)
                     {
                         this.UserID.Value = Convert.ToString(user.Id);
@@ -43,8 +43,8 @@ namespace QPS.Web.AdminControl
             string mail = this.TextMail.Text;
             //string type = this.TextUsertype.Text;
 
-            QPS.BLL.Users us = new QPS.BLL.Users();
-            Model.Users user = new Model.Users();
+            QPS.NEW.BLL.Users us = new QPS.NEW.BLL.Users();
+            NEW.Model.Users user = new NEW.Model.Users();
             user.Id = id;
             user.Username = name;
            // user.Password = password;

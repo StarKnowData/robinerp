@@ -22,7 +22,6 @@ namespace QPS.NEW.BLL
             int res = 0;
             bool isOrdered = false;
 
-
             string strSql =
                 "select count(*) from Orderform where Roomid=@roomid and IsDelete=0 and IsValidity=1";
             int num =Convert.ToInt32(
@@ -54,26 +53,110 @@ namespace QPS.NEW.BLL
             }
             else
             {
-                strSql =
-                    "insert into Orderform(OrderNumber,StartTime,endTime,Userid,Roomid)";
-                strSql += "values(@ordernumber,@starttime,@endtime,@userid,@roomid)";
+                string[] filedName = new string[50];
+                string[] paramName = new string[50];
+                SqlParameter[] sqlParams = new SqlParameter[50];
+                int Count = 0;
+
+
+                if (model.OrderNumber != null)
+                {
+                    filedName[Count] = "OrderNumber";
+                    paramName[Count] = "@" + filedName[Count];
+                    sqlParams[Count] = new SqlParameter(paramName[Count], model.OrderNumber);
+                    Count++;
+                }
+                if (model.StartTime != null)
+                {
+                    filedName[Count] = "StartTime";
+                    paramName[Count] = "@" + filedName[Count];
+                    sqlParams[Count] = new SqlParameter(paramName[Count], model.StartTime);
+                    Count++;
+                }
+                if (model.endTime != null)
+                {
+                    filedName[Count] = "endTime";
+                    paramName[Count] = "@" + filedName[Count];
+                    sqlParams[Count] = new SqlParameter(paramName[Count], model.endTime);
+                    Count++;
+                }
+                if (model.Userid != -999)
+                {
+                    filedName[Count] = "Userid";
+                    paramName[Count] = "@" + filedName[Count];
+                    sqlParams[Count] = new SqlParameter(paramName[Count], model.Userid);
+                    Count++;
+                }
+                if (model.Roomid != -999)
+                {
+                    filedName[Count] = "Roomid";
+                    paramName[Count] = "@" + filedName[Count];
+                    sqlParams[Count] = new SqlParameter(paramName[Count], model.Roomid);
+                    Count++;
+                }
+                if (model.RoomType != null)
+                {
+                    filedName[Count] = "RoomType";
+                    paramName[Count] = "@" + filedName[Count];
+                    sqlParams[Count] = new SqlParameter(paramName[Count], model.RoomType);
+                    Count++;
+                }
+                if (model.Beveragecost != null)
+                {
+                    filedName[Count] = "Beveragecost";
+                    paramName[Count] = "@" + filedName[Count];
+                    sqlParams[Count] = new SqlParameter(paramName[Count], model.Beveragecost);
+                    Count++;
+                }
+                if (model.IsDelete != -999)
+                {
+                    filedName[Count] = "IsDelete";
+                    paramName[Count] = "@" + filedName[Count];
+                    sqlParams[Count] = new SqlParameter(paramName[Count], model.IsDelete);
+                    Count++;
+                }
+                if (model.IsValidity != null)
+                {
+                    filedName[Count] = "IsValidity";
+                    paramName[Count] = "@" + filedName[Count];
+                    sqlParams[Count] = new SqlParameter(paramName[Count], model.IsValidity);
+                    Count++;
+                }
+
+
+
+                StringBuilder strSql_bs = new StringBuilder();
+                strSql_bs.Append("insert into Orderform(");
+                for (int i = 0; i < Count; i++)
+                {
+                    strSql_bs.Append(filedName[i]);
+                    if (i != Count - 1)
+                    {
+                        strSql_bs.Append(",");
+                    }
+                }
+                strSql_bs.Append(")values(");
+                for (int i = 0; i < Count; i++)
+                {
+                    strSql_bs.Append(paramName[i]);
+                    if (i != Count - 1)
+                    {
+                        strSql_bs.Append(",");
+                    }
+                }
+                strSql_bs.Append(")");
+
+
 
                 num = sqlHelper_.ExecuteCommand(
-                    strSql,
+                    strSql_bs.ToString(),
                     CommandType.Text,
-                    new System.Data.SqlClient.SqlParameter[]
-                    {
-                        new System.Data.SqlClient.SqlParameter("@ordernumber",model.OrderNumber),
-                        new System.Data.SqlClient.SqlParameter("@starttime",model.StartTime),
-                        new System.Data.SqlClient.SqlParameter("@endtime",model.endTime),
-                        new System.Data.SqlClient.SqlParameter("@userid",model.Userid),
-                        new System.Data.SqlClient.SqlParameter("@roomid",model.Roomid)
-                    }
+                    sqlParams
                     );
                 if (num != 1)
                 {
                     res = -1;
-                    throw new Exception("Error:查询数据库失败");
+                    throw new Exception("Error:写入数据库失败");
                 }
                 else
                 {

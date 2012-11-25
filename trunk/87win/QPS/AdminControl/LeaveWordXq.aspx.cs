@@ -14,8 +14,8 @@ namespace QPS.Web.AdminControl
             if(!IsPostBack)
             {
                 string ID =Convert.ToString(Request["id"]);
-                Model.Leaveword m_leaveword = new QPS.Model.Leaveword();
-                QPS.BLL.Leaveword lw = new QPS.BLL.Leaveword();
+                NEW.Model.Leaveword m_leaveword = new QPS.NEW.Model.Leaveword();
+                QPS.NEW.BLL.Leaveword lw = new QPS.NEW.BLL.Leaveword();
                 m_leaveword = lw.GetModel(Convert.ToInt32(ID));
                 this.txtTitle.Text = m_leaveword.title;
                 this.Content.Text = m_leaveword.Content;

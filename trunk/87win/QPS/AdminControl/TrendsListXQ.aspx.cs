@@ -14,8 +14,8 @@ namespace QPS.Web.AdminControl
             if(!IsPostBack)
             {
                 string ID = Convert.ToString(Request["id"]);
-                Model.Trends ts = new QPS.Model.Trends();
-                QPS.BLL.Trends Bts=new QPS.BLL.Trends ();
+                NEW.Model.Trends ts = new QPS.NEW.Model.Trends();
+                QPS.NEW.BLL.Trends Bts = new QPS.NEW.BLL.Trends();
                 ts = Bts.GetModel(Convert.ToInt32(ID));
                 this.txtTitle.Text =ts.Title;
                 this.Content.Text=ts.Content;
@@ -29,12 +29,12 @@ namespace QPS.Web.AdminControl
             string id = Request["ID"].ToString();
             string title = this.txtTitle.Text;
             string con = this.Content.Text;
-            Model.Trends Mts =new QPS.Model.Trends ();
+            NEW.Model.Trends Mts = new QPS.NEW.Model.Trends();
             Mts.Id = Convert.ToInt32(id);
             Mts.Title=title;
             Mts.Content = con;
             Mts.Time = DateTime.Now.ToString();
-            QPS.BLL.Trends Bts=new QPS.BLL.Trends();
+            QPS.NEW.BLL.Trends Bts = new QPS.NEW.BLL.Trends();
 
             if (Bts.Update(Mts))
             {

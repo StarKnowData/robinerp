@@ -44,8 +44,11 @@
     <Compile Include="Document.cs" />
     <Compile Include="Enterprise.cs" />
     <Compile Include="Integral.cs" />
+    <Compile Include="Leaveword.cs" />
     <Compile Include="Orderform.cs" />
+    <Compile Include="Poster.cs" />
     <Compile Include="Room.cs" />
+    <Compile Include="Trends.cs" />
     <Compile Include="Users.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

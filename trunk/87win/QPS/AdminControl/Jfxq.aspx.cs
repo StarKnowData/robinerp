@@ -28,7 +28,7 @@ namespace QPS.Web.AdminControl
         public void Bind()
         {
             string tempUserID = Convert.ToString(Request["userid"]);
-            QPS.BLL.Integral Ig = new QPS.BLL.Integral();
+            QPS.NEW.BLL.Integral Ig = new QPS.NEW.BLL.Integral();
             ds = Ig.SelectByJfxq(" where userid=" + tempUserID + "");
             dgExamProj.DataSource = ds;
             dgExamProj.DataBind();
@@ -46,7 +46,7 @@ namespace QPS.Web.AdminControl
             {
                 string id = e.CommandArgument.ToString();
                 
-                QPS.BLL.Integral Binte = new QPS.BLL.Integral();
+                QPS.NEW.BLL.Integral Binte = new QPS.NEW.BLL.Integral();
                 try
                 {
                     Binte.DeleteByUid(Convert.ToInt32(id));
