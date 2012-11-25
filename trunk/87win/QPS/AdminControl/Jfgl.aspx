@@ -38,10 +38,10 @@
 							
 							<asp:TemplateColumn HeaderText="用户名">
 									<ItemTemplate>
-									<asp:Label id="lblUserIDItem" runat="server"  CommandName="JiFen" Text='<%# DataBinder.Eval(Container, "DataItem.Userid") %>' Visible="False" ></asp:Label>
+									<asp:Label id="lblUserIDItem" runat="server"  CommandName="JiFen" Text='<%# DataBinder.Eval(Container, "DataItem.Id") %>' Visible="False" ></asp:Label>
 							<%--<asp:Label id="lblUserNameItem" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.UserName") %>' ></asp:Label>--%>
-                        <asp:LinkButton ID="LkbtUserNameItem" runat="server" CommandName="JiFen"  CommandArgument='<%# Eval("userId") %>'>
-                          <%# GetName(DataBinder.Eval(Container.DataItem, "UserName").ToString()) %>
+                        <asp:LinkButton ID="LkbtUserNameItem" runat="server" CommandName="JiFen"  CommandArgument='<%# Eval("Id") %>'>
+                          <%# GetName(DataBinder.Eval(Container.DataItem, "Username").ToString())%>
                         </asp:LinkButton>
 									</ItemTemplate>
 								</asp:TemplateColumn>
@@ -49,7 +49,7 @@
 				    <asp:TemplateColumn HeaderText="总积分数">
 						<ItemTemplate>
 <%--                            <asp:LinkButton ID="lkbtPhone" runat="server" CommandName="JiFen"><%# DataBinder.Eval(Container, "DataItem.Content") %></asp:LinkButton>--%>
-						<asp:Label id="lblPhone" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.Content") %>' ></asp:Label>
+						<asp:Label id="lblPhone" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.integral") %>' ></asp:Label>
 						</ItemTemplate>
 					</asp:TemplateColumn>
 								

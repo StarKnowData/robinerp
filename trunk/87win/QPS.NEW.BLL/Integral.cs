@@ -296,16 +296,25 @@ namespace QPS.NEW.BLL
 
             hasShowedPage = currentPage - 1 >= 0 ? currentPage - 1 : 0;
 
-            string strSql = "select top ";
-            strSql += pageSize.ToString();
-            strSql +=
-                " * from Integral where Id not in (select top ";
-            strSql += (hasShowedPage * pageSize).ToString();
-            strSql += " Id from Integral)";
+            //string strSql = "select top ";
+            //strSql += pageSize.ToString();
+            //strSql +=
+            //    " * from Integral where Id not in (select top ";
+            //strSql += (hasShowedPage * pageSize).ToString();
+            //strSql += " Id from Integral)";
+
+            StringBuilder strSql = new StringBuilder();
+            strSql.Append("SELECT TOP ");
+            strSql.Append((currentPage * pageSize).ToString());
+            strSql.Append(" t.* FROM (SELECT u.Id, u.Username, b.integral FROM users AS u, (SELECT s.userid, sum(s.content) integral FROM integral AS s WHERE 1=1 GROUP BY s.UserID) AS b WHERE u.id = b.userid ) AS t");
+            strSql.Append(" WHERE t.id NOT IN (SELECT TOP ");
+            strSql.Append((hasShowedPage * pageSize).ToString());
+            strSql.Append(" tt.id FROM (SELECT u.Id, u.Username, b.integral FROM users AS u, (SELECT s.userid, sum(s.content) integral FROM integral AS s WHERE 1=1 GROUP BY s.UserID) AS b WHERE u.id = b.userid ) AS tt)");
+
 
             DataSet ds = null;
             ds = sqlHelper_.GetDataSet(
-                strSql,
+                strSql.ToString(),
                 CommandType.Text,
                 null
                 );

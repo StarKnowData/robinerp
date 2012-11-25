@@ -35,16 +35,25 @@ namespace QPS.NEW.BLL
 
             hasShowedPage = currentPage - 1 >= 0 ? currentPage - 1 : 0;
 
-            string strSql = "select top ";
-            strSql += pageSize.ToString();
-            strSql +=
-                " * from Leaveword where Id not in (select top ";
-            strSql += (hasShowedPage * pageSize).ToString();
-            strSql += " Id from Leaveword)";
+            //string strSql = "select top ";
+            //strSql += pageSize.ToString();
+            //strSql +=
+            //    " * from Leaveword where Id not in (select top ";
+            //strSql += (hasShowedPage * pageSize).ToString();
+            //strSql += " Id from Leaveword)";
+
+            StringBuilder strSql = new StringBuilder();
+            strSql.Append("SELECT TOP ");
+            strSql.Append((currentPage * pageSize).ToString());
+            strSql.Append(" t.* FROM (SELECT o.*, u.username FROM Leaveword AS o, Users AS u WHERE u.id = o.userid ) AS t ");
+            strSql.Append("WHERE t.id NOT IN (SELECT TOP ");
+            strSql.Append((hasShowedPage * pageSize).ToString());
+            strSql.Append(" tt.id FROM (SELECT o.*, u.username FROM Leaveword AS o, Users AS u WHERE u.id = o.userid ) AS tt)");
+
 
             DataSet ds = null;
             ds = sqlHelper_.GetDataSet(
-                strSql,
+                strSql.ToString(),
                 CommandType.Text,
                 null
                 );

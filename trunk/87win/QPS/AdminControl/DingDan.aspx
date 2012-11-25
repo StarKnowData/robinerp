@@ -136,14 +136,14 @@
 					
 					<asp:TemplateColumn HeaderText="用户名">
 						<ItemTemplate>
-                            <asp:Label id="lblUserIDItem" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.Userid") %>' Visible="False"></asp:Label>
-							<asp:Label id="lblUserNameItem" runat="server" Text='<%# GetName(DataBinder.Eval(Container, "DataItem.UserName").ToString()) %>' ></asp:Label>
+                            <asp:Label id="lblUserIDItem" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.Id") %>' Visible="False"></asp:Label>
+							<asp:Label id="lblUserNameItem" runat="server" Text='<%# GetName(DataBinder.Eval(Container, "DataItem.username").ToString()) %>' ></asp:Label>
 						</ItemTemplate>
 					</asp:TemplateColumn>
 					
 					<asp:TemplateColumn HeaderText="手机号">
 			        <ItemTemplate>
-			        <asp:Label id="lblUserphone" runat="server" Text='<%# GetName(DataBinder.Eval(Container, "DataItem.UserPhone").ToString()) %>' ></asp:Label>
+			        <asp:Label id="lblUserphone" runat="server" Text='<%# GetName(DataBinder.Eval(Container, "DataItem.Phone").ToString()) %>' ></asp:Label>
 				    </ItemTemplate>	
 					</asp:TemplateColumn>
 					
@@ -151,7 +151,7 @@
 					
 					<asp:TemplateColumn HeaderText="棋牌室名">
 						<ItemTemplate>
-							<asp:Label id="lblRoomItems" runat="server" Text='<%# GetName(DataBinder.Eval(Container, "DataItem.RoomName").ToString()) %>' ></asp:Label>
+							<asp:Label id="lblRoomItems" runat="server" Text='<%# GetName(DataBinder.Eval(Container, "DataItem.name").ToString()) %>' ></asp:Label>
 						</ItemTemplate>
 					</asp:TemplateColumn>
 					
