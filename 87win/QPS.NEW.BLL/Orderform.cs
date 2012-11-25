@@ -437,16 +437,26 @@ namespace QPS.NEW.BLL
 
             hasShowedPage=currentPage-1>=0?currentPage-1:0;
 
-            string strSql="select top ";
-            strSql+=pageSize.ToString();
-            strSql +=
-                " * from Orderform where Id not in (select top ";
-            strSql+=(hasShowedPage*pageSize).ToString();
-            strSql+=" Id from Orderform)";
-            
+            //string strSql="select top ";
+            //strSql+=pageSize.ToString();
+            //strSql +=
+            //    " * from Orderform where Id not in (select top ";
+            //strSql+=(hasShowedPage*pageSize).ToString();
+            //strSql+=" Id from Orderform)";
+
+            StringBuilder strSql = new StringBuilder();
+            strSql.Append("SELECT TOP ");
+            strSql.Append((currentPage * pageSize).ToString());
+            strSql.Append(" t.* FROM (SELECT o.*, u.username,u.Phone, r.name FROM Orderform AS o, Users AS u, Room AS r WHERE u.id = o.userid AND o.Roomid = r.id");
+            strSql.Append(") AS t WHERE t.id NOT IN(SELECT TOP ");
+            strSql.Append((hasShowedPage * pageSize).ToString());
+            strSql.Append(" tt.id FROM (SELECT o.*, u.username,u.Phone, r.name FROM Orderform AS o, Users AS u, Room AS r WHERE u.id = o.userid AND o.Roomid = r.id");
+            strSql.Append(") AS tt)");
+
+
             DataSet ds=null;
             ds = sqlHelper_.GetDataSet(
-                strSql,
+                strSql.ToString(),
                 CommandType.Text,
                 null
                 );

@@ -90,13 +90,13 @@
 					
 					<asp:TemplateColumn HeaderText="积分">
 						<ItemTemplate>
-						<asp:Label id="lblIntegral" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.Integral") %>' ></asp:Label>
+						<asp:Label id="lblIntegral" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.integral") %>' ></asp:Label>
 						</ItemTemplate>
 					</asp:TemplateColumn>
 	<%-----------------------------------------------------------%>
 				<asp:TemplateColumn HeaderText="积分管理">
                                     <ItemTemplate>
-                                          <asp:LinkButton ID="lbtnJF" runat="server" CommandName="InsertJF" CommandArgument='<%# DataBinder.Eval(Container, "DataItem.id") %>' >添加</asp:LinkButton>
+                                          <asp:LinkButton ID="lbtnJF" runat="server" CommandName="InsertJF" CommandArgument='<%# DataBinder.Eval(Container, "DataItem.Id") %>' >添加</asp:LinkButton>
                                     </ItemTemplate>
                                     <ItemStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
                                         Font-Underline="False" HorizontalAlign="Center" />
@@ -108,7 +108,7 @@
 								
                                 <asp:TemplateColumn HeaderText="修改">
                                     <ItemTemplate>
-                                          <a href="UserUpdate.aspx?UserID=<%# Eval("ID") %>">修改</a>
+                                          <a href="UserUpdate.aspx?UserID=<%# Eval("Id") %>">修改</a>
                                     </ItemTemplate>
                                     <ItemStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
                                         Font-Underline="False" HorizontalAlign="Center" />

@@ -59,7 +59,7 @@ namespace QPS.Web
                     string name = this.txtAdminname.Text;
                     string pwd = this.txtAdminPW.Text;
 
-                    QPS.BLL.Users bll = new QPS.BLL.Users();
+                    QPS.NEW.BLL.Users bll = new QPS.NEW.BLL.Users();
                     bool b = bll.Denglu(name, pwd,1);
                     if (b)
                     {
