@@ -43,7 +43,7 @@ namespace QPS.Web.AdminControl
         {
             string name = this.txlinkman.Text;
             string xingm = this.txlogin.Text;
-            QPS.BLL.Users user =new QPS.BLL.Users ();
+            QPS.NEW.BLL.Users user =new QPS.NEW.BLL.Users ();
             ds = user.SelectList(" Username='"+name+"' and Nickname='" +xingm +"'");
             dgExamProj.DataSource = ds;
             dgExamProj.DataBind();
@@ -64,7 +64,7 @@ namespace QPS.Web.AdminControl
             }
             int pageSize = this.Pager1.PageSize;
 
-            QPS.BLL.Users user = new QPS.BLL.Users();
+            QPS.NEW.BLL.Users user = new QPS.NEW.BLL.Users();
 
             ds = user.SelectUs(pageSize,currentpage);
             dgExamProj.DataSource = ds;

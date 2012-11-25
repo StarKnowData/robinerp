@@ -33,7 +33,7 @@ namespace QPS.Web.AdminControl
             }
             int pageSize = this.Pager1.PageSize;
 
-            QPS.BLL.Trends ts = new QPS.BLL.Trends();
+            QPS.NEW.BLL.Trends ts = new QPS.NEW.BLL.Trends();
             ds =ts.Select(pageSize,currentpage);
             dgExamProj.DataSource = ds;
             this.Pager1.ItemCount = ts.GetCount();
@@ -47,7 +47,7 @@ namespace QPS.Web.AdminControl
             if (e.CommandName == "delete")//删除
             {
                 string ID = e.CommandArgument.ToString();
-                QPS.BLL.Trends ts = new QPS.BLL.Trends();
+                QPS.NEW.BLL.Trends ts = new QPS.NEW.BLL.Trends();
                 if (ts.Delete(int.Parse(ID)))
                 {
                     Response.Write("<script>alert('删除成功!');</script>");

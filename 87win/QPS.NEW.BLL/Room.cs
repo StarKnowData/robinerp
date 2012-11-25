@@ -22,7 +22,7 @@ namespace QPS.NEW.BLL
         {
             DataTable dt = null;
 
-            dt=sqlHelper_.GetDataTable(sqlString, CommandType.Text, null);
+            dt = sqlHelper_.GetDataTable(sqlString, CommandType.Text, null);
 
             return dt;
         }
@@ -65,7 +65,7 @@ namespace QPS.NEW.BLL
                 }
                 );
 
-            if (dt!=null && dt.Rows.Count > 0)
+            if (dt != null && dt.Rows.Count > 0)
             {
                 room = new Model.Room();
 
@@ -223,40 +223,138 @@ namespace QPS.NEW.BLL
             }
 
             return res;
-            
+
         }
 
 
         public int Add(QPS.NEW.Model.Room model)
         {
-                string strSql = "";
-                strSql += "insert into Users(Name,RoomType,RoomPrice,Are,Address,ImagePath,Content,RoomState,OwnerID,IfRecommend,IfExamine) ";
-                strSql += "values(@Name,@RoomType,@RoomPrice,@Are,@Address,@ImagePath,@Content,@RoomState,@OwnerID,@IfRecommend,@IfExamine)";
+            string[] filedName = new string[50];
+            string[] paramName = new string[50];
+            SqlParameter[] sqlParams = new SqlParameter[50];
+            int Count = 0;
 
-                int res = -1;
-                res = sqlHelper_.ExecuteCommand(
-                    strSql,
-                    CommandType.Text,
-                    new System.Data.SqlClient.SqlParameter[]
-                {
-                    new SqlParameter("@Name",model.Name),
-                    new SqlParameter("@RoomType",model.RoomType),
-                    new SqlParameter("@RoomPrice",model.RoomPrice),
-                    new SqlParameter("@Are",model.Are),
-                    new SqlParameter("@Address",model.Address),
-                    new SqlParameter("@ImagePath",model.ImagePath),
-                    new SqlParameter("@Content",model.Content),
-                    new SqlParameter("@RoomState",model.RoomState),
-                    new SqlParameter("@OwnerID",model.OwnerID),
-                    new SqlParameter("@IfRecommend",model.IfRecommend),
-                    new SqlParameter("@IfExamine",model.Examine)
-                }
-                    );
 
-                if (res != 1)
+
+            if (model.Name != null)
+            {
+                filedName[Count] = "Name";
+                paramName[Count] = "@" + filedName[Count];
+                sqlParams[Count] = new SqlParameter(paramName[Count], model.Name);
+                Count++;
+            }
+            if (model.RoomType != null)
+            {
+                filedName[Count] = "RoomType";
+                paramName[Count] = "@" + filedName[Count];
+                sqlParams[Count] = new SqlParameter(paramName[Count], model.RoomType);
+                Count++;
+            }
+            if (model.RoomPrice != -999)
+            {
+                filedName[Count] = "RoomPrice";
+                paramName[Count] = "@" + filedName[Count];
+                sqlParams[Count] = new SqlParameter(paramName[Count], model.RoomPrice);
+                Count++;
+            }
+            if (model.Are != null)
+            {
+                filedName[Count] = "Are";
+                paramName[Count] = "@" + filedName[Count];
+                sqlParams[Count] = new SqlParameter(paramName[Count], model.Are);
+                Count++;
+            }
+            if (model.Address != null)
+            {
+                filedName[Count] = "Address";
+                paramName[Count] = "@" + filedName[Count];
+                sqlParams[Count] = new SqlParameter(paramName[Count], model.Address);
+                Count++;
+            }
+            if (model.ImagePath != null)
+            {
+                filedName[Count] = "ImagePath";
+                paramName[Count] = "@" + filedName[Count];
+                sqlParams[Count] = new SqlParameter(paramName[Count], model.ImagePath);
+                Count++;
+            }
+            if (model.Content != null)
+            {
+                filedName[Count] = "Content";
+                paramName[Count] = "@" + filedName[Count];
+                sqlParams[Count] = new SqlParameter(paramName[Count], model.Content);
+                Count++;
+            }
+            if (model.RoomState != -999)
+            {
+                filedName[Count] = "RoomState";
+                paramName[Count] = "@" + filedName[Count];
+                sqlParams[Count] = new SqlParameter(paramName[Count], model.RoomState);
+                Count++;
+            }
+            if (model.OwnerID != -999)
+            {
+                filedName[Count] = "OwnerID";
+                paramName[Count] = "@" + filedName[Count];
+                sqlParams[Count] = new SqlParameter(paramName[Count], model.OwnerID);
+                Count++;
+            }
+            if (model.IfRecommend != -999)
+            {
+                filedName[Count] = "IfRecommend";
+                paramName[Count] = "@" + filedName[Count];
+                sqlParams[Count] = new SqlParameter(paramName[Count], model.IfRecommend);
+                Count++;
+            }
+            if (model.Examine != -999)
+            {
+                filedName[Count] = "IfExamine";
+                paramName[Count] = "@" + filedName[Count];
+                sqlParams[Count] = new SqlParameter(paramName[Count], model.Examine);
+                Count++;
+            }
+            if (model.RecommendTime != null)
+            {
+                filedName[Count] = "RecommendTime";
+                paramName[Count] = "@" + filedName[Count];
+                sqlParams[Count] = new SqlParameter(paramName[Count], model.RecommendTime);
+                Count++;
+            }
+            
+
+            StringBuilder strSql = new StringBuilder();
+            strSql.Append("insert into Room(");
+            for (int i = 0; i < Count; i++)
+            {
+                strSql.Append(filedName[i]);
+                if (i != Count - 1)
                 {
-                    throw new Exception("Error:写入数据库失败");
+                    strSql.Append(",");
                 }
+            }
+            strSql.Append(")values(");
+            for (int i = 0; i < Count; i++)
+            {
+                strSql.Append(paramName[i]);
+                if (i != Count - 1)
+                {
+                    strSql.Append(",");
+                }
+            }
+            strSql.Append(")");
+
+
+            int res = -1;
+            res = sqlHelper_.ExecuteCommand(
+                strSql.ToString(),
+                CommandType.Text,
+                sqlParams
+                );
+
+            if (res != 1)
+            {
+                throw new Exception("Error:写入数据库失败");
+            }
 
             return 1;
         }
@@ -317,6 +415,103 @@ namespace QPS.NEW.BLL
             if (num == 1)
                 res = true;
 
+            return res;
+        }
+
+        public DataSet Select(int pageSize, int currentPage)
+        {
+            int hasShowedPage = 0;
+
+            hasShowedPage = currentPage - 1 >= 0 ? currentPage - 1 : 0;
+
+            string strSql = "select top ";
+            strSql += pageSize.ToString();
+            strSql +=
+                " * from Room where Id not in (select top ";
+            strSql += (hasShowedPage * pageSize).ToString();
+            strSql += " Id from Room)";
+
+            DataSet ds = null;
+            ds = sqlHelper_.GetDataSet(
+                strSql,
+                CommandType.Text,
+                null
+                );
+
+            return ds;
+        }
+
+        public int GetCount()
+        {
+            int res = -999;
+
+            res = Convert.ToInt32(
+                sqlHelper_.GetSingle(
+                "select count(*) from Room",
+                CommandType.Text,
+                null
+                )
+                );
+
+            return res;
+        }
+
+        public bool UpdateRecommend(string Id, string IfRecommend, DateTime Time)
+        {
+            bool res = false;
+            string strSql = "";
+            int num = -1;
+
+            if (IfRecommend == "1")
+            {
+                strSql = "update Room set IfRecommend=0 where Id=" + Id;
+                num = sqlHelper_.ExecuteCommand(strSql, CommandType.Text, null);
+            }
+            else
+            {
+                strSql = "update Room set IfRecommend=1,RecommendTime=@RecommendTime where Id=" + Id;
+                num = sqlHelper_.ExecuteCommand
+                (
+                strSql,
+                CommandType.Text,
+                new SqlParameter[]
+                {
+                    new SqlParameter("@RecommendTime",Time)
+                }
+                );
+            }
+            if (num == 1)
+            {
+                res = true;
+            }
+            return res;
+        }
+
+        public bool UpdateExamine(string Id, string examine, DateTime Time)
+        {
+            bool res = false;
+            string strSql = "";
+            int num = -1;
+
+            if (examine == "1")
+            {
+                strSql = "update Room set IfExamine=0 where Id=" + Id;
+                num = sqlHelper_.ExecuteCommand(strSql, CommandType.Text, null);
+            }
+            else
+            {
+                strSql = "update Room set IfExamine=1 where Id=" + Id;
+                num = sqlHelper_.ExecuteCommand
+                (
+                strSql,
+                CommandType.Text,
+                null
+                );
+            }
+            if (num == 1)
+            {
+                res = true;
+            }
             return res;
         }
     }

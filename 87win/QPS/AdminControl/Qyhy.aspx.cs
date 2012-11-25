@@ -29,7 +29,7 @@ namespace QPS.Web.AdminControl
                 currentpage = this.Pager1.CurrentIndex;
             }
             int pageSize = this.Pager1.PageSize;
-            QPS.BLL.Enterprise ep = new QPS.BLL.Enterprise();
+            QPS.NEW.BLL.Enterprise ep = new QPS.NEW.BLL.Enterprise();
             ds = ep.Select(pageSize, currentpage);
             dgExamProj.DataSource = ds;
             this.Pager1.ItemCount = ep.GetCount();
@@ -42,7 +42,7 @@ namespace QPS.Web.AdminControl
         {
             string name = this.txlinkman.Text;
             string xingm = this.txlogin.Text;
-            QPS.BLL.Enterprise ep = new QPS.BLL.Enterprise();
+            QPS.NEW.BLL.Enterprise ep = new QPS.NEW.BLL.Enterprise();
             ds = ep.GetList(" Username='" + name + "' or Nickname='" + xingm + "'");
             dgExamProj.DataSource = ds;
             dgExamProj.DataBind();
@@ -61,7 +61,7 @@ namespace QPS.Web.AdminControl
             if (e.CommandName == "delete")
             {
                 string id = e.CommandArgument.ToString();
-                QPS.BLL.Enterprise ep = new QPS.BLL.Enterprise();
+                QPS.NEW.BLL.Enterprise ep = new QPS.NEW.BLL.Enterprise();
                 try
                 {
                     ep.DeleteById(Convert.ToInt32(id));
@@ -82,7 +82,7 @@ namespace QPS.Web.AdminControl
                 string[] Argument = strArgument.Split('|');
                 string id = Argument[0].ToString();
                 string examine = Argument[1].ToString();
-                BLL.Enterprise ep = new QPS.BLL.Enterprise();
+                NEW.BLL.Enterprise ep = new QPS.NEW.BLL.Enterprise();
                 ep.UpdateChecked(id, examine);
                 Bind();
 

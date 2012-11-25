@@ -164,5 +164,25 @@ namespace QPS.NEW.BLL
             return res;
         
         }
+        
+
+        public bool Delete(int Id)
+        {
+            bool res = false;
+
+            int num =
+                sqlHelper_.ExecuteCommand("delete from ad where Id=@Id",
+                CommandType.Text,
+                new SqlParameter[]
+                {
+                    new SqlParameter("@Id",Id)
+                }
+                );
+            if (num == 1)
+                res = true;
+
+            return res;
+        }
+
     }
 }

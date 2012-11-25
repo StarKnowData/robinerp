@@ -30,7 +30,7 @@ namespace QPS.Web.Manage.AdminControl
                 currentpage = this.Pager1.CurrentIndex;
             }
             int pageSize = this.Pager1.PageSize;
-            QPS.BLL.Room rm = new QPS.BLL.Room();
+            QPS.NEW.BLL.Room rm = new QPS.NEW.BLL.Room();
             ds = rm.Select(pageSize, currentpage);
             dgExamProj.DataSource = ds;
             this.Pager1.ItemCount = rm.GetCount();
@@ -46,7 +46,7 @@ namespace QPS.Web.Manage.AdminControl
         {
             string name = this.txtName.Text;
             string Type = this.txtType.Text;
-            QPS.BLL.Room rm = new QPS.BLL.Room();
+            QPS.NEW.BLL.Room rm = new QPS.NEW.BLL.Room();
             ds = rm.GetList(" Name='" + name + "' or RoomType='" + Type + "'");
             dgExamProj.DataSource = ds;
             dgExamProj.DataBind();
@@ -74,7 +74,7 @@ namespace QPS.Web.Manage.AdminControl
             if (e.CommandName == "delete")
             {
                 string id = e.CommandArgument.ToString();
-                QPS.BLL.Room pt = new QPS.BLL.Room();
+                QPS.NEW.BLL.Room pt = new QPS.NEW.BLL.Room();
                 try
                 {
                     pt.Delete(Convert.ToInt32(id));
@@ -95,7 +95,7 @@ namespace QPS.Web.Manage.AdminControl
                 string[] Argument = strArgument.Split('|');
                 string id = Argument[0].ToString();
                 string type = Argument[1].ToString();
-                BLL.Room rm = new QPS.BLL.Room();
+                NEW.BLL.Room rm = new QPS.NEW.BLL.Room();
                 rm.UpdateRecommend(id, type,DateTime.Now);
                 Bind();
             }
@@ -105,7 +105,7 @@ namespace QPS.Web.Manage.AdminControl
                 string[] Argument = strArgument.Split('|');
                 string id = Argument[0].ToString();
                 string examine = Argument[1].ToString();
-                BLL.Room rm = new QPS.BLL.Room();
+                NEW.BLL.Room rm = new QPS.NEW.BLL.Room();
                 rm.UpdateExamine(id, examine, DateTime.Now);
                 Bind();
             }

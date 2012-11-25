@@ -20,12 +20,12 @@ namespace QPS.Web.AdminControl
             
             string title = this.txtTitle.Text;
             string con = this.Content.Text;
-            Model.Trends Mts = new QPS.Model.Trends();
+            NEW.Model.Trends Mts = new QPS.NEW.Model.Trends();
            
             Mts.Title = title;
             Mts.Content = con;
             Mts.Time = DateTime.Now.ToString();
-            QPS.BLL.Trends Bts = new QPS.BLL.Trends();
+            QPS.NEW.BLL.Trends Bts = new QPS.NEW.BLL.Trends();
 
             int i = Bts.Add(Mts);
 

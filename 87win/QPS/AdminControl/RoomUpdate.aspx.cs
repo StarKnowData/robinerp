@@ -39,7 +39,7 @@ namespace QPS.Web.AdminControl
         public void BindShow()
         {
             DataSet dse = new DataSet();
-            QPS.BLL.Room rm = new QPS.BLL.Room();
+            QPS.NEW.BLL.Room rm = new QPS.NEW.BLL.Room();
             dse = rm.GetList("  id =" + tempID + " ");
 
             this.txName.Text = dse.Tables[0].Rows[0]["Name"].ToString();
@@ -71,7 +71,7 @@ namespace QPS.Web.AdminControl
             string imagePath =this.Photo.Text;	  //图片地址
             string content = this.FileContent.Value;	 //祥细介绍
 
-            QPS.Model.Room Mro = new QPS.Model.Room();
+            QPS.NEW.Model.Room Mro = new QPS.NEW.Model.Room();
             Mro.Id =Convert.ToInt32(id);
             Mro.Name = name;
             Mro.RoomType =type ;
@@ -83,7 +83,7 @@ namespace QPS.Web.AdminControl
             Mro.Content = content;
             Mro.RecommendTime = DateTime.Now.ToString();
 
-            QPS.BLL.Room rm = new QPS.BLL.Room();
+            QPS.NEW.BLL.Room rm = new QPS.NEW.BLL.Room();
             //rm.Add(Mro);
             if (rm.Update(Mro))
             {

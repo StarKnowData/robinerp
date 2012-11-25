@@ -34,34 +34,101 @@ namespace QPS.NEW.BLL
                 );
             if (checkUsername != 0)
             {
-                throw new Exception("Error:002-用户名已经存在");
+                throw new Exception("Error:用户名已经存在");
             }
             else
             {
+                string[] filedName = new string[50];
+                string[] paramName = new string[50];
+                SqlParameter[] sqlParams = new SqlParameter[50];
+                int Count = 0;
 
-                string strSql = "";
-                strSql += "insert into Enterprise(Username,Password,Nickname,Phone,Address,Mail,IfChecked) ";
-                strSql += "values(@username,@password,@nickname,@phone,@address,@mail,@ifchecked)";
+
+
+                if (model.Username != null)
+                {
+                    filedName[Count] = "Username";
+                    paramName[Count] = "@" + filedName[Count];
+                    sqlParams[Count] = new SqlParameter(paramName[Count], model.Username);
+                    Count++;
+                }
+                if (model.Password != null)
+                {
+                    filedName[Count] = "Password";
+                    paramName[Count] = "@" + filedName[Count];
+                    sqlParams[Count] = new SqlParameter(paramName[Count], model.Password);
+                    Count++;
+                }
+                if (model.Nickname != null)
+                {
+                    filedName[Count] = "Nickname";
+                    paramName[Count] = "@" + filedName[Count];
+                    sqlParams[Count] = new SqlParameter(paramName[Count], model.Nickname);
+                    Count++;
+                }
+                if (model.Phone != null)
+                {
+                    filedName[Count] = "Phone";
+                    paramName[Count] = "@" + filedName[Count];
+                    sqlParams[Count] = new SqlParameter(paramName[Count], model.Phone);
+                    Count++;
+                }
+                if (model.Address != null)
+                {
+                    filedName[Count] = "Address";
+                    paramName[Count] = "@" + filedName[Count];
+                    sqlParams[Count] = new SqlParameter(paramName[Count], model.Address);
+                    Count++;
+                }
+                if (model.Mail != null)
+                {
+                    filedName[Count] = "Mail";
+                    paramName[Count] = "@" + filedName[Count];
+                    sqlParams[Count] = new SqlParameter(paramName[Count], model.Mail);
+                    Count++;
+                }
+                if (model.IfChecked != -999)
+                {
+                    filedName[Count] = "IfChecked";
+                    paramName[Count] = "@" + filedName[Count];
+                    sqlParams[Count] = new SqlParameter(paramName[Count], model.IfChecked);
+                    Count++;
+                }
+               
+
+                StringBuilder strSql = new StringBuilder();
+                strSql.Append("insert into Enterprise(");
+                for (int i = 0; i < Count; i++)
+                {
+                    strSql.Append(filedName[i]);
+                    if (i != Count - 1)
+                    {
+                        strSql.Append(",");
+                    }
+                }
+                strSql.Append(")values(");
+                for (int i = 0; i < Count; i++)
+                {
+                    strSql.Append(paramName[i]);
+                    if (i != Count - 1)
+                    {
+                        strSql.Append(",");
+                    }
+                }
+                strSql.Append(")");
+
+
 
                 int res = -1;
                 res = sqlHelper_.ExecuteCommand(
-                    strSql,
+                    strSql.ToString(),
                     CommandType.Text,
-                    new System.Data.SqlClient.SqlParameter[]
-                {
-                    new SqlParameter("@username",enterprise_.Username),
-                    new SqlParameter("@password",enterprise_.Password),
-                    new SqlParameter("@nickname",enterprise_.Nickname),
-                    new SqlParameter("@phone",enterprise_.Phone),
-                    new SqlParameter("@address",enterprise_.Address),
-                    new SqlParameter("@mail",enterprise_.Mail),
-                    new SqlParameter("@ifchecked",enterprise_.IfChecked)
-                }
+                    sqlParams
                     );
 
                 if (res != 1)
                 {
-                    throw new Exception("Error:001-查询数据库失败");
+                    throw new Exception("Error:写入数据库失败");
                 }
             }
             return 1;
@@ -211,6 +278,90 @@ namespace QPS.NEW.BLL
                 res = true;
             }
 
+            return res;
+        }
+
+        public DataSet Select(int pageSize, int currentPage)
+        {
+            int hasShowedPage = 0;
+
+            hasShowedPage = currentPage - 1 >= 0 ? currentPage - 1 : 0;
+
+            string strSql = "select top ";
+            strSql += pageSize.ToString();
+            strSql +=
+                " * from Enterprise where Id not in (select top ";
+            strSql += (hasShowedPage * pageSize).ToString();
+            strSql += " Id from Enterprise)";
+
+            DataSet ds = null;
+            ds = sqlHelper_.GetDataSet(
+                strSql,
+                CommandType.Text,
+                null
+                );
+
+            return ds;
+        }
+
+        public int GetCount()
+        {
+            int res = -999;
+
+            res = Convert.ToInt32(
+                sqlHelper_.GetSingle(
+                "select count(*) from Enterprise",
+                CommandType.Text,
+                null
+                )
+                );
+
+            return res;
+        }
+
+        public bool DeleteById(int Id)
+        {
+            bool res = false;
+
+            int num =
+                sqlHelper_.ExecuteCommand("delete from Enterprise where Id=@Id",
+                CommandType.Text,
+                new SqlParameter[]
+                {
+                    new SqlParameter("@Id",Id)
+                }
+                );
+            if (num == 1)
+                res = true;
+
+            return res;
+        }
+
+        public bool UpdateChecked(string Id, string ifchecked)
+        {
+            bool res = false;
+            string strSql = "";
+            int num = -1;
+
+            if (ifchecked == "1")
+            {
+                strSql = "update Enterprise set IfChecked=0 where Id=" + Id;
+                num = sqlHelper_.ExecuteCommand(strSql, CommandType.Text, null);
+            }
+            else
+            {
+                strSql = "update Enterprise set IfChecked=1 where Id=" + Id;
+                num = sqlHelper_.ExecuteCommand
+                (
+                strSql,
+                CommandType.Text,
+                null
+                );
+            }
+            if (num == 1)
+            {
+                res = true;
+            }
             return res;
         }
     }

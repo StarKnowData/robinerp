@@ -40,26 +40,105 @@ namespace QPS.NEW.BLL
             else
             {
 
-                string strSql = "";
-                strSql += "insert into Users(Username,Password,Nickname,Phone,Address,Mail,UserType,Action,Sign) ";
-                strSql += "values(@username,@password,@nickname,@phone,@address,@mail,@usertype,@action,@sign)";
-                
+                string[] filedName = new string[50];
+                string[] paramName = new string[50];
+                SqlParameter[] sqlParams = new SqlParameter[50];
+                int Count = 0;
+
+
+
+                if (model.Username != null)
+                {
+                    filedName[Count] = "Username";
+                    paramName[Count] = "@" + filedName[Count];
+                    sqlParams[Count] = new SqlParameter(paramName[Count], model.Username);
+                    Count++;
+                }
+                if (model.Password != null)
+                {
+                    filedName[Count] = "Password";
+                    paramName[Count] = "@" + filedName[Count];
+                    sqlParams[Count] = new SqlParameter(paramName[Count], model.Password);
+                    Count++;
+                }
+                if (model.Nickname != null)
+                {
+                    filedName[Count] = "Nickname";
+                    paramName[Count] = "@" + filedName[Count];
+                    sqlParams[Count] = new SqlParameter(paramName[Count], model.Nickname);
+                    Count++;
+                }
+                if (model.Phone != null)
+                {
+                    filedName[Count] = "Phone";
+                    paramName[Count] = "@" + filedName[Count];
+                    sqlParams[Count] = new SqlParameter(paramName[Count], model.Phone);
+                    Count++;
+                }
+                if (model.Address != null)
+                {
+                    filedName[Count] = "Address";
+                    paramName[Count] = "@" + filedName[Count];
+                    sqlParams[Count] = new SqlParameter(paramName[Count], model.Address);
+                    Count++;
+                }
+                if (model.Mail != null)
+                {
+                    filedName[Count] = "Mail";
+                    paramName[Count] = "@" + filedName[Count];
+                    sqlParams[Count] = new SqlParameter(paramName[Count], model.Mail);
+                    Count++;
+                }
+                if (model.Usertype != -999)
+                {
+                    filedName[Count] = "Usertype";
+                    paramName[Count] = "@" + filedName[Count];
+                    sqlParams[Count] = new SqlParameter(paramName[Count], model.Usertype);
+                    Count++;
+                }
+                if (model.Action != null)
+                {
+                    filedName[Count] = "Action";
+                    paramName[Count] = "@" + filedName[Count];
+                    sqlParams[Count] = new SqlParameter(paramName[Count], model.Action);
+                    Count++;
+                }
+                if (model.Sign != null)
+                {
+                    filedName[Count] = "Sign";
+                    paramName[Count] = "@" + filedName[Count];
+                    sqlParams[Count] = new SqlParameter(paramName[Count], model.Sign);
+                    Count++;
+                }
+
+                StringBuilder strSql = new StringBuilder();
+                strSql.Append("insert into Users(");
+                for (int i = 0; i < Count; i++)
+                {
+                    strSql.Append(filedName[i]);
+                    if (i != Count - 1)
+                    {
+                        strSql.Append(",");
+                    }
+                }
+                strSql.Append(")values(");
+                for (int i = 0; i < Count; i++)
+                {
+                    strSql.Append(paramName[i]);
+                    if (i != Count - 1)
+                    {
+                        strSql.Append(",");
+                    }
+                }
+                strSql.Append(")");
+
+
+
                 int res = -1;
                 res = sqlHelper_.ExecuteCommand(
-                    strSql,
+                    strSql.ToString(),
                     CommandType.Text,
-                    new System.Data.SqlClient.SqlParameter[]
-                {
-                    new SqlParameter("@username",user_.Username),
-                    new SqlParameter("@password",user_.Password),
-                    new SqlParameter("@nickname",user_.Nickname),
-                    new SqlParameter("@phone",user_.Phone),
-                    new SqlParameter("@address",user_.Address),
-                    new SqlParameter("@mail",user_.Mail),
-                    new SqlParameter("@usertype",user_.Usertype),
-                    new SqlParameter("@action",user_.Action),
-                    new SqlParameter("@sign",user_.Sign)
-                }
+                    sqlParams
                     );
 
                 if (res != 1)
@@ -275,6 +354,89 @@ namespace QPS.NEW.BLL
             }
 
             return res;
+        }
+
+        public DataSet SelectList(string strWhere)
+        {
+            DataSet ds = null;
+
+            ds = sqlHelper_.GetDataSet(
+                "select * from Users where "+ strWhere,
+                CommandType.Text,
+                null
+                );
+
+            return ds;
+        }
+
+        public DataSet SelectUs(int pageSize, int currentPage)
+        {
+            int hasShowedPage = 0;
+
+            hasShowedPage = currentPage - 1 >= 0 ? currentPage - 1 : 0;
+
+            string strSql = "select top ";
+            strSql += pageSize.ToString();
+            strSql +=
+                " * from Users where Id not in (select top ";
+            strSql += (hasShowedPage * pageSize).ToString();
+            strSql += " Id from Users)";
+
+            DataSet ds = null;
+            ds = sqlHelper_.GetDataSet(
+                strSql,
+                CommandType.Text,
+                null
+                );
+
+            return ds;
+        }
+
+        public int GetCount()
+        {
+            int res = -999;
+
+            res = Convert.ToInt32(
+                sqlHelper_.GetSingle(
+                "select count(*) from Users",
+                CommandType.Text,
+                null
+                )
+                );
+
+            return res;
+        }
+
+        public QPS.NEW.Model.Users GetUserByID(int userID)
+        {
+            QPS.NEW.Model.Users user = null;
+
+            DataTable dt = sqlHelper_.GetDataTable(
+                "select * from Users where Id=@id",
+                CommandType.Text,
+                new System.Data.SqlClient.SqlParameter[]
+                {
+                    new System.Data.SqlClient.SqlParameter("@id",userID)
+                }
+                );
+
+            if (dt != null && dt.Rows.Count > 0)
+            {
+                user = new Model.Users();
+
+                user.Id = Convert.ToInt32(dt.Rows[0]["Id"]);
+                user.Username = dt.Rows[0]["Username"].ToString();
+                user.Phone = dt.Rows[0]["Phone"].ToString();
+                user.Address = dt.Rows[0]["Address"].ToString();
+                user.Mail = dt.Rows[0]["Mail"].ToString();
+            }
+
+            return user;
+        }
+
+        public bool UpdateUs(QPS.NEW.Model.Users us)
+        {
+            return Update(us);
         }
     }
 }

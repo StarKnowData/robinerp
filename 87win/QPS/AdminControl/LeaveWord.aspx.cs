@@ -38,7 +38,7 @@ namespace QPS.Web.Manage.AdminControl
             }
             int pageSize = this.Pager1.PageSize;
 
-            QPS.BLL.Leaveword lw = new QPS.BLL.Leaveword();
+            QPS.NEW.BLL.Leaveword lw = new QPS.NEW.BLL.Leaveword();
             ds = lw.Select(pageSize, currentpage);
             dgExamProj.DataSource = ds;
             this.Pager1.ItemCount = lw.GetCount();
@@ -51,7 +51,7 @@ namespace QPS.Web.Manage.AdminControl
         {
             string name = this.txlinkman.Text;
             string login = this.txlogin.Text;
-             QPS.BLL.Leaveword lw =new QPS.BLL.Leaveword();
+             QPS.NEW.BLL.Leaveword lw =new QPS.NEW.BLL.Leaveword();
 
              dgExamProj.DataSource = lw.SelectList("(select UserName from Users where id= a.UserID) = '" + name + "'");
              dgExamProj.DataBind();
