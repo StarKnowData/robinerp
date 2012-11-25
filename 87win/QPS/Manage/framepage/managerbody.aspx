@@ -83,7 +83,7 @@
 	        if (shortcutmenustr != "")
 	            shortcutmenustr += "<hr class='line' />";
 //	        shortcutmenustr += '<dd><a href="javascript:void(0);" onclick="javascript:document.getElementById(\'main\').src=\'../../AdminControl/upword.aspx\';" onfocus="this.blur();" >修改密码</a></dd>';
-	        shortcutmenustr += '<dd><a href="javascript:void(0);" onclick="javascript:top.location.href=\'../../Default.aspx\';" onfocus="this.blur();">返回前台</a></dd>';
+	        shortcutmenustr += '<dd><a href="javascript:void(0);" onclick="javascript:top.location.href=\'../../MainPage.aspx\';" onfocus="this.blur();">返回前台</a></dd>';
 
 	        //            shortcutmenustr += '<dd><a href="javascript:void(0);" onclick="javascript:document.getElementById(\'main\').src=\'../rapidset/systeminf.aspx\';" onfocus="this.blur();" >系统信息</a></dd>';
 	        //            shortcutmenustr += '<dd><a href="javascript:void(0);" onclick="javascript:document.getElementById(\'main\').src=\'../rapidset/setting.aspx\';" onfocus="this.blur();" >快速设置向导</a></dd>';
@@ -92,7 +92,7 @@
 	        //            shortcutmenustr += '<dd><a href="javascript:void(0);" onclick="javascript:document.getElementById(\'main\').src=\'../rapidset/manageshortcutmenu.aspx\';" onfocus="this.blur();" >管理快捷菜单</a></dd>';
 	        //            shortcutmenustr += '<dd><a href="javascript:void(0);" onclick="javascript:document.getElementById(\'main\').src=\'../rapidset/onlineupgrade.aspx\';" onfocus="this.blur();" >在线升级</a></dd>';
 
-	        shortcutmenustr += '<dd><a href="javascript:void(0);" onclick="javascript:top.location.href=\'../logout.aspx\';" onfocus="this.blur();" >退出</a></dd>';
+	        shortcutmenustr += '<dd><a href="javascript:void(0);" onclick="javascript:top.location.href=\'../Default.aspx\';" onfocus="this.blur();" >退出</a></dd>';
 	        $("shortcutmenucontent").innerHTML = shortcutmenustr;
 	    }
 
