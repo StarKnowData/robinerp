@@ -437,20 +437,13 @@ namespace QPS.NEW.BLL
 
             hasShowedPage=currentPage-1>=0?currentPage-1:0;
 
-            //string strSql="select top ";
-            //strSql+=pageSize.ToString();
-            //strSql +=
-            //    " * from Orderform where Id not in (select top ";
-            //strSql+=(hasShowedPage*pageSize).ToString();
-            //strSql+=" Id from Orderform)";
-
             StringBuilder strSql = new StringBuilder();
             strSql.Append("SELECT TOP ");
             strSql.Append((currentPage * pageSize).ToString());
-            strSql.Append(" t.* FROM (SELECT o.*, u.username,u.Phone, r.name FROM Orderform AS o, Users AS u, Room AS r WHERE u.id = o.userid AND o.Roomid = r.id");
+            strSql.Append(" t.* FROM (SELECT o.*, u.username, r.name,i.PhoneNum FROM Orderform AS o, TUsers AS u, Room AS r,TUserInfo as i WHERE u.UserID = o.Userid AND o.Roomid = r.Id and u.UserID=i.UserID");
             strSql.Append(") AS t WHERE t.id NOT IN(SELECT TOP ");
             strSql.Append((hasShowedPage * pageSize).ToString());
-            strSql.Append(" tt.id FROM (SELECT o.*, u.username,u.Phone, r.name FROM Orderform AS o, Users AS u, Room AS r WHERE u.id = o.userid AND o.Roomid = r.id");
+            strSql.Append(" tt.id FROM (SELECT o.*, u.username, r.name,i.PhoneNum FROM Orderform AS o, TUsers AS u, Room AS r,TUserInfo as i WHERE u.UserID = o.Userid AND o.Roomid = r.Id and u.UserID=i.UserID");
             strSql.Append(") AS tt)");
 
 
@@ -464,13 +457,47 @@ namespace QPS.NEW.BLL
             return ds;
         }
 
-        public DataSet SelectList(string strWhere)
+        public DataSet SelectList(int orderID)
         {
             DataSet ds = null;
             ds = sqlHelper_.GetDataSet(
-                "select * from Orderform where "+strWhere,
+                "select * from(select r.Name,o.* from Room as r INNER JOIN Orderform as o ON r.Id=o.RoomId) as a INNER JOIN TUsers as u "+
+                 " ON a.Userid=u.UserID and a.Id=@orderid",
                 CommandType.Text,
-                null
+                new SqlParameter[]{
+                    new SqlParameter("@orderid",orderID)
+                }
+                );
+
+            return ds;
+        }
+
+        public DataSet SelectList(int orderID,string username)
+        {
+            DataSet ds = null;
+            ds = sqlHelper_.GetDataSet(
+                "select * from(select r.Name,o.* from Room as r INNER JOIN Orderform as o ON r.Id=o.RoomId) as a INNER JOIN TUsers as u " +
+                 " ON a.Userid=u.UserID and u.UserName=@username and a.Id=@orderid",
+                CommandType.Text,
+                new SqlParameter[]{
+                    new SqlParameter("@username",username),
+                    new SqlParameter("@orderid",orderID)
+                }
+                );
+
+            return ds;
+        }
+
+        public DataSet SelectList(string username)
+        {
+            DataSet ds = null;
+            ds = sqlHelper_.GetDataSet(
+                "select * from(select r.Name,o.* from Room as r INNER JOIN Orderform as o ON r.Id=o.RoomId) as a INNER JOIN TUsers as u " +
+                 " ON a.Userid=u.UserID and u.UserName=@username",
+                CommandType.Text,
+                new SqlParameter[]{
+                    new SqlParameter("@username",username)
+                }
                 );
 
             return ds;

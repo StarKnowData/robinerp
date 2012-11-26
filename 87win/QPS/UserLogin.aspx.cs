@@ -22,6 +22,7 @@ namespace QPS.Web
             {
                 if (rbtuser.Checked)
                 {
+                    UserPwd = QPS.NEW.BLL.MD5Helper.Encode(UserPwd);
                     if (bll.Denglu(UserName, UserPwd) && txbCode.Text.Trim().Equals(Session["code"]))
                     {
                         Session["username"] = UserName;
@@ -37,6 +38,7 @@ namespace QPS.Web
                 }
                 if (rbtBusiuser.Checked)
                 {
+                    UserPwd = QPS.NEW.BLL.MD5Helper.Encode(UserPwd);
                     DataSet ds = Benter.GetList("Username='" + UserName + "'and Password='" + UserPwd + "'");
                     if (ds.Tables[0].Rows.Count > 0 && txbCode.Text.Trim().Equals(Session["code"]) && ds.Tables[0].Rows[0]["IfChecked"].ToString() == "1")
                     {

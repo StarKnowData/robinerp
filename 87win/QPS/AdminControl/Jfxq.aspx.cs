@@ -29,7 +29,8 @@ namespace QPS.Web.AdminControl
         {
             string tempUserID = Convert.ToString(Request["userid"]);
             QPS.NEW.BLL.Integral Ig = new QPS.NEW.BLL.Integral();
-            ds = Ig.SelectByJfxq(" where userid=" + tempUserID + "");
+            //ds = Ig.SelectByJfxq(" where userid=" + tempUserID + "");
+            ds = Ig.SelectByJfxq(tempUserID);
             dgExamProj.DataSource = ds;
             dgExamProj.DataBind();
         }

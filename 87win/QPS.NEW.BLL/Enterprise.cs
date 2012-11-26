@@ -56,7 +56,8 @@ namespace QPS.NEW.BLL
                 {
                     filedName[Count] = "Password";
                     paramName[Count] = "@" + filedName[Count];
-                    sqlParams[Count] = new SqlParameter(paramName[Count], model.Password);
+                    string md5Pwd = MD5Helper.Encode(model.Password);
+                    sqlParams[Count] = new SqlParameter(paramName[Count], md5Pwd);
                     Count++;
                 }
                 if (model.Nickname != null)

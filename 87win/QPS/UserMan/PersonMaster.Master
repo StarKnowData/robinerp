@@ -31,7 +31,7 @@
           <div class="gltitlea">
                <span>我的八旗赢</span>       
                <ul>
-                   <li>普通会员<a href="#"></li></ul></div>
+                   <li><a href="#">普通会员</a></li></ul></div>
           <div class="glmenu">
                <ul>
                    <li><a href="PersonnalInfo.aspx" >个人信息</a></li>

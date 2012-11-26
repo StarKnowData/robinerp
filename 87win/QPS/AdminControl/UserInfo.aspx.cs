@@ -44,7 +44,7 @@ namespace QPS.Web.AdminControl
             string name = this.txlinkman.Text;
             string xingm = this.txlogin.Text;
             QPS.NEW.BLL.Users user =new QPS.NEW.BLL.Users ();
-            ds = user.SelectList(" Username='"+name+"' and Nickname='" +xingm +"'");
+            ds = user.GetList(name,xingm);
             dgExamProj.DataSource = ds;
             dgExamProj.DataBind();
 
@@ -129,8 +129,8 @@ namespace QPS.Web.AdminControl
         protected void bntChaXun_Click(object sender, EventArgs e)
         {
             string phone = this.txtPhone.Text;
-            QPS.BLL.Users user = new QPS.BLL.Users();
-            ds = user.SelectList(" Phone='" + phone + "'");
+            QPS.NEW.BLL.Users user = new QPS.NEW.BLL.Users();
+            ds = user.SelectList(phone);
             dgExamProj.DataSource = ds;
             dgExamProj.DataBind();
         }

@@ -136,14 +136,14 @@ namespace QPS.Web.BusiMan
                 {
                     QPS.NEW.BLL.Room Broom = new QPS.NEW.BLL.Room();
                     QPS.NEW.Model.Room r = Broom.GetModel(order.Roomid);
-                        Mint.OrderId = Convert.ToInt32(id);
-                        Mint.RoomId = order.Roomid;
-                        Mint.UserID = order.Userid.ToString();
-                        Mint.CreateTime = order.StartTime;
+                        //Mint.OrderId = Convert.ToInt32(id);
+                        //Mint.RoomId = order.Roomid;
+                        Mint.UserID = order.Userid;
+                        //Mint.CreateTime = order.StartTime;
                         TimeSpan ts = (TimeSpan)(order.endTime - order.StartTime);
-                        Mint.Content = Convert.ToInt32((ts.Hours * (double)r.RoomPrice));
+                        Mint.BankMoney = Convert.ToInt32((ts.Hours * (double)r.RoomPrice));
                         if (order.Beveragecost != null)
-                        { Mint.Content += (int)order.Beveragecost; }
+                        { Mint.BankMoney += (int)order.Beveragecost; }
                         Bint.Add(Mint);
                     }
                 }

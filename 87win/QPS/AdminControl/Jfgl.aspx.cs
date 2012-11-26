@@ -41,7 +41,7 @@ namespace QPS.Web.AdminControl
         {
             string name = this.txlogin.Text;
             QPS.NEW.BLL.Integral intgl = new QPS.NEW.BLL.Integral();
-            ds = intgl.SelectByName(" (select Username from Users where id=a.UserId)='" + name + "'");
+            ds = intgl.SelectByName(name);
             dgExamProj.DataSource = ds;
             dgExamProj.DataBind();
         }

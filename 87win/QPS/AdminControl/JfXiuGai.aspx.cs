@@ -29,14 +29,14 @@ namespace QPS.Web.AdminControl
         {
             DataSet dse = new DataSet();
             QPS.NEW.BLL.Integral rm = new QPS.NEW.BLL.Integral();
-            dse = rm.GetList("  id =" + tempID + " ");
+            dse = rm.GetList("  UserID =" + tempID + " ");
             this.txtName.Text = dse.Tables[0].Rows[0]["UserID"].ToString();
 
-            this.txtTime.Text = dse.Tables[0].Rows[0]["CreateTime"].ToString();
+            //this.txtTime.Text = dse.Tables[0].Rows[0]["CreateTime"].ToString();
 
-            this.txtJiFen.Text = dse.Tables[0].Rows[0]["Content"].ToString();
+            this.txtJiFen.Text = dse.Tables[0].Rows[0]["TotalMoney"].ToString();
 
-            this.txtRoom.Text = dse.Tables[0].Rows[0]["RoomId"].ToString();
+            //this.txtRoom.Text = dse.Tables[0].Rows[0]["RoomId"].ToString();
         }
 
         protected void bntUpdate_Click(object sender, EventArgs e)
@@ -45,8 +45,10 @@ namespace QPS.Web.AdminControl
             string jifen = this.txtJiFen.Text;
 
             QPS.NEW.Model.Integral Mro = new QPS.NEW.Model.Integral();
-            Mro.Id = Convert.ToInt32(id);
-            Mro.Content = Convert.ToInt32(jifen);
+            //Mro.Id = Convert.ToInt32(id);
+            //Mro.Content = Convert.ToInt32(jifen);
+            Mro.UserID = Convert.ToInt32(id);
+            Mro.TotalMoney = Convert.ToInt32(jifen);
 
             QPS.NEW.BLL.Integral rm = new QPS.NEW.BLL.Integral();
             int i =Convert.ToInt32( rm.UpdateContent(Mro));
