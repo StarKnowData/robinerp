@@ -38,10 +38,10 @@
 							
 							<asp:TemplateColumn HeaderText="用户名">
 									<ItemTemplate>
-									<asp:Label id="lblUserIDItem" runat="server"  CommandName="JiFen" Text='<%# DataBinder.Eval(Container, "DataItem.Id") %>' Visible="False" ></asp:Label>
+									<asp:Label id="lblUserIDItem" runat="server"  CommandName="JiFen" Text='<%# DataBinder.Eval(Container, "DataItem.UserID") %>' Visible="False" ></asp:Label>
 							<%--<asp:Label id="lblUserNameItem" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.UserName") %>' ></asp:Label>--%>
-                        <asp:LinkButton ID="LkbtUserNameItem" runat="server" CommandName="JiFen"  CommandArgument='<%# Eval("Id") %>'>
-                          <%# GetName(DataBinder.Eval(Container.DataItem, "Username").ToString())%>
+                        <asp:LinkButton ID="LkbtUserNameItem" runat="server" CommandName="JiFen"  CommandArgument='<%# Eval("UserID") %>'>
+                          <%# GetName(DataBinder.Eval(Container.DataItem, "UserName").ToString())%>
                         </asp:LinkButton>
 									</ItemTemplate>
 								</asp:TemplateColumn>
@@ -49,13 +49,13 @@
 				    <asp:TemplateColumn HeaderText="总积分数">
 						<ItemTemplate>
 <%--                            <asp:LinkButton ID="lkbtPhone" runat="server" CommandName="JiFen"><%# DataBinder.Eval(Container, "DataItem.Content") %></asp:LinkButton>--%>
-						<asp:Label id="lblPhone" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.integral") %>' ></asp:Label>
+						<asp:Label id="lblPhone" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.TotalMoney") %>' ></asp:Label>
 						</ItemTemplate>
 					</asp:TemplateColumn>
 								
                                 <asp:TemplateColumn HeaderText="修改" Visible="false">
                                     <ItemTemplate>
-                                          <asp:LinkButton ID="lbtnDetail" CommandName="editItem" runat="server" CommandArgument='<%# Eval("ID") %>' >修改</asp:LinkButton>
+                                          <asp:LinkButton ID="lbtnDetail" CommandName="editItem" runat="server" CommandArgument='<%# Eval("UserID") %>' >修改</asp:LinkButton>
                                     </ItemTemplate>
                                     <ItemStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
                                         Font-Underline="False" HorizontalAlign="Center" />
@@ -67,7 +67,7 @@
                                     <ItemStyle Font-Bold="False" Font-Italic="False" Font-Overline="False" Font-Strikeout="False"
                                         Font-Underline="False" HorizontalAlign="Center" />
                                     <ItemTemplate>
-                                        <asp:LinkButton ID="LinkButton2" runat="server" CommandName="delete" CommandArgument='<%# Eval("ID") %>' OnClientClick="javascript:return confirm('确认删除此条积分记录?');" >删除</asp:LinkButton>
+                                        <asp:LinkButton ID="LinkButton2" runat="server" CommandName="delete" CommandArgument='<%# Eval("UserID") %>' OnClientClick="javascript:return confirm('确认删除此条积分记录?');" >删除</asp:LinkButton>
                                     </ItemTemplate>
                                 </asp:TemplateColumn>
 							

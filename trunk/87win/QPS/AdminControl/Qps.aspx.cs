@@ -128,7 +128,7 @@ namespace QPS.Web.Manage.AdminControl
         {
             string Price = this.TextPrice.Text;
             string Are = this.TextAre.Text;
-            QPS.BLL.Room rm = new QPS.BLL.Room();
+            QPS.NEW.BLL.Room rm = new QPS.NEW.BLL.Room();
             ds = rm.GetList(" RoomPrice='" + Price + "' or Are='" + Are + "'");
             dgExamProj.DataSource = ds;
             dgExamProj.DataBind();

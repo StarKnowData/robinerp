@@ -29,10 +29,10 @@ namespace QPS.Web.AdminControl
         {
             DataSet dse = new DataSet();
             QPS.NEW.BLL.Users Bus = new QPS.NEW.BLL.Users();
-            dse = Bus.GetList("  id =" + tempID + " ");
+            dse = Bus.GetList(tempID);
 
             this.txtId.Text = tempID.ToString();
-            this.txtName.Text = dse.Tables[0].Rows[0]["Username"].ToString();
+            this.txtName.Text = dse.Tables[0].Rows[0]["UserName"].ToString();
             this.txtPhone.Text = dse.Tables[0].Rows[0]["Phone"].ToString();
 
         }
@@ -45,9 +45,12 @@ namespace QPS.Web.AdminControl
             string jf = this.txtJf.Text;
 
             QPS.NEW.Model.Integral Mgral = new QPS.NEW.Model.Integral();
-            Mgral.UserID = uid;
-            Mgral.Content = Convert.ToInt32(jf);
-            Mgral.CreateTime = DateTime.Now;
+            //Mgral.UserID = uid;
+            //Mgral.Content = Convert.ToInt32(jf);
+            //Mgral.CreateTime = DateTime.Now;
+
+            Mgral.UserID = Convert.ToInt32(uid);
+            Mgral.TotalMoney = Convert.ToInt32(jf);
 
             QPS.NEW.BLL.Integral Bin = new QPS.NEW.BLL.Integral();
             int i=Bin.Add(Mgral);

@@ -45,10 +45,10 @@ namespace QPS.NEW.BLL
             StringBuilder strSql = new StringBuilder();
             strSql.Append("SELECT TOP ");
             strSql.Append((currentPage * pageSize).ToString());
-            strSql.Append(" t.* FROM (SELECT o.*, u.username FROM Leaveword AS o, Users AS u WHERE u.id = o.userid ) AS t ");
+            strSql.Append(" t.* FROM (SELECT o.*, u.UserName FROM Leaveword AS o, TUsers AS u WHERE u.UserId = o.Userid ) AS t ");
             strSql.Append("WHERE t.id NOT IN (SELECT TOP ");
             strSql.Append((hasShowedPage * pageSize).ToString());
-            strSql.Append(" tt.id FROM (SELECT o.*, u.username FROM Leaveword AS o, Users AS u WHERE u.id = o.userid ) AS tt)");
+            strSql.Append(" tt.id FROM (SELECT o.*, u.UserName FROM Leaveword AS o, TUsers AS u WHERE u.UserId = o.Userid ) AS tt)");
 
 
             DataSet ds = null;

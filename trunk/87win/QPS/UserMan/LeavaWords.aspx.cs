@@ -19,8 +19,8 @@ namespace QPS.Web.UserMan
                 {
                     //获取Uid
                     string uname = Session["username"].ToString();
-                    DataSet dsUser = user.GetList("Username='" + uname + "'");
-                    int uid = Convert.ToInt32(dsUser.Tables[0].Rows[0]["Id"]);
+                    DataSet dsUser = user.GetList(uname);
+                    int uid = Convert.ToInt32(dsUser.Tables[0].Rows[0]["UserID"]);
                     DataSet dsInt = Bleave.GetListLocalise("UserID='" + uid + "'");
                     GridView1.DataSource = dsInt;
                     GridView1.DataBind();

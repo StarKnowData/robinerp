@@ -115,9 +115,9 @@ namespace QPS.Web
                         userid = Convert.ToInt32(dsUser.Tables[0].Rows[0]["Id"]);
                         QPS.NEW.Model.Integral u = BInt.GetModel(userid);
 
-                        if (u.Content == (int)ht["originalscore"])
+                        if (u.TotalMoney == (int)ht["originalscore"])
                         {
-                            u.Content = +(int)ht["score"];
+                            u.TotalMoney = +(int)ht["score"];
                             if (BInt.Update(u))
                             {
                                 return "true";

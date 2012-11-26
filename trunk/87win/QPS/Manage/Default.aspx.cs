@@ -60,7 +60,7 @@ namespace QPS.Web
                     string pwd = this.txtAdminPW.Text;
 
                     QPS.NEW.BLL.Users bll = new QPS.NEW.BLL.Users();
-                    bool b = bll.Denglu(name, pwd,1);
+                    bool b = bll.Denglu(name, QPS.NEW.BLL.MD5Helper.Encode(pwd),1);
                     if (b)
                     {
                         Session["admin"] = name;

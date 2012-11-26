@@ -29,6 +29,7 @@ namespace QPS.Web
         }
         protected void btn_Reg_Click(object sender, EventArgs e)
         {
+            int result;
             try
             {
                 string celpattern = @"(^189\d{8}$)|(^13\d{9}$)|(^15\d{9}$)";
@@ -103,11 +104,20 @@ namespace QPS.Web
                     Uuser.Action = "regist";
                     Uuser.Sign = "48c93e18ffbe4878b344cc1749ff6dc8";
                     Uuser.Usertype = 0;
-                    Buser.Add(Uuser);
-                    //Response.Write("<script>alert('创建普通用户成功！')</script>");
-                    //Page.ClientScript.RegisterStartupScript(this.GetType(), "register", "alert('创建普通用户成功！');window.location.href = 'Login.aspx';");
-                    Response.Write("<script>alert('创建普通用户成功!');window.location.href = 'UserLogin.aspx';</script>");
-                    //Response.Redirect("Login.aspx");
+
+                    result=Buser.Add(Uuser);
+                    if (result == 1)
+                    {
+                        Response.Write("<script>alert('创建普通用户成功!');window.location.href = 'UserLogin.aspx';</script>");
+                    }
+                    else if (result == -1)
+                    {
+                        Response.Write("<script>alert('该用户名已经被注册！ ')</script>");
+                    }
+                    else
+                    {
+                        Response.Write("<script>alert('创建用户失败！ ')</script>");
+                    }
                 }
                 if (rbtBusiuser.Checked)
                 {
@@ -120,9 +130,20 @@ namespace QPS.Web
                     // === jeffery add
                     Muser.IfChecked = 0;
                     // ===
-                    Euser.Add(Muser);
-                    Response.Write("<script>alert('创建企业用户成功，等待审核！ ')</script>");
-                    Response.Redirect("UserLogin.aspx");
+                    result=Euser.Add(Muser);
+                    if ( result== 1)
+                    {
+                        Response.Write("<script>alert('创建企业用户成功，等待审核！ ')</script>");
+                        Response.Redirect("UserLogin.aspx");
+                    }
+                    else if (result == -1)
+                    {
+                        Response.Write("<script>alert('该用户名已经被注册！ ')</script>");
+                    }
+                    else
+                    {
+                        Response.Write("<script>alert('创建用户失败！ ')</script>");
+                    }
                 }
             }
             catch (Exception ex)

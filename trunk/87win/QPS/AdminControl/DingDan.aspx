@@ -143,7 +143,7 @@
 					
 					<asp:TemplateColumn HeaderText="手机号">
 			        <ItemTemplate>
-			        <asp:Label id="lblUserphone" runat="server" Text='<%# GetName(DataBinder.Eval(Container, "DataItem.Phone").ToString()) %>' ></asp:Label>
+			        <asp:Label id="lblUserphone" runat="server" Text='<%# GetName(DataBinder.Eval(Container, "DataItem.PhoneNum").ToString()) %>' ></asp:Label>
 				    </ItemTemplate>	
 					</asp:TemplateColumn>
 					
@@ -151,7 +151,7 @@
 					
 					<asp:TemplateColumn HeaderText="棋牌室名">
 						<ItemTemplate>
-							<asp:Label id="lblRoomItems" runat="server" Text='<%# GetName(DataBinder.Eval(Container, "DataItem.name").ToString()) %>' ></asp:Label>
+							<asp:Label id="lblRoomItems" runat="server" Text='<%# GetName(DataBinder.Eval(Container, "DataItem.Name").ToString()) %>' ></asp:Label>
 						</ItemTemplate>
 					</asp:TemplateColumn>
 					
@@ -159,7 +159,7 @@
 					<asp:TemplateColumn HeaderText="状态" >
 						<ItemTemplate>
                             <asp:Label ID="labRoomType" runat="server" Text='<%# Eval("RoomType") %>' Visible="false"></asp:Label>
-                            <asp:LinkButton ID="libStartBtn" runat="server" CommandName="changStart" CommandArgument='<%# Eval("id") +"|"+ Eval("RoomType") %>'><%# GetStart(Convert.ToInt32(Eval("RoomType")))%></asp:LinkButton>
+                            <asp:LinkButton ID="libStartBtn" runat="server" CommandName="changStart" CommandArgument='<%# Eval("Id") +"|"+ Eval("RoomType") %>'><%# GetStart(Convert.ToInt32(Eval("RoomType")))%></asp:LinkButton>
 						</ItemTemplate>
 					</asp:TemplateColumn>
 					

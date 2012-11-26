@@ -22,12 +22,12 @@ namespace QPS.Web.UserMan
                 {
                     string uname = Session["username"].ToString();
                     txfUserName.Value = uname;
-                    DataSet dsUser = user.GetList("Username='" + uname + "'");
+                    DataSet dsUser = user.GetList(uname);
                     txfPhone.Value= dsUser.Tables[0].Rows[0]["Phone"].ToString();
-                    txfEmail.Value = dsUser.Tables[0].Rows[0]["Mail"].ToString();
+                    txfEmail.Value = dsUser.Tables[0].Rows[0]["Email"].ToString();
                     txfNickName.Value = dsUser.Tables[0].Rows[0]["NickName"].ToString();
                     txfAddress.Value = dsUser.Tables[0].Rows[0]["Address"].ToString(); 
-                    userid = Convert.ToInt32(dsUser.Tables[0].Rows[0]["Id"]);
+                    userid = Convert.ToInt32(dsUser.Tables[0].Rows[0]["UserID"]);
                 }
             }
         }

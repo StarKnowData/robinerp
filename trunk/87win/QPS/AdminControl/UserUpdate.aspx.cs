@@ -17,7 +17,7 @@ namespace QPS.Web.AdminControl
                 {
                     QPS.NEW.BLL.Users us = new QPS.NEW.BLL.Users();
                     string userid = Request["UserID"].ToString();
-                    NEW.Model.Users user = us.GetUserByID(Convert.ToInt32(userid));
+                    NEW.Model.Users user = us.GetModel(Convert.ToInt32(userid));
                     if (user!=null)
                     {
                         this.UserID.Value = Convert.ToString(user.Id);

@@ -22,29 +22,31 @@
             </HeaderStyle>
             <Columns>
                 <%--棋牌室  时间 消费金额 积分--%>
-                <asp:TemplateColumn HeaderText="棋牌室">
+                <%-- 
+                <asp:TemplateColumn HeaderText="棋牌室" Visible=false>
                     <ItemTemplate>
                         <asp:Label ID="lblRoom" runat="server" CommandName="JiFen" Text='<%# GetName(DataBinder.Eval(Container, "DataItem.name").ToString()) %>'></asp:Label>
                     </ItemTemplate>
                 </asp:TemplateColumn>
                 <asp:TemplateColumn HeaderText="消费金额" Visible="false">
                     <ItemTemplate>
-                        <asp:Label ID="lblJinE" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.Content") %>'></asp:Label>
+                        <asp:Label ID="lblJinE" runat="server"  Text='<%# DataBinder.Eval(Container, "DataItem.Content") %>'></asp:Label>
                     </ItemTemplate>
                 </asp:TemplateColumn>
-                <asp:TemplateColumn HeaderText="时间">
+                <asp:TemplateColumn HeaderText="时间" Visible=false>
                     <ItemTemplate>
                         <asp:Label ID="lblShiJ" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.CreateTime") %>'></asp:Label>
                     </ItemTemplate>
                 </asp:TemplateColumn>
+                --%>
                 <asp:TemplateColumn HeaderText="积分">
                     <ItemTemplate>
-                        <asp:Label ID="lblJiFen" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.Content") %>'></asp:Label>
+                        <asp:Label ID="lblJiFen" runat="server" Text='<%# DataBinder.Eval(Container, "DataItem.TotalMoney") %>'></asp:Label>
                     </ItemTemplate>
                 </asp:TemplateColumn>
                 <asp:TemplateColumn HeaderText="修改">
                     <ItemTemplate>
-                         <asp:LinkButton ID="lbtnDetail" runat="server" CommandName="Update" CommandArgument='<%# DataBinder.Eval(Container, "DataItem.id") %>' >修改</asp:LinkButton>
+                         <asp:LinkButton ID="lbtnDetail" runat="server" CommandName="Update" CommandArgument='<%# DataBinder.Eval(Container, "DataItem.UserID") %>' >修改</asp:LinkButton>
                                     </ItemTemplate>
                 </asp:TemplateColumn>
      <%----------------------------------------------------------%>         

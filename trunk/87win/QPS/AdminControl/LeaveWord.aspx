@@ -66,7 +66,7 @@
 									<asp:Label id="lblPack" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "Id") %>' Visible="False">
 									</asp:Label>
 									
-                                    <asp:Label id="lblTestItems" runat="server" Text='<%# GetName(DataBinder.Eval(Container.DataItem, "username").ToString()) %>' ></asp:Label>
+                                    <asp:Label id="lblTestItems" runat="server" Text='<%# GetName(DataBinder.Eval(Container.DataItem, "UserName").ToString()) %>' ></asp:Label>
           
                                     <%--<asp:Label ID="lblname" runat="server" Text='<%# DataBinder.Eval(Container.DataItem, "UserName") %>' ></asp:Label>--%>
           

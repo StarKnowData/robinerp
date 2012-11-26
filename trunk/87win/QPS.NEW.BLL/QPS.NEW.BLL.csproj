@@ -51,6 +51,7 @@
     <Compile Include="Enterprise.cs" />
     <Compile Include="Integral.cs" />
     <Compile Include="Leaveword.cs" />
+    <Compile Include="MD5Helper.cs" />
     <Compile Include="Orderform.cs" />
     <Compile Include="Poster.cs" />
     <Compile Include="Room.cs" />

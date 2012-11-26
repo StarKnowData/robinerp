@@ -41,10 +41,25 @@ namespace QPS.Web.Manage.AdminControl
         //查询
         protected void Button1_Click(object sender, EventArgs e)
         {
-            string name = this.txtId .Text;
-            string xingm = this.txtName .Text;
+            string name = this.txtId.Text;
+            string xingm = this.txtName.Text;
             QPS.NEW.BLL.Orderform of = new QPS.NEW.BLL.Orderform();
-            ds = of.SelectList("id = '" + name + "' or (select UserName From Users where id= o.Userid) = '" + xingm + "' ");
+            if (name != "" && xingm != "")
+            {
+                ds = of.SelectList(Convert.ToInt32(name), xingm);
+            }
+            else
+            {
+                if (name != "")
+                {
+                    ds = of.SelectList( Convert.ToInt32(name));
+                }
+                else if (xingm != "")
+                {
+                    ds = of.SelectList(xingm);
+                }
+            }
+            //ds = of.SelectList("id = '" + name + "' or (select UserName From Users where id= o.Userid) = '" + xingm + "' ");
             dgExamProj.DataSource = ds;
             dgExamProj.DataBind();
         }

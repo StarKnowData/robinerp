@@ -21,8 +21,8 @@ namespace QPS.Web.UserMan
                 if (Session["username"] != null)
                 {
                     string uname = Session["username"].ToString();
-                    DataSet dsUser = user.GetList("Username='" + uname + "'");
-                    userid = Convert.ToInt32(dsUser.Tables[0].Rows[0]["Id"]);
+                    DataSet dsUser = user.GetList(uname);
+                    userid = Convert.ToInt32(dsUser.Tables[0].Rows[0]["UserID"]);
                 }
                 else 
                 {
@@ -62,7 +62,7 @@ namespace QPS.Web.UserMan
                     Response.Write("<script>alert('确认密码不能为空，请重新输入')</script>");
                     return;
                 }
-                Muser.Password = txfModPwd.Value;
+                Muser.Password =QPS.NEW.BLL.MD5Helper.Encode( txfModPwd.Value);
                 Muser.Usertype = 0;
                 user.Update(Muser);
                
