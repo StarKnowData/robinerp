@@ -190,7 +190,12 @@ namespace QPS.NEW.BLL
                     orderform.Userid = Convert.ToInt32( dt.Rows[i]["Userid"]);
                     orderform.Roomid =  Convert.ToInt32( dt.Rows[i]["Roomid"]);
                     orderform.RoomType =  Convert.ToInt32(dt.Rows[i]["RoomType"]);
-                    orderform.Beveragecost = Convert.ToDecimal( dt.Rows[i]["Beveragecost"] );
+
+                    if (dt.Rows[i]["Beveragecost"] == DBNull.Value)
+                        orderform.Beveragecost = null;
+                    else
+                        orderform.Beveragecost = Convert.ToDecimal(dt.Rows[i]["Beveragecost"]);
+
                     orderform.IsDelete = Convert.ToInt32(dt.Rows[i]["IsDelete"]);
                     orderform.IsValidity = Convert.ToInt32(dt.Rows[i]["IsValidity"]);
 
