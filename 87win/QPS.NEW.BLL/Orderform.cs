@@ -170,8 +170,8 @@ namespace QPS.NEW.BLL
 
         public List<QPS.NEW.Model.Orderform> GetModelList(string strWhere)
         {
-            List<QPS.NEW.Model.Orderform> list = new List<Model.Orderform>();
-            QPS.NEW.Model.Orderform orderform = new Model.Orderform();
+            List<QPS.NEW.Model.Orderform> list = new List<NEW.Model.Orderform>();
+            QPS.NEW.Model.Orderform orderform;
 
             DataTable dt = sqlHelper_.GetDataTable(
                "select * from Orderform where "+strWhere,
@@ -183,6 +183,8 @@ namespace QPS.NEW.BLL
             {
                 for (int i = 0; i < dt.Rows.Count; i++)
                 {
+                    orderform = new NEW.Model.Orderform();
+
                     orderform.Id = Convert.ToInt32(dt.Rows[i]["Id"]);
                     orderform.OrderNumber = dt.Rows[i]["OrderNumber"].ToString();
                     orderform.StartTime = Convert.ToDateTime(dt.Rows[i]["StartTime"]);

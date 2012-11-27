@@ -47,7 +47,7 @@ namespace QPS.Web.UserMan
                 //    return;
                 //}
                 // ===
-                if (txfOriginalPwd.Value != Muser.Password)
+                if (QPS.NEW.BLL.MD5Helper.Encode( txfOriginalPwd.Value) != Muser.Password)
                 {
                     Response.Write("<script>alert('原始密码错误，请重新输入')</script>");
                     return;

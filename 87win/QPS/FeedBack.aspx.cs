@@ -10,18 +10,18 @@ namespace QPS.Web
     public partial class FeedBack : System.Web.UI.Page
     {
         public DataSet dsUser;
-        QPS.Model.Leaveword mleave = new QPS.Model.Leaveword();
-        QPS.BLL.Leaveword Bleave = new QPS.BLL.Leaveword();
-        QPS.BLL.Users user = new QPS.BLL.Users();
+        QPS.NEW.Model.Leaveword mleave = new QPS.NEW.Model.Leaveword();
+        QPS.NEW.BLL.Leaveword Bleave = new QPS.NEW.BLL.Leaveword();
+        QPS.NEW.BLL.Users user = new QPS.NEW.BLL.Users();
         int userid;
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Session["username"] != null)
             {
                 string uname = Session["username"].ToString();
-                dsUser = user.GetList("Username='" + uname + "'");
-                txbname.Text = dsUser.Tables[0].Rows[0]["Nickname"].ToString();
-                userid = Convert.ToInt32(dsUser.Tables[0].Rows[0]["Id"]);
+                dsUser = user.GetList(uname);
+                txbname.Text = dsUser.Tables[0].Rows[0]["NickName"].ToString();
+                userid = Convert.ToInt32(dsUser.Tables[0].Rows[0]["UserID"]);
             }
         }
 

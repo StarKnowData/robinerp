@@ -36,7 +36,7 @@ namespace QPS.Web.BusiMan
               QPS.NEW.Model.Enterprise   Muser =Buser.GetModel(userid);
                 // === modified by jeffery
                 //if (txfOriginalPwd.Value != Buser.GetModel(userid).Password)
-              if (txfOriginalPwd.Value != Muser.Password)
+              if (QPS.NEW.BLL.MD5Helper.Encode(txfOriginalPwd.Value) != Muser.Password)
                 // ===
                 {
                     Response.Write("<script>alert('原始密码错误，请重新输入')</script>");
