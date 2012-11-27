@@ -21,6 +21,7 @@ namespace QPS.Web
         {
             if (!IsPostBack)
             {
+                
                 roomid = Int32.Parse(Request.QueryString["id"].Trim());
                 StringBuilder sb = new StringBuilder();
                 sb.Append("Id=");
@@ -32,13 +33,13 @@ namespace QPS.Web
                 {
                     string uname = Session["username"].ToString();
                     txbOrderPersonInfo.Text = uname;
-                    DataSet dsUser = user.GetList("Username='" + uname + "'");
+                    DataSet dsUser = user.GetList(uname);
                     if (dsUser.Tables[0].Rows[0]["Phone"].ToString() != "")
                     {
                         txbPhone.Text = dsUser.Tables[0].Rows[0]["Phone"].ToString();
                     }
 
-                    userid = Convert.ToInt32(dsUser.Tables[0].Rows[0]["Id"]);
+                    userid = Convert.ToInt32(dsUser.Tables[0].Rows[0]["UserID"]);
                 }
             }
         }

@@ -134,5 +134,74 @@ namespace QPS.NEW.BLL
 
             return leaveeord;
         }
+
+        public int Add(QPS.NEW.Model.Leaveword model)
+        {
+            string[] filedName = new string[50];
+            string[] paramName = new string[50];
+            SqlParameter[] sqlParams = new SqlParameter[50];
+            int Count = 0;
+
+
+
+            if (model.UserID != -999)
+            {
+                filedName[Count] = "UserID";
+                paramName[Count] = "@" + filedName[Count];
+                sqlParams[Count] = new SqlParameter(paramName[Count], model.UserID);
+                Count++;
+            }
+            if (model.title != null)
+            {
+                filedName[Count] = "title";
+                paramName[Count] = "@" + filedName[Count];
+                sqlParams[Count] = new SqlParameter(paramName[Count], model.title);
+                Count++;
+            }
+            if (model.Content != null)
+            {
+                filedName[Count] = "Content";
+                paramName[Count] = "@" + filedName[Count];
+                sqlParams[Count] = new SqlParameter(paramName[Count], model.Content);
+                Count++;
+            }
+           
+
+            StringBuilder strSql = new StringBuilder();
+            strSql.Append("insert into Leaveword(");
+            for (int i = 0; i < Count; i++)
+            {
+                strSql.Append(filedName[i]);
+                if (i != Count - 1)
+                {
+                    strSql.Append(",");
+                }
+            }
+            strSql.Append(")values(");
+            for (int i = 0; i < Count; i++)
+            {
+                strSql.Append(paramName[i]);
+                if (i != Count - 1)
+                {
+                    strSql.Append(",");
+                }
+            }
+            strSql.Append(")");
+
+
+            int res = -1;
+            res = sqlHelper_.ExecuteCommand(
+                strSql.ToString(),
+                CommandType.Text,
+                sqlParams
+                );
+
+            if (res != 1)
+            {
+                throw new Exception("Error:写入数据库失败");
+            }
+
+            return 1;
+        }
     }
 }

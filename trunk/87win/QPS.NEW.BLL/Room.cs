@@ -362,8 +362,8 @@ namespace QPS.NEW.BLL
 
         public List<QPS.NEW.Model.Room> GetModelList(string strWhere)
         {
-            List<QPS.NEW.Model.Room> list = new List<Model.Room>();
-            QPS.NEW.Model.Room room = new Model.Room();
+            List<QPS.NEW.Model.Room> list = new List<NEW.Model.Room>();
+            QPS.NEW.Model.Room room;
 
             DataTable dt = sqlHelper_.GetDataTable(
                "select * from Room where " + strWhere,
@@ -375,6 +375,8 @@ namespace QPS.NEW.BLL
             {
                 for (int i = 0; i < dt.Rows.Count; i++)
                 {
+                    room = new NEW.Model.Room();
+
                     room.Id = Convert.ToInt32(dt.Rows[i]["Id"]);
                     room.Name = dt.Rows[i]["Name"].ToString();
                     room.RoomType = dt.Rows[i]["RoomType"].ToString();

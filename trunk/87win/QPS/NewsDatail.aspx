@@ -14,7 +14,7 @@
      </div>
      <div class="nyright">
           <div class="xbanner">
-               <a href="#"><img src="images/xsimg7.jpg" alt=""></a>
+               <a href="#"><img src="images/xsimg7.jpg" alt="" /></a>
           </div>
           <div class="weizi"><a href="#">首页</a>><a href="#">新闻</a></div>
           <div class="dttop" style="margin-top:0;"><div style="clear:both; overflow:hidden; height:0; font-size:1px; "></div></div>

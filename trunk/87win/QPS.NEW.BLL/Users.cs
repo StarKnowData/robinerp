@@ -682,7 +682,7 @@ namespace QPS.NEW.BLL
             u.Id = userID;
             u.Username = dtRes.Rows[0]["UserName"].ToString();
             u.Password = dtRes.Rows[0]["Pass"].ToString();
-            u.Password = dtRes.Rows[0]["NickName"].ToString();
+            u.Nickname = dtRes.Rows[0]["NickName"].ToString();
 
             dtRes = null;
             dtRes = sqlHelper_.GetDataTable(

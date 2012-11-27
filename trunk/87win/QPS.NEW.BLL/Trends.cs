@@ -40,7 +40,7 @@ namespace QPS.NEW.BLL
         public DataSet GetList(string strWhere)
         {
             DataSet ds = null;
-            string strsql = "select Title,time Content from Trends where ";
+            string strsql = "select Title,time,Content from Trends where ";
 
             strsql += strWhere;
 
