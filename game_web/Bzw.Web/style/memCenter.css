@@ -1,0 +1,266 @@
+﻿#memText01{
+	width:600px;
+	padding:40px 50px 10px 50px;
+	line-height:22px;
+}
+#memText02{
+	width:689px;
+	padding:10px 0 10px 2px;
+	line-height:22px;
+	margin:0 auto;
+}
+#memText02 table{
+	margin:0 auto;
+}
+/*#crumb_mem*/
+#crumb_mem{
+	width:656px;
+	height:31px;
+	padding:15px 0 0 45px;
+	color:#03477e;
+	font-size:14px;
+	text-indent:22px;
+	font-weight:bold;
+	background:url(../images/crumb_mem.gif) no-repeat right top;
+}
+#BackBtn
+{
+width:695px;
+height:30px;
+}
+#BackBtn a
+{
+float:right;
+  padding-top:4px;
+  padding-right:5px;
+  width:67px;
+  text-align:center;
+  line-height:26px;
+   background:url(../images/btn_back.gif) no-repeat right center;
+}
+
+#crumb_mem a
+{
+color:Green;
+float:right;
+padding-right:20px;
+
+
+}
+
+/*welcome*/
+#welcome{
+	width:395px;
+	height:51px;
+	line-height:51px;
+	text-indent:58px;
+	background:url(../images/icon07.gif) no-repeat left top;
+	margin:0 auto 20px auto;
+}
+#welcome span{color:#f00; font-size:14px; font-family:Arial, Helvetica, sans-serif; text-decoration:underline;}
+#myPhoto{ 
+display:block; 
+width:102px; 
+background:#002606; 
+text-align:center; 
+margin:10px auto 5px auto;  
+padding:10px 10px 5px; 
+color:#FFF; 
+} 
+#myPhoto img{ 
+display:block; 
+margin:0 auto; 
+margin-bottom:10px; 
+} 
+#fr_box{padding:10px 0 0 220px;}
+/*---memCenter table style---*/
+.tab05{
+	background:#f9f9f9;
+	border-top:1px solid #c7c7c7;
+	border-bottom:1px solid #c7c7c7;
+	border-collapse:collapse;
+}
+.tab05 th,.tab05 td{
+	text-align:left;
+	border-bottom:1px dotted #ccc;
+}
+.tab05 th{
+	text-indent:15px;
+}
+.tab06{
+	float:left;
+	margin:50px 0 0;
+}
+.tab06 textarea{
+	width:300px;
+	border:1px solid #7f9db9;
+}
+.fr_input{
+	width:154px;
+	height:16px;
+	border:1px solid #7f9db9;
+}
+.tab07{
+	background:#f9f9f9;
+	margin:40px 0 0;
+	text-indent:35px;
+	border-top:1px solid #c7c7c7;
+	border-bottom:1px solid #c7c7c7;
+}
+.tab07 td{
+	padding:15px;
+}
+.tab07 td{padding:0;}
+.tab07 td input{vertical-align:middle;}
+/*tableMessage*/
+.tableMessage
+{
+	width:95%;
+	margin:5px auto;
+	border-collapse:collapse;
+	border:1px solid #507899;
+	background:#def0fe;
+	table-layout:fixed;
+	word-wrap: break-word;
+}
+.tableMessage th{
+	border:1px solid #507899;
+	background:#3e96dd;
+	color:#fff;
+	height:18px;
+	padding:3px 10px 1px 10px;
+	font-size:14px;
+}
+.tableMessage td
+{
+	border:1px solid #507899;
+	padding:5px 10px 3px 10px;
+	line-height:22px;
+	color:#000;
+}
+h4{
+	height:29px;
+	text-align:center;
+	padding:30px 0 0;
+	color:#f00;
+}
+h4 img{margin-right:5px;}
+
+/*交易记录*/
+#record{
+	text-align:right;
+	padding-right:5px;
+}
+#record a:hover{
+	color:#f00;
+	text-decoration:underline;
+}
+#record a.current{
+	color:#f00;
+	text-decoration:underline;
+}
+/*PhotoManage*/
+#pLibHeader{
+	height:20px;
+	line-height:20px;
+	margin-top:-25px;
+	margin-bottom:25px;
+	padding-bottom:10px;
+	border-bottom:1px  solid #ccc;
+}
+#pLibHeader a{margin-right:10px;}
+#pLibHeader img{vertical-align:baseline;}
+.phoLib{
+	float:left;
+	width:200px;
+	height:212px;
+	overflow:hidden;
+	margin-bottom:30px;
+}
+.phoLib dt{
+	width:128px;
+	text-align:center;
+	padding:8px 0;
+	margin:0 auto;
+	border:1px solid #c5d1d9;
+}
+.phoLib dt img{
+	width:106px;
+	height:106px;
+}
+.phoLib dd{
+	width:150px;
+	color:#056fc4;
+	text-align:center;
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap;
+	margin:0 auto;
+	padding-left:3px;
+}
+.phoLib  dd a.edit,.phoLib  dd a.top,.phoLib  dd a.del,.phoLib  dd a.cover{
+	text-indent:16px;
+	width:45px;
+	height:20px;
+	display:inline-block;
+	background:url(../images/icon_bg.gif) no-repeat;
+	background-position:left -34px;
+	+margin-left:-14px;
+	+margin-right:13px;
+	
+}
+.phoLib  dd a.top{
+	background-position:2px 4px;
+}
+.phoLib  dd a.cover{
+	width:55px;
+	background:url(../images/icon8.gif) no-repeat left center;
+}
+.phoLib  dd a.del{
+	background-position:4px -57px;
+}
+.phoLib  dd.height{
+	height:35px;
+	color:#5b768c;
+	text-align:left;
+	padding:3px 0;
+	white-space:normal;
+	line-height:16px;
+}
+.phoLib dd.width{
+	width:143px;
+	overflow:visible;
+	padding:5px 0 0 0;
+}
+/*------TA Information-------*/
+.cate02{
+	width:229px;
+	background:#cceef9 url(../images/cate_bg.gif) no-repeat left bottom;
+	padding-bottom:15px;
+	margin-bottom:5px;
+}
+.cate02_h{
+	width:229px;
+	height:46px;
+}
+.cate02 img{
+	vertical-align:top;
+}
+.cate02 ul{
+	width:209px;
+	margin:5px 10px;
+	list-style:none;
+	overflow:hidden;
+	background:url(../images/ul_bg.gif) repeat left top;
+}
+.cate02 li{
+	height:31px;
+	line-height:28px;
+	padding-top:3px;
+	text-indent:48px;
+	background:url(../images/icon02.gif) no-repeat 35px center;
+}
+.cate02 li a{
+	vertical-align:middle;
+}
+.cate02 li a:hover{color:#f00;}

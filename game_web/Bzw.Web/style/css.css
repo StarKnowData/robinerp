@@ -1,0 +1,33 @@
+@charset "utf-8";
+body { margin:0; padding:0; font-size:14px; color:#4f738d; background:url(/images/mainBg.jpg) repeat-x;}
+.Ma-Box{ width:750px; height:auto; margin:0 auto;}
+
+.Ma-Time{ height:64px; background: url(/images/topBg.jpg) no-repeat;position:relative;  padding:31px 0 0 25px;}
+.timeImg{ width:569px; height:30px; background:url(/images/timeText.jpg) no-repeat;font-size:28px; color:#fff000; font-weight:bold;
+}
+.csButton{
+	width:126px;
+	height:44px;
+	position:absolute;
+	left:613px;
+	top:24px;
+}
+.csButton img{ border:0;}
+.csButton a{ width:126px;height:44px; display:block;}
+.Ma-Intr{ width:670px; height:106px; background:url(/images/intrBg.jpg) no-repeat; margin:0 auto; padding:36px 0 0 80px; }
+.Ma-Intr ul{ margin:0; padding:0; color:#004476;}
+.Ma-Intr ul li{list-style-type: none; }
+.Ma-Intr ul li span{ display:block; width:330px; height:30px;  float:left; }
+.ma-Content{width:710px; margin:0 auto; line-height:22px; padding:10px 20px; }
+.ma-Content h5{ margin:0; padding:5px 0 2px 0; font-size:16px; font-weight:bold;} 
+.ma-Content h6{ margin:0; padding:5px 0 2px ; font-size:16px; font-weight:bold; clear:both; border-bottom:1px dotted #737d84;}
+.ma-Content p{ margin:0; padding:5px 0 7px 0;}
+.ma-Content img{ float:left; margin:5px 30px 15px 0;}
+.ma-Content table{  border-left:1px solid #c0d8de; border-top:1px solid #c0d8de;}
+.ma-Content table th{ background:url(/images/table-img.jpg) repeat-x; border-right:1px solid #c0d8de; border-bottom:1px solid #c0d8de;height:26px; text-align:center; }
+.ma-Content table td{  border-right:1px solid #c0d8de; border-bottom:1px solid #c0d8de; height:23px; text-align:center; }
+.tdbg{ background-color:#ebfbfa;}
+.textColor{ color:#FF0000;}
+.but_01{ background-image:url(/images/bmButton.jpg); width:126px; height:44px; border:0px;}
+.but_02{ background-image:url(/images/tsButton.jpg); width:126px; height:44px; border:0px;  }
+.msg{ color:Red; font-weight:bolder; font-size:14px;}

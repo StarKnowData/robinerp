@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+.list_type01, .list_type02 {
+	background:url('../../images/pro/tit_top.gif') no-repeat;
+	width:750px;
+}
+	.list_type01 thead th, .list_type02 thead th, .list_type03 thead th  {
+		background-image:none;
+		height:36px;
+		color:#4c4c4c;
+		padding-top:3px;
+	}
+	.list_type01 tbody th  {
+		background-image:none;
+		border-bottom:#d7d7d7 solid 1px;
+		padding:3px 10px 3px 10px; 
+	}
+	.list_type01 td  {
+		background-image:none;
+		border-bottom:#d7d7d7 solid 1px;
+		border-left:#d7d7d7 solid 1px;
+		padding:3px 10px 3px 10px; 
+		text-align:center;
+	}
+
+	.list_type02 td, .list_type03 td  {
+		background-image:none;
+		border-bottom:#d7d7d7 solid 1px;
+		padding:3px 10px 3px 10px; 
+		text-align:center;
+	}
+.list_type03 {
+	background:url('../../images/pro/tit_top2.gif') no-repeat;
+	width:750px;
+
+}
+.view_type01 {
+	border-top:#999999 solid 3px;
+	width:750px;
+}
+	.view_type01 th  {
+		background:url('../../images/pro/dot.gif') 25px 12px no-repeat;
+		border-bottom:#d7d7d7 solid 1px;
+		padding:7px 10px 3px 35px; 
+		color:#4c4c4c;
+		text-align:left;
+		vertical-align:top;
+		background-color:#fafafa;
+	}
+	.view_type01 td, .view_type02 td  {
+		border-bottom:#d7d7d7 solid 1px;
+		padding:5px 10px 3px 10px; 
+	}
+	.view_type01 td.img  {
+		padding:6px 9px 7px 5px; 
+	}
+.view_type02 {
+	border-top:#d7c31b solid 3px;
+	border-bottom:#d7c31b solid 1px;
+	width:750px;
+}
+	.view_type02 th  {
+		border-bottom:#d7d7d7 solid 1px;
+		padding:7px 10px 3px 35px; 
+		color:#4c4c4c;
+		text-align:left;
+		vertical-align:top;
+		background-color:#f4f4f2;
+	}
+.contents_list, .contents_list2 {
+	border-top:#e59940 solid 3px;
+	border-bottom:#e59940 solid 3px;
+	width:750px;
+}
+	.contents_list li {
+		padding:5px 0 5px 33px;
+	}
+	.contents_list li ul {
+		border-top:#d7d7d7 solid 1px;
+		margin:5px 0 -3px -33px;
+	}
+	.contents_list li ul li{
+		border-bottom:#d7d7d7 solid 1px;
+		padding:5px 0 3px 61px;
+	}
+	.contents_list2 li{
+		border-bottom:#d7d7d7 solid 1px;
+		padding:5px 0 5px 33px;
+	}
+#page {
+	padding-top:10px;
+	margin:0 auto;
+	width:230px
+}
+#page div{
+	float:left;
+	font-size:11px;
+}
+#page div span.on{
+	font-size:11px;
+	color:#dc475b;
+	font-weight:bold
+}

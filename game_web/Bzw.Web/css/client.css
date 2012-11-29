@@ -1,0 +1,51 @@
+﻿body
+{
+    background-color: #E5F2FF;
+    }
+.alms_a1{ width:400px;
+	height:30px;
+	line-height:normal;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+	margin:0px auto;
+	padding-top:10px; margin-bottom:20px; }
+.alms_a1 a
+{
+    	display:inline-block;
+	border: 0;
+	padding:2px 5px; 
+	color: #8e8845; 
+	margin-right:2px;
+	text-decoration:none;
+	background:#fff;
+	font-weight:bold;
+	background:url(/images/but_01.gif) left top  no-repeat; height:30px;  line-height:30px; width:90px;
+    }
+    .alms_a2 { width:400px;
+	height:30px;
+	line-height:normal;
+	clear:both;
+	text-align:center;
+	overflow:hidden;
+	margin:0px auto;
+	padding-top:10px;}
+.alms_a2 a
+{
+    	display:inline-block;
+	border: 0;
+	padding:2px 5px; 
+	color: #8e8845;
+	margin-right:2px;
+	text-decoration:none;
+	background:#fff;
+		font-weight:bold;
+	background:url(/images/but_01.gif) left top  no-repeat; height:30px;  line-height:30px; width:90px;
+    }
+    
+    #d1 img{width:411px; height:240px;
+            }
+                #d2 img{width:411px; height:240px;
+            }
+                #d3 img{width:411px; height:240px;
+            }

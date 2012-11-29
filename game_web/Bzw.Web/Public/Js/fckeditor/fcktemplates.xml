@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--
+ * FCKeditor - The text editor for Internet - http://www.fckeditor.net
+ * Copyright (C) 2003-2009 Frederico Caldeira Knabben
+ *
+ * == BEGIN LICENSE ==
+ *
+ * Licensed under the terms of any of the following licenses at your
+ * choice:
+ *
+ *  - GNU General Public License Version 2 or later (the "GPL")
+ *    http://www.gnu.org/licenses/gpl.html
+ *
+ *  - GNU Lesser General Public License Version 2.1 or later (the "LGPL")
+ *    http://www.gnu.org/licenses/lgpl.html
+ *
+ *  - Mozilla Public License Version 1.1 or later (the "MPL")
+ *    http://www.mozilla.org/MPL/MPL-1.1.html
+ *
+ * == END LICENSE ==
+ *
+ * This is the sample templates definitions file. It makes the "templates"
+ * command completely customizable.
+ *
+ * See FCKConfig.TemplatesXmlPath in the configuration file.
+-->
+<Templates imagesBasePath="fck_template/images/">
+<Template title="系统弹出内容模版" image="template3.gif">
+		<Description>系统弹出内容模版.</Description>
+		<Html>
+			<![CDATA[
+				<div style="text-align:center;width:317px; heigth:206px; margin:2 0 0 0;overflow:hidden;background-image:url(images/templates_bg.png); font-size:12px;">
+<h5 style="color:#20424b; margin-top:0px; font-size:14px;">请输入标题</h5>
+<div style="">
+<p style="text-align:left;height:125px;">请输入内容</p><div>
+
+
+<div style="text-align:right;  "><a target="_blank" href="http://mdm.kfgame.com"><img alt="点击查看" title="点击查看" src="images/templates_btn.png"  border="0"/></a>&nbsp;&nbsp;&nbsp;</div>
+			]]>
+		</Html>
+	</Template>
+  <Template title="比赛说明模版" image="template3.gif">
+    <Description>比赛说明模版.</Description>
+    <Html>
+      <![CDATA[ 
+     <div> <img src="/Public/Js/fckeditor/editor/images/jlImg.jpg" style="float:left; margin:5px 30px 15px 0;" /> </div>
+            <p  style=" margin:0; padding:5px 0 7px 0;">
+                “名费赢100奖牌”是竞游斗地主为回馈广大热情玩家而设立的比赛。竞游斗地主玩家均可参加， 赛程较短，开赛迅速（达到一定人数即开赛），您可以更快体验冲击冠军的刺激，享受竞技的乐
+                趣。</p>
+            <h5 style= margin:0; padding:5px 0 2px 0; font-size:16px; font-weight:bold;">
+                奖励方案
+            </h5>
+            <table width="73%" border="0" cellpadding="0" cellspacing="0" style=" border-left:1px solid #c0d8de; border-top:1px solid #c0d8de;">
+                <tr>
+                    <th width="31%" scope="col" style="background:url(/images/table-img.jpg) repeat-x; border-right:1px solid #c0d8de; border-bottom:1px solid #c0d8de;height:26px; text-align:center;">
+                        名 次
+                    </th>
+                    <th width="69%" scope="col"  style="background:url(/images/table-img.jpg) repeat-x; border-right:1px solid #c0d8de; border-bottom:1px solid #c0d8de;height:26px; text-align:center;">
+                        奖 励
+                    </th>
+                </tr>
+                <tr>
+                    <td style=" border-right:1px solid #c0d8de; border-bottom:1px solid #c0d8de; height:23px; text-align:center;">
+                        第 1 名
+                    </td>
+                    <td style=" border-right:1px solid #c0d8de; border-bottom:1px solid #c0d8de; height:23px; text-align:center;">
+                        <span class="textColor">0</span> 游戏币 + <span class="textColor">100</span> 奖牌 + <span
+                            class="textColor">50</span> 经验
+                    </td>
+                </tr>
+                <tr class="tdbg">
+                    <td style=" border-right:1px solid #c0d8de; border-bottom:1px solid #c0d8de; height:23px; text-align:center;">
+                        第 2 名
+                    </td>
+                    <td style=" border-right:1px solid #c0d8de; border-bottom:1px solid #c0d8de; height:23px; text-align:center;">
+                        <span class="textColor">0</span> 游戏币 + <span class="textColor">100</span> 奖牌 + <span
+                            class="textColor">50</span> 经验
+                    </td>
+                </tr>
+                <tr>
+                    <td style=" border-right:1px solid #c0d8de; border-bottom:1px solid #c0d8de; height:23px; text-align:center;">
+                        第 3 名
+                    </td>
+                    <td style=" border-right:1px solid #c0d8de; border-bottom:1px solid #c0d8de; height:23px; text-align:center;">
+                        <span class="textColor">0</span> 游戏币 + <span class="textColor">100</span> 奖牌 + <span
+                            class="textColor">50</span> 经验
+                    </td>
+                </tr>
+                <tr class="tdbg">
+                    <td style=" border-right:1px solid #c0d8de; border-bottom:1px solid #c0d8de; height:23px; text-align:center;">
+                        第 4 名
+                    </td>
+                    <td style=" border-right:1px solid #c0d8de; border-bottom:1px solid #c0d8de; height:23px; text-align:center;">
+                        <span class="textColor">0</span> 游戏币 + <span class="textColor">100</span> 奖牌 + <span
+                            class="textColor">50</span> 经验
+                    </td>
+                </tr>
+                <tr>
+                    <td style=" border-right:1px solid #c0d8de; border-bottom:1px solid #c0d8de; height:23px; text-align:center;">
+                        第 5 名
+                    </td>
+                    <td style=" border-right:1px solid #c0d8de; border-bottom:1px solid #c0d8de; height:23px; text-align:center;">
+                        <span class="textColor">0</span> 游戏币 + <span class="textColor">100</span> 奖牌 + <span
+                            class="textColor">50</span> 经验
+                    </td>
+                </tr>
+            </table>
+            <h6 style=" margin:0; padding:5px 0 2px ; font-size:16px; font-weight:bold; clear:both; border-bottom:1px dotted #737d84;">
+                赛制流程
+            </h6>
+            <p style=" margin:0; padding:5px 0 7px 0;">
+                “名费赢100奖牌”是竞游斗地主为回馈广大热情玩家而设立的比赛。竞游斗地主玩家均可参加， 赛程较短，开赛迅速（达到一定人数即开赛），您可以更快体验冲击冠军的刺激，享受竞技的乐
+                趣。
+            </p>
+            <h6 style=" margin:0; padding:5px 0 2px ; font-size:16px; font-weight:bold; clear:both; border-bottom:1px dotted #737d84;">
+                逃跑/断线处理
+            </h6>
+            <p  style=" margin:0; padding:5px 0 7px 0;">
+                “名费赢100奖牌”是竞游斗地主为回馈广大热情玩家而设立的比赛。竞游斗地主玩家均可参加， 赛程较短，开赛迅速（达到一定人数即开赛），您可以更快体验冲击冠军的刺激，享受竞技的乐趣。
+            </p>
+			]]>
+    </Html>
+  </Template>
+	<Template title="Image and Title" image="template1.gif">
+		<Description>One main image with a title and text that surround the image.</Description>
+		<Html>
+			<![CDATA[
+				<img style="MARGIN-RIGHT: 10px" height="100" alt="" width="100" align="left"/>
+				<h3>Type the title here</h3>
+				Type the text here
+			]]>
+		</Html>
+	</Template>
+	<Template title="Strange Template" image="template2.gif">
+		<Description>A template that defines two colums, each one with a title, and some text.</Description>
+		<Html>
+			<![CDATA[
+				<table cellspacing="0" cellpadding="0" width="100%" border="0">
+					<tbody>
+						<tr>
+							<td width="50%">
+							<h3>Title 1</h3>
+							</td>
+							<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
+							<td width="50%">
+							<h3>Title 2</h3>
+							</td>
+						</tr>
+						<tr>
+							<td>Text 1</td>
+							<td>&nbsp;</td>
+							<td>Text 2</td>
+						</tr>
+					</tbody>
+				</table>
+				More text goes here.
+			]]>
+		</Html>
+	</Template>
+	<Template title="Text and Table" image="template3.gif">
+		<Description>A title with some text and a table.</Description>
+		<Html>
+			<![CDATA[
+				<table align="left" width="80%" border="0" cellspacing="0" cellpadding="0"><tr><td>
+					<h3>Title goes here</h3>
+					<p>
+					<table style="FLOAT: right" cellspacing="0" cellpadding="0" width="150" border="1">
+						<tbody>
+							<tr>
+								<td align="center" colspan="3"><strong>Table title</strong></td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+							</tr>
+							<tr>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+								<td>&nbsp;</td>
+							</tr>
+						</tbody>
+					</table>
+					Type the text here</p>
+				</td></tr></table>
+			]]>
+		</Html>
+	</Template>
+	
+</Templates>
