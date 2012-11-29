@@ -133,3 +133,13 @@ E:\Work\面对面独立网站\源码发布\八旗赢3.020网站前后台源码\B
 E:\Work\面对面独立网站\源码发布\八旗赢3.020网站前后台源码\Bzw.Web\bin\Bzw.Inhersits.pdb
 E:\Work\面对面独立网站\源码发布\八旗赢3.020网站前后台源码\Bzw.Web\bin\Bzw.Admin2.pdb
 E:\Work\面对面独立网站\源码发布\八旗赢3.020网站前后台源码\Bzw.Web\obj\Debug\Bzw.Web.dll
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Web\bin\Bzw.Web.dll
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Web\bin\Bzw.Web.pdb
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Web\bin\Bzw.Admin2.dll
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Web\bin\Bzw.Inhersits.dll
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Web\bin\dotnetCHARTING.dll
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Web\bin\Bzw.Admin2.pdb
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Web\bin\Bzw.Inhersits.pdb
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Web\obj\Debug\Bzw.Web.dll
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Web\obj\Debug\Bzw.Web.pdb
