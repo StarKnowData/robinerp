@@ -90,6 +90,8 @@ namespace Bzw.Inhersits.Manage
         //protected string ZhiYe = "";
         //protected string Address = "";
 
+        public string GameTimeCount = "0";
+
         protected void Page_Load(object sender, EventArgs e)
         {
             BLL.Member member = new BLL.Member();
@@ -180,6 +182,8 @@ namespace Bzw.Inhersits.Manage
                 int childDirName = Convert.ToInt32(UiCommon.UserLoginInfo.UserID) / 1000;
                 UserHeadImg = "/Upload/" + UiCommon.StringConfig.UserCustHeadFolderName + "/" + childDirName + "/" + UiCommon.UserLoginInfo.UserID + ".png";
             }
+
+            GameTimeCount =member.ConverTimeToDHMS( member.GetPlayTimeSum(UserLoginInfo.UserID));
         }
 
         public string GetMoneyPaiming(string Uid)

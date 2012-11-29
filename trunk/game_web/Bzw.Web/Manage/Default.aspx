@@ -167,6 +167,15 @@
                             <tr>
                                 <th scope="row">
                                     <label for="id03">
+                                        游戏时间</label>
+                                </th>
+                                <td>
+                                    <%=GameTimeCount%>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">
+                                    <label for="id03">
                                         注册时间</label>
                                 </th>
                                 <td>
