@@ -198,3 +198,20 @@ E:\Work\面对面独立网站\源码发布\八旗赢3.020网站前后台源码\B
 E:\Work\面对面独立网站\源码发布\八旗赢3.020网站前后台源码\Bzw.Admin\obj\Debug\ResolveAssemblyReference.cache
 E:\Work\面对面独立网站\源码发布\八旗赢3.020网站前后台源码\Bzw.Admin\obj\Debug\Bzw.Admin2.dll
 E:\Work\面对面独立网站\源码发布\八旗赢3.020网站前后台源码\Bzw.Admin\obj\Debug\Bzw.Admin2.pdb
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\bin\Bzw.Admin2.dll
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\bin\Bzw.Admin2.pdb
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\bin\BCST.Common.dll
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\bin\Bzw.Appcode.dll
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\bin\BZW.Data.dll
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\bin\Bzw.E.dll
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\bin\Bzw.Entities.dll
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\bin\Bzw.Inhersits.dll
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\bin\com.yeepay.dll
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\bin\CustomControl.dll
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\bin\FredCK.FCKeditorV2.dll
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\bin\Pager.dll
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\bin\dotnetCHARTING.dll
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\bin\Bzw.Inhersits.pdb
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\obj\Debug\Bzw.Admin2.dll
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\obj\Debug\Bzw.Admin2.pdb
