@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bcaster>
+  <item id="1">
+    <Gold>10000</Gold>
+    <Silver>1000</Silver>
+    <Jade>500</Jade>
+  </item>
+</bcaster>

@@ -1,0 +1,17 @@
+body {
+	background-color: #E5F2FF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+body,td,th {
+	font-size: 12px;
+	color: #002F88;
+	line-height: 18px;
+}
+.title_blue {
+	color: #002F88;
+	font-weight: bold;
+	font-size: 16px;
+}

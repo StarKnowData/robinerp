@@ -1,0 +1,74 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!--
+ * FCKeditor - The text editor for Internet - http://www.fckeditor.net
+ * Copyright (C) 2003-2009 Frederico Caldeira Knabben
+ *
+ * == BEGIN LICENSE ==
+ *
+ * Licensed under the terms of any of the following licenses at your
+ * choice:
+ *
+ *  - GNU General Public License Version 2 or later (the "GPL")
+ *    http://www.gnu.org/licenses/gpl.html
+ *
+ *  - GNU Lesser General Public License Version 2.1 or later (the "LGPL")
+ *    http://www.gnu.org/licenses/lgpl.html
+ *
+ *  - Mozilla Public License Version 1.1 or later (the "MPL")
+ *    http://www.mozilla.org/MPL/MPL-1.1.html
+ *
+ * == END LICENSE ==
+ *
+ * Preview page for the Image dialog window.
+ *
+ * Curiosity: http://en.wikipedia.org/wiki/Lorem_ipsum
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="robots" content="noindex, nofollow" />
+	<script src="../common/fck_dialog_common.js" type="text/javascript"></script>
+	<script type="text/javascript">
+
+var FCKTools	= window.parent.FCKTools ;
+var FCKConfig	= window.parent.FCKConfig ;
+
+// Set the preview CSS
+document.write( FCKTools.GetStyleHtml( FCKConfig.EditorAreaCSS ) ) ;
+document.write( FCKTools.GetStyleHtml( FCKConfig.EditorAreaStyles ) ) ;
+
+if ( window.parent.FCKConfig.BaseHref.length > 0 )
+	document.write( '<base href="' + window.parent.FCKConfig.BaseHref + '">' ) ;
+
+window.onload = function()
+{
+	window.parent.SetPreviewElements(
+		document.getElementById( 'imgPreview' ),
+		document.getElementById( 'lnkPreview' ) ) ;
+}
+
+	</script>
+</head>
+<body>
+	<div>
+		<a id="lnkPreview" onclick="return false;" style="cursor: default">
+			<img id="imgPreview" onload="window.parent.UpdateOriginal();" style="display: none" alt="" /></a>深圳市正易龙科技有限公司正式成立于2008年10月，位于深圳市南山区高新南一道中国科技开发院中科大厦21A。截止2010年7月，办公面积千余平方，成员八十余名。正，即正道；易，创新、变化；龙，民族的精神。正易龙意为坚守正确的商道，不断创新，做网络游戏产业中的巨龙。<br />
+		发展定位：掌握最先进的游戏开发技术，开发有最多运营商的游戏平台。<br />
+		发展基石：做能持续赚钱的、好玩的、有特色的网络游戏产品。<br />
+		发展战略：调查、分析运营需求，研发、提升、丰富公司游戏产品。<br />
+		发展愿景：做国际一流的网络游戏企业，成为网络游戏产业中的巨龙。<br />
+		发展手段：扎根于网络，提供优质游戏产品。<br />
+		经营战略：务实、开放，合理合法的前提下追求共同价值增加。<br />
+		企业精神：舍得，天道酬勤。个人舍得为工作投入，公司舍得为人才投入，公司舍得回报员工。<br />
+		企业文化：用数据讲道理。讲道理说服上级，讲道理提升下级，讲道理让人人开心，让正道长久。<br />
+		企业现状：正易龙团队初具规模，处于创业阶段。加强员工专业能力，公司需要专业人才。<br />
+		知识积累：知识积累且共享，使每个成员迅速变得专业，使公司价值迅速增加。<br />
+		人 才 观：量才适用，爱惜人才，培养人才。优先选用最适合的人才，其次选用学习能力强的普通人员。为人才提供充分发挥才能的平台。帮助人才，努力使人才德才兼备。<br />
+		价 值 观：以提供最好玩的游戏、运营价值最大增加为目标，工作上下线成员相互提升工作价值，从而实现公司价值最大增加和个人价值最大化。员工互相为工作上下线着想，公司为员工着想，员工、公司一起为客户着想。<br />
+		正视革新：变是常态，不变是非常态。<br />
+		市场主导：深入了解市场，以用户轨迹数据、运营数据为指导，运用市场数据分析，以策划为中心，目标明确，各部门高效执行。认清市场，让工作有价值。<br />
+		诚信、开放的正易龙将在互信的基础之上，与您共赢。
+	</div>
+</body>
+</html>

@@ -1,0 +1,1777 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{525386BA-282C-4C24-9098-44FDAC7667EF}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bzw.Admin2</RootNamespace>
+    <AssemblyName>Bzw.Admin2</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BCST.Common, Version=2.5.11.27, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bzw.Web\bin\BCST.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Bzw.Appcode, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bzw.Web\bin\Bzw.Appcode.dll</HintPath>
+    </Reference>
+    <Reference Include="BZW.Data, Version=2.9.3.27, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bzw.Web\bin\BZW.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Bzw.E, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bzw.Web\bin\Bzw.E.dll</HintPath>
+    </Reference>
+    <Reference Include="Bzw.Entities, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bzw.Web\bin\Bzw.Entities.dll</HintPath>
+    </Reference>
+    <Reference Include="com.yeepay, Version=1.0.3219.25878, Culture=neutral, PublicKeyToken=a5166d3256541220, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bzw.Web\bin\com.yeepay.dll</HintPath>
+    </Reference>
+    <Reference Include="CustomControl, Version=1.0.3404.25645, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bzw.Web\bin\CustomControl.dll</HintPath>
+    </Reference>
+    <Reference Include="FredCK.FCKeditorV2, Version=2.6.3.21225, Culture=neutral, PublicKeyToken=4f86767c9b519a06, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bzw.Web\bin\FredCK.FCKeditorV2.dll</HintPath>
+    </Reference>
+    <Reference Include="Pager, Version=7.2.0.0, Culture=neutral, PublicKeyToken=fb0a0fe055d40fd4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Bzw.Web\bin\Pager.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Adminin.aspx.cs">
+      <DependentUpon>Adminin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Adminin.aspx.designer.cs">
+      <DependentUpon>Adminin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Admin_Logout.aspx.cs">
+      <DependentUpon>Admin_Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin_Logout.aspx.designer.cs">
+      <DependentUpon>Admin_Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Agency\AgencyDetailInfo.aspx.cs">
+      <DependentUpon>AgencyDetailInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Agency\AgencyDetailInfo.aspx.designer.cs">
+      <DependentUpon>AgencyDetailInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Agency\AgencyMoneyModify.aspx.cs">
+      <DependentUpon>AgencyMoneyModify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Agency\AgencyMoneyModify.aspx.designer.cs">
+      <DependentUpon>AgencyMoneyModify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Agency\AgencyPopedomSet.aspx.cs">
+      <DependentUpon>AgencyPopedomSet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Agency\AgencyPopedomSet.aspx.designer.cs">
+      <DependentUpon>AgencyPopedomSet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Agency\ChildAgencyDetail.aspx.cs">
+      <DependentUpon>ChildAgencyDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Agency\ChildAgencyDetail.aspx.designer.cs">
+      <DependentUpon>ChildAgencyDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Agency\MyEarningMoney.aspx.cs">
+      <DependentUpon>MyEarningMoney.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Agency\MyEarningMoney.aspx.designer.cs">
+      <DependentUpon>MyEarningMoney.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Books\book.aspx.cs">
+      <DependentUpon>book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Books\book.aspx.designer.cs">
+      <DependentUpon>book.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Books\BookDel.aspx.cs">
+      <DependentUpon>BookDel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Books\BookDel.aspx.designer.cs">
+      <DependentUpon>BookDel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Books\BookInfo.aspx.cs">
+      <DependentUpon>BookInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Books\BookInfo.aspx.designer.cs">
+      <DependentUpon>BookInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Cloth\ClothEdit.aspx.cs">
+      <DependentUpon>ClothEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Cloth\ClothEdit.aspx.designer.cs">
+      <DependentUpon>ClothEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Cloth\ClothesList.aspx.cs">
+      <DependentUpon>ClothesList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Cloth\ClothesList.aspx.designer.cs">
+      <DependentUpon>ClothesList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FasciExchange\FasciExchange.aspx.cs">
+      <DependentUpon>FasciExchange.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\FasciExchange\FasciExchange.aspx.designer.cs">
+      <DependentUpon>FasciExchange.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FasciExchange\FasciExchangeEdit.aspx.cs">
+      <DependentUpon>FasciExchangeEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\FasciExchange\FasciExchangeEdit.aspx.designer.cs">
+      <DependentUpon>FasciExchangeEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FasciExchange\FasciExchangeLog.aspx.cs">
+      <DependentUpon>FasciExchangeLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\FasciExchange\FasciExchangeLog.aspx.designer.cs">
+      <DependentUpon>FasciExchangeLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FasciExchange\FasciPrizeAdd.aspx.cs">
+      <DependentUpon>FasciPrizeAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\FasciExchange\FasciPrizeAdd.aspx.designer.cs">
+      <DependentUpon>FasciPrizeAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FasciExchange\FasciPropAdd.aspx.cs">
+      <DependentUpon>FasciPropAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\FasciExchange\FasciPropAdd.aspx.designer.cs">
+      <DependentUpon>FasciPropAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FineryID\EditFineryID.aspx.cs">
+      <DependentUpon>EditFineryID.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\FineryID\EditFineryID.aspx.designer.cs">
+      <DependentUpon>EditFineryID.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FineryID\FineryID.aspx.cs">
+      <DependentUpon>FineryID.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\FineryID\FineryID.aspx.designer.cs">
+      <DependentUpon>FineryID.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FineryID\IsBuyFineryID.aspx.cs">
+      <DependentUpon>IsBuyFineryID.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\FineryID\IsBuyFineryID.aspx.designer.cs">
+      <DependentUpon>IsBuyFineryID.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FineryID\NoBuyFineryID.aspx.cs">
+      <DependentUpon>NoBuyFineryID.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\FineryID\NoBuyFineryID.aspx.designer.cs">
+      <DependentUpon>NoBuyFineryID.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FlashAd\FlashAD.aspx.cs">
+      <DependentUpon>FlashAD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\FlashAd\FlashAD.aspx.designer.cs">
+      <DependentUpon>FlashAD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FlashAd\FlashAdd.aspx.cs">
+      <DependentUpon>FlashAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\FlashAd\FlashAdd.aspx.designer.cs">
+      <DependentUpon>FlashAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FlashAd\FlashDel.aspx.cs">
+      <DependentUpon>FlashDel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\FlashAd\FlashDel.aspx.designer.cs">
+      <DependentUpon>FlashDel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FlashAd\FlashEdit.aspx.cs">
+      <DependentUpon>FlashEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\FlashAd\FlashEdit.aspx.designer.cs">
+      <DependentUpon>FlashEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Friend\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Friend\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\GameInfo\AgencyGameDown.aspx.cs">
+      <DependentUpon>AgencyGameDown.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\GameInfo\AgencyGameDown.aspx.designer.cs">
+      <DependentUpon>AgencyGameDown.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\GameInfo\GameBigTing.aspx.cs">
+      <DependentUpon>GameBigTing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\GameInfo\GameBigTing.aspx.designer.cs">
+      <DependentUpon>GameBigTing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\GameInfo\GameMain.aspx.cs">
+      <DependentUpon>GameMain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\GameInfo\GameMain.aspx.designer.cs">
+      <DependentUpon>GameMain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\GameInfo\GameMainDel.aspx.cs">
+      <DependentUpon>GameMainDel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\GameInfo\GameMainDel.aspx.designer.cs">
+      <DependentUpon>GameMainDel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\GameInfo\GameMainEdit.aspx.cs">
+      <DependentUpon>GameMainEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\GameInfo\GameMainEdit.aspx.designer.cs">
+      <DependentUpon>GameMainEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\GameInfo\GameMain_Add.aspx.cs">
+      <DependentUpon>GameMain_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\GameInfo\GameMain_Add.aspx.designer.cs">
+      <DependentUpon>GameMain_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\GameInfo\GameType.aspx.cs">
+      <DependentUpon>GameType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\GameInfo\GameType.aspx.designer.cs">
+      <DependentUpon>GameType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\GameInfo\GameTypeDel.aspx.cs">
+      <DependentUpon>GameTypeDel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\GameInfo\GameTypeDel.aspx.designer.cs">
+      <DependentUpon>GameTypeDel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\GameInfo\GameTypeEdit.aspx.cs">
+      <DependentUpon>GameTypeEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\GameInfo\GameTypeEdit.aspx.designer.cs">
+      <DependentUpon>GameTypeEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\GameInfo\GameType_Add.aspx.cs">
+      <DependentUpon>GameType_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\GameInfo\GameType_Add.aspx.designer.cs">
+      <DependentUpon>GameType_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Games\ApplyRoomEdit.aspx.cs">
+      <DependentUpon>ApplyRoomEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Games\ApplyRoomEdit.aspx.designer.cs">
+      <DependentUpon>ApplyRoomEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Games\ApplyRoomList.aspx.cs">
+      <DependentUpon>ApplyRoomList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Games\ApplyRoomList.aspx.designer.cs">
+      <DependentUpon>ApplyRoomList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Games\GameBattleRooms.aspx.cs">
+      <DependentUpon>GameBattleRooms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Games\GameBattleRooms.aspx.designer.cs">
+      <DependentUpon>GameBattleRooms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Games\GameBattleRoomsWrite.aspx.cs">
+      <DependentUpon>GameBattleRoomsWrite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Games\GameBattleRoomsWrite.aspx.designer.cs">
+      <DependentUpon>GameBattleRoomsWrite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Games\GameContestRank.aspx.cs">
+      <DependentUpon>GameContestRank.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Games\GameContestRank.aspx.designer.cs">
+      <DependentUpon>GameContestRank.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Games\GameContestRooms.aspx.cs">
+      <DependentUpon>GameContestRooms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Games\GameContestRooms.aspx.designer.cs">
+      <DependentUpon>GameContestRooms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Games\GameContestRoomsWrite.aspx.cs">
+      <DependentUpon>GameContestRoomsWrite.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Games\GameContestRoomsWrite.aspx.designer.cs">
+      <DependentUpon>GameContestRoomsWrite.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Pay\PayToPoint.aspx.cs">
+      <DependentUpon>PayToPoint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Pay\PayToPoint.aspx.designer.cs">
+      <DependentUpon>PayToPoint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\ClearList.aspx.cs">
+      <DependentUpon>ClearList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\ClearList.aspx.designer.cs">
+      <DependentUpon>ClearList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\CreateBankTax.aspx.cs">
+      <DependentUpon>CreateBankTax.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\CreateBankTax.aspx.designer.cs">
+      <DependentUpon>CreateBankTax.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\LastLoginGameCount.aspx.cs">
+      <DependentUpon>LastLoginGameCount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\LastLoginGameCount.aspx.designer.cs">
+      <DependentUpon>LastLoginGameCount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\MatchSendLotteries.aspx.cs">
+      <DependentUpon>MatchSendLotteries.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\MatchSendLotteries.aspx.designer.cs">
+      <DependentUpon>MatchSendLotteries.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\MatchSendType.aspx.cs">
+      <DependentUpon>MatchSendType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\MatchSendType.aspx.designer.cs">
+      <DependentUpon>MatchSendType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\EditUserPoint.aspx.cs">
+      <DependentUpon>EditUserPoint.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\EditUserPoint.aspx.designer.cs">
+      <DependentUpon>EditUserPoint.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\GameList.aspx.cs">
+      <DependentUpon>GameList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\GameList.aspx.designer.cs">
+      <DependentUpon>GameList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Games\GameNames.aspx.cs">
+      <DependentUpon>GameNames.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Games\GameNames.aspx.designer.cs">
+      <DependentUpon>GameNames.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Games\GameNamesAdd.aspx.cs">
+      <DependentUpon>GameNamesAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Games\GameNamesAdd.aspx.designer.cs">
+      <DependentUpon>GameNamesAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Games\GameNamesDel.aspx.cs">
+      <DependentUpon>GameNamesDel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Games\GameNamesDel.aspx.designer.cs">
+      <DependentUpon>GameNamesDel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Games\GameNamesEdit.aspx.cs">
+      <DependentUpon>GameNamesEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Games\GameNamesEdit.aspx.designer.cs">
+      <DependentUpon>GameNamesEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Games\GameRooms.aspx.cs">
+      <DependentUpon>GameRooms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Games\GameRooms.aspx.designer.cs">
+      <DependentUpon>GameRooms.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Games\GameRoomsAdd.aspx.cs">
+      <DependentUpon>GameRoomsAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Games\GameRoomsAdd.aspx.designer.cs">
+      <DependentUpon>GameRoomsAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Games\GameRoomsDel.aspx.cs">
+      <DependentUpon>GameRoomsDel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Games\GameRoomsDel.aspx.designer.cs">
+      <DependentUpon>GameRoomsDel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Games\GameRoomsEdit.aspx.cs">
+      <DependentUpon>GameRoomsEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Games\GameRoomsEdit.aspx.designer.cs">
+      <DependentUpon>GameRoomsEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Games\GameTypes.aspx.cs">
+      <DependentUpon>GameTypes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Games\GameTypes.aspx.designer.cs">
+      <DependentUpon>GameTypes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Games\GameTypesAdd.aspx.cs">
+      <DependentUpon>GameTypesAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Games\GameTypesAdd.aspx.designer.cs">
+      <DependentUpon>GameTypesAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Games\GameTypesDel.aspx.cs">
+      <DependentUpon>GameTypesDel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Games\GameTypesDel.aspx.designer.cs">
+      <DependentUpon>GameTypesDel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Games\GameTypesEdit.aspx.cs">
+      <DependentUpon>GameTypesEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Games\GameTypesEdit.aspx.designer.cs">
+      <DependentUpon>GameTypesEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Games\RoomRule.aspx.cs">
+      <DependentUpon>RoomRule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Games\RoomRule.aspx.designer.cs">
+      <DependentUpon>RoomRule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Games\RoomRuleSet.aspx.cs">
+      <DependentUpon>RoomRuleSet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Games\RoomRuleSet.aspx.designer.cs">
+      <DependentUpon>RoomRuleSet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Lotter\LotterConfig.aspx.cs">
+      <DependentUpon>LotterConfig.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Lotter\LotterConfig.aspx.designer.cs">
+      <DependentUpon>LotterConfig.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Lotter\LotterLog.aspx.cs">
+      <DependentUpon>LotterLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Lotter\LotterLog.aspx.designer.cs">
+      <DependentUpon>LotterLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Lotter\PrAdd.aspx.cs">
+      <DependentUpon>PrAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Lotter\PrAdd.aspx.designer.cs">
+      <DependentUpon>PrAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Lotter\PrEdit.aspx.cs">
+      <DependentUpon>PrEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Lotter\PrEdit.aspx.designer.cs">
+      <DependentUpon>PrEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Lotter\PrList.aspx.cs">
+      <DependentUpon>PrList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Lotter\PrList.aspx.designer.cs">
+      <DependentUpon>PrList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Lotter\PrUserAdd.aspx.cs">
+      <DependentUpon>PrUserAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Lotter\PrUserAdd.aspx.designer.cs">
+      <DependentUpon>PrUserAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Lotter\PrUserList.aspx.cs">
+      <DependentUpon>PrUserList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Lotter\PrUserList.aspx.designer.cs">
+      <DependentUpon>PrUserList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Menu.aspx.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Menu.aspx.designer.cs">
+      <DependentUpon>Menu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\News\News.aspx.cs">
+      <DependentUpon>News.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\News\News.aspx.designer.cs">
+      <DependentUpon>News.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\News\NewsDel.aspx.cs">
+      <DependentUpon>NewsDel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\News\NewsDel.aspx.designer.cs">
+      <DependentUpon>NewsDel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\News\NewsDtype.aspx.cs">
+      <DependentUpon>NewsDtype.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\News\NewsDtype.aspx.designer.cs">
+      <DependentUpon>NewsDtype.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\News\NewsEdit.aspx.cs">
+      <DependentUpon>NewsEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\News\NewsEdit.aspx.designer.cs">
+      <DependentUpon>NewsEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\News\NewsEtype.aspx.cs">
+      <DependentUpon>NewsEtype.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\News\NewsEtype.aspx.designer.cs">
+      <DependentUpon>NewsEtype.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\News\NewsType.aspx.cs">
+      <DependentUpon>NewsType.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\News\NewsType.aspx.designer.cs">
+      <DependentUpon>NewsType.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\News\NewsTypeAdd.aspx.cs">
+      <DependentUpon>NewsTypeAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\News\NewsTypeAdd.aspx.designer.cs">
+      <DependentUpon>NewsTypeAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\News\News_Add.aspx.cs">
+      <DependentUpon>News_Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\News\News_Add.aspx.designer.cs">
+      <DependentUpon>News_Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Pay\FreeCardCount.aspx.cs">
+      <DependentUpon>FreeCardCount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Pay\FreeCardCount.aspx.designer.cs">
+      <DependentUpon>FreeCardCount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Pay\Order_Seach.aspx.cs">
+      <DependentUpon>Order_Seach.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Pay\Order_Seach.aspx.designer.cs">
+      <DependentUpon>Order_Seach.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Pay\Pay.aspx.cs">
+      <DependentUpon>Pay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Pay\Pay.aspx.designer.cs">
+      <DependentUpon>Pay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Pay\PayBank.aspx.cs">
+      <DependentUpon>PayBank.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Pay\PayBank.aspx.designer.cs">
+      <DependentUpon>PayBank.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Pay\PayBankDel.aspx.cs">
+      <DependentUpon>PayBankDel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Pay\PayBankDel.aspx.designer.cs">
+      <DependentUpon>PayBankDel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Pay\PayDel.aspx.cs">
+      <DependentUpon>PayDel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Pay\PayDel.aspx.designer.cs">
+      <DependentUpon>PayDel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Pay\PayTotalRecord.aspx.cs">
+      <DependentUpon>PayTotalRecord.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Pay\PayTotalRecord.aspx.designer.cs">
+      <DependentUpon>PayTotalRecord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Pay\PintCard_Seach.aspx.cs">
+      <DependentUpon>PintCard_Seach.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Pay\PintCard_Seach.aspx.designer.cs">
+      <DependentUpon>PintCard_Seach.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Pay\Rate.aspx.cs">
+      <DependentUpon>Rate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Pay\Rate.aspx.designer.cs">
+      <DependentUpon>Rate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Prizes\Prizes.aspx.cs">
+      <DependentUpon>Prizes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Prizes\Prizes.aspx.designer.cs">
+      <DependentUpon>Prizes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Prizes\PrizesAdd.aspx.cs">
+      <DependentUpon>PrizesAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Prizes\PrizesAdd.aspx.designer.cs">
+      <DependentUpon>PrizesAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Prizes\PrizesDel.aspx.cs">
+      <DependentUpon>PrizesDel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Prizes\PrizesDel.aspx.designer.cs">
+      <DependentUpon>PrizesDel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Prizes\PrizesEdit.aspx.cs">
+      <DependentUpon>PrizesEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Prizes\PrizesEdit.aspx.designer.cs">
+      <DependentUpon>PrizesEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Prizes\PrizesH.aspx.cs">
+      <DependentUpon>PrizesH.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Prizes\PrizesH.aspx.designer.cs">
+      <DependentUpon>PrizesH.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Prizes\PrizesHDel.aspx.cs">
+      <DependentUpon>PrizesHDel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Prizes\PrizesHDel.aspx.designer.cs">
+      <DependentUpon>PrizesHDel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Prizes\PrizesHEdit.aspx.cs">
+      <DependentUpon>PrizesHEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Prizes\PrizesHEdit.aspx.designer.cs">
+      <DependentUpon>PrizesHEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Promotion\AllMoney.aspx.cs">
+      <DependentUpon>AllMoney.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Promotion\AllMoney.aspx.designer.cs">
+      <DependentUpon>AllMoney.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Promotion\GameTimes.aspx.cs">
+      <DependentUpon>GameTimes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Promotion\GameTimes.aspx.designer.cs">
+      <DependentUpon>GameTimes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Promotion\PrBalanceLog.aspx.cs">
+      <DependentUpon>PrBalanceLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Promotion\PrBalanceLog.aspx.designer.cs">
+      <DependentUpon>PrBalanceLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Promotion\PrCs.aspx.cs">
+      <DependentUpon>PrCs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Promotion\PrCs.aspx.designer.cs">
+      <DependentUpon>PrCs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Promotion\PrDel.aspx.cs">
+      <DependentUpon>PrDel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Promotion\PrDel.aspx.designer.cs">
+      <DependentUpon>PrDel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Promotion\PrDetail.aspx.cs">
+      <DependentUpon>PrDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Promotion\PrDetail.aspx.designer.cs">
+      <DependentUpon>PrDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Promotion\PrEdit.aspx.cs">
+      <DependentUpon>PrEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Promotion\PrEdit.aspx.designer.cs">
+      <DependentUpon>PrEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Promotion\PrList.aspx.cs">
+      <DependentUpon>PrList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Promotion\PrList.aspx.designer.cs">
+      <DependentUpon>PrList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Promotion\PrListInfo.aspx.cs">
+      <DependentUpon>PrListInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Promotion\PrListInfo.aspx.designer.cs">
+      <DependentUpon>PrListInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Agency\AgencyView.aspx.cs">
+      <DependentUpon>AgencyView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Agency\AgencyView.aspx.designer.cs">
+      <DependentUpon>AgencyView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Agency\LinkCurrentDownAgency.aspx.cs">
+      <DependentUpon>LinkCurrentDownAgency.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Agency\LinkCurrentDownAgency.aspx.designer.cs">
+      <DependentUpon>LinkCurrentDownAgency.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\AdminMsgList.aspx.cs">
+      <DependentUpon>AdminMsgList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\AdminMsgList.aspx.designer.cs">
+      <DependentUpon>AdminMsgList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\ReceiveMoneyConfig.aspx.cs">
+      <DependentUpon>ReceiveMoneyConfig.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\ReceiveMoneyConfig.aspx.designer.cs">
+      <DependentUpon>ReceiveMoneyConfig.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\ReceiveMoneyEdit.aspx.cs">
+      <DependentUpon>ReceiveMoneyEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\ReceiveMoneyEdit.aspx.designer.cs">
+      <DependentUpon>ReceiveMoneyEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\ReceiveMoneySettings.aspx.cs">
+      <DependentUpon>ReceiveMoneySettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\ReceiveMoneySettings.aspx.designer.cs">
+      <DependentUpon>ReceiveMoneySettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\SendMsg.aspx.cs">
+      <DependentUpon>SendMsg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\SendMsg.aspx.designer.cs">
+      <DependentUpon>SendMsg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\SendMsg2.aspx.cs">
+      <DependentUpon>SendMsg2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\SendMsg2.aspx.designer.cs">
+      <DependentUpon>SendMsg2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserAdmin\ConfigEncryption.aspx.cs">
+      <DependentUpon>ConfigEncryption.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserAdmin\ConfigEncryption.aspx.designer.cs">
+      <DependentUpon>ConfigEncryption.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserAnaly\Add_AnalyUser.aspx.cs">
+      <DependentUpon>Add_AnalyUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserAnaly\Add_AnalyUser.aspx.designer.cs">
+      <DependentUpon>Add_AnalyUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserAnaly\Edit_Users.aspx.cs">
+      <DependentUpon>Edit_Users.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserAnaly\Edit_Users.aspx.designer.cs">
+      <DependentUpon>Edit_Users.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\GameMoneyList.aspx.cs">
+      <DependentUpon>GameMoneyList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\GameMoneyList.aspx.designer.cs">
+      <DependentUpon>GameMoneyList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\UserBankDeposit.aspx.cs">
+      <DependentUpon>UserBankDeposit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\UserBankDeposit.aspx.designer.cs">
+      <DependentUpon>UserBankDeposit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\UserGameMoneyLog.aspx.cs">
+      <DependentUpon>UserGameMoneyLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\UserGameMoneyLog.aspx.designer.cs">
+      <DependentUpon>UserGameMoneyLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\UserLoterriesLog.aspx.cs">
+      <DependentUpon>UserLoterriesLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\UserLoterriesLog.aspx.designer.cs">
+      <DependentUpon>UserLoterriesLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\UserPointList.aspx.cs">
+      <DependentUpon>UserPointList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\UserPointList.aspx.designer.cs">
+      <DependentUpon>UserPointList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\UserReceiveMoneyList.aspx.cs">
+      <DependentUpon>UserReceiveMoneyList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\UserReceiveMoneyList.aspx.designer.cs">
+      <DependentUpon>UserReceiveMoneyList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\UserWalletMoney.aspx.cs">
+      <DependentUpon>UserWalletMoney.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\UserWalletMoney.aspx.designer.cs">
+      <DependentUpon>UserWalletMoney.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\User_Lock.aspx.cs">
+      <DependentUpon>User_Lock.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\User_Lock.aspx.designer.cs">
+      <DependentUpon>User_Lock.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Admin\SConfig\Accept.aspx.cs">
+      <DependentUpon>Accept.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\Accept.aspx.designer.cs">
+      <DependentUpon>Accept.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\AdminModifyLog.aspx.cs">
+      <DependentUpon>AdminModifyLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\AdminModifyLog.aspx.designer.cs">
+      <DependentUpon>AdminModifyLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\AlmsConfig.aspx.cs">
+      <DependentUpon>AlmsConfig.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\AlmsConfig.aspx.designer.cs">
+      <DependentUpon>AlmsConfig.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\BankAccessLog.aspx.cs">
+      <DependentUpon>BankAccessLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\BankAccessLog.aspx.designer.cs">
+      <DependentUpon>BankAccessLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\CreateRanking.aspx.cs">
+      <DependentUpon>CreateRanking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\CreateRanking.aspx.designer.cs">
+      <DependentUpon>CreateRanking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\DaoJuFasciLog.aspx.cs">
+      <DependentUpon>DaoJuFasciLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\DaoJuFasciLog.aspx.designer.cs">
+      <DependentUpon>DaoJuFasciLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\DaoJuLog.aspx.cs">
+      <DependentUpon>DaoJuLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\DaoJuLog.aspx.designer.cs">
+      <DependentUpon>DaoJuLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\FilterGameName.aspx.cs">
+      <DependentUpon>FilterGameName.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\FilterGameName.aspx.designer.cs">
+      <DependentUpon>FilterGameName.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\Filtering.aspx.cs">
+      <DependentUpon>Filtering.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\Filtering.aspx.designer.cs">
+      <DependentUpon>Filtering.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\GameADEdit.aspx.cs">
+      <DependentUpon>GameADEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\GameADEdit.aspx.designer.cs">
+      <DependentUpon>GameADEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\GameAdSetting.aspx.cs">
+      <DependentUpon>GameAdSetting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\GameAdSetting.aspx.designer.cs">
+      <DependentUpon>GameAdSetting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\GameGiveMoneySet.aspx.cs">
+      <DependentUpon>GameGiveMoneySet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\GameGiveMoneySet.aspx.designer.cs">
+      <DependentUpon>GameGiveMoneySet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\GMAwardTypeSet.aspx.cs">
+      <DependentUpon>GMAwardTypeSet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\GMAwardTypeSet.aspx.designer.cs">
+      <DependentUpon>GMAwardTypeSet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\GMAwardTypeSetEdit.aspx.cs">
+      <DependentUpon>GMAwardTypeSetEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\GMAwardTypeSetEdit.aspx.designer.cs">
+      <DependentUpon>GMAwardTypeSetEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\JpPrices.aspx.cs">
+      <DependentUpon>JpPrices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\JpPrices.aspx.designer.cs">
+      <DependentUpon>JpPrices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\JpProicesE.aspx.cs">
+      <DependentUpon>JpProicesE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\JpProicesE.aspx.designer.cs">
+      <DependentUpon>JpProicesE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\MoneyRankingViewSet.aspx.cs">
+      <DependentUpon>MoneyRankingViewSet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\MoneyRankingViewSet.aspx.designer.cs">
+      <DependentUpon>MoneyRankingViewSet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\MoneyStatiEveryday.aspx.cs">
+      <DependentUpon>MoneyStatiEveryday.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\MoneyStatiEveryday.aspx.designer.cs">
+      <DependentUpon>MoneyStatiEveryday.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\PFPrices.aspx.cs">
+      <DependentUpon>PFPrices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\PFPrices.aspx.designer.cs">
+      <DependentUpon>PFPrices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\PFPricesE.aspx.cs">
+      <DependentUpon>PFPricesE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\PFPricesE.aspx.designer.cs">
+      <DependentUpon>PFPricesE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\Prices.aspx.cs">
+      <DependentUpon>Prices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\Prices.aspx.designer.cs">
+      <DependentUpon>Prices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\PropStatistic.aspx.cs">
+      <DependentUpon>PropStatistic.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\PropStatistic.aspx.designer.cs">
+      <DependentUpon>PropStatistic.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\SEO.aspx.cs">
+      <DependentUpon>SEO.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\SEO.aspx.designer.cs">
+      <DependentUpon>SEO.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\SEO_Opera.aspx.cs">
+      <DependentUpon>SEO_Opera.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\SEO_Opera.aspx.designer.cs">
+      <DependentUpon>SEO_Opera.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\ServiceContent.aspx.cs">
+      <DependentUpon>ServiceContent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\ServiceContent.aspx.designer.cs">
+      <DependentUpon>ServiceContent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\SystemEdit.aspx.cs">
+      <DependentUpon>SystemEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\SystemEdit.aspx.designer.cs">
+      <DependentUpon>SystemEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\systems.aspx.cs">
+      <DependentUpon>systems.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\systems.aspx.designer.cs">
+      <DependentUpon>systems.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\SystemStat.aspx.cs">
+      <DependentUpon>SystemStat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\SystemStat.aspx.designer.cs">
+      <DependentUpon>SystemStat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\SystemStatEveryDay.aspx.cs">
+      <DependentUpon>SystemStatEveryDay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\SystemStatEveryDay.aspx.designer.cs">
+      <DependentUpon>SystemStatEveryDay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\TaxStatiEveryday.aspx.cs">
+      <DependentUpon>TaxStatiEveryday.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\TaxStatiEveryday.aspx.designer.cs">
+      <DependentUpon>TaxStatiEveryday.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\Transfers.aspx.cs">
+      <DependentUpon>Transfers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\Transfers.aspx.designer.cs">
+      <DependentUpon>Transfers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\UserPropEdit.aspx.cs">
+      <DependentUpon>UserPropEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\UserPropEdit.aspx.designer.cs">
+      <DependentUpon>UserPropEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\SConfig\YeepayPhonePayInfoSet.aspx.cs">
+      <DependentUpon>YeepayPhonePayInfoSet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\SConfig\YeepayPhonePayInfoSet.aspx.designer.cs">
+      <DependentUpon>YeepayPhonePayInfoSet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Top.aspx.cs">
+      <DependentUpon>Top.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Top.aspx.designer.cs">
+      <DependentUpon>Top.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trans\Trans.aspx.cs">
+      <DependentUpon>Trans.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trans\Trans.aspx.designer.cs">
+      <DependentUpon>Trans.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trans\TransDel.aspx.cs">
+      <DependentUpon>TransDel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trans\TransDel.aspx.designer.cs">
+      <DependentUpon>TransDel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Trans\TransSeach.aspx.cs">
+      <DependentUpon>TransSeach.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Trans\TransSeach.aspx.designer.cs">
+      <DependentUpon>TransSeach.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserAdmin\Add_AdminUser.aspx.cs">
+      <DependentUpon>Add_AdminUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserAdmin\Add_AdminUser.aspx.designer.cs">
+      <DependentUpon>Add_AdminUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserAdmin\Del_AdminUser.aspx.cs">
+      <DependentUpon>Del_AdminUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserAdmin\Del_AdminUser.aspx.designer.cs">
+      <DependentUpon>Del_AdminUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserAdmin\Edit_AdminUser.aspx.cs">
+      <DependentUpon>Edit_AdminUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserAdmin\Edit_AdminUser.aspx.designer.cs">
+      <DependentUpon>Edit_AdminUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserAdmin\Edit_AdminUsers.aspx.cs">
+      <DependentUpon>Edit_AdminUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserAdmin\Edit_AdminUsers.aspx.designer.cs">
+      <DependentUpon>Edit_AdminUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UserAdmin\UpdateLoginName.aspx.cs">
+      <DependentUpon>UpdateLoginName.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\UserAdmin\UpdateLoginName.aspx.designer.cs">
+      <DependentUpon>UpdateLoginName.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\ClearGameRecord.aspx.cs">
+      <DependentUpon>ClearGameRecord.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\ClearGameRecord.aspx.designer.cs">
+      <DependentUpon>ClearGameRecord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\ClearLoginInfo.aspx.cs">
+      <DependentUpon>ClearLoginInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\ClearLoginInfo.aspx.designer.cs">
+      <DependentUpon>ClearLoginInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\CountIp.aspx.cs">
+      <DependentUpon>CountIp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\CountIp.aspx.designer.cs">
+      <DependentUpon>CountIp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\CreateUser.aspx.cs">
+      <DependentUpon>CreateUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\CreateUser.aspx.designer.cs">
+      <DependentUpon>CreateUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\Del_UserList.aspx.cs">
+      <DependentUpon>Del_UserList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\Del_UserList.aspx.designer.cs">
+      <DependentUpon>Del_UserList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\Edit_User.aspx.cs">
+      <DependentUpon>Edit_User.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\Edit_User.aspx.designer.cs">
+      <DependentUpon>Edit_User.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\LoginIp_seach.aspx.cs">
+      <DependentUpon>LoginIp_seach.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\LoginIp_seach.aspx.designer.cs">
+      <DependentUpon>LoginIp_seach.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\Pictures.aspx.cs">
+      <DependentUpon>Pictures.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\Pictures.aspx.designer.cs">
+      <DependentUpon>Pictures.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\RookiePresent.aspx.cs">
+      <DependentUpon>RookiePresent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\RookiePresent.aspx.designer.cs">
+      <DependentUpon>RookiePresent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\UnLockUser.aspx.cs">
+      <DependentUpon>UnLockUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\UnLockUser.aspx.designer.cs">
+      <DependentUpon>UnLockUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\UserAlmsRecord.aspx.cs">
+      <DependentUpon>UserAlmsRecord.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\UserAlmsRecord.aspx.designer.cs">
+      <DependentUpon>UserAlmsRecord.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\UserGameSeach.aspx.cs">
+      <DependentUpon>UserGameSeach.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\UserGameSeach.aspx.designer.cs">
+      <DependentUpon>UserGameSeach.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\UserGameSeachList.aspx.cs">
+      <DependentUpon>UserGameSeachList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\UserGameSeachList.aspx.designer.cs">
+      <DependentUpon>UserGameSeachList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\UserGameSeachList_xg.aspx.cs">
+      <DependentUpon>UserGameSeachList_xg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\UserGameSeachList_xg.aspx.designer.cs">
+      <DependentUpon>UserGameSeachList_xg.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\UserIp_Seach.aspx.cs">
+      <DependentUpon>UserIp_Seach.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\UserIp_Seach.aspx.designer.cs">
+      <DependentUpon>UserIp_Seach.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\UserIp_Top.aspx.cs">
+      <DependentUpon>UserIp_Top.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\UserIp_Top.aspx.designer.cs">
+      <DependentUpon>UserIp_Top.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\UserLoginSearch.aspx.cs">
+      <DependentUpon>UserLoginSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\UserLoginSearch.aspx.designer.cs">
+      <DependentUpon>UserLoginSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\UserMoneySeach.aspx.cs">
+      <DependentUpon>UserMoneySeach.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\UserMoneySeach.aspx.designer.cs">
+      <DependentUpon>UserMoneySeach.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\UserMoneySeachList.aspx.cs">
+      <DependentUpon>UserMoneySeachList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\UserMoneySeachList.aspx.designer.cs">
+      <DependentUpon>UserMoneySeachList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\UserSendMoneyLog.aspx.cs">
+      <DependentUpon>UserSendMoneyLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\UserSendMoneyLog.aspx.designer.cs">
+      <DependentUpon>UserSendMoneyLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\UserRoomSeach.aspx.cs">
+      <DependentUpon>UserRoomSeach.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\UserRoomSeach.aspx.designer.cs">
+      <DependentUpon>UserRoomSeach.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\UserRoomSeachList.aspx.cs">
+      <DependentUpon>UserRoomSeachList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\UserRoomSeachList.aspx.designer.cs">
+      <DependentUpon>UserRoomSeachList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\UsersMoneyChangeLog.aspx.cs">
+      <DependentUpon>UsersMoneyChangeLog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\UsersMoneyChangeLog.aspx.designer.cs">
+      <DependentUpon>UsersMoneyChangeLog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\Users_Seach.aspx.cs">
+      <DependentUpon>Users_Seach.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\Users_Seach.aspx.designer.cs">
+      <DependentUpon>Users_Seach.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\UserTop.aspx.cs">
+      <DependentUpon>UserTop.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\UserTop.aspx.designer.cs">
+      <DependentUpon>UserTop.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Users\User_List.aspx.cs">
+      <DependentUpon>User_List.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Users\User_List.aspx.designer.cs">
+      <DependentUpon>User_List.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Warning.aspx.cs">
+      <DependentUpon>Warning.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Warning.aspx.designer.cs">
+      <DependentUpon>Warning.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\XmlHttpAdmin.aspx.cs">
+      <DependentUpon>XmlHttpAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\XmlHttpAdmin.aspx.designer.cs">
+      <DependentUpon>XmlHttpAdmin.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Adminin.aspx" />
+    <Content Include="Admin\Admin_Logout.aspx" />
+    <Content Include="Admin\Books\book.aspx" />
+    <Content Include="Admin\Books\BookDel.aspx" />
+    <Content Include="Admin\Books\BookInfo.aspx" />
+    <Content Include="Admin\Default.aspx" />
+    <Content Include="Admin\FineryID\EditFineryID.aspx" />
+    <Content Include="Admin\FineryID\FineryID.aspx" />
+    <Content Include="Admin\FineryID\IsBuyFineryID.aspx" />
+    <Content Include="Admin\FineryID\NoBuyFineryID.aspx" />
+    <Content Include="Admin\FlashAd\FlashAD.aspx" />
+    <Content Include="Admin\FlashAd\FlashAdd.aspx" />
+    <Content Include="Admin\FlashAd\FlashDel.aspx" />
+    <Content Include="Admin\FlashAd\FlashEdit.aspx" />
+    <Content Include="Admin\Friend\Default.aspx" />
+    <Content Include="Admin\GameInfo\AgencyGameDown.aspx" />
+    <Content Include="Admin\GameInfo\GameBigTing.aspx" />
+    <Content Include="Admin\GameInfo\GameMain.aspx" />
+    <Content Include="Admin\GameInfo\GameMainDel.aspx" />
+    <Content Include="Admin\GameInfo\GameMainEdit.aspx" />
+    <Content Include="Admin\GameInfo\GameMain_Add.aspx" />
+    <Content Include="Admin\GameInfo\GameType.aspx" />
+    <Content Include="Admin\GameInfo\GameTypeDel.aspx" />
+    <Content Include="Admin\GameInfo\GameTypeEdit.aspx" />
+    <Content Include="Admin\GameInfo\GameType_Add.aspx" />
+    <Content Include="Admin\Games\GameBattleRooms.aspx" />
+    <Content Include="Admin\Games\GameBattleRoomsWrite.aspx" />
+    <Content Include="Admin\Games\GameNames.aspx" />
+    <Content Include="Admin\Games\GameNamesAdd.aspx" />
+    <Content Include="Admin\Games\GameNamesDel.aspx" />
+    <Content Include="Admin\Games\GameNamesEdit.aspx" />
+    <Content Include="Admin\Games\GameRooms.aspx" />
+    <Content Include="Admin\Games\GameRoomsAdd.aspx" />
+    <Content Include="Admin\Games\GameRoomsDel.aspx" />
+    <Content Include="Admin\Games\GameRoomsEdit.aspx" />
+    <Content Include="Admin\Games\GameTypes.aspx" />
+    <Content Include="Admin\Games\GameTypesAdd.aspx" />
+    <Content Include="Admin\Games\GameTypesDel.aspx" />
+    <Content Include="Admin\Games\GameTypesEdit.aspx" />
+    <Content Include="Admin\Games\RoomRule.aspx" />
+    <Content Include="Admin\Games\RoomRuleSet.aspx" />
+    <Content Include="Admin\Games\RoomRuleSet.html" />
+    <Content Include="Admin\Images\admin_left_01.gif" />
+    <Content Include="Admin\Images\admin_left_02.gif" />
+    <Content Include="Admin\Images\admin_left_03.gif" />
+    <Content Include="Admin\Images\admin_left_04.gif" />
+    <Content Include="Admin\Images\admin_left_05.gif" />
+    <Content Include="Admin\Images\admin_left_1.gif" />
+    <Content Include="Admin\Images\Admin_left_10.gif" />
+    <Content Include="Admin\Images\admin_left_2.gif" />
+    <Content Include="Admin\Images\admin_left_3.gif" />
+    <Content Include="Admin\Images\admin_left_4.gif" />
+    <Content Include="Admin\Images\admin_left_5.gif" />
+    <Content Include="Admin\Images\admin_left_6.gif" />
+    <Content Include="Admin\Images\admin_left_7.gif" />
+    <Content Include="Admin\Images\admin_left_8.gif" />
+    <Content Include="Admin\Images\admin_left_9.gif" />
+    <Content Include="Admin\Images\Admin_Login1.gif" />
+    <Content Include="Admin\Images\Admin_Login2.gif" />
+    <Content Include="Admin\Images\Admin_Login3.gif" />
+    <Content Include="Admin\Images\Admin_Login3_bak.gif" />
+    <Content Include="Admin\Images\admin_main_01.gif" />
+    <Content Include="Admin\Images\admin_main_02.gif" />
+    <Content Include="Admin\Images\admin_main_0201.gif" />
+    <Content Include="Admin\Images\admin_main_0202.gif" />
+    <Content Include="Admin\Images\admin_main_0203.gif" />
+    <Content Include="Admin\Images\admin_main_0204.gif" />
+    <Content Include="Admin\Images\admin_main_0205.gif" />
+    <Content Include="Admin\Images\admin_main_0206.gif" />
+    <Content Include="Admin\Images\admin_main_0207.gif" />
+    <Content Include="Admin\Images\admin_main_03.gif" />
+    <Content Include="Admin\Images\admin_main_04.gif" />
+    <Content Include="Admin\Images\admin_main_04bg.gif" />
+    <Content Include="Admin\Images\admin_top_bg.gif" />
+    <Content Include="Admin\Images\admin_top_close.gif" />
+    <Content Include="Admin\Images\admin_top_icon_1.gif" />
+    <Content Include="Admin\Images\admin_top_icon_5.gif" />
+    <Content Include="Admin\Images\admin_top_icon_6.gif" />
+    <Content Include="Admin\Images\admin_top_open.gif" />
+    <Content Include="Admin\Images\Calendar.gif" />
+    <Content Include="Admin\Images\Calendar_Close.gif" />
+    <Content Include="Admin\Images\Calendar_Closed.gif" />
+    <Content Include="Admin\Images\Calendar_Down.gif" />
+    <Content Include="Admin\Images\Calendar_Drop1.gif" />
+    <Content Include="Admin\Images\Calendar_Drop2.gif" />
+    <Content Include="Admin\Images\Calendar_Left1.gif" />
+    <Content Include="Admin\Images\Calendar_Left2.gif" />
+    <Content Include="Admin\Images\Calendar_Right1.gif" />
+    <Content Include="Admin\Images\Calendar_Right2.gif" />
+    <Content Include="Admin\Images\Calendar_Up.gif" />
+    <Content Include="Admin\Images\img_u.gif" />
+    <Content Include="Admin\Images\shequ_r1_c1.jpg" />
+    <Content Include="Admin\Images\shequ_r2_c1.jpg" />
+    <Content Include="Admin\Images\shequ_r2_c3.jpg" />
+    <Content Include="Admin\Images\shequ_r3_c1.jpg" />
+    <Content Include="Admin\Images\title.gif" />
+    <Content Include="Admin\Images\title_bg_hide.gif" />
+    <Content Include="Admin\Images\title_bg_quit.gif" />
+    <Content Include="Admin\Images\title_bg_show.gif" />
+    <Content Include="Admin\Images\topBar_bg.gif" />
+    <Content Include="Admin\Menu.aspx" />
+    <Content Include="Admin\News\Js\checkbox.js" />
+    <Content Include="Admin\News\Js\Date.js" />
+    <Content Include="Admin\News\Js\div.js" />
+    <Content Include="Admin\News\Js\js.js" />
+    <Content Include="Admin\News\Js\out.js" />
+    <Content Include="Admin\News\Js\prototype.js" />
+    <Content Include="Admin\News\Js\window.js" />
+    <Content Include="Admin\News\News.aspx" />
+    <Content Include="Admin\News\NewsDel.aspx" />
+    <Content Include="Admin\News\NewsDtype.aspx" />
+    <Content Include="Admin\News\NewsEdit.aspx" />
+    <Content Include="Admin\News\NewsEtype.aspx" />
+    <Content Include="Admin\News\NewsType.aspx" />
+    <Content Include="Admin\News\NewsTypeAdd.aspx" />
+    <Content Include="Admin\News\News_Add.aspx" />
+    <Content Include="Admin\Pay\FreeCardCount.aspx" />
+    <Content Include="Admin\Pay\Order_Seach.aspx" />
+    <Content Include="Admin\Pay\Pay.aspx" />
+    <Content Include="Admin\Pay\PayBank.aspx" />
+    <Content Include="Admin\Pay\PayBankDel.aspx" />
+    <Content Include="Admin\Pay\PayDel.aspx" />
+    <Content Include="Admin\Pay\PayTotalRecord.aspx" />
+    <Content Include="Admin\Pay\PintCard_Seach.aspx" />
+    <Content Include="Admin\Pay\Rate.aspx" />
+    <Content Include="Admin\Prizes\Prizes.aspx" />
+    <Content Include="Admin\Prizes\PrizesAdd.aspx" />
+    <Content Include="Admin\Prizes\PrizesDel.aspx" />
+    <Content Include="Admin\Prizes\PrizesEdit.aspx" />
+    <Content Include="Admin\Prizes\PrizesH.aspx" />
+    <Content Include="Admin\Prizes\PrizesHDel.aspx" />
+    <Content Include="Admin\Prizes\PrizesHEdit.aspx" />
+    <Content Include="Admin\Promotion\AllMoney.aspx" />
+    <Content Include="Admin\Promotion\GameTimes.aspx" />
+    <Content Include="Admin\Promotion\PrBalanceLog.aspx" />
+    <Content Include="Admin\Promotion\PrCs.aspx" />
+    <Content Include="Admin\Promotion\PrDel.aspx" />
+    <Content Include="Admin\Promotion\PrDetail.aspx" />
+    <Content Include="Admin\Promotion\PrEdit.aspx" />
+    <Content Include="Admin\Promotion\PrList.aspx" />
+    <Content Include="Admin\Promotion\PrListInfo.aspx" />
+    <Content Include="Admin\SConfig\Accept.aspx" />
+    <Content Include="Admin\SConfig\AdminModifyLog.aspx" />
+    <Content Include="Admin\SConfig\BankAccessLog.aspx" />
+    <Content Include="Admin\SConfig\CreateRanking.aspx" />
+    <Content Include="Admin\SConfig\DaoJuFasciLog.aspx" />
+    <Content Include="Admin\SConfig\DaoJuLog.aspx" />
+    <Content Include="Admin\SConfig\FilterGameName.aspx" />
+    <Content Include="Admin\SConfig\Filtering.aspx" />
+    <Content Include="Admin\SConfig\GameADEdit.aspx" />
+    <Content Include="Admin\SConfig\GameAdSetting.aspx" />
+    <Content Include="Admin\SConfig\GameGiveMoneySet.aspx" />
+    <Content Include="Admin\SConfig\GMAwardTypeSet.aspx" />
+    <Content Include="Admin\SConfig\GMAwardTypeSetEdit.aspx" />
+    <Content Include="Admin\SConfig\JpPrices.aspx" />
+    <Content Include="Admin\SConfig\JpProicesE.aspx" />
+    <Content Include="Admin\SConfig\MoneyRankingViewSet.aspx" />
+    <Content Include="Admin\SConfig\MoneyStatiEveryday.aspx" />
+    <Content Include="Admin\SConfig\PFPrices.aspx" />
+    <Content Include="Admin\SConfig\PFPricesE.aspx" />
+    <Content Include="Admin\SConfig\Prices.aspx" />
+    <Content Include="Admin\SConfig\PropStatistic.aspx" />
+    <Content Include="Admin\SConfig\SEO.aspx" />
+    <Content Include="Admin\SConfig\SEO_Opera.aspx" />
+    <Content Include="Admin\SConfig\ServiceContent.aspx" />
+    <Content Include="Admin\SConfig\SystemEdit.aspx" />
+    <Content Include="Admin\SConfig\systems.aspx" />
+    <Content Include="Admin\SConfig\SystemStat.aspx" />
+    <Content Include="Admin\SConfig\SystemStatEveryDay.aspx" />
+    <Content Include="Admin\SConfig\TaxStatiEveryday.aspx" />
+    <Content Include="Admin\SConfig\Transfers.aspx" />
+    <Content Include="Admin\SConfig\UserPropEdit.aspx" />
+    <Content Include="Admin\SConfig\YeepayPhonePayInfoSet.aspx" />
+    <Content Include="Admin\Serverinfo.aspx" />
+    <Content Include="Admin\Top.aspx" />
+    <Content Include="Admin\Trans\Trans.aspx" />
+    <Content Include="Admin\Trans\TransDel.aspx" />
+    <Content Include="Admin\Trans\TransSeach.aspx" />
+    <Content Include="Admin\UserAdmin\Add_AdminUser.aspx" />
+    <Content Include="Admin\UserAdmin\Del_AdminUser.aspx" />
+    <Content Include="Admin\UserAdmin\Edit_AdminUser.aspx" />
+    <Content Include="Admin\UserAdmin\Edit_AdminUsers.aspx" />
+    <Content Include="Admin\UserAdmin\UpdateLoginName.aspx" />
+    <Content Include="Admin\Users\ClearGameRecord.aspx" />
+    <Content Include="Admin\Users\ClearLoginInfo.aspx" />
+    <Content Include="Admin\Users\CountIp.aspx" />
+    <Content Include="Admin\Users\CreateUser.aspx" />
+    <Content Include="Admin\Users\Del_UserList.aspx" />
+    <Content Include="Admin\Users\Edit_User.aspx" />
+    <Content Include="Admin\Users\LoginIp_seach.aspx" />
+    <Content Include="Admin\Users\Pictures.aspx" />
+    <Content Include="Admin\Users\RookiePresent.aspx" />
+    <Content Include="Admin\Users\UserGameSeach.aspx" />
+    <Content Include="Admin\Users\UserGameSeachList.aspx" />
+    <Content Include="Admin\Users\UserGameSeachList_xg.aspx" />
+    <Content Include="Admin\Users\UserIp_Seach.aspx" />
+    <Content Include="Admin\Users\UserIp_Top.aspx" />
+    <Content Include="Admin\Users\UserMoneySeach.aspx" />
+    <Content Include="Admin\Users\UserMoneySeachList.aspx" />
+    <Content Include="Admin\Users\UserRoomSeach.aspx" />
+    <Content Include="Admin\Users\UserRoomSeachList.aspx" />
+    <Content Include="Admin\Users\UsersMoneyChangeLog.aspx" />
+    <Content Include="Admin\Users\Users_Seach.aspx" />
+    <Content Include="Admin\Users\UserTop.aspx" />
+    <Content Include="Admin\Users\User_List.aspx" />
+    <Content Include="Admin\Warning.aspx" />
+    <Content Include="Admin\XmlHttpAdmin.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Admin\Images\body.Fix" />
+    <None Include="Admin\Images\Head.Fix" />
+    <Content Include="Admin\Agency\AgencyDetailInfo.aspx" />
+    <Content Include="Admin\Agency\AgencyMoneyModify.aspx" />
+    <Content Include="Admin\Agency\AgencyPopedomSet.aspx" />
+    <Content Include="Admin\Agency\ChildAgencyDetail.aspx" />
+    <Content Include="Admin\Agency\MyEarningMoney.aspx" />
+    <Content Include="Admin\Cloth\ClothEdit.aspx" />
+    <Content Include="Admin\Cloth\ClothesList.aspx" />
+    <Content Include="Admin\FasciExchange\FasciExchange.aspx" />
+    <Content Include="Admin\FasciExchange\FasciExchangeEdit.aspx" />
+    <Content Include="Admin\FasciExchange\FasciExchangeLog.aspx" />
+    <Content Include="Admin\FasciExchange\FasciPrizeAdd.aspx" />
+    <Content Include="Admin\FasciExchange\FasciPropAdd.aspx" />
+    <Content Include="Admin\Games\ApplyRoomEdit.aspx" />
+    <Content Include="Admin\Games\ApplyRoomList.aspx" />
+    <Content Include="Admin\Games\GameContestRank.aspx" />
+    <Content Include="Admin\Games\GameContestRooms.aspx" />
+    <Content Include="Admin\Games\GameContestRoomsWrite.aspx" />
+    <Content Include="Admin\Pay\PayToPoint.aspx" />
+    <Content Include="Admin\SConfig\ClearList.aspx" />
+    <Content Include="Admin\SConfig\CreateBankTax.aspx" />
+    <Content Include="Admin\SConfig\LastLoginGameCount.aspx" />
+    <Content Include="Admin\SConfig\MatchSendLotteries.aspx" />
+    <Content Include="Admin\SConfig\MatchSendType.aspx" />
+    <Content Include="Admin\Users\EditUserPoint.aspx" />
+    <Content Include="Admin\Users\GameList.aspx" />
+    <Content Include="Admin\Images\left_bg0.jpg" />
+    <Content Include="Admin\Lotter\LotterConfig.aspx" />
+    <Content Include="Admin\Lotter\LotterLog.aspx" />
+    <Content Include="Admin\Lotter\PrAdd.aspx" />
+    <Content Include="Admin\Lotter\PrEdit.aspx" />
+    <Content Include="Admin\Lotter\PrList.aspx" />
+    <Content Include="Admin\Lotter\PrUserAdd.aspx" />
+    <Content Include="Admin\Lotter\PrUserList.aspx" />
+    <Content Include="Admin\SConfig\AdminMsgList.aspx" />
+    <Content Include="Admin\SConfig\AlmsConfig.aspx" />
+    <Content Include="Admin\Agency\AgencyView.aspx" />
+    <Content Include="Admin\Agency\LinkCurrentDownAgency.aspx" />
+    <Content Include="Admin\SConfig\ReceiveMoneyConfig.aspx" />
+    <Content Include="Admin\SConfig\ReceiveMoneyEdit.aspx" />
+    <Content Include="Admin\SConfig\ReceiveMoneySettings.aspx" />
+    <Content Include="Admin\SConfig\SendMsg.aspx" />
+    <Content Include="Admin\SConfig\SendMsg2.aspx" />
+    <Content Include="Admin\UserAdmin\ConfigEncryption.aspx" />
+    <Content Include="Admin\UserAnaly\Add_AnalyUser.aspx" />
+    <Content Include="Admin\UserAnaly\Edit_Users.aspx" />
+    <Content Include="Admin\Users\GameMoneyList.aspx" />
+    <Content Include="Admin\Users\UnLockUser.aspx" />
+    <Content Include="Admin\Users\UserAlmsRecord.aspx" />
+    <Content Include="Admin\Users\UserBankDeposit.aspx" />
+    <Content Include="Admin\Users\UserGameMoneyLog.aspx" />
+    <Content Include="Admin\Users\UserLoginSearch.aspx" />
+    <Content Include="Admin\Users\UserLoterriesLog.aspx" />
+    <Content Include="Admin\Users\UserPointList.aspx" />
+    <Content Include="Admin\Users\UserReceiveMoneyList.aspx" />
+    <Content Include="Admin\Users\UserSendMoneyLog.aspx" />
+    <Content Include="Admin\Users\UserWalletMoney.aspx" />
+    <Content Include="Admin\Users\User_Lock.aspx" />
+    <Content Include="Admin\Css\css.css" />
+    <Content Include="Admin\Css\default.css" />
+    <Content Include="Admin\Css\inc_style.css" />
+    <Content Include="Admin\Css\left_style.css" />
+    <Content Include="Admin\Css\scenter.css" />
+    <Content Include="Admin\Css\style.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bzw.Inhersits\Bzw.Inhersits.csproj">
+      <Project>{0FA3DEE1-38B6-404F-956D-BA01955BDCBD}</Project>
+      <Name>Bzw.Inhersits</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2138</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

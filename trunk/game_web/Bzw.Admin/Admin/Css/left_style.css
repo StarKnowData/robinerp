@@ -1,0 +1,16 @@
+*{padding:0;margin:0;}
+body { background:#0650D2; margin:0px; font-size:12px; font-family:ËÎÌו;padding:0;}
+table  { border:0px; }
+td  
+{
+	font-size:12px;
+}
+img  { vertical-align:bottom; border:0px; }
+a  {color:#000000; text-decoration: none;}
+a:link {color:#000000;text-decoration: none;}
+a:hover  { color:#000000;}
+.sec_menu{overflow:hidden; background:#D4ECF5; }
+.menu_title  { }
+.menu_title span  { position:relative; top:2px; left:8px; color:#0F42A6; font-weight:bold; }
+.menu_title2  { }
+.menu_title2 span  { position:relative; top:2px; left:8px; color:#cc0000; font-weight:bold; }

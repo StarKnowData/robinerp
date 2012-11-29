@@ -1,0 +1,66 @@
+﻿html
+{
+	overflow: hidden;
+	overflow-y: hidden;
+}
+table
+{
+	font-size: 12px;
+}
+th
+{
+	text-align:right;
+	}
+td
+{
+	padding: 3px 0;
+}
+.red
+{
+	color: #f00;
+	font-size: 14px;
+}
+.pwSafe
+{
+	border-collapse: collapse;
+	background: #bddff7;
+}
+.pwSafe td
+{
+	padding: 5px 8px 2px;
+	text-align: center;
+	vertical-align: middle;
+	border: 1px solid #e8f4fc;
+}
+.note
+{
+	color: #333;
+}
+.note_yes
+{
+	color: #2a8d03;
+	padding: 4px 15px 2px 0;
+	background: url(../images/icon08.gif) no-repeat right center;
+}
+.note_no
+{
+	color: #f00;
+	padding: 0px 0px 2px 0;
+	background: url(../images/icon09.gif) no-repeat right center;
+}
+.submit,.reset
+{
+    margin-top:10px;
+	width:78px;
+	height:25px;
+	padding-bottom:4px;
+	line-height:25px;
+	text-align:center;
+	border:0;
+	background:url(../images/sub_r.png) no-repeat left top;
+	color:#064776;
+	font-size:12px;
+	 
+}
+.reset{margin-left:15px; background:url(../images/res_r.png) no-repeat left top;}
+

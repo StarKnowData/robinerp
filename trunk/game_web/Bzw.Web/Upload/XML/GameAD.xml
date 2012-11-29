@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<bcaster>
+  <item id="1">
+    <title>登录框广告位显示(364*122)</title>
+    <Content> 
+    </Content>
+  </item>
+  <item id="2">
+    <title>大厅登录广告位显示(240*65)</title>
+    <Content></Content>
+  </item>
+  <item id="3">
+    <title>游戏房间右侧广告位显示(324*100)</title>
+    <Content></Content>
+  </item>
+  <item id="4">
+    <title>游戏广告位4 </title>
+    <Content></Content>
+  </item>
+  <item id="5">
+    <title>游戏广告位5</title>
+    <Content></Content>
+  </item>
+  <item id="6">
+    <title>游戏广告位6</title>
+    <Content></Content>
+  </item>
+  <item id="7">
+    <title>游戏广告位7</title>
+    <Content></Content>
+  </item>
+</bcaster>

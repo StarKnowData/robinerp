@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('bbs.css');
+@import url('layout.css');
+
+body {
+	background:url('../img/bg01.jpg') repeat-x;
+}
+
+* {
+	margin:0;
+	padding:0;
+	color:#000000;
+	font-family:"黑体",arial;
+	font-size: 13px;
+	line-height:18px;
+	list-style:none
+}
+form {
+	display :inline; 
+	margin:0;
+	border:0;
+	padding:0;
+	margin:0
+}
+table   {border-collapse:collapse;}
+img     {border:0px}
+caption, .hide {display:none}
+input, img, select, label, span {vertical-align:middle}
+.skip   {position:absolute;top:-300px;left:-300px;}
+ul.noline li {font:0/0 arial}
+ul.ufl li    {float:left}
+.afl *       {float:left}
+
+.scroll  {
+	scrollbar-face-color: #ffffff; 
+	scrollbar-shadow-color: #e4e0d2; 
+	scrollbar-highlight-color: #e4e0d2; 
+	scrollbar-3dlight-color: #ffffff; 
+	scrollbar-darkshadow-color: #ffffff; 
+	scrollbar-track-color: #ffffff;
+	scrollbar-arrow-color: #cec8b4;
+}
+
+
+a:link          {font-family:黑体; color:#ffffff; text-decoration:none;}
+a:active        {font-family:黑体; color:#ffffff; text-decoration:none;}
+a:visited       {font-family:黑体; color:#ffffff; text-decoration:none;}
+a:hover	        {font-family:黑体; color:#ffffff; text-decoration:underline;}
+
+a.e:link          {font-family:arial; color:#777777; text-decoration:none;}
+a.e:active        {font-family:arial; color:#777777; text-decoration:none;}
+a.e:visited       {font-family:arial; color:#777777; text-decoration:none;}
+a.e:hover	      {font-family:arial; color:#777777; text-decoration:underline;}
+
+
+/* 정렬 관련 */
+.normal    {font-size:80% !important;font-weight:normal !important}
+.al        {text-align:left !important}
+.ac        {text-align:center !important}
+.ar        {text-align:right !important}
+.vt        {vertical-align:top !important}
+.vb        {vertical-align:bottom !important}
+
+.fl        {float:left}
+.fr        {float:right}
+.fc        {float:center}
+.cl        {clear:left}
+.cr        {clear:right}
+.cb        {clear:both}
+
+/* 텍스트 color 관련 */
+.b        {font-weight:bold !important}
+.font0    {font:0/0 arial !important}
+.txt_s    {font-size:80% !important}
+.txt_big  {font-size:130% !important}
+.txt_ls   {letter-spacing:-1px !important}
+.txt_bb   {color:#000 !important}
+.txt_bb2  {color:#2e2523 !important}
+.txt_p    {color:#cb8a83 !important}
+.txt_r    {color:#df3c1c !important}
+
+/* padding 관련 */
+.l03     {padding-left:3px}
+.l05     {padding-left:5px}
+.l08     {padding-left:08px}
+.l10     {padding-left:10px}
+.l15     {padding-left:15px}
+.l20     {padding-left:20px}
+.l25     {padding-left:25px}
+.l30     {padding-left:30px}
+.l35     {padding-left:35px}
+.l40     {padding-left:40px}
+.l50     {padding-left:50px}
+.l60     {padding-left:60px}
+.t02     {padding-top:2px}
+.t03     {padding-top:3px}
+.t05     {padding-top:5px}
+.t07     {padding-top:7px}
+.t10     {padding-top:10px}
+.t15     {padding-top:15px}
+.t20     {padding-top:20px}
+.t25     {padding-top:25px}
+.t30     {padding-top:30px}
+.t35     {padding-top:35px}
+.t40     {padding-top:40px}
+.t50     {padding-top:50px}
+.t60     {padding-top:60px}
+.r05     {padding-right:5px}
+.r10     {padding-right:10px}
+.r15     {padding-right:15px}
+.r20     {padding-right:20px}
+.r25     {padding-right:25px}
+.r30     {padding-right:30px}
+.r37     {padding-right:37px}
+.r40     {padding-right:40px}
+.b05     {padding-bottom:5px}
+.b10     {padding-bottom:10px}
+.b20     {padding-bottom:20px}
+.b25     {padding-bottom:25px}
+.b30     {padding-bottom:30px}
+
+.in       {border:#cccccc solid 1px;height:18px;line-height:16px;background-color:#fff}
+.in2      {border:#7f9db9 solid 1px;height:16px;line-height:16px;}
+.s_in     {
+	border:0;
+	background-color:#ececec;
+	color:#909090;
+	font-size:90%;
+	letter-spacing:-1px;
+	width:100px;
+	margin-top:4px;
+}

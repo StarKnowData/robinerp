@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" Inherits="Admin_Promotion_GameTimes" Codebehind="GameTimes.aspx.cs" %>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bcaster>
+  <item id="3" url="http://192.168.0.235:8012">
+    <name>ipad2</name>
+    <PicPath>/Upload/Lotter/20120102183303421875559221.jpg</PicPath>
+    <GoldRate>3</GoldRate>
+    <SilverRate>2</SilverRate>
+    <JadeRate>1</JadeRate>
+    <Number>1</Number>
+  </item>
+  <item id="5" url="http://192.168.0.235:8012">
+    <name>iphone4s</name>
+    <PicPath>/Upload/Lotter/20120104115751734375709921.jpg</PicPath>
+    <GoldRate>3</GoldRate>
+    <SilverRate>2</SilverRate>
+    <JadeRate>1</JadeRate>
+    <Number>1</Number>
+  </item>
+  <item id="6" url="http://192.168.0.235:8012">
+    <name>鼠标</name>
+    <PicPath>/Upload/Lotter/2012010411592415625311586.jpg</PicPath>
+    <GoldRate>3</GoldRate>
+    <SilverRate>1</SilverRate>
+    <JadeRate />
+    <Number>1</Number>
+  </item>
+  <item id="7" url="http://192.168.0.235:8012">
+    <name>笔记本</name>
+    <PicPath>/Upload/Lotter/20120104115951546875582004.jpg</PicPath>
+    <GoldRate>0</GoldRate>
+    <SilverRate>0</SilverRate>
+    <JadeRate />
+    <Number>1</Number>
+  </item>
+  <item id="8" url="http://192.168.0.235:8012">
+    <name>围脖</name>
+    <PicPath>/Upload/Lotter/20120104120031453125971153.jpg</PicPath>
+    <GoldRate>10</GoldRate>
+    <SilverRate>1</SilverRate>
+    <JadeRate />
+    <Number>1</Number>
+  </item>
+  <item id="9" url="http://192.168.0.235:8012">
+    <name>羽毛球拍</name>
+    <PicPath>/Upload/Lotter/20120104120110828125426608.gif</PicPath>
+    <GoldRate>10</GoldRate>
+    <SilverRate>1</SilverRate>
+    <JadeRate />
+    <Number>1</Number>
+  </item>
+  <item id="10" url="http://192.168.0.235:8012">
+    <name>移动50元充值卡</name>
+    <PicPath>/Upload/Lotter/2012010417000840625214486.jpg</PicPath>
+    <GoldRate>20</GoldRate>
+    <SilverRate>10</SilverRate>
+    <JadeRate />
+    <Number>1</Number>
+  </item>
+  <item id="11" url="http://192.168.0.235:8012">
+    <name>test1</name>
+    <PicPath>/Upload/Lotter/20120104170037390625266481.jpg</PicPath>
+    <GoldRate>1</GoldRate>
+    <SilverRate>1</SilverRate>
+    <JadeRate />
+    <Number>1</Number>
+  </item>
+  <item id="12" url="http://192.168.0.235:8012">
+    <name>test2</name>
+    <PicPath>/Upload/Lotter/20120104170113875977199.jpg</PicPath>
+    <GoldRate>2</GoldRate>
+    <SilverRate>2</SilverRate>
+    <JadeRate />
+    <Number>1</Number>
+  </item>
+</bcaster>

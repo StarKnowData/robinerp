@@ -1,0 +1,1 @@
+<%@ Page Language="C#" AutoEventWireup="true" Inherits="Public_Thumbs" Codebehind="Thumbs.aspx.cs" %>

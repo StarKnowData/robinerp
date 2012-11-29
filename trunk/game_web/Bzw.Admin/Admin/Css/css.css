@@ -1,0 +1,302 @@
+A:visited{ color:#775522; TEXT-DECORATION: none; FONT-FAMILY: 宋体; font-size:9pt;}
+A:active{color:#5F8AC5; TEXT-DECORATION: none; FONT-FAMILY: 宋体; font-size:9pt;}
+A:hover{ color:#ff0000; TEXT-DECORATION:underline;FONT-FAMILY: 宋体; font-size:9pt;}
+A:link{ color:#775522; text-decoration: none; FONT-FAMILY: 宋体; font-size:9pt;}
+
+.VFlink:A:visited{ color:#5F8AC5; TEXT-DECORATION: none; FONT-FAMILY: verdana; font-size:9pt;}
+.VFlink:A:active{color:#5F8AC5; TEXT-DECORATION: none; FONT-FAMILY: verdana; font-size:9pt;}
+.VFlink:A:hover{ color:#555555; TEXT-DECORATION: none; FONT-FAMILY: verdana; font-size:9pt;}
+.VFlink:A:link{ color:#000000; text-decoration: none; FONT-FAMILY: verdana; font-size:9pt;}
+
+.WhiteLink:A:link{ color:#FFFFFF; text-decoration: none; FONT-FAMILY: 宋体; font-size:9pt;}
+.WhiteLink:A:visited{ color:#FFFFFF; TEXT-DECORATION: none; FONT-FAMILY: 宋体; font-size:9pt;}
+.WhiteLink:A:hover{ color:#FFFFFF; TEXT-DECORATION: underline; FONT-FAMILY: 宋体; font-size:9pt;}
+.WhiteLink:A:active{color:#FFFFFF; TEXT-DECORATION: none; FONT-FAMILY: 宋体; font-size:9pt;}
+
+.VFWhiteLink:A:link{ color:#FFFFFF; text-decoration: none; FONT-FAMILY: verdana; font-size:9pt;}
+.VFWhiteLink:A:visited{ color:#FFFFFF; TEXT-DECORATION: none; FONT-FAMILY: verdana; font-size:9pt;}
+.VFWhiteLink:A:hover{ color:#FFFFFF; TEXT-DECORATION: underline; FONT-FAMILY: verdana; font-size:9pt;}
+.VFWhiteLink:A:active{color:#FFFFFF; TEXT-DECORATION: none; FONT-FAMILY: verdana; font-size:9pt;}
+
+.BlackLink:A:link{ color:#000000; TEXT-DECORATION: none}
+.BlackLink:A:visited{ color:#000000; TEXT-DECORATION: none}
+.BlackLink:A:hover{ color:#FF0000; TEXT-DECORATION: none}
+.BlackLink:A:active{color:#5F8AC5; TEXT-DECORATION: none}
+
+.SmallELink:A:visited{ color:#5F8AC5; TEXT-DECORATION: none; FONT-FAMILY:verdana; font-size:8pt;}
+.SmallELink:A:active{color:#5F8AC5; TEXT-DECORATION: none; FONT-FAMILY:verdana; font-size:8pt;}
+.SmallELink:A:hover{ color:#555555; TEXT-DECORATION: none; FONT-FAMILY:verdana; font-size:8pt;}
+.SmallELink:A:link{ color:#5F8AC5; text-decoration: none; FONT-FAMILY:verdana; font-size:8pt;}
+
+.SmallVGrayLink:A:visited{ color:#555555; TEXT-DECORATION: none; FONT-FAMILY:verdana; font-size:8pt;}
+.SmallVGrayLink:A:active{color:#5F8AC5; TEXT-DECORATION: none; FONT-FAMILY:verdana; font-size:8pt;}
+.SmallVGrayLink:A:hover{ color:#555555; TEXT-DECORATION: underline; FONT-FAMILY:verdana; font-size:8pt;}
+.SmallVGrayLink:A:link{ color:#bababa; text-decoration: none; FONT-FAMILY:verdana; font-size:8pt;}
+
+
+BODY {
+	FONT-FAMILY: 宋体;
+	FONT-SIZE: 9pt;
+	SCROLLBAR-HIGHLIGHT-COLOR: #F2C2D2; 
+	SCROLLBAR-SHADOW-COLOR: #F2C2D2;
+	SCROLLBAR-3DLIGHT-COLOR: #F2C2D2;
+	SCROLLBAR-TRACK-COLOR: #EB748B;
+	SCROLLBAR-arrow-COLOR: #ffffff;
+	SCROLLBAR-face-COLOR: #C23A58;
+	SCROLLBAR-DARKSHADOW-COLOR: #F2C2D2
+}
+
+DIV{FONT-FAMILY: 宋体; FONT-SIZE: 9pt}
+FORM{FONT-FAMILY: 宋体; FONT-SIZE: 9pt}
+OPTION{FONT-FAMILY: 宋体; FONT-SIZE: 9pt}
+
+P{FONT-FAMILY: 宋体; FONT-SIZE: 9pt}
+TD{FONT-FAMILY: 宋体; FONT-SIZE: 9pt; line-height:150%}
+BR{FONT-FAMILY: 宋体; FONT-SIZE: 9pt}
+
+INPUT{
+	FONT-SIZE: 9pt;
+	COLOR:#000000;
+	
+
+}
+
+
+textarea {
+	border-width: 1;
+	border-color: #CCCCCC;
+	background-color: #FFFFFF;
+	font-family: 宋体;
+	font-size: 9pt;
+	font-style: bold;
+}
+
+select {border-width: 1;
+	border-color: #000000;
+	background-color: #FFFFFF;
+	font-family: 宋体;
+	font-size: 9pt;
+	font-style: bold;
+}
+LI { COLOR: #bababa; font-family:宋体; font-size:9pt }
+HR {color: #000000; }
+BLOCKQUOTE {font-family:verdana; font-size:9pt}
+
+TR.H	{BACKGROUND-COLOR: #F4F4F4}
+
+
+
+.INPUT_Line{
+	FONT-SIZE: 9pt;
+	FONT-FAMILY: Verdana;
+	COLOR:#000000;
+	HEIGHT: 19px;
+	background-color: #FFFFFF;
+
+	BORDER-TOP-WIDTH: 1px;
+	BORDER-BOTTOM-WIDTH: 1px;
+	BORDER-LEFT-WIDTH: 1px;
+	BORDER-RIGHT-WIDTH: 1px;
+
+	PADDING-TOP: 1px;
+	PADDING-LEFT: 1px;
+	PADDING-RIGHT: 1px;
+	PADDING-BOTTOM: 1px;
+
+	BORDER-LEFT-COLOR: #F2F2F2;
+	BORDER-BOTTOM-COLOR: #cccccc;
+	BORDER-TOP-COLOR: #F2F2F2;
+	BORDER-RIGHT-COLOR: #CCCCCC;
+}
+
+.ColumnInput{
+	FONT-SIZE: 9pt;
+	FONT-FAMILY: 宋体;
+	COLOR:#777777;
+	HEIGHT: 16px;
+	width: 80px;
+	background-color: #FFFFFF;
+
+	BORDER-TOP-WIDTH: 0px;
+	BORDER-BOTTOM-WIDTH: 1px;
+	BORDER-LEFT-WIDTH: 0px;
+	BORDER-RIGHT-WIDTH: 0px;
+
+	PADDING-TOP: 1px;
+	PADDING-LEFT: 1px;
+	PADDING-RIGHT: 1px;
+	PADDING-BOTTOM: 1px;
+
+	BORDER-LEFT-COLOR: #F2F2F2;
+	BORDER-BOTTOM-COLOR: #cccccc;
+	BORDER-TOP-COLOR: #F2F2F2;
+	BORDER-RIGHT-COLOR: #cccccc;
+}
+
+.NoLineInput{
+	FONT-SIZE: 9pt;
+	FONT-FAMILY: Verdana;
+	COLOR:#666666;
+	HEIGHT: 20px;
+	background-color: #FFFFFF;
+
+	BORDER-TOP-WIDTH: 0px;
+	BORDER-BOTTOM-WIDTH: 0px;
+	BORDER-LEFT-WIDTH: 0px;
+	BORDER-RIGHT-WIDTH: 0px;
+
+	PADDING-TOP: 1px;
+	PADDING-LEFT: 1px;
+	PADDING-RIGHT: 1px;
+	PADDING-BOTTOM: 1px;
+
+	BORDER-LEFT-COLOR: #F2F2F2;
+	BORDER-BOTTOM-COLOR: #cccccc;
+	BORDER-TOP-COLOR: #F2F2F2;
+	BORDER-RIGHT-COLOR: #cccccc;
+}
+
+.input555 {
+	BORDER-RIGHT: #333333 1px dashed;
+	BORDER-TOP: #333333 1px dashed;
+	FONT-SIZE: 9pt;
+	BORDER-LEFT: #333333 1px dashed;
+	COLOR: #00215a;
+	BORDER-BOTTOM: #333333 1px dashed;
+	HEIGHT: 16px;
+	BACKGROUND-COLOR: #daecff;
+}
+
+.Gface { font-family:verdana; font-size:9pt; }
+.Aface { font-family:arial; font-size:9pt; }
+.gray {font-size:9pt; font-family:宋体; color:#bababa; }
+.VGray {font-size:9pt; font-family:verdana; color:#bababa; }
+.AGray {font-size:9pt; font-family:arial; color:#bababa; }
+.VSmallGray {font-size:8pt; font-family:verdana; color:#bababa; }
+.white { FONT-FAMILY: 宋体; FONT-SIZE: 9pt; color:#FFFFFF }
+.VFwhite { FONT-FAMILY: verdana; FONT-SIZE: 9pt; color:#FFFFFF }
+.big { FONT-FAMILY: 宋体; FONT-SIZE: 11pt; }
+.SmallE {
+	FONT-FAMILY: verdana;
+	FONT-SIZE: 8pt;
+}
+.alert { FONT-FAMILY: verdana; FONT-SIZE: 9pt; color:#0000ff }
+.blue001{ color:#5F8AC5}
+.VSblue{ font-size:8pt; font-family:verdana; color:#5F8AC5}
+.Vblue{ font-size:9pt; font-family:verdana; color:#5F8AC5}
+.pink {color:#F49BBA }
+
+
+.shadow001 {FONT-SIZE: 9pt; FILTER: dropshadow(color=#c3c3c3,offx=1,offy=1,Positive=1); COLOR: #5F8AC5; FONT-FAMILY: "宋体"}
+.shadow002 {FONT-SIZE: 9pt; FILTER: dropshadow(color=#555555,offx=1,offy=1,Positive=1); COLOR: #5F8AC5; FONT-FAMILY: "宋体"}
+.shadow003 {FONT-SIZE: 9pt; FILTER: dropshadow(color=#c3c3c3,offx=1,offy=1,Positive=1); COLOR: #000000; FONT-FAMILY: "宋体"}
+.dwCopy{font-size: 9pt;
+	filter: DropShadow(Color=#000000, OffX=1, OffY=1,Positive=1);
+	color:#FFFFFF;
+	font-family: "宋体"
+}
+.dw {  font-size: 9pt; filter: DropShadow(Color=#d6e3ff, OffX=1, OffY=1, Positive=1); font-family: "宋体"}
+
+.td001 {  font-size: 9pt; background-color: #BAD2F0}
+
+.tr000 {  font-size: 9pt; background-color: #5F8AC5} 
+.tr001 {  font-size: 9pt; background-color: #BAD2F0} 
+.tr002 {  font-size: 9pt; background-color: #FFFFFF}
+
+
+.table001 {  font-size: 9pt; background-color: #5F8AC5; width:750}
+.table002 {  font-size: 9pt; background-color: #FFFFFF; width:750} //标准表格
+.table003 {  font-size: 9pt; background-color: #55768E}
+.table004 {  font-size: 9pt; background-color: #F1F1F1; width:750}
+.table005 {  font-size: 9pt; background-color: #FAFAFA; width:750}
+.tableSmall {  font-size: 9pt; background-color: #FFFFFF; width=100%}
+.GrayTable {  font-size: 9pt; background-color: #bababa;}
+
+
+.click{ font-size:8pt;
+	font-family:verdana;
+	color:#bababa
+}
+.time { font-size:8pt;
+	font-family:verdana;
+	color:#bababa
+}
+
+
+.BBImage {
+	BORDER-BOTTOM: #000000 1px solid;
+	BORDER-LEFT: #000000 1px solid;
+	BORDER-RIGHT: #000000 1px solid;
+	BORDER-TOP: #000000 1px solid;
+}
+
+
+
+
+A.aBlack:visited{ color: black; TEXT-DECORATION: none;}
+A.aBlack:active{color: black; TEXT-DECORATION: none;}
+A.aBlack:hover{ color: black; TEXT-DECORATION: underline;}
+A.aBlack:link{ color: black; text-decoration: none;}
+
+A.aBlue:visited{ color: Blue; TEXT-DECORATION: none;}
+A.aBlue:active{color: Blue; TEXT-DECORATION: none;}
+A.aBlue:hover{ color: Blue; TEXT-DECORATION: underline;}
+A.aBlue:link{ color: Blue; text-decoration: none;}
+
+A.aBrown:visited{ color: Brown; TEXT-DECORATION: none;}
+A.aBrown:active{color: Brown; TEXT-DECORATION: none;}
+A.aBrown:hover{ color: Brown; TEXT-DECORATION: underline;}
+A.aBrown:link{ color: Brown; text-decoration: none;}
+
+A.aGreen:visited{ color: Green; TEXT-DECORATION: none;}
+A.aGreen:active{color: Green; TEXT-DECORATION: none;}
+A.aGreen:hover{ color: Green; TEXT-DECORATION: underline;}
+A.aGreen:link{ color: Green; text-decoration: none;}
+
+A.aGrey:visited{ color: #CCCCCC; TEXT-DECORATION: none;}
+A.aGrey:active{color: #CCCCCC; TEXT-DECORATION: none;}
+A.aGrey:hover{ color: #CCCCCC; TEXT-DECORATION: underline;}
+A.aGrey:link{ color: #CCCCCC; text-decoration: none;}
+
+A.aMagenta:visited{ color: Magenta; TEXT-DECORATION: none;}
+A.aMagenta:active{color: Magenta; TEXT-DECORATION: none;}
+A.aMagenta:hover{ color: Magenta; TEXT-DECORATION: underline;}
+A.aMagenta:link{ color: Magenta; text-decoration: none;}
+
+A.aOrange:visited{ color: Orange; TEXT-DECORATION: none;}
+A.aOrange:active{color: Orange; TEXT-DECORATION: none;}
+A.aOrange:hover{ color: Orange; TEXT-DECORATION: underline;}
+A.aOrange:link{ color: Orange; text-decoration: none;}
+
+A.aPurple:visited{ color: Purple; TEXT-DECORATION: none;}
+A.aPurple:active{color: Purple; TEXT-DECORATION: none;}
+A.aPurple:hover{ color: Purple; TEXT-DECORATION: underline;}
+A.aPurple:link{ color: Purple; text-decoration: none;}
+
+A.aRed:visited{ color: Red; TEXT-DECORATION: none;}
+A.aRed:active{color: Red; TEXT-DECORATION: none;}
+A.aRed:hover{ color: Red; TEXT-DECORATION: underline;}
+A.aRed:link{ color: Red; text-decoration: none;}
+
+A.aWhite:visited{ color: White; TEXT-DECORATION: none;}
+A.aWhite:active{color: White; TEXT-DECORATION: none;}
+A.aWhite:hover{ color: White; TEXT-DECORATION: underline;}
+A.aWhite:link{ color: White; text-decoration: none;}
+
+A.aYellow:visited{ color: Yellow; TEXT-DECORATION: none;}
+A.aYellow:active{color: Yellow; TEXT-DECORATION: none;}
+A.aYellow:hover{ color: Yellow; TEXT-DECORATION: underline;}
+A.aYellow:link{ color: Yellow; text-decoration: none;}
+
+.HeaderTdStyle {
+	background: buttonface;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-top: 2px solid threedhighlight;
+	border-left: 2px solid threedhighlight;
+	border-right: 2px solid threedshadow;
+	border-bottom: 2px solid threedshadow;
+}
+
+INPUT {cursor:hand;BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT-WIDTH: 1px;}
+.put{border:1px solid #666;background:#ffffff;}
