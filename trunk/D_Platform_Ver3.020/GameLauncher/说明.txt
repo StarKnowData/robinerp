@@ -1,0 +1,16 @@
+本目录下文件夹内容说明
+
+Documents为文档说明
+
+DllForGame为动态库代码
+
+ExeForGame为执行程序代码
+
+Input下是需要用到的一些库包括bz2wui，BZSound，CfgEngine等。
+
+Output是由DllForGame提供的，ExeForGame工程和各游戏ico工程需要用到的头文件和库文件。
+若对DllForGame里的内容，主要是头文件作修改，请在第一时间把修改过的文件，覆盖Output文件夹下同名文件，供具体游戏中使用，由于游戏与平台分开，还需要复制到游戏开发目录相应目录（即PlatFormSDK\Client\include）。
+
+PlatForm目录下是改动过的大厅程序文件，为适应EXE启动方式，需要修改大厅程序文件。
+
+run目录下为DllForGame生成的动态库和ExeForGame生成的可执行文件，只用于暂存，并不能直接运行。

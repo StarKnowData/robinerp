@@ -1,0 +1,11 @@
+本次更新或者修改针对中心平台。
+
+server
+	修改了道具通讯结构，需要更新服务器
+client
+	BZW_DEV_FOR_EXE.exe用来代替原有BZW_DEV.exe运行平台
+	另外三个ico是已经修改好的支持exe启动方式的游戏
+	GameLauncher.exe是BZW_DEV_FOR_EXE.exe调用的接口
+	DllForGame.dll是ico文件需要引用的动态库
+	
+运行时，需要修改服务器数据库，将TGameNameInfo表中ComProcess字段对应游戏客户端文件名的扩展名ico改成exe，如10000300.ico，改成10000300.exe。表示是以EXE方式启动。

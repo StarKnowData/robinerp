@@ -1,0 +1,762 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="PlatForm">
+      <UniqueIdentifier>{a9868af7-f8e7-48f2-af6b-16d685264c3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlatForm\h">
+      <UniqueIdentifier>{0f04be83-2ab9-44d1-8f01-86c733925c1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlatForm\cpp">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-8A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{96cc50a9-8a6d-4e4f-8eba-122a12ad91bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\NewGameFrame">
+      <UniqueIdentifier>{888c3b65-217b-4c32-8694-a6fedb8fd598}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IPC">
+      <UniqueIdentifier>{a267c32a-93f1-4b76-b4ec-7bba9948ed77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BankDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BoardCast.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="checkPSW.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgNotify.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DllForGame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Edit2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTrottingWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IMSetUser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LoveSendClassInExe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PBankDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropPannel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sha1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinHeaderCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinListCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserDetailsDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\AFCDialog.cpp">
+      <Filter>PlatForm</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\AFC.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\AFCButton.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\AFCEdit.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\AFCExpressionWnd.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\AFCFunction.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\AFCImage.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\AFCListCtrl.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\AFCLogoResource.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\AFCMenu.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\AFCRegistry.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\AFCResource.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\AFCWeb.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\AFCWindow.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\CardSet.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\ConfirmDlg.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\ContestInfoWnd.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\DlgDIYChat.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\DlgLeftShow.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\explorer1.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\FlashViewDlg.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\GameEndView.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\GetPoint.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\Gif.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\IGif.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\MessageHandle.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\MjSet.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\ObjectFactory.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\personalinfo.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\PlaySound.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\PlayView.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\PropSelUser.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\ShowScore.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\UserListDlg.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\UserPower.cpp">
+      <Filter>PlatForm\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="NewGameFrame\DebugPrintf.cpp">
+      <Filter>Common\NewGameFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="NewGameFrame\XGameEngine.cpp">
+      <Filter>Common\NewGameFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="NewGameFrame\XLogic.cpp">
+      <Filter>Common\NewGameFrame</Filter>
+    </ClCompile>
+    <ClCompile Include="IPC\ChannelService.cpp">
+      <Filter>IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="IPC\DataStorage.cpp">
+      <Filter>IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="IPC\IPCControls.cpp">
+      <Filter>IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="RightFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\MenuDu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PBank4GameWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\WndAnimate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UseBoardCastWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NewGameFrame\XRightFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinMgr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ExpressionWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIMessageWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DllForGame.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="res\BUTTON_MOVE.wav">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\button_up.wav">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CLIENT_LIST.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CLIENT_ROOM.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cursor1.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DIS.CUR">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DllForGame.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_001.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_002.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_003.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_004.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_005.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_006.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_007.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_008.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_009.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_010.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_011.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_012.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_013.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_014.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_015.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_016.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_017.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_018.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_019.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_020.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_021.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_022.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_023.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_024.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_025.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_026.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_027.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_028.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_029.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_030.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_031.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_032.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_033.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_034.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_035.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_036.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_037.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_038.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_039.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_040.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_041.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_042.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_043.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_044.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_045.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_046.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_047.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_048.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_049.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_050.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_051.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_052.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_053.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_054.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_055.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_056.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_057.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_058.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_059.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_060.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_061.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_062.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_063.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_064.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_065.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_066.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_067.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EP_RES\EP_068.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\HAND.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\HCUR.CUR">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\LOGO\LOST_LOGO.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\LOGO\MATCH.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\scroll.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SYSTEM_MSG.WAV">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\VCUR.CUR">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WARN.WAV">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\BankDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\BoardCast.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\checkPSW.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgNotify.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DllForGame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Edit2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\GameTrottingWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IMSetUser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\LoveSendClassInExe.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\MD5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\pbankdlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\PropPannel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\sha1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\SkinHeaderCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\SkinListCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\UserDetailsDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\AFCButton.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\AFCDevHead.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\AFCDialog.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\AFCEdit.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\AFCExpressionWnd.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\AFCFunction.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\AFCImage.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\AFCListCtrl.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\AFCLogoResource.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\AFCMenu.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\AFCRegistry.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\AFCResource.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\AFCTabCtrl.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\AFCWeb.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\AFCWindow.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\bzsound.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\BZUI.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\CardSet.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\ClientComStruct.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\ConfirmDlg.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\DlgDIYChat.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\DlgLeftShow.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\explorer1.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\FlashViewDlg.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\GameEndView.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\GetPoint.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\Gif.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\IGif.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\include.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\MessageHandle.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\MJ.H">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\MjSet.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\ObjectFactory.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\PersonalInfo.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\PlaySound.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\playview.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\PropSelUser.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\publicdefine.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\resource.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\ShowScore.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\UserListDlg.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\UserPower.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\UserProp.h">
+      <Filter>PlatForm\h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\common\basemessage.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\common\CenterServerhead.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\common\cfgengine.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\common\CommonUse.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\common\comstruct.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\common\gameplacemessage.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\common\gameroommessage.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\common\IMMessage.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\common\propmessage.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGameFrame\IGameEngine.h">
+      <Filter>Common\NewGameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGameFrame\XGameEngine.h">
+      <Filter>Common\NewGameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGameFrame\XGameLogicBase.h">
+      <Filter>Common\NewGameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGameFrame\XLogic.h">
+      <Filter>Common\NewGameFrame</Filter>
+    </ClInclude>
+    <ClInclude Include="IPC\ChannelService.h">
+      <Filter>IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="IPC\common.h">
+      <Filter>IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="IPC\DataStorage.h">
+      <Filter>IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="IPC\IPCControls.h">
+      <Filter>IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="IPC\Sink.h">
+      <Filter>IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\PBank4GameWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\RightFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\Platform\WndAnimate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UseBoardCastWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\XRightFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\SkinMgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\SDK\include\GameLaunchSdk\ExpressionWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DUIMessageWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DllForGame.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
