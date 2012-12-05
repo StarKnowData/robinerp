@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameListCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameListCtrl0.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLogonManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IMService.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainServerDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SysInfoList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TrayIcon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserCustomLogo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BankService4Z.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DistriManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameListCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameListCtrl0.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogonDT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLogonManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IMService.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainServer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainServerDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TrayIcon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserCustomLogo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BankService4Z.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DistriManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MainServer.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MainServer.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MainServer.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="res\MainServer.manifest" />
+  </ItemGroup>
+</Project>

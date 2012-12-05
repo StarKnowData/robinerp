@@ -1,0 +1,151 @@
+﻿生成启动时间为 2012-11-13 19:56:47。
+     1>项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Server\MainServer\MainServer.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\ZServer.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\sdk\include /I..\..\..\sdk\include\Common /I..\..\..\sdk\include\ServerCommon /I../../../SDK/include/BzCrashRpt /ZI /nologo /W3 /WX- /Od /Oy /D WIN32 /D _WINDOWS /D NDEBUG:HWACC /D _VC80_UPGRADE=0x0710 /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\ZServer.pch" /FAcs /Fa"Release\\" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\sdk\include /I..\..\..\sdk\include\Common /I..\..\..\sdk\include\ServerCommon /I../../../SDK/include/BzCrashRpt /ZI /nologo /W3 /WX- /Od /Oy /D WIN32 /D _WINDOWS /D NDEBUG:HWACC /D _VC80_UPGRADE=0x0710 /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\ZServer.pch" /FAcs /Fa"Release\\" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BankService4Z.cpp DistriManager.cpp GameListCtrl.cpp GameListCtrl0.cpp GameLogonManage.cpp IMService.cpp MainServer.cpp MainServerDlg.cpp SysInfoList.cpp TrayIcon.cpp UserCustomLogo.cpp
+         BankService4Z.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\common\commonuse.h(254): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\common\commonuse.h(314): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\common\commonuse.h(491): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\common\commonuse.h(876): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\direct.h(124) : 参见“mkdir”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\common\commonuse.h(881): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+         DistriManager.cpp
+         GameListCtrl.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelistctrl.cpp(171): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelistctrl.cpp(197): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+         GameListCtrl0.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelistctrl0.cpp(159): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelistctrl0.cpp(171): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelistctrl0.cpp(227): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+         GameLogonManage.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\common\commonuse.h(254): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\common\commonuse.h(314): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\common\commonuse.h(491): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\common\commonuse.h(876): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\direct.h(124) : 参见“mkdir”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\common\commonuse.h(881): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(15): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(16): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(106): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(179): warning C4244: “=”: 从“__int64”转换到“UINT”，可能丢失数据
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(296): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(410): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(686): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(703): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(790): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(819): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(1619): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(1623): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(1627): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(1631): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(2155): warning C4101: “iHandleResult”: 未引用的局部变量
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(2439): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(325) : 参见“sscanf”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(2688): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(2755): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(2770): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(2800): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(2801): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(3264): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(3265): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(3616): warning C4101: “iHandleResult”: 未引用的局部变量
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(4178): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(4180): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(4568): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\gamelogonmanage.cpp(4573): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+         IMService.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\imservice.cpp(125): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\imservice.cpp(161): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\imservice.cpp(161): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\imservice.cpp(174): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\imservice.cpp(344): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\imservice.cpp(344): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\imservice.cpp(344): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+         MainServer.cpp
+         MainServerDlg.cpp
+         SysInfoList.cpp
+         TrayIcon.cpp
+         UserCustomLogo.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\usercustomlogo.cpp(110): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\usercustomlogo.cpp(116): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\usercustomlogo.cpp(125): warning C4244: “初始化”: 从“ULONGLONG”转换到“int”，可能丢失数据
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\usercustomlogo.cpp(236): warning C4244: “初始化”: 从“ULONGLONG”转换到“int”，可能丢失数据
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\mainserver\usercustomlogo.cpp(262): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0710 /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\MainServer.res" MainServer.rc 
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Server\MainServer\Release\ZServer.exe) 与 Linker 的 OutputFile 属性值(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\run\Server\release\ZServer.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\run\Server\release\ZServer.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\sdk\lib\Server /LIBPATH:..\..\..\sdk\lib\Common GMTools.lib AFCComDllEx.lib SQLEngine.lib cfgEngine.lib GameManage.lib BzCrashRpt.lib /MANIFEST /ManifestFile:"Release\ZServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Server\MainServer\Release\ZServer.pdb" /MAP /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\ZServer.lib" /MACHINE:X86 Release\MainServer.res
+         Release\BankService4Z.obj
+         Release\DistriManager.obj
+         Release\GameListCtrl.obj
+         Release\GameListCtrl0.obj
+         Release\GameLogonManage.obj
+         Release\IMService.obj
+         Release\MainServer.obj
+         Release\MainServerDlg.obj
+         Release\stdafx.obj
+         Release\SysInfoList.obj
+         Release\TrayIcon.obj
+         Release\UserCustomLogo.obj
+         "G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\lib\Server\AFCComDllEx.lib"
+         "G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\lib\Server\TalkMessageFilter.lib"
+     1>BankService4Z.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:ICF”规范)
+         GMTools.lib(XGmMessage.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+     1>BankService4Z.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:ICF”规范)
+         正在生成代码
+         已完成代码的生成
+     1>atls.lib(atlbase.obj) : warning LNK4099: 未找到 PDB“atls.pdb”(使用“atls.lib(atlbase.obj)”或在“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Server\MainServer\Release\atls.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>atls.lib(atlstr.obj) : warning LNK4099: 未找到 PDB“atls.pdb”(使用“atls.lib(atlstr.obj)”或在“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Server\MainServer\Release\atls.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         MainServer.vcxproj -> G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Server\MainServer\Release\ZServer.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\..\run\Server\release\ZServer.exe;#1" /manifest Release\ZServer.exe.intermediate.manifest "e:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\ZServer.unsuccessfulbuild”。
+         正在对“Release\ZServer.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Server\MainServer\MainServer.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:21.40

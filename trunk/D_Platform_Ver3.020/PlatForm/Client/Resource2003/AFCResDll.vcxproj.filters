@@ -1,0 +1,683 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="源文件\资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AFCResDll.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AFCResDll.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="res\AFCResDll.rc2">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Logo\ANSON_LOGO.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_001.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_001.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\EP_RES\EP_001.gif">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_002.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_002.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_003.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_003.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_004.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_004.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_005.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_005.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_006.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_006.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_007.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_007.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_008.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_008.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_009.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_009.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_010.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_010.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_011.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_011.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_012.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_012.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_013.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_013.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_014.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_014.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_015.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_015.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_016.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_016.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_017.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_017.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_018.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_018.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\EP_019.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\EP_019.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_020.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_020.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_021.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_021.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_022.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_022.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_023.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_023.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_024.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_024.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_025.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_025.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_026.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_026.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_027.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_027.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_028.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_028.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_029.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_029.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_030.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_030.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_031.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_031.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_032.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_032.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_033.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_033.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_034.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_034.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_035.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_035.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_036.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_036.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_037.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_037.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_038.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_038.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_039.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_039.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_040.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\EP_040.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_041.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_041.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_042.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_042.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_043.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_043.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_044.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_044.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_045.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_045.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_046.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_046.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_047.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_047.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_048.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_048.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_049.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_049.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_050.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_050.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_051.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_051.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_052.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_052.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_053.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_053.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_054.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_054.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_055.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_055.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_056.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_056.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_057.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_057.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\EP_058.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_058.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_059.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_059.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_060.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_060.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\EP_061.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_061.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_062.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_062.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_063.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_063.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_064.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_064.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_065.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_065.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_066.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_066.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_067.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_067.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_068.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_068.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_069.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_069.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_070.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_070.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_071.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_071.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_072.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_072.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_073.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_073.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_074.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_074.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_075.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_075.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_076.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_076.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_077.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_077.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_078.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_078.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_079.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_079.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_res\Ep_080.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Ep_080.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\desk\G01.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\desk\G02.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\desk\G03.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\desk\G04.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\desk\G05.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\desk\G06.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\desk\G07.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\desk\G08.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\desk\G09.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\desk\G10.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_110.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_111.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_112.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_113.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_114.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_115.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_116.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_117.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_118.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_119.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_120.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_121.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_122.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_123.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_124.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_125.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_126.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_127.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_128.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_129.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_130.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_131.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_132.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_133.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_134.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_135.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_136.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_137.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_138.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_139.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_140.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_141.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\logo_142.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Logo\LOST_LOGO.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="res\Logo\MATCH.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\PP_0.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\PP_1.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\PP_2.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\PP_3.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="Res\Logo\PP_4.bmp">
+      <Filter>源文件\资源文件</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AFCResDll.rc">
+      <Filter>源文件\资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

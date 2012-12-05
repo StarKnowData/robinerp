@@ -1,0 +1,411 @@
+﻿生成启动时间为 2012-11-14 10:26:11。
+     1>项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\MainFrame\GamePlace.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“多开\主框架.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../SDK/include/common /I../../../SDK/include/ClientCommon /I../../../SDK/include/socket /I../../../SDK/include/BzCrashRpt /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy /GL /D WIN32 /D _WINDOWS /D NDEBUG /D MY_DEBUG /D DEV_NOFREE /D _VC80_UPGRADE=0x0710 /D _MBCS /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"多开\主框架.pch" /Fo"多开\\" /Fd"多开\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GameRoomEx.cpp
+         GameRoomEx.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(95): warning C4005: “IDD_DIALOG1”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(102) : 参见“IDD_DIALOG1”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(99): warning C4005: “IDD_DIALOG2”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(105) : 参见“IDD_DIALOG2”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(112): warning C4005: “IDB_BITMAP1”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(63) : 参见“IDB_BITMAP1”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(113): warning C4005: “IDB_BITMAP2”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(66) : 参见“IDB_BITMAP2”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(114): warning C4005: “IDB_BITMAP3”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(75) : 参见“IDB_BITMAP3”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(115): warning C4005: “IDB_BITMAP4”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(82) : 参见“IDB_BITMAP4”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(116): warning C4005: “IDB_BITMAP5”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(85) : 参见“IDB_BITMAP5”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(117): warning C4005: “IDB_BITMAP6”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(99) : 参见“IDB_BITMAP6”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(173): warning C4005: “IDC_SPLIT_BAR”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(34) : 参见“IDC_SPLIT_BAR”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(174): warning C4005: “IDC_TIME”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(79) : 参见“IDC_TIME”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(177): warning C4005: “IDC_HOR_SPLIT”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(59) : 参见“IDC_HOR_SPLIT”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(201): warning C4005: “IDC_DELETE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(72) : 参见“IDC_DELETE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(207): warning C4005: “IDC_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(27) : 参见“IDC_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(249): warning C4005: “IDC_WATCH_GAME”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(146) : 参见“IDC_WATCH_GAME”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(262): warning C4005: “IDC_CHAT”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(144) : 参见“IDC_CHAT”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(267): warning C4005: “IDC_INVITE_PLAY”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(145) : 参见“IDC_INVITE_PLAY”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(282): warning C4005: “IDC_EXPLORER1”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(127) : 参见“IDC_EXPLORER1”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(416): warning C4005: “IDC_COMBO1”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(148) : 参见“IDC_COMBO1”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(420): warning C4005: “IDC_INPUT”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(14) : 参见“IDC_INPUT”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(421): warning C4005: “IDC_BUTTON1”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(37) : 参见“IDC_BUTTON1”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(422): warning C4005: “IDC_SEND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(36) : 参见“IDC_SEND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(427): warning C4005: “IDC_BUTTON2”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(71) : 参见“IDC_BUTTON2”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(429): warning C4005: “IDC_BUTTON3”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(93) : 参见“IDC_BUTTON3”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(431): warning C4005: “IDC_BUTTON4”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(45) : 参见“IDC_BUTTON4”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(433): warning C4005: “IDC_BUTTON5”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(64) : 参见“IDC_BUTTON5”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(435): warning C4005: “IDC_BUTTON6”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(125) : 参见“IDC_BUTTON6”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(436): warning C4005: “IDC_EDIT1”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(77) : 参见“IDC_EDIT1”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(442): warning C4005: “IDC_BUTTON9”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(130) : 参见“IDC_BUTTON9”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(479): warning C4005: “IDC_CLOSE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(16) : 参见“IDC_CLOSE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(505): warning C4005: “IDC_LIST1”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(68) : 参见“IDC_LIST1”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(579): warning C4005: “IDC_BUTTON_PROP1”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(47) : 参见“IDC_BUTTON_PROP1”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(580): warning C4005: “IDC_BUTTON_PROP2”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(120) : 参见“IDC_BUTTON_PROP2”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(581): warning C4005: “IDC_BUTTON_PROP3”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(121) : 参见“IDC_BUTTON_PROP3”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(604): warning C4005: “IDC_CLOSEBTN”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(97) : 参见“IDC_CLOSEBTN”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(646): warning C4005: “IDC_RADIO1”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(87) : 参见“IDC_RADIO1”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(647): warning C4005: “IDC_RADIO2”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(89) : 参见“IDC_RADIO2”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(648): warning C4005: “IDC_RADIO3”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(92) : 参见“IDC_RADIO3”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(649): warning C4005: “IDC_RADIO4”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(98) : 参见“IDC_RADIO4”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(660): warning C4005: “IDM_TALK_COLOR”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(315) : 参见“IDM_TALK_COLOR”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(661): warning C4005: “IDM_RED”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(316) : 参见“IDM_RED”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(662): warning C4005: “IDM_YELLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(317) : 参见“IDM_YELLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(663): warning C4005: “IDM_BULE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(318) : 参见“IDM_BULE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(664): warning C4005: “IDM_GREEN”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(319) : 参见“IDM_GREEN”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(665): warning C4005: “IDM_WHITE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(320) : 参见“IDM_WHITE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(666): warning C4005: “IDM_POWER_RED”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(321) : 参见“IDM_POWER_RED”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(667): warning C4005: “IDM_GRAY”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(322) : 参见“IDM_GRAY”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(668): warning C4005: “IDM_SAVE_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(312) : 参见“IDM_SAVE_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(669): warning C4005: “IDM_CLEAR_SCREEN”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(313) : 参见“IDM_CLEAR_SCREEN”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\Resource.h(670): warning C4005: “IDM_AUTO_SCROLL”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\uilibrary2003\Resource.h(314) : 参见“IDM_AUTO_SCROLL”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\PBankWndEx.h(32): warning C4010: 单行注释包含行继续符
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\LoveSendClassForEXE.h(69): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\LoveSendClassForEXE.h(70): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\LoveSendClassForEXE.h(87): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\LoveSendClassForEXE.h(94): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\LoveSendClassForEXE.h(205): warning C4010: 单行注释包含行继续符
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\LoveSendClassForEXE.h(237): warning C4010: 单行注释包含行继续符
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\LoveSendClassForEXE.h(280): warning C4010: 单行注释包含行继续符
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\gif\WndAnimate.h(155): warning C4018: “>”: 有符号/无符号不匹配
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\MainRoomEx.h(157): warning C4010: 单行注释包含行继续符
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\GamePlaceDlg.h(71): warning C4010: 单行注释包含行继续符
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\GamePlaceDlg.h(72): warning C4010: 单行注释包含行继续符
+     1>GameRoomEx.cpp(161): warning C4010: 单行注释包含行继续符
+     1>GameRoomEx.cpp(362): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameRoomEx.cpp(425): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>GameRoomEx.cpp(427): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>GameRoomEx.cpp(428): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>GameRoomEx.cpp(573): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>GameRoomEx.cpp(575): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>GameRoomEx.cpp(576): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>GameRoomEx.cpp(622): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(665): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(681): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(695): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(2028): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(2308): warning C4101: “szCur”: 未引用的局部变量
+     1>GameRoomEx.cpp(2901): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameRoomEx.cpp(3468): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameRoomEx.cpp(3815): warning C4305: “参数”: 从“int”到“bool”截断
+     1>GameRoomEx.cpp(3843): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameRoomEx.cpp(3900): warning C4305: “参数”: 从“int”到“bool”截断
+     1>GameRoomEx.cpp(4497): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameRoomEx.cpp(4577): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameRoomEx.cpp(4589): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameRoomEx.cpp(4680): warning C4018: “>=”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(5016): warning C4010: 单行注释包含行继续符
+     1>GameRoomEx.cpp(5413): warning C4244: “初始化”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>GameRoomEx.cpp(5434): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameRoomEx.cpp(5492): warning C4244: “初始化”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>GameRoomEx.cpp(5563): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameRoomEx.cpp(5699): warning C4244: “+=”: 从“__int64”转换到“int”，可能丢失数据
+     1>GameRoomEx.cpp(5746): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(5961): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>GameRoomEx.cpp(6139): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(6146): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameRoomEx.cpp(6168): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(6173): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(6314): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameRoomEx.cpp(6372): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameRoomEx.cpp(6425): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(6487): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameRoomEx.cpp(6555): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(6621): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(6887): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameRoomEx.cpp(6900): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameRoomEx.cpp(6996): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameRoomEx.cpp(7025): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(7193): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameRoomEx.cpp(7317): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(8109): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameRoomEx.cpp(8110): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameRoomEx.cpp(8189): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameRoomEx.cpp(8190): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameRoomEx.cpp(8249): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameRoomEx.cpp(8443): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameRoomEx.cpp(8472): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameRoomEx.cpp(8817): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameRoomEx.cpp(8975): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameRoomEx.cpp(8984): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameRoomEx.cpp(8995): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameRoomEx.cpp(9009): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameRoomEx.cpp(9018): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameRoomEx.cpp(9027): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameRoomEx.cpp(9040): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameRoomEx.cpp(9047): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameRoomEx.cpp(9584): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(9970): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(10016): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(10060): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(10534): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(10584): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(10609): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(11043): warning C4996: 'swprintf': swprintf has been changed to conform with the ISO C standard, adding an extra character count parameter. To use traditional Microsoft swprintf, set _CRT_NON_CONFORMING_SWPRINTFS.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\swprintf.inl(85) : 参见“swprintf”的声明
+     1>GameRoomEx.cpp(10978): warning C4101: “b”: 未引用的局部变量
+     1>GameRoomEx.cpp(10978): warning C4101: “g”: 未引用的局部变量
+     1>GameRoomEx.cpp(10978): warning C4101: “r”: 未引用的局部变量
+     1>GameRoomEx.cpp(11608): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameRoomEx.cpp(11944): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>GameRoomEx.cpp(12182): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>GameRoomEx.cpp(12218): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>GameRoomEx.cpp(12228): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameRoomEx.cpp(12239): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>GameRoomEx.cpp(12299): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>GameRoomEx.cpp(12303): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>GameRoomEx.cpp(12422): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameRoomEx.cpp(12472): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(12475): warning C4018: “>=”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(12496): warning C4101: “point”: 未引用的局部变量
+     1>GameRoomEx.cpp(12823): warning C4060: switch 语句没有包含“case”或“default”标签
+     1>GameRoomEx.cpp(13125): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(13426): warning C4244: “=”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>GameRoomEx.cpp(13429): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>GameRoomEx.cpp(13430): warning C4018: “>=”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(13437): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>GameRoomEx.cpp(13442): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>GameRoomEx.cpp(13450): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>GameRoomEx.cpp(13451): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameRoomEx.cpp(13453): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>GameRoomEx.cpp(13459): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>GameRoomEx.cpp(13479): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>GameRoomEx.cpp(13509): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameRoomEx.cpp(13521): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+       ResourceCompile:
+         所有输出均为最新。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\MainFrame\多开\主框架.exe) 与 Linker 的 OutputFile 属性值(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\run\Client\release\BZW_M.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(主框架) 与 Linker 的 OutputFile 属性值(BZW_M)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\run\Client\release\BZW_M.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\sdk\lib\common /LIBPATH:..\..\..\sdk\lib\Client BZSound.lib cfgEngine.lib ftp.lib BZW.lib PRStructExchange.lib detours.lib skinsb.lib BzCrashRpt.lib /MANIFEST /ManifestFile:"多开\主框架.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\MainFrame\多开\主框架.pdb" /MAP /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"多开\主框架.lib" /MACHINE:X86 "多开\GamePlace.res"
+         "多开\AddFriend.obj"
+         "多开\AFCActWnd.obj"
+         "多开\AfcGamelistWnd.obj"
+         "多开\afCRoomRightWnd.obj"
+         "多开\AfcTopWnd.obj"
+         "多开\Apipe.obj"
+         "多开\AppealDlg.obj"
+         "多开\AutoUpdate.obj"
+         "多开\BankDlg.obj"
+         "多开\BankVerifyWnd.obj"
+         "多开\BaseRoom.obj"
+         "多开\BitmapListCtrl.obj"
+         "多开\BoardCast.obj"
+         "多开\Bulletin.obj"
+         "多开\BzLog.obj"
+         "多开\CharmExchange.obj"
+         "多开\ChatControl.obj"
+         "多开\chatting.obj"
+         "多开\checkPSW.obj"
+         "多开\ColorComboBox.obj"
+         "多开\DeskFrameView.obj"
+         "多开\DialogCallGM.obj"
+         "多开\DlgInMoney.obj"
+         "多开\DlgOutMoney.obj"
+         "多开\DlgRoomFee.obj"
+         "多开\DlgRoomPW.obj"
+         "多开\DlgTransferMoney.obj"
+         "多开\DUITopWnd.obj"
+         "多开\DUIUserTabWnd.obj"
+         "多开\explorer1.obj"
+         "多开\ExtRobot.obj"
+         "多开\FileVersion.obj"
+         "多开\FinanceWnd.obj"
+         "多开\FindNullDesk.obj"
+         "多开\FindUserDlg.obj"
+         "多开\GameListCtrl.obj"
+         "多开\GameListTip.obj"
+         "多开\GamePlace.obj"
+         "多开\GamePlaceDlg.obj"
+         "多开\GameRoomEx.obj"
+         "多开\GameUserManage.obj"
+         "多开\GetHelpMoneyDlg.obj"
+         "多开\GMListDlg.obj"
+         "多开\GMMsgDlg.obj"
+         "多开\HttpDownloadDlg.obj"
+         "多开\IDKeyBoardWnd.obj"
+         "多开\IDVerifyWnd.obj"
+         "多开\IEAdvertise.obj"
+         "多开\MobileVerifyWnd.obj"
+         "多开\IEHelper.obj"
+         "多开\IMMain.obj"
+         "多开\IMSession.obj"
+         "多开\IMSetUser.obj"
+         "多开\IMWnd.obj"
+         "多开\ItemDlg.obj"
+         "多开\LockAccountDlg.obj"
+         "多开\LogonDialog.obj"
+         "多开\LogoSelect.obj"
+         "多开\LogoUpload.obj"
+         "多开\LongonDialog.obj"
+         "多开\MainRoomEx.obj"
+         "多开\ManageDlg.obj"
+         "多开\MD5.obj"
+         "多开\MiniPopWnd.obj"
+         "多开\MyButton.obj"
+         "多开\MyDiskInfo.obj"
+         "多开\MyListCtrl.obj"
+         "多开\NavigationDlg.obj"
+         "多开\PassDesk.obj"
+         "多开\PBankDlg.obj"
+         "多开\PBankWnd.obj"
+         "多开\PBankWndEx.obj"
+         "多开\PersonalSet.obj"
+         "多开\PlaceResource.obj"
+         "多开\PropPannel.obj"
+         "多开\queueInRoomDlg.obj"
+         "多开\QuitAsk.obj"
+         "多开\RegisterNewUserDlg.obj"
+         "多开\RegSucDlg.obj"
+         "多开\RoomSetDlg.obj"
+         "多开\RoomSetWnd.obj"
+         "多开\SafeCenterWnd.obj"
+         "多开\SendWarnDlg.obj"
+         "多开\SetDeskBasePoint.obj"
+         "多开\SetFriend.obj"
+         "多开\sha1.obj"
+         "多开\SkinMgr.obj"
+         "多开\Socket32.obj"
+         "多开\SoftKey.obj"
+         "多开\stdafx.obj"
+         "多开\StringHelper.obj"
+         "多开\TCPServer.obj"
+         "多开\TransparentStatic.obj"
+         "多开\TStatic.obj"
+         "多开\UseBoardCastWnd.obj"
+         "多开\UserDetailsDlg.obj"
+         "多开\UserInfoWnd.obj"
+         "多开\UserListCtrl.obj"
+         "多开\VipTipDlg.obj"
+         "多开\WebWnd.obj"
+         "多开\WndAnimate.obj"
+         "多开\ChannelService.obj"
+         "多开\DataStorage.obj"
+         "多开\IPCControls.obj"
+         "多开\ServerSocketSelect.obj"
+         "多开\LoveSendClassForEXE.obj"
+         "多开\SkinHeaderCtrl.obj"
+         "多开\SkinListCtrl.obj"
+         "G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\lib\Client\AfcSocket.lib"
+         "G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\lib\Client\BZW_RES.lib"
+         "G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\lib\Client\BZW.lib"
+         AddFriend.obj : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+     1>PRStructExchange.lib(AddRecordModule.obj) : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:ICF”规范)
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         正在生成代码
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\baseroom.cpp(253): warning C4715: “CBaseRoom::CloseSocket”: 不是所有的控件路径都返回值
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\skinmgr.cpp(143): warning C4715: “CSkinMgr::GetKeyVal”: 不是所有的控件路径都返回值
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\logondialog.cpp(701): warning C4715: “CLogonDialog::SetLogonType”: 不是所有的控件路径都返回值
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\quitask.cpp(131): warning C4700: 使用了未初始化的局部变量“hRgn2”
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\logondialog.cpp(1820): warning C4700: 使用了未初始化的局部变量“err”
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\gameroomex.cpp(12982): warning C4715: “CGameRoomEx::OnNewKickUserMsg”: 不是所有的控件路径都返回值
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\gamelistctrl.cpp(1451): warning C4715: “CGameListCtrl::HandleUrlData”: 不是所有的控件路径都返回值
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\gamelistctrl.cpp(1487): warning C4715: “CGameListCtrl::HandleLoginGameName”: 不是所有的控件路径都返回值
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\mainroomex.cpp(5741): warning C4700: 使用了未初始化的局部变量“ProcessInfo”
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\mainroomex.cpp(996): warning C4700: 使用了未初始化的局部变量“ProcessInfo”
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\mainroomex.cpp(1715): warning C4700: 使用了未初始化的局部变量“ProcessInfo”
+         已完成代码的生成
+     1>PRStructExchange.lib(AddRecordModule.obj) : warning LNK4204: “G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\MainFrame\多开\vc100.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>PRStructExchange.lib(PRStructExchange.obj) : warning LNK4204: “G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\MainFrame\多开\vc100.pdb”缺少引用模块的调试信息；正在链接对象，如同没有调试信息一样
+     1>detours.lib(detours.obj) : warning LNK4099: 未找到 PDB“detours.pdb”(使用“detours.lib(detours.obj)”或在“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\MainFrame\多开\detours.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>detours.lib(disasm.obj) : warning LNK4099: 未找到 PDB“detours.pdb”(使用“detours.lib(disasm.obj)”或在“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\MainFrame\多开\detours.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>atls.lib(atlimage.obj) : warning LNK4099: 未找到 PDB“atls.pdb”(使用“atls.lib(atlimage.obj)”或在“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\MainFrame\多开\atls.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>atls.lib(atlimage2.obj) : warning LNK4099: 未找到 PDB“atls.pdb”(使用“atls.lib(atlimage2.obj)”或在“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\MainFrame\多开\atls.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         GamePlace.vcxproj -> G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\MainFrame\多开\主框架.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\..\run\Client\release\BZW_M.exe;#1" /manifest "多开\主框架.exe.intermediate.manifest" "e:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“多开\主框架.unsuccessfulbuild”。
+         正在对“多开\主框架.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\MainFrame\GamePlace.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:39.43

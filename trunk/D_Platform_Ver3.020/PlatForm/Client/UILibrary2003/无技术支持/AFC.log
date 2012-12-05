@@ -1,0 +1,77 @@
+﻿生成启动时间为 2012-11-14 10:48:21。
+     1>项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\UILibrary2003\AFC.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“无技术支持\主库.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+         所有输出均为最新。
+       ResourceCompile:
+         所有输出均为最新。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\UILibrary2003\无技术支持\主库.dll) 与 Linker 的 OutputFile 属性值(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\run\Client\release\BZW.dll)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(主库) 与 Linker 的 OutputFile 属性值(BZW)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\run\Client\release\BZW.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\sdk\lib\common Winmm.lib Vfw32.lib BZSound.lib cfgEngine.lib BZZlib.lib detours.lib skinsb.lib /MANIFEST /ManifestFile:"无技术支持\主库.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\UILibrary2003\无技术支持\主库.pdb" /MAP /MAPINFO:EXPORTS /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\sdk\lib\Client\BZW.lib" /MACHINE:X86 /DLL "无技术支持\AFC.res"
+         "无技术支持\AFC.obj"
+         "无技术支持\AFCButton.obj"
+         "无技术支持\AFCDialog.obj"
+         "无技术支持\AFCEdit.obj"
+         "无技术支持\AFCExpressionWnd.obj"
+         "无技术支持\AFCFunction.obj"
+         "无技术支持\AFCImage.obj"
+         "无技术支持\AFCListCtrl.obj"
+         "无技术支持\AFCLogoResource.obj"
+         "无技术支持\AFCMenu.obj"
+         "无技术支持\AFCRegistry.obj"
+         "无技术支持\AFCResource.obj"
+         "无技术支持\AFCTabCtrl.obj"
+         "无技术支持\AFCWeb.obj"
+         "无技术支持\AFCWindow.obj"
+         "无技术支持\CardSet.obj"
+         "无技术支持\CconfigDlg.obj"
+         "无技术支持\ConfirmDlg.obj"
+         "无技术支持\DlgDIYChat.obj"
+         "无技术支持\DlgLeftShow.obj"
+         "无技术支持\DUIMessageWnd.obj"
+         "无技术支持\explorer1.obj"
+         "无技术支持\FlashViewDlg.obj"
+         "无技术支持\GameEndView.obj"
+         "无技术支持\GameFrameDlg.obj"
+         "无技术支持\GDIPlus_Image.obj"
+         "无技术支持\GetPoint.obj"
+         "无技术支持\Gif.obj"
+         "无技术支持\IGif.obj"
+         "无技术支持\MessageHandle.obj"
+         "无技术支持\MjSet.obj"
+         "无技术支持\ObjectFactory.obj"
+         "无技术支持\personalinfo.obj"
+         "无技术支持\PlaySound.obj"
+         "无技术支持\PlayView.obj"
+         "无技术支持\PropSelUser.obj"
+         "无技术支持\ShortMessage.obj"
+         "无技术支持\ShowScore.obj"
+         "无技术支持\stdafx.obj"
+         "无技术支持\TipWnd.obj"
+         "无技术支持\UserListDlg.obj"
+         "无技术支持\UserPower.obj"
+         "无技术支持\VerifyCodeCreater.obj"
+         "G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\lib\Client\AfcSocket.lib"
+         "G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\lib\Client\BZW_RES.lib"
+     1>AFC.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:ICF”规范)
+            正在创建库 ..\..\..\sdk\lib\Client\BZW.lib 和对象 ..\..\..\sdk\lib\Client\BZW.exp
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>personalinfo.obj : warning LNK4217: 本地定义的符号 _GetAvatarIndexInRoom 在函数 "public: void __thiscall CPersonalInfo::OnPaint(void)" (?OnPaint@CPersonalInfo@@QAEXXZ) 中导入
+     1>PropSelUser.obj : warning LNK4049: 已导入本地定义的符号 _GetAvatarIndexInRoom
+     1>atls.lib(atlimage.obj) : warning LNK4099: 未找到 PDB“atls.pdb”(使用“atls.lib(atlimage.obj)”或在“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\UILibrary2003\无技术支持\atls.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>atls.lib(atlimage2.obj) : warning LNK4099: 未找到 PDB“atls.pdb”(使用“atls.lib(atlimage2.obj)”或在“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\UILibrary2003\无技术支持\atls.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         AFC.vcxproj -> G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\UILibrary2003\无技术支持\主库.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\..\run\Client\release\BZW.dll;#2" /manifest "无技术支持\主库.dll.intermediate.manifest" "e:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“无技术支持\主库.unsuccessfulbuild”。
+         正在对“无技术支持\主库.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\UILibrary2003\AFC.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.75

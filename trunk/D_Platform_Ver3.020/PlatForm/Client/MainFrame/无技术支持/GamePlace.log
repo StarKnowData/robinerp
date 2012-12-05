@@ -1,0 +1,157 @@
+﻿生成启动时间为 2012-11-14 10:48:25。
+     1>项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\MainFrame\GamePlace.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“无技术支持\主框架.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       PreBuildEvent:
+         ..\..\..\sdk\lib\BuildAddin.exe G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\MainFrame\
+         :VCEnd
+       ClCompile:
+         所有输出均为最新。
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../SDK/include/common /I../../../SDK/include/ClientCommon /I../../../SDK/include/socket /I../../../SDK/include/BzCrashRpt /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy /D WIN32 /D _WINDOWS /D NDEBUG /D DEV_NOFREE /D _VC80_UPGRADE=0x0710 /D _MBCS /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"无技术支持\主框架.pch" /FAcs /Fa"无技术支持\\" /Fo"无技术支持\\" /Fd"无技术支持\vc100.pdb" /Gd /TP /wd4996 /wd4005 /wd4018 /wd4800 /wd4244 /wd4101 /wd4010 /wd4267 /wd4819 /analyze- /errorReport:prompt GamePlace.cpp GamePlaceDlg.cpp GameRoomEx.cpp MainRoomEx.cpp
+         GamePlace.cpp
+         GamePlaceDlg.cpp
+         GameRoomEx.cpp
+     1>GameRoomEx.cpp(3815): warning C4305: “参数”: 从“int”到“bool”截断
+     1>GameRoomEx.cpp(3900): warning C4305: “参数”: 从“int”到“bool”截断
+     1>GameRoomEx.cpp(12823): warning C4060: switch 语句没有包含“case”或“default”标签
+         MainRoomEx.cpp
+     1>MainRoomEx.cpp(441): warning C4305: “参数”: 从“int”到“bool”截断
+     1>MainRoomEx.cpp(2430): warning C4305: “参数”: 从“int”到“bool”截断
+     1>MainRoomEx.cpp(4078): warning C4305: “参数”: 从“int”到“bool”截断
+     1>MainRoomEx.cpp(4140): warning C4305: “参数”: 从“int”到“bool”截断
+     1>MainRoomEx.cpp(5248): warning C4390: “;”: 找到空的受控语句；这是否是有意的?
+         正在生成代码...
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\mainroomex.cpp(5741): warning C4700: 使用了未初始化的局部变量“ProcessInfo”
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\mainroomex.cpp(996): warning C4700: 使用了未初始化的局部变量“ProcessInfo”
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\mainroomex.cpp(1715): warning C4700: 使用了未初始化的局部变量“ProcessInfo”
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\client\mainframe\gameroomex.cpp(12982): warning C4715: “CGameRoomEx::OnNewKickUserMsg”: 不是所有的控件路径都返回值
+       ResourceCompile:
+         所有输出均为最新。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\MainFrame\无技术支持\主框架.exe) 与 Linker 的 OutputFile 属性值(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\run\Client\release\BZW_R.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(主框架) 与 Linker 的 OutputFile 属性值(BZW_R)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\run\Client\release\BZW_R.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\sdk\lib\common /LIBPATH:..\..\..\sdk\lib\Client BZW.lib BZSound.lib cfgEngine.lib ftp.lib PRStructExchange.lib detours.lib skinsb.lib BzCrashRpt.lib /MANIFEST /ManifestFile:"无技术支持\主框架.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\MainFrame\无技术支持\主框架.pdb" /MAP /MAPINFO:EXPORTS /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"无技术支持\主框架.lib" /MACHINE:X86 "无技术支持\GamePlace.res"
+         "无技术支持\AddFriend.obj"
+         "无技术支持\AFCActWnd.obj"
+         "无技术支持\AfcGamelistWnd.obj"
+         "无技术支持\afCRoomRightWnd.obj"
+         "无技术支持\AfcTopWnd.obj"
+         "无技术支持\Apipe.obj"
+         "无技术支持\AppealDlg.obj"
+         "无技术支持\AutoUpdate.obj"
+         "无技术支持\BankDlg.obj"
+         "无技术支持\BankVerifyWnd.obj"
+         "无技术支持\BaseRoom.obj"
+         "无技术支持\BitmapListCtrl.obj"
+         "无技术支持\BoardCast.obj"
+         "无技术支持\Bulletin.obj"
+         "无技术支持\BzLog.obj"
+         "无技术支持\CharmExchange.obj"
+         "无技术支持\ChatControl.obj"
+         "无技术支持\chatting.obj"
+         "无技术支持\checkPSW.obj"
+         "无技术支持\ColorComboBox.obj"
+         "无技术支持\DeskFrameView.obj"
+         "无技术支持\DialogCallGM.obj"
+         "无技术支持\DlgInMoney.obj"
+         "无技术支持\DlgOutMoney.obj"
+         "无技术支持\DlgRoomFee.obj"
+         "无技术支持\DlgRoomPW.obj"
+         "无技术支持\DlgTransferMoney.obj"
+         "无技术支持\DUITopWnd.obj"
+         "无技术支持\DUIUserTabWnd.obj"
+         "无技术支持\explorer1.obj"
+         "无技术支持\ExtRobot.obj"
+         "无技术支持\FileVersion.obj"
+         "无技术支持\FinanceWnd.obj"
+         "无技术支持\FindNullDesk.obj"
+         "无技术支持\FindUserDlg.obj"
+         "无技术支持\GameListCtrl.obj"
+         "无技术支持\GameListTip.obj"
+         "无技术支持\GamePlace.obj"
+         "无技术支持\GamePlaceDlg.obj"
+         "无技术支持\GameRoomEx.obj"
+         "无技术支持\GameUserManage.obj"
+         "无技术支持\GetHelpMoneyDlg.obj"
+         "无技术支持\GMListDlg.obj"
+         "无技术支持\GMMsgDlg.obj"
+         "无技术支持\HttpDownloadDlg.obj"
+         "无技术支持\IDKeyBoardWnd.obj"
+         "无技术支持\IDVerifyWnd.obj"
+         "无技术支持\IEAdvertise.obj"
+         "无技术支持\MobileVerifyWnd.obj"
+         "无技术支持\IEHelper.obj"
+         "无技术支持\IMMain.obj"
+         "无技术支持\IMSession.obj"
+         "无技术支持\IMSetUser.obj"
+         "无技术支持\IMWnd.obj"
+         "无技术支持\ItemDlg.obj"
+         "无技术支持\LockAccountDlg.obj"
+         "无技术支持\LogonDialog.obj"
+         "无技术支持\LogoSelect.obj"
+         "无技术支持\LogoUpload.obj"
+         "无技术支持\LongonDialog.obj"
+         "无技术支持\MainRoomEx.obj"
+         "无技术支持\ManageDlg.obj"
+         "无技术支持\MD5.obj"
+         "无技术支持\MiniPopWnd.obj"
+         "无技术支持\MyButton.obj"
+         "无技术支持\MyDiskInfo.obj"
+         "无技术支持\MyListCtrl.obj"
+         "无技术支持\NavigationDlg.obj"
+         "无技术支持\PassDesk.obj"
+         "无技术支持\PBankDlg.obj"
+         "无技术支持\PBankWnd.obj"
+         "无技术支持\PBankWndEx.obj"
+         "无技术支持\PersonalSet.obj"
+         "无技术支持\PlaceResource.obj"
+         "无技术支持\PropPannel.obj"
+         "无技术支持\queueInRoomDlg.obj"
+         "无技术支持\QuitAsk.obj"
+         "无技术支持\RegisterNewUserDlg.obj"
+         "无技术支持\RegSucDlg.obj"
+         "无技术支持\RoomSetDlg.obj"
+         "无技术支持\RoomSetWnd.obj"
+         "无技术支持\SafeCenterWnd.obj"
+         "无技术支持\SendWarnDlg.obj"
+         "无技术支持\SetDeskBasePoint.obj"
+         "无技术支持\SetFriend.obj"
+         "无技术支持\sha1.obj"
+         "无技术支持\SkinMgr.obj"
+         "无技术支持\Socket32.obj"
+         "无技术支持\SoftKey.obj"
+         "无技术支持\stdafx.obj"
+         "无技术支持\StringHelper.obj"
+         "无技术支持\TCPServer.obj"
+         "无技术支持\TransparentStatic.obj"
+         "无技术支持\TStatic.obj"
+         "无技术支持\UseBoardCastWnd.obj"
+         "无技术支持\UserDetailsDlg.obj"
+         "无技术支持\UserInfoWnd.obj"
+         "无技术支持\UserListCtrl.obj"
+         "无技术支持\VipTipDlg.obj"
+         "无技术支持\WebWnd.obj"
+         "无技术支持\WndAnimate.obj"
+         "无技术支持\ChannelService.obj"
+         "无技术支持\DataStorage.obj"
+         "无技术支持\IPCControls.obj"
+         "无技术支持\ServerSocketSelect.obj"
+         "无技术支持\LoveSendClassForEXE.obj"
+         "无技术支持\SkinHeaderCtrl.obj"
+         "无技术支持\SkinListCtrl.obj"
+         "G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\lib\Client\AfcSocket.lib"
+         "G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\lib\Client\BZW_RES.lib"
+         "G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\lib\Client\BZW.lib"
+     1>PRStructExchange.lib(AddRecordModule.obj) : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:ICF”规范)
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         GamePlace.vcxproj -> G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\MainFrame\无技术支持\主框架.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\..\run\Client\release\BZW_R.exe;#1" /manifest "无技术支持\主框架.exe.intermediate.manifest" "e:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“无技术支持\主框架.unsuccessfulbuild”。
+         正在对“无技术支持\主框架.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\MainFrame\GamePlace.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:19.96

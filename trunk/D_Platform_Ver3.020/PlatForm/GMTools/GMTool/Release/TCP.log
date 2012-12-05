@@ -1,0 +1,160 @@
+﻿生成启动时间为 2012-10-25 18:39:52。
+     1>项目“D:\1.面对面平台\D_Platform(x64 NVersion3.020)产品库测试\PlatForm\GMTools\GMTool\TCP.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\GM管理工具.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release\GM管理工具.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\SDK\include\common /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\GM管理工具.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\SDK\include\common /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\GM管理工具.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AwardDlg.cpp BackWSocket.cpp BClientSocket.cpp BroadcastDlg.cpp ChatDlg.cpp FindUserDlg.cpp GameManageDlg.cpp LockDeskDlg.cpp LongoDlg.cpp OperateDlg.cpp TCP.cpp TCPDlg.cpp WClientSocket.cpp ZClientSocket.cpp GameUserManage.cpp MD5.cpp sha1.cpp SocketInit.cpp
+         AwardDlg.cpp
+     1>AwardDlg.cpp(132): warning C4018: “<”: 有符号/无符号不匹配
+     1>AwardDlg.cpp(162): warning C4018: “<”: 有符号/无符号不匹配
+         BackWSocket.cpp
+     1>BackWSocket.cpp(106): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+         BClientSocket.cpp
+         BroadcastDlg.cpp
+     1>BroadcastDlg.cpp(57): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         ChatDlg.cpp
+     1>ChatDlg.cpp(90): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         FindUserDlg.cpp
+     1>FindUserDlg.cpp(46): warning C4805: “==”: 在操作中将类型“int”与类型“bool”混合不安全
+     1>FindUserDlg.cpp(56): warning C4805: “==”: 在操作中将类型“int”与类型“bool”混合不安全
+     1>FindUserDlg.cpp(61): warning C4805: “==”: 在操作中将类型“int”与类型“bool”混合不安全
+         GameManageDlg.cpp
+     1>d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(52): warning C4099: “CGameRoomItem”: 类型名称以前使用“struct”现在使用的是“class”
+                 d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(41) : 参见“CGameRoomItem”的声明
+     1>d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(63): warning C4099: “CGameNameItem”: 类型名称以前使用“struct”现在使用的是“class”
+                 d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(42) : 参见“CGameNameItem”的声明
+     1>d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(72): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(84): warning C4099: “CGameKindItem”: 类型名称以前使用“struct”现在使用的是“class”
+                 d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(43) : 参见“CGameKindItem”的声明
+     1>d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(93): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(105): warning C4099: “CGameRootItem”: 类型名称以前使用“struct”现在使用的是“class”
+                 d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(44) : 参见“CGameRootItem”的声明
+     1>d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(112): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameManageDlg.cpp(29): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameManageDlg.cpp(33): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameManageDlg.cpp(36): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameManageDlg.cpp(39): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameManageDlg.cpp(209): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameManageDlg.cpp(239): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameManageDlg.cpp(280): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameManageDlg.cpp(332): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameManageDlg.cpp(336): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameManageDlg.cpp(340): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameManageDlg.cpp(353): warning C4018: “>”: 有符号/无符号不匹配
+     1>GameManageDlg.cpp(369): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameManageDlg.cpp(478): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameManageDlg.cpp(481): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameManageDlg.cpp(484): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameManageDlg.cpp(505): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameManageDlg.cpp(538): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameManageDlg.cpp(542): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameManageDlg.cpp(551): warning C4018: “<=”: 有符号/无符号不匹配
+     1>GameManageDlg.cpp(559): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameManageDlg.cpp(816): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameManageDlg.cpp(828): warning C4018: “<”: 有符号/无符号不匹配
+         LockDeskDlg.cpp
+         LongoDlg.cpp
+         OperateDlg.cpp
+         TCP.cpp
+     1>d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(52): warning C4099: “CGameRoomItem”: 类型名称以前使用“struct”现在使用的是“class”
+                 d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(41) : 参见“CGameRoomItem”的声明
+     1>d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(63): warning C4099: “CGameNameItem”: 类型名称以前使用“struct”现在使用的是“class”
+                 d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(42) : 参见“CGameNameItem”的声明
+     1>d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(72): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(84): warning C4099: “CGameKindItem”: 类型名称以前使用“struct”现在使用的是“class”
+                 d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(43) : 参见“CGameKindItem”的声明
+     1>d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(93): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(105): warning C4099: “CGameRootItem”: 类型名称以前使用“struct”现在使用的是“class”
+                 d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(44) : 参见“CGameRootItem”的声明
+     1>d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(112): warning C4018: “<”: 有符号/无符号不匹配
+         TCPDlg.cpp
+     1>d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(52): warning C4099: “CGameRoomItem”: 类型名称以前使用“struct”现在使用的是“class”
+                 d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(41) : 参见“CGameRoomItem”的声明
+     1>d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(63): warning C4099: “CGameNameItem”: 类型名称以前使用“struct”现在使用的是“class”
+                 d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(42) : 参见“CGameNameItem”的声明
+     1>d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(72): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(84): warning C4099: “CGameKindItem”: 类型名称以前使用“struct”现在使用的是“class”
+                 d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(43) : 参见“CGameKindItem”的声明
+     1>d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(93): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(105): warning C4099: “CGameRootItem”: 类型名称以前使用“struct”现在使用的是“class”
+                 d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(44) : 参见“CGameRootItem”的声明
+     1>d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\GameManageDlg.h(112): warning C4018: “<”: 有符号/无符号不匹配
+         WClientSocket.cpp
+     1>WClientSocket.cpp(268): warning C4244: “初始化”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>WClientSocket.cpp(286): warning C4244: “初始化”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>WClientSocket.cpp(314): warning C4244: “参数”: 从“DWORD”转换到“const BYTE”，可能丢失数据
+     1>WClientSocket.cpp(373): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>WClientSocket.cpp(380): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>WClientSocket.cpp(406): warning C4018: “<”: 有符号/无符号不匹配
+     1>WClientSocket.cpp(420): warning C4018: “<”: 有符号/无符号不匹配
+     1>WClientSocket.cpp(440): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+         ZClientSocket.cpp
+     1>ZClientSocket.cpp(14): warning C4018: “<”: 有符号/无符号不匹配
+     1>ZClientSocket.cpp(15): warning C4018: “<”: 有符号/无符号不匹配
+     1>ZClientSocket.cpp(16): warning C4018: “<”: 有符号/无符号不匹配
+     1>ZClientSocket.cpp(94): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>ZClientSocket.cpp(132): warning C4018: “<”: 有符号/无符号不匹配
+     1>ZClientSocket.cpp(149): warning C4018: “<”: 有符号/无符号不匹配
+     1>ZClientSocket.cpp(171): warning C4018: “<”: 有符号/无符号不匹配
+     1>ZClientSocket.cpp(205): warning C4018: “<”: 有符号/无符号不匹配
+     1>ZClientSocket.cpp(207): warning C4018: “<”: 有符号/无符号不匹配
+     1>ZClientSocket.cpp(216): warning C4018: “<”: 有符号/无符号不匹配
+     1>ZClientSocket.cpp(218): warning C4018: “<”: 有符号/无符号不匹配
+         GameUserManage.cpp
+         MD5.cpp
+         sha1.cpp
+         SocketInit.cpp
+         正在生成代码...
+     1>d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\zclientsocket.cpp(96): warning C4715: “CZClientSocket::OnConnect”: 不是所有的控件路径都返回值
+     1>d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\wclientsocket.cpp(112): warning C4715: “CWClientSocket::OnConnect”: 不是所有的控件路径都返回值
+     1>d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\gamemanagedlg.cpp(384): warning C4715: “CGameManageDlg::OnGMTalkMsg”: 不是所有的控件路径都返回值
+     1>d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\bclientsocket.cpp(102): warning C4715: “CBClientSocket::OnConnect”: 不是所有的控件路径都返回值
+     1>d:\1.面对面平台\d_platform(x64 nversion3.020)产品库测试\platform\gmtools\gmtool\backwsocket.cpp(34): warning C4715: “CBackWSocket::OnConnect”: 不是所有的控件路径都返回值
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\TCP.res" TCP.rc 
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(D:\1.面对面平台\D_Platform(x64 NVersion3.020)产品库测试\PlatForm\GMTools\Release\GM管理工具.exe) 与 Linker 的 OutputFile 属性值(D:\1.面对面平台\D_Platform(x64 NVersion3.020)产品库测试\run\GMTool\release\GM管理工具.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\run\GMTool\release\GM管理工具.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\sdk\lib\Server /LIBPATH:..\..\..\sdk\lib\Common wCore2.lib cfgEngine.lib /MANIFEST /ManifestFile:"Release\GM管理工具.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\1.面对面平台\D_Platform(x64 NVersion3.020)产品库测试\PlatForm\GMTools\Release\GM管理工具.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\1.面对面平台\D_Platform(x64 NVersion3.020)产品库测试\PlatForm\GMTools\Release\GM管理工具.lib" /MACHINE:X86 Release\TCP.res
+         Release\AwardDlg.obj
+         Release\BackWSocket.obj
+         Release\BClientSocket.obj
+         Release\BroadcastDlg.obj
+         Release\ChatDlg.obj
+         Release\FindUserDlg.obj
+         Release\GameManageDlg.obj
+         Release\LockDeskDlg.obj
+         Release\LongoDlg.obj
+         Release\OperateDlg.obj
+         Release\stdafx.obj
+         Release\TCP.obj
+         Release\TCPDlg.obj
+         Release\WClientSocket.obj
+         Release\ZClientSocket.obj
+         Release\GameUserManage.obj
+         Release\MD5.obj
+         Release\sha1.obj
+         Release\SocketInit.obj
+         wCore2.lib(wCore2.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+         正在生成代码
+         已完成代码的生成
+     1>wCore2.lib(wCore2.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“wCore2.lib(wCore2.obj)”或在“D:\1.面对面平台\D_Platform(x64 NVersion3.020)产品库测试\PlatForm\GMTools\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>wCore2.lib(stdafx.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“wCore2.lib(stdafx.obj)”或在“D:\1.面对面平台\D_Platform(x64 NVersion3.020)产品库测试\PlatForm\GMTools\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>wCore2.lib(Core.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“wCore2.lib(Core.obj)”或在“D:\1.面对面平台\D_Platform(x64 NVersion3.020)产品库测试\PlatForm\GMTools\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>wCore2.lib(ClientSocket.obj) : warning LNK4099: 未找到 PDB“vc100.pdb”(使用“wCore2.lib(ClientSocket.obj)”或在“D:\1.面对面平台\D_Platform(x64 NVersion3.020)产品库测试\PlatForm\GMTools\Release\vc100.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         TCP.vcxproj -> D:\1.面对面平台\D_Platform(x64 NVersion3.020)产品库测试\PlatForm\GMTools\Release\GM管理工具.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\..\run\GMTool\release\GM管理工具.exe;#1" /manifest "Release\GM管理工具.exe.intermediate.manifest" "e:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\GM管理工具.unsuccessfulbuild”。
+         正在对“Release\GM管理工具.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\1.面对面平台\D_Platform(x64 NVersion3.020)产品库测试\PlatForm\GMTools\GMTool\TCP.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:25.59

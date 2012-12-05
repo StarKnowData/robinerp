@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="头文件\库">
+      <UniqueIdentifier>{686d7198-0920-4b8d-afa5-29e07b507d45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AwardDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BackWSocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BClientSocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BroadcastDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FindUserDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManageDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LockDeskDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LongoDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="OperateDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TCP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TCPDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WClientSocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ZClientSocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameUserManage.cpp">
+      <Filter>头文件\库</Filter>
+    </ClCompile>
+    <ClCompile Include="MD5.cpp">
+      <Filter>头文件\库</Filter>
+    </ClCompile>
+    <ClCompile Include="sha1.cpp">
+      <Filter>头文件\库</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketInit.cpp">
+      <Filter>头文件\库</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AwardDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BackWSocket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BClientSocket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BroadcastDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FindUserDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManageDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LockDeskDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LongoDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="OperateDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TCP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TCPDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="WClientSocket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ZClientSocket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientComStruct.h">
+      <Filter>头文件\库</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandMessage.h">
+      <Filter>头文件\库</Filter>
+    </ClInclude>
+    <ClInclude Include="GameUserManage.h">
+      <Filter>头文件\库</Filter>
+    </ClInclude>
+    <ClInclude Include="GM_MessageDefine.h">
+      <Filter>头文件\库</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5.h">
+      <Filter>头文件\库</Filter>
+    </ClInclude>
+    <ClInclude Include="sha1.h">
+      <Filter>头文件\库</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketInit.h">
+      <Filter>头文件\库</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\TCP.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\TCP.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TCP.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
