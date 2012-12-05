@@ -1,0 +1,200 @@
+﻿生成启动时间为 2012-11-13 19:56:47。
+     1>项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Server\GameManage\GameManage.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\GameManage.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\sdk\include\Common /I..\..\..\sdk\include\ServerCommon /I..\..\..\sdk\include /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D GAMEMANAGE_EXPORTS /D _AFXEXT /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\GameManage.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\sdk\include\Common /I..\..\..\sdk\include\ServerCommon /I..\..\..\sdk\include /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D GAMEMANAGE_EXPORTS /D _AFXEXT /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\GameManage.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AutoAllotDesk.cpp BankService.cpp GameDesk.cpp GameMainManage.cpp GameManage.cpp PropService.cpp UserInfo.cpp UserPower.cpp
+         AutoAllotDesk.cpp
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\commonuse.h(254): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\commonuse.h(314): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\commonuse.h(491): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\commonuse.h(876): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\direct.h(124) : 参见“mkdir”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\commonuse.h(881): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>AutoAllotDesk.cpp(41): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>AutoAllotDesk.cpp(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>AutoAllotDesk.cpp(82): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>AutoAllotDesk.cpp(145): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>AutoAllotDesk.cpp(148): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>AutoAllotDesk.cpp(439): warning C4806: “==”: 不安全操作: 从类型“bool”提升到类型“int”的值不能等于给定的常量
+         BankService.cpp
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\commonuse.h(254): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\commonuse.h(314): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\commonuse.h(491): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\commonuse.h(876): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\direct.h(124) : 参见“mkdir”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\commonuse.h(881): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+         GameDesk.cpp
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\commonuse.h(254): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\commonuse.h(314): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\commonuse.h(491): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\commonuse.h(876): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\direct.h(124) : 参见“mkdir”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\commonuse.h(881): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>GameDesk.cpp(20): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameDesk.cpp(21): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>GameDesk.cpp(672): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>GameDesk.cpp(673): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>GameDesk.cpp(628): warning C4101: “_tmp”: 未引用的局部变量
+     1>GameDesk.cpp(695): warning C4101: “_tmp”: 未引用的局部变量
+     1>GameDesk.cpp(931): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>GameDesk.cpp(1138): warning C4244: “参数”: 从“__time64_t”转换到“int”，可能丢失数据
+     1>GameDesk.cpp(1158): warning C4244: “+=”: 从“__int64”转换到“long”，可能丢失数据
+     1>GameDesk.cpp(915): warning C4101: “nTax”: 未引用的局部变量
+     1>GameDesk.cpp(1409): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>GameDesk.cpp(1604): warning C4244: “参数”: 从“__time64_t”转换到“int”，可能丢失数据
+     1>GameDesk.cpp(1624): warning C4244: “+=”: 从“__int64”转换到“long”，可能丢失数据
+     1>GameDesk.cpp(1393): warning C4101: “nTax”: 未引用的局部变量
+     1>GameDesk.cpp(2237): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameDesk.cpp(2689): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameDesk.cpp(3134): warning C4018: “>”: 有符号/无符号不匹配
+     1>GameDesk.cpp(3149): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameDesk.cpp(3179): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>GameDesk.cpp(3189): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+         GameMainManage.cpp
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\commonuse.h(254): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\commonuse.h(314): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\commonuse.h(491): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\commonuse.h(876): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\direct.h(124) : 参见“mkdir”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\commonuse.h(881): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>GameMainManage.cpp(83): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>GameMainManage.cpp(107): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>GameMainManage.cpp(190): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameMainManage.cpp(230): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameMainManage.cpp(538): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameMainManage.cpp(543): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameMainManage.cpp(574): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameMainManage.cpp(602): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameMainManage.cpp(959): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>GameMainManage.cpp(1395): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameMainManage.cpp(1396): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameMainManage.cpp(1469): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameMainManage.cpp(1470): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameMainManage.cpp(1529): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameMainManage.cpp(1705): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameMainManage.cpp(1734): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameMainManage.cpp(1775): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>GameMainManage.cpp(1818): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameMainManage.cpp(1850): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameMainManage.cpp(2236): warning C4018: “>=”: 有符号/无符号不匹配
+     1>GameMainManage.cpp(2270): warning C4018: “>=”: 有符号/无符号不匹配
+     1>GameMainManage.cpp(2270): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameMainManage.cpp(2281): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>GameMainManage.cpp(2620): warning C4018: “>”: 有符号/无符号不匹配
+     1>GameMainManage.cpp(2633): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameMainManage.cpp(2660): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameMainManage.cpp(2712): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>GameMainManage.cpp(2755): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>GameMainManage.cpp(2918): warning C4800: “UINT”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>GameMainManage.cpp(3039): warning C4101: “UserAgree”: 未引用的局部变量
+     1>GameMainManage.cpp(3100): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>GameMainManage.cpp(4236): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameMainManage.cpp(4237): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameMainManage.cpp(4514): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameMainManage.cpp(4537): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameMainManage.cpp(4658): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameMainManage.cpp(4681): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameMainManage.cpp(4706): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameMainManage.cpp(4734): warning C4018: “<”: 有符号/无符号不匹配
+     1>GameMainManage.cpp(5283): warning C4244: “=”: 从“long”转换到“BYTE”，可能丢失数据
+     1>GameMainManage.cpp(5328): warning C4244: “=”: 从“long”转换到“BYTE”，可能丢失数据
+     1>GameMainManage.cpp(5475): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : 参见“sscanf”的声明
+     1>GameMainManage.cpp(5827): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameMainManage.cpp(5829): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameMainManage.cpp(6773): warning C4244: “参数”: 从“__int64”转换到“long”，可能丢失数据
+         GameManage.cpp
+         PropService.cpp
+     1>PropService.cpp(100): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         UserInfo.cpp
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\commonuse.h(254): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\commonuse.h(314): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\commonuse.h(491): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\commonuse.h(876): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\direct.h(124) : 参见“mkdir”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\commonuse.h(881): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>UserInfo.cpp(69): warning C4244: “+=”: 从“__int64”转换到“int”，可能丢失数据
+     1>UserInfo.cpp(78): warning C4244: “+=”: 从“__int64”转换到“int”，可能丢失数据
+         UserPower.cpp
+         正在生成代码...
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\gamemanage\gamemainmanage.cpp(5688): warning C4715: “CGameDataBaseHandle::OnNewKickUserProp”: 不是所有的控件路径都返回值
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _AFXDLL /l"0x0409" /nologo /fo"Release\GameManage.res" GameManage.rc 
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Server\GameManage\Release\GameManage.dll) 与 Linker 的 OutputFile 属性值(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\run\Server\release\GameManage.dll)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\run\Server\release\GameManage.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\sdk\lib\Common /LIBPATH:..\..\..\sdk\lib\Server SQLEngine.lib cfgEngine.lib BZZlib.lib AFCComDllEx.lib /MANIFEST /ManifestFile:"Release\GameManage.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Server\GameManage\Release\GameManage.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\sdk\lib\Server\GameManage.lib" /MACHINE:X86 /DLL Release\GameManage.res
+         Release\AutoAllotDesk.obj
+         Release\BankService.obj
+         Release\GameDesk.obj
+         Release\GameMainManage.obj
+         Release\GameManage.obj
+         Release\PropService.obj
+         Release\stdafx.obj
+         Release\UserInfo.obj
+         Release\UserPower.obj
+         "G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\lib\Server\AFCComDllEx.lib"
+     1>TalkMessageFilter.lib(TalkMessageFilter.obj) : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:ICF”规范)
+            正在创建库 ..\..\..\sdk\lib\Server\GameManage.lib 和对象 ..\..\..\sdk\lib\Server\GameManage.exp
+         GameManage.vcxproj -> G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Server\GameManage\Release\GameManage.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\..\run\Server\release\GameManage.dll;#2" /manifest Release\GameManage.dll.intermediate.manifest "e:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\GameManage.unsuccessfulbuild”。
+         正在对“Release\GameManage.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Server\GameManage\GameManage.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:13.32

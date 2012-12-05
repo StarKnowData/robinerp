@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="PlatForm">
+      <UniqueIdentifier>{499594df-2a22-4031-a0c3-365fbfefd3af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlatForm\IPC">
+      <UniqueIdentifier>{062b3ead-dfc2-4291-bf6e-8ad73438ab55}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameUserManage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerLogic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordPlayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordPlayerDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\LoveSendClassForEXE.cpp">
+      <Filter>PlatForm</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\IPC\ChannelService.cpp">
+      <Filter>PlatForm\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\IPC\DataStorage.cpp">
+      <Filter>PlatForm\IPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform\IPC\IPCControls.cpp">
+      <Filter>PlatForm\IPC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameUserManage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerLogic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordPlayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordPlayerDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\lovesendclassforexe.h">
+      <Filter>PlatForm</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\IPC\ChannelService.h">
+      <Filter>PlatForm\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\IPC\common.h">
+      <Filter>PlatForm\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\IPC\DataStorage.h">
+      <Filter>PlatForm\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\IPC\IPCControls.h">
+      <Filter>PlatForm\IPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform\IPC\Sink.h">
+      <Filter>PlatForm\IPC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\GamePlace.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\lanzuan.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\RecordPlayer.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\RecordPlayer.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RecordPlayer.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

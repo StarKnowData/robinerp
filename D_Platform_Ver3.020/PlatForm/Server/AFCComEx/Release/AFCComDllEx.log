@@ -1,0 +1,91 @@
+﻿生成启动时间为 2012-11-13 19:56:29。
+     1>项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Server\AFCComEx\AFCComDllEx.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\AFCComEx.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\sdk\include /I..\..\..\sdk\include\Common /I..\..\..\sdk\include\ServerCommon /ZI /nologo /W3 /WX- /Od /Oy /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D _AFC_COM_DLL_EX /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\AFCComEx.pch" /FAcs /Fa"Release\\" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\sdk\include /I..\..\..\sdk\include\Common /I..\..\..\sdk\include\ServerCommon /ZI /nologo /W3 /WX- /Od /Oy /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D _AFC_COM_DLL_EX /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\AFCComEx.pch" /FAcs /Fa"Release\\" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AFCComDllEx.cpp AFCDataBase.cpp AFCException.cpp AFCLock.cpp AFCSocket.cpp DataLine.cpp MainManage.cpp MainManageForZ.cpp MD5.cpp ProcessManage.cpp SocketInit.cpp ..\Common\WriteLog.cpp
+         AFCComDllEx.cpp
+         AFCDataBase.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\afccomex\afcdatabase.cpp(13): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\afccomex\afcdatabase.cpp(14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+         AFCException.cpp
+         AFCLock.cpp
+         AFCSocket.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\afccomex\afcsocket.cpp(96): warning C4305: “=”: 从“LONG”到“BYTE”截断
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\afccomex\afcsocket.cpp(96): warning C4309: “=”: 截断常量值
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\afccomex\afcsocket.cpp(98): warning C4305: “=”: 从“LONG”到“BYTE”截断
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\afccomex\afcsocket.cpp(98): warning C4309: “=”: 截断常量值
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\afccomex\afcsocket.cpp(438): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\afccomex\afcsocket.cpp(1158): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\afccomex\afcsocket.cpp(1158): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\afccomex\afcsocket.cpp(1158): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\afccomex\afcsocket.cpp(1373): warning C4305: “=”: 从“LONG”到“BYTE”截断
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\afccomex\afcsocket.cpp(1373): warning C4309: “=”: 截断常量值
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\afccomex\afcsocket.cpp(1375): warning C4305: “=”: 从“LONG”到“BYTE”截断
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\afccomex\afcsocket.cpp(1375): warning C4309: “=”: 截断常量值
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\afccomex\afcsocket.cpp(2101): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\afccomex\afcsocket.cpp(2101): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\afccomex\afcsocket.cpp(2101): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+         DataLine.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\afccomex\dataline.cpp(1): warning C4627: “#include "DataLine.h"”: 在查找预编译头使用时跳过
+                 将指令添加到“StdAfx.h”或重新生成预编译头
+         MainManage.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\common\commonuse.h(254): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\common\commonuse.h(314): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\common\commonuse.h(491): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\common\commonuse.h(876): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\direct.h(124) : 参见“mkdir”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\common\commonuse.h(881): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+         MainManageForZ.cpp
+         MD5.cpp
+         ProcessManage.cpp
+         SocketInit.cpp
+         WriteLog.cpp
+         正在生成代码...
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\platform\server\afccomex\afcdatabase.cpp(302): warning C4715: “CAFCDataBaseManage::SQLConnectReset”: 不是所有的控件路径都返回值
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0710 /D _AFXDLL /l"0x0409" /IRelease\ /nologo /fo"Release\AFCComDllEx.res" AFCComDllEx.rc 
+       MakeDirsForLink:
+         正在创建目录“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Server\AFCComEx\..\..\..\run\Server\release”。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Server\AFCComEx\Release\AFCComEx.dll) 与 Linker 的 OutputFile 属性值(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\run\Server\release\AFCComDllEx.dll)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(AFCComEx) 与 Linker 的 OutputFile 属性值(AFCComDllEx)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\run\Server\release\AFCComDllEx.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\sdk\lib\Common /LIBPATH:..\..\..\sdk\lib\Server Ws2_32.lib SQLEngine.lib cfgEngine.lib BZZlib.lib /MANIFEST /ManifestFile:"Release\AFCComEx.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Server\AFCComEx\Release\AFCComEx.pdb" /MAP /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\sdk\lib\Server\AFCComDllEx.lib" /MACHINE:X86 /DLL Release\AFCComDllEx.res
+         Release\AFCComDllEx.obj
+         Release\AFCDataBase.obj
+         Release\AFCException.obj
+         Release\AFCLock.obj
+         Release\AFCSocket.obj
+         Release\DataLine.obj
+         Release\MainManage.obj
+         Release\MainManageForZ.obj
+         Release\MD5.obj
+         Release\ProcessManage.obj
+         Release\SocketInit.obj
+         Release\stdafx.obj
+         Release\WriteLog.obj
+     1>AFCComDllEx.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:ICF”规范)
+            正在创建库 ..\..\..\sdk\lib\Server\AFCComDllEx.lib 和对象 ..\..\..\sdk\lib\Server\AFCComDllEx.exp
+     1>TalkMessageFilter.lib(TalkMessageFilter.obj) : warning LNK4217: 本地定义的符号 ??1CBcfFile@@QAE@XZ (public: __thiscall CBcfFile::~CBcfFile(void)) 在函数 "public: void __thiscall CTalkMessageFilter::LoadFilterMessage(char *)" (?LoadFilterMessage@CTalkMessageFilter@@QAEXPAD@Z) 中导入
+     1>TalkMessageFilter.lib(TalkMessageFilter.obj) : warning LNK4217: 本地定义的符号 ?GetKeyVal@CBcfFile@@QAE?AV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@V23@0PBD@Z (public: class ATL::CStringT<char,class StrTraitMFC_DLL<char,class ATL::ChTraitsCRT<char> > > __thiscall CBcfFile::GetKeyVal(class ATL::CStringT<char,class StrTraitMFC_DLL<char,class ATL::ChTraitsCRT<char> > >,class ATL::CStringT<char,class StrTraitMFC_DLL<char,class ATL::ChTraitsCRT<char> > >,char const *)) 在函数 "public: void __thiscall CTalkMessageFilter::LoadFilterMessage(char *)" (?LoadFilterMessage@CTalkMessageFilter@@QAEXPAD@Z) 中导入
+     1>TalkMessageFilter.lib(TalkMessageFilter.obj) : warning LNK4217: 本地定义的符号 ??0CBcfFile@@QAE@V?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@Z (public: __thiscall CBcfFile::CBcfFile(class ATL::CStringT<char,class StrTraitMFC_DLL<char,class ATL::ChTraitsCRT<char> > >)) 在函数 "public: void __thiscall CTalkMessageFilter::LoadFilterMessage(char *)" (?LoadFilterMessage@CTalkMessageFilter@@QAEXPAD@Z) 中导入
+     1>TalkMessageFilter.lib(TalkMessageFilter.obj) : warning LNK4217: 本地定义的符号 ?IsFileExist@CBcfFile@@SA_NV?$CStringT@DV?$StrTraitMFC_DLL@DV?$ChTraitsCRT@D@ATL@@@@@ATL@@@Z (public: static bool __cdecl CBcfFile::IsFileExist(class ATL::CStringT<char,class StrTraitMFC_DLL<char,class ATL::ChTraitsCRT<char> > >)) 在函数 "public: void __thiscall CTalkMessageFilter::LoadFilterMessage(char *)" (?LoadFilterMessage@CTalkMessageFilter@@QAEXPAD@Z) 中导入
+         AFCComDllEx.vcxproj -> G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Server\AFCComEx\Release\AFCComEx.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\..\run\Server\release\AFCComDllEx.dll;#2" /manifest Release\AFCComEx.dll.intermediate.manifest "e:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\AFCComEx.unsuccessfulbuild”。
+         正在对“Release\AFCComEx.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Server\AFCComEx\AFCComDllEx.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:18.23

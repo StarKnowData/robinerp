@@ -1,0 +1,27 @@
+﻿生成启动时间为 2012-11-14 10:48:19。
+     1>项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\Resource2003\AFCResDll.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“无技术支持\系统资源库.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       ResourceCompile:
+         所有输出均为最新。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\Resource2003\无技术支持\系统资源库.dll) 与 Linker 的 OutputFile 属性值(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\run\Client\release\BZW_Res.dll)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(系统资源库) 与 Linker 的 OutputFile 属性值(BZW_Res)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\run\Client\release\BZW_Res.dll" /INCREMENTAL:NO /NOLOGO /DEF:".\AFCResDll.def" /MANIFEST /ManifestFile:"无技术支持\系统资源库.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\Resource2003\无技术支持\系统资源库.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\sdk\lib\Client\BZW_RES.lib" /MACHINE:X86 /DLL "无技术支持\AFCResDll.res"
+         "无技术支持\AFCResDll.obj"
+         "无技术支持\stdafx.obj"
+            正在创建库 ..\..\..\sdk\lib\Client\BZW_RES.lib 和对象 ..\..\..\sdk\lib\Client\BZW_RES.exp
+         AFCResDll.vcxproj -> G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\Resource2003\无技术支持\系统资源库.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\..\run\Client\release\BZW_Res.dll;#2" /manifest "无技术支持\系统资源库.dll.intermediate.manifest" "e:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“无技术支持\系统资源库.unsuccessfulbuild”。
+         正在对“无技术支持\系统资源库.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Client\Resource2003\AFCResDll.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.62

@@ -1,0 +1,600 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4032151a-e538-46a4-8088-94bf885fd1ee}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{a599b9cd-2c48-4056-9207-f38a7aabe504}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{c93533cd-3b41-4d0f-b5b7-d2f9793cf8e1}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AFC.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AFCButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AFCDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AFCEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AFCExpressionWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AFCFunction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AFCImage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AFCListCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AFCLogoResource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AFCMenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AFCRegistry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AFCResource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AFCTabCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AFCWeb.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AFCWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CardSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfirmDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgDIYChat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgLeftShow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="explorer1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FlashViewDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEndView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFrameDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GDIPlus_Image.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GetPoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Gif.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IGif.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageHandle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MjSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectFactory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="personalinfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaySound.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropSelUser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ShortMessage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ShowScore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TipWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserListDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UserPower.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VerifyCodeCreater.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DUIMessageWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AFC.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="res\AFC.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ARROW_DIS.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ARROW_FOC.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ARROW_NOR.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ASK_DIS.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ASK_FOC.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ASK_NOR.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap4.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BT_ACTION.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BT_EXPESSION.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BT_TALK_SET.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BULE.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button_AddToFavorite.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BUTTON_BACK.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button_BBS.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button_ChatRoom.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button_Close.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button_CloseVideo.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button_CreateRoom.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button_Exit.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button_GameSet.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button_Help.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button_Invite.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button_Min.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button_RoomManage.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button_StartTalk.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button_UserSet.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CARD_BACK.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\card_back_Little.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CLOSE_DIS.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CLOSE_FOC.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CLOSE_NOR.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CONNECT.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="Res\cursor1.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DIALOG_BACK.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Dis.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\EXPESSION.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GAME_AGREE.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GAME_CARD.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Game_Card_Little.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GAME_END_2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GAME_END_3.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GAME_END_4.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GAME_END_5.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GAME_END_6.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GAME_END_7.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GAME_END_8.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GAME_END_9.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GAME_TIME.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GRAY.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GREEN.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\HAND.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Hcur.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Hide_List.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Idb_room_bottom.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\LIST_TITLE.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MAX_DIS.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MAX_FOC.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MAX_NOR.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MIN_DIS.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MIN_FOC.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\MIN_NOR.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\POWTER_RED.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\RED.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\RES_DIS.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\RES_FOC.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\RES_NOR.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Room_bottom.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Room_bottom_left.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Room_bottom_right.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SHOW_LEFT.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SHOW_MID.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SHOW_RIGHT.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SPLIT_HOR.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\SPLIT_VOR.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\TAB_ACTIVE.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\TAB_BACK.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Tab_Back_New.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\TAB_NORMAL.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\TITLE_BACK.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\TITLE_FOC.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\TITLE_NOR.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\USER_STATE.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Vcur.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\View_back.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\VIEW_BLUE.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\VIEW_BOTTOM.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\VIEW_BOTTOM_LEFT.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\VIEW_BOTTOM_RIGHT.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\VIEW_GREEN.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\VIEW_LEFT.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\VIEW_PURPLE.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\VIEW_RED.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\VIEW_RIGHT.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\VIEW_TOP.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\VIEW_TOP_LEFT.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\VIEW_TOP_RIGHT.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\WHITE.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\YELLOW.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BUTTON_MOVE.wav" />
+    <None Include="Res\button_up.wav" />
+    <None Include="ReadMe.txt" />
+    <None Include="res\System_msg.wav" />
+    <None Include="res\Warn.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AFCButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="afcdevhead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AFCDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AFCEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AFCExpressionWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AFCFunction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AFCImage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AFCListCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AFCLogoResource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AFCMenu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AFCRegistry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AFCResource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AFCTabCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AFCWeb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AFCWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CardSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientComStruct.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfirmDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgDIYChat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgLeftShow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="explorer1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FlashViewDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEndView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFrameDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GDIPlus_Image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GetPoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Gif.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IGif.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageHandle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MjSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonalInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaySound.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropSelUser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShortMessage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShowScore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TipWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserListDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UserPower.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VerifyCodeCreater.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DUIMessageWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AFC.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

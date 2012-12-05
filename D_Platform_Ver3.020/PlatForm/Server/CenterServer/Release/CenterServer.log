@@ -1,0 +1,91 @@
+﻿生成启动时间为 2012-11-13 19:57:09。
+     1>项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Server\CenterServer\CenterServer.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\BCS.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\sdk\include\ServerCommon /I..\..\..\sdk\include\Common /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy /D WIN32 /D _WINDOWS /D NDEBUG /D _VC80_UPGRADE=0x0710 /D _MBCS /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\BCS.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\sdk\include\ServerCommon /I..\..\..\sdk\include\Common /Zi /nologo /W3 /WX- /O2 /Ob1 /Oy /D WIN32 /D _WINDOWS /D NDEBUG /D _VC80_UPGRADE=0x0710 /D _MBCS /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\BCS.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CenterServer.cpp CenterServerDlg.cpp CenterServerManage.cpp SysInfoList.cpp TrayIcon.cpp ZServerManager.cpp
+         CenterServer.cpp
+         CenterServerDlg.cpp
+         CenterServerManage.cpp
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\CommonUse.h(254): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\CommonUse.h(314): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\CommonUse.h(491): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\CommonUse.h(876): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\direct.h(124) : 参见“mkdir”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\Common\CommonUse.h(881): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>CenterServerManage.cpp(52): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>CenterServerManage.cpp(56): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>CenterServerManage.cpp(64): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>CenterServerManage.cpp(68): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>CenterServerManage.cpp(72): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>CenterServerManage.cpp(76): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>CenterServerManage.cpp(80): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>CenterServerManage.cpp(84): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>CenterServerManage.cpp(90): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>CenterServerManage.cpp(155): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>CenterServerManage.cpp(159): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>CenterServerManage.cpp(163): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>CenterServerManage.cpp(167): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>CenterServerManage.cpp(178): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>CenterServerManage.cpp(182): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>CenterServerManage.cpp(186): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+     1>CenterServerManage.cpp(190): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(188) : 参见“strncpy”的声明
+         SysInfoList.cpp
+         TrayIcon.cpp
+         ZServerManager.cpp
+     1>ZServerManager.cpp(278): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>ZServerManager.cpp(278): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>ZServerManager.cpp(278): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>ZServerManager.cpp(291): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>ZServerManager.cpp(291): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>ZServerManager.cpp(291): warning C4244: “参数”: 从“DWORD”转换到“BYTE”，可能丢失数据
+     1>ZServerManager.cpp(229): warning C4101: “socket”: 未引用的局部变量
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0710 /D _AFXDLL /l"0x0409" /IRelease\ /nologo /fo"Release\CenterServer.res" CenterServer.rc 
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Server\CenterServer\Release\BCS.exe) 与 Linker 的 OutputFile 属性值(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\run\Server\release\BCS.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\run\Server\release\BCS.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\..\sdk\lib\Server /LIBPATH:..\..\..\sdk\lib\Common AFCComDllEx.lib cfgEngine.lib /MANIFEST /ManifestFile:"Release\BCS.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Server\CenterServer\Release\BCS.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\BCS.lib" /MACHINE:X86 Release\CenterServer.res
+         Release\CenterServer.obj
+         Release\CenterServerDlg.obj
+         Release\CenterServerManage.obj
+         Release\stdafx.obj
+         Release\SysInfoList.obj
+         Release\TrayIcon.obj
+         Release\ZServerManager.obj
+         "G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\lib\Server\AFCComDllEx.lib"
+         CenterServer.vcxproj -> G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Server\CenterServer\Release\BCS.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\..\run\Server\release\BCS.exe;#1" /manifest Release\BCS.exe.intermediate.manifest "e:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\BCS.unsuccessfulbuild”。
+         正在对“Release\BCS.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\PlatForm\Server\CenterServer\CenterServer.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.37
