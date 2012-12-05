@@ -1,0 +1,603 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="2RSuper|Win32">
+      <Configuration>2RSuper</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="4RSuper|Win32">
+      <Configuration>4RSuper</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="SendCard|Win32">
+      <Configuration>SendCard</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="二人牛牛(VIP)|Win32">
+      <Configuration>二人牛牛(VIP)</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="四人牛牛|Win32">
+      <Configuration>四人牛牛</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="视频版|Win32">
+      <Configuration>视频版</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="邵阳四人牛牛|Win32">
+      <Configuration>邵阳四人牛牛</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{96886AFE-6306-46EE-8B50-FE93DA107F6A}</ProjectGuid>
+    <RootNamespace>Client</RootNamespace>
+    <Keyword>MFCDLLProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='邵阳四人牛牛|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='4RSuper|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='2RSuper|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='SendCard|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='二人牛牛(VIP)|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='视频版|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='四人牛牛|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='邵阳四人牛牛|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='4RSuper|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='2RSuper|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='SendCard|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='二人牛牛(VIP)|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='视频版|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='四人牛牛|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='四人牛牛|Win32'">Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='四人牛牛|Win32'">Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='四人牛牛|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='视频版|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='视频版|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='视频版|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='二人牛牛(VIP)|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='二人牛牛(VIP)|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='二人牛牛(VIP)|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='SendCard|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='SendCard|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='SendCard|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='2RSuper|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='2RSuper|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='2RSuper|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='4RSuper|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='4RSuper|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='4RSuper|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='邵阳四人牛牛|Win32'">$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='邵阳四人牛牛|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='邵阳四人牛牛|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='2RSuper|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='2RSuper|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='2RSuper|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='4RSuper|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='4RSuper|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='4RSuper|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='SendCard|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='SendCard|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='SendCard|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='二人牛牛(VIP)|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='二人牛牛(VIP)|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='二人牛牛(VIP)|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='四人牛牛|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='四人牛牛|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='四人牛牛|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='视频版|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='视频版|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='视频版|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='邵阳四人牛牛|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='邵阳四人牛牛|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='邵阳四人牛牛|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../../../SDK/include/common;../../../../SDK/include/GameLaunchSdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_AFXEXT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>DllForGame.lib;Winmm.lib;cfgEngine.lib;video.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../../../run/client/debug\10900400\10900400.ico</OutputFile>
+      <AdditionalLibraryDirectories>../../../../SDK/lib/Common;../../../../SDK/lib/Game;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>.\GameClient.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AssemblyDebug>true</AssemblyDebug>
+      <SubSystem>Windows</SubSystem>
+      <ImportLibrary>$(OutDir)GameClient.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='四人牛牛|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../../../SDK/include/common;../../../../SDK/include/GameLaunchSdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_AFXEXT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>DllForGame.lib;Winmm.lib;cfgEngine.lib;video.lib;gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../../../run/client/release\10900400\10900400.ico</OutputFile>
+      <AdditionalLibraryDirectories>../../../../SDK/lib/Common;../../../../SDK/lib/Game;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>.\GameClient.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>$(OutDir)GameClient.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='视频版|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../../../SDK/include/common;../../../../SDK/include/GameLaunchSdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_AFXEXT;VIDEO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>DllForGame.lib;Winmm.lib;cfgEngine.lib;video.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../../../run/client/release\10900405\10900405.ico</OutputFile>
+      <AdditionalLibraryDirectories>../../../../SDK/lib/Common;../../../../SDK/lib/Game;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>.\GameClient.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>$(OutDir)GameClient.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='二人牛牛(VIP)|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../../../SDK/include/common;../../../../SDK/include/GameLaunchSdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_AFXEXT;TWO_NN;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>DllForGame.lib;Winmm.lib;cfgEngine.lib;video.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../../../run/client/release\10900200\10900200.ico</OutputFile>
+      <AdditionalLibraryDirectories>../../../../SDK/lib/Common;../../../../SDK/lib/Game;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>.\GameClient.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>$(OutDir)GameClient.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='SendCard|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../../../SDK/include/common;../../../../SDK/include/GameLaunchSdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_AFXEXT;SENDCARD_VERSION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>DllForGame.lib;Winmm.lib;cfgEngine.lib;video.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../../../run/client/release\10900400\10900400.ico</OutputFile>
+      <AdditionalLibraryDirectories>../../../../SDK/lib/Common;../../../../SDK/lib/Game;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>.\GameClient.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>$(OutDir)GameClient.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='2RSuper|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../../../SDK/include/common;../../../../SDK/include/GameLaunchSdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_AFXEXT;TWO_NN;SUPER_VERSION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>DllForGame.lib;Winmm.lib;cfgEngine.lib;video.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../../../run/client/release\10900200\10900200.ico</OutputFile>
+      <AdditionalLibraryDirectories>../../../../SDK/lib/Common;../../../../SDK/lib/Game;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>.\GameClient.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>$(OutDir)GameClient.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='4RSuper|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../../../SDK/include/common;../../../../SDK/include/GameLaunchSdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_AFXEXT;SUPER_VERSION;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>DllForGame.lib;Winmm.lib;cfgEngine.lib;video.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../../../run/client/release\10900400\10900400.ico</OutputFile>
+      <AdditionalLibraryDirectories>../../../../SDK/lib/Common;../../../../SDK/lib/Game;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>.\GameClient.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>$(OutDir)GameClient.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='邵阳四人牛牛|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+    </Midl>
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../../../SDK/include/common;../../../../SDK/include/GameLaunchSdk;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_AFXEXT;SAO_YANG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>DllForGame.lib;Winmm.lib;cfgEngine.lib;video.lib;gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../../../run/client/release\10900400\10900400.ico</OutputFile>
+      <AdditionalLibraryDirectories>../../../../SDK/lib/Common;../../../../SDK/lib/Game;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <ModuleDefinitionFile>.\GameClient.def</ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <ImportLibrary>$(OutDir)GameClient.lib</ImportLibrary>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="BeginAnimal.cpp" />
+    <ClCompile Include="CardShape.cpp" />
+    <ClCompile Include="CeasyNtList.cpp" />
+    <ClCompile Include="ClientGameDlg.cpp" />
+    <ClCompile Include="ClientView.cpp" />
+    <ClCompile Include="ControlWin.cpp" />
+    <ClCompile Include="GameCard.cpp" />
+    <ClCompile Include="GameClient.cpp" />
+    <ClCompile Include="GameFinishDlg.cpp" />
+    <ClCompile Include="GameNoteWnd.cpp" />
+    <ClCompile Include="GameSet.cpp" />
+    <ClCompile Include="NoteAnimal.cpp" />
+    <ClCompile Include="playcardsound.cpp" />
+    <ClCompile Include="PlayVideo.cpp" />
+    <ClCompile Include="ShowNotebtn.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='2RSuper|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='4RSuper|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='SendCard|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='二人牛牛(VIP)|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='四人牛牛|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='视频版|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='邵阳四人牛牛|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\GameMessage\UpGradeLogic.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GameClient.def" />
+    <None Include="res\add1.BMP" />
+    <None Include="res\add2.bmp" />
+    <None Include="res\add3.bmp" />
+    <None Include="res\BACK.bmp" />
+    <None Include="res\back1.bmp" />
+    <None Include="res\Back_Center.bmp" />
+    <None Include="res\BACK_LOGO.bmp" />
+    <None Include="res\BeginGame.bin" />
+    <None Include="res\bitmap4.bmp" />
+    <None Include="res\Bitmap_GSQ_BACK.bmp" />
+    <None Include="res\BottomBar.bmp" />
+    <None Include="res\BottomBarLeft.bmp" />
+    <None Include="res\BottomBarRight.bmp" />
+    <None Include="res\BUTTON.bmp" />
+    <None Include="res\BUTTON_BACKCARD.bmp" />
+    <None Include="res\Button_LastTurn.bmp" />
+    <None Include="res\Came_Card_800.bmp" />
+    <None Include="res\cancel.bmp" />
+    <None Include="res\cancel1.BMP" />
+    <None Include="res\cancel2.BMP" />
+    <None Include="res\cancel3.BMP" />
+    <None Include="res\CARD_BACK.bmp" />
+    <None Include="res\card_back_800.bmp" />
+    <None Include="res\Card_Num.bmp" />
+    <None Include="res\CLIENT_BACK_1024.bmp" />
+    <None Include="res\CLIENT_BACK_800.bmp" />
+    <None Include="res\CLIENT_LIST.ico" />
+    <None Include="res\CLIENT_ROOM.ico" />
+    <None Include="res\CONTROL_BACK.bmp" />
+    <None Include="res\desk4.bmp" />
+    <None Include="res\down.bmp" />
+    <None Include="res\down1.bmp" />
+    <None Include="res\down2.bmp" />
+    <None Include="res\Fl1d.bmp" />
+    <None Include="res\fl1u.bmp" />
+    <None Include="res\fl1x.bmp" />
+    <None Include="res\fl2d.bmp" />
+    <None Include="res\fl2u.bmp" />
+    <None Include="res\fl2x.bmp" />
+    <None Include="res\fl3d.bmp" />
+    <None Include="res\fl3u.bmp" />
+    <None Include="res\fl3x.bmp" />
+    <None Include="res\fl4d.bmp" />
+    <None Include="res\fl4u.bmp" />
+    <None Include="res\fl4x.bmp" />
+    <None Include="res\follow1.BMP" />
+    <None Include="res\follow2.bmp" />
+    <None Include="res\follow3.bmp" />
+    <None Include="res\GAME_CARD.bmp" />
+    <None Include="res\Game_Card_800.bmp" />
+    <None Include="res\GAME_END.bmp" />
+    <None Include="res\GAME_NOTE.bmp" />
+    <None Include="res\GameClient.rc2" />
+    <None Include="res\GameOver.bin" />
+    <None Include="res\giveup1.BMP" />
+    <None Include="res\giveup2.BMP" />
+    <None Include="res\giveup3.bmp" />
+    <None Include="res\KBUTTON.bmp" />
+    <None Include="res\KIESS_CARD.bmp" />
+    <None Include="res\KIESS_CARD_EX.bmp" />
+    <None Include="res\max1.BMP" />
+    <None Include="res\max2.bmp" />
+    <None Include="res\max3.BMP" />
+    <None Include="res\Mode_Bmp.bmp" />
+    <None Include="res\note1.BMP" />
+    <None Include="res\note2.BMP" />
+    <None Include="res\note3.bmp" />
+    <None Include="res\NT.bmp" />
+    <None Include="res\NT2D.bmp" />
+    <None Include="res\NT2X.bmp" />
+    <None Include="res\NT_LOGO.bmp" />
+    <None Include="res\NTCard.bin" />
+    <None Include="res\ok.bmp" />
+    <None Include="res\ok1.BMP" />
+    <None Include="res\ok2.BMP" />
+    <None Include="res\ok3.BMP" />
+    <None Include="res\OutCard.bin" />
+    <None Include="res\playing.bmp" />
+    <None Include="res\sendcard.bin" />
+    <None Include="res\Setup.bmp" />
+    <None Include="res\show1.bmp" />
+    <None Include="res\show2.bmp" />
+    <None Include="res\show3.bmp" />
+    <None Include="res\TopBar.bmp" />
+    <None Include="res\TopBarLeft.bmp" />
+    <None Include="res\TopBarRight.bmp" />
+    <None Include="res\up.bmp" />
+    <None Include="res\up1.bmp" />
+    <None Include="res\up2.bmp" />
+    <None Include="res\VIEW_BLUE.bmp" />
+    <None Include="res\VIEW_GREEN.bmp" />
+    <None Include="res\VIEW_PURPLE.bmp" />
+    <None Include="res\VIEW_RED.bmp" />
+    <None Include="res\Warning.bin" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BeginAnimal.h" />
+    <ClInclude Include="CardShape.h" />
+    <ClInclude Include="CeasyNtList.h" />
+    <ClInclude Include="ClientGameDlg.h" />
+    <ClInclude Include="ClientView.h" />
+    <ClInclude Include="ControlWin.h" />
+    <ClInclude Include="GameCard.h" />
+    <ClInclude Include="GameFinishDlg.h" />
+    <ClInclude Include="GameNoteWnd.h" />
+    <ClInclude Include="GameSet.h" />
+    <ClInclude Include="NoteAnimal.h" />
+    <ClInclude Include="Playcardsound.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="ShowNotebtn.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="..\GameMessage\UpGradeLogic.h" />
+    <ClInclude Include="..\GameMessage\UpgradeMessage.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameClient.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="res\UpGrade.manifest">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='2RSuper|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='4RSuper|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='SendCard|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='二人牛牛(VIP)|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='四人牛牛|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='视频版|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='邵阳四人牛牛|Win32'">true</ExcludedFromBuild>
+    </CustomBuildStep>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="GameClient.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

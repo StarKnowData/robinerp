@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Server", "Server\Server.vcxproj", "{17725398-0967-4396-B3EB-E5A15E8DC2E5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\Client.vcxproj", "{7FB9B391-1C04-41AF-98E6-997A3C9AA8EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		20ba|Win32 = 20ba|Win32
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Video|Win32 = Video|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17725398-0967-4396-B3EB-E5A15E8DC2E5}.20ba|Win32.ActiveCfg = 20ba|Win32
+		{17725398-0967-4396-B3EB-E5A15E8DC2E5}.20ba|Win32.Build.0 = 20ba|Win32
+		{17725398-0967-4396-B3EB-E5A15E8DC2E5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{17725398-0967-4396-B3EB-E5A15E8DC2E5}.Debug|Win32.Build.0 = Debug|Win32
+		{17725398-0967-4396-B3EB-E5A15E8DC2E5}.Release|Win32.ActiveCfg = Release|Win32
+		{17725398-0967-4396-B3EB-E5A15E8DC2E5}.Release|Win32.Build.0 = Release|Win32
+		{17725398-0967-4396-B3EB-E5A15E8DC2E5}.Video|Win32.ActiveCfg = Video|Win32
+		{17725398-0967-4396-B3EB-E5A15E8DC2E5}.Video|Win32.Build.0 = Video|Win32
+		{7FB9B391-1C04-41AF-98E6-997A3C9AA8EA}.20ba|Win32.ActiveCfg = 20ba|Win32
+		{7FB9B391-1C04-41AF-98E6-997A3C9AA8EA}.20ba|Win32.Build.0 = 20ba|Win32
+		{7FB9B391-1C04-41AF-98E6-997A3C9AA8EA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7FB9B391-1C04-41AF-98E6-997A3C9AA8EA}.Debug|Win32.Build.0 = Debug|Win32
+		{7FB9B391-1C04-41AF-98E6-997A3C9AA8EA}.Release|Win32.ActiveCfg = Release|Win32
+		{7FB9B391-1C04-41AF-98E6-997A3C9AA8EA}.Release|Win32.Build.0 = Release|Win32
+		{7FB9B391-1C04-41AF-98E6-997A3C9AA8EA}.Video|Win32.ActiveCfg = Video|Win32
+		{7FB9B391-1C04-41AF-98E6-997A3C9AA8EA}.Video|Win32.Build.0 = Video|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

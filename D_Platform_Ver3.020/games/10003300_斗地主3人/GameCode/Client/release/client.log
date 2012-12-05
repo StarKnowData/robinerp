@@ -1,0 +1,1129 @@
+﻿生成启动时间为 2012-11-14 8:58:05。
+     1>项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\10003300_斗地主3人\GameCode\Client\client.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“release\client.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../../SDK/include/common /I../../../../SDK/include/GameLaunchSdk /I../ /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"release\client.pch" /Fo"release\\" /Fd"release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\../../common/commonuse.h(254): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\../../common/commonuse.h(314): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\../../common/commonuse.h(491): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\../../common/commonuse.h(876): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\direct.h(124) : 参见“mkdir”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\../../common/commonuse.h(881): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\WndAnimate.h(153): warning C4018: “>”: 有符号/无符号不匹配
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(270): warning C4005: “IDQUXIAO”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\ConfirmDlg.h(5) : 参见“IDQUXIAO”的前一个定义
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\CommonDefine.h(148): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\CommonDefine.h(149): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\CommonDefine.h(166): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\CommonDefine.h(174): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\stdafx.h(62): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : 参见“_vsnprintf”的声明
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../../SDK/include/common /I../../../../SDK/include/GameLaunchSdk /I../ /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"release\client.pch" /Fo"release\\" /Fd"release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ClientGameDlg.cpp ClientView.cpp Counter.cpp Dialect.cpp DisplayTalkDialog.cpp GameCard.cpp GameClient.cpp GameFinishdlg.cpp HaveThing.cpp LeaveMessage.cpp playcardsound.cpp ..\FlashModule\shockwaveflash1.cpp ..\GameMessage\UpGradeLogic.cpp brgamevideoclient.cpp BRGameVideoSDK.cpp GameNoteWnd.cpp GameSet.cpp
+         ClientGameDlg.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(11): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(12): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(13): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(17): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(18): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(35): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(37): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(11) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(12) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(6) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(8) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(25) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(23) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(7) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(13) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(18) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(17) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(35) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(21) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(24) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(26) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(22) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(37) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(11): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(12): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(13): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(17): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(18): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(35): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(37): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\LoveSendClassInExe.h(688): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>ClientGameDlg.cpp(192): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>ClientGameDlg.cpp(192): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>ClientGameDlg.cpp(196): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>ClientGameDlg.cpp(295): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>ClientGameDlg.cpp(370): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>ClientGameDlg.cpp(474): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>ClientGameDlg.cpp(507): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>ClientGameDlg.cpp(697): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>ClientGameDlg.cpp(1909): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>ClientGameDlg.cpp(2045): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>ClientGameDlg.cpp(2176): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>ClientGameDlg.cpp(2970): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>ClientGameDlg.cpp(3000): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>ClientGameDlg.cpp(3284): warning C4805: “!=”: 在操作中将类型“bool”与类型“BOOL”混合不安全
+     1>ClientGameDlg.cpp(3285): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>ClientGameDlg.cpp(3286): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>ClientGameDlg.cpp(3287): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>ClientGameDlg.cpp(3403): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>ClientGameDlg.cpp(4094): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>ClientGameDlg.cpp(4157): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>ClientGameDlg.cpp(4167): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>ClientGameDlg.cpp(4170): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+         ClientView.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(11): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(12): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(13): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(17): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(18): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(35): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(37): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(11) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(12) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(6) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(8) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(25) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(23) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(7) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(13) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(18) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(17) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(35) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(21) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(24) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(26) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(22) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(37) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(11): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(12): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(13): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(17): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(18): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(35): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(37): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\LoveSendClassInExe.h(688): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>ClientView.cpp(108): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>ClientView.cpp(108): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>ClientView.cpp(121): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>ClientView.cpp(122): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>ClientView.cpp(1128): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::XShowMode”
+     1>ClientView.cpp(1128): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::YShowMode”
+     1>ClientView.cpp(1133): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::XShowMode”
+     1>ClientView.cpp(1133): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::YShowMode”
+     1>ClientView.cpp(1137): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::XShowMode”
+     1>ClientView.cpp(1137): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::YShowMode”
+     1>ClientView.cpp(1142): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::XShowMode”
+     1>ClientView.cpp(1142): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::YShowMode”
+     1>ClientView.cpp(1144): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::XShowMode”
+     1>ClientView.cpp(1144): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::YShowMode”
+     1>ClientView.cpp(1146): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::XShowMode”
+     1>ClientView.cpp(1146): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::YShowMode”
+     1>ClientView.cpp(1149): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::XShowMode”
+     1>ClientView.cpp(1149): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::YShowMode”
+     1>ClientView.cpp(1158): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::XShowMode”
+     1>ClientView.cpp(1158): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::YShowMode”
+     1>ClientView.cpp(1301): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>ClientView.cpp(2039): warning C4018: “<=”: 有符号/无符号不匹配
+     1>ClientView.cpp(2321): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>ClientView.cpp(2805): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::XShowMode”
+     1>ClientView.cpp(2840): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::XShowMode”
+     1>ClientView.cpp(2845): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::XShowMode”
+     1>ClientView.cpp(2916): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Gdiplus::Unit”
+     1>ClientView.cpp(2920): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“Gdiplus::Unit”
+         Counter.cpp
+         Dialect.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(11): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(12): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(13): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(17): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(18): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(35): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(37): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(11) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(12) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(6) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(8) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(25) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(23) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(7) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(13) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(18) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(17) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(35) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(21) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(24) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(26) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(22) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(37) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(11): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(12): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(13): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(17): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(18): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(35): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(37): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\LoveSendClassInExe.h(688): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         DisplayTalkDialog.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(11): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(12): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(13): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(17): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(18): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(35): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(37): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(11) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(12) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(6) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(8) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(25) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(23) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(7) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(13) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(18) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(17) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(35) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(21) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(24) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(26) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(22) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(37) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(11): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(12): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(13): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(17): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(18): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(35): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(37): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\LoveSendClassInExe.h(688): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         GameCard.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(11): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(12): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(13): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(17): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(18): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(35): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(37): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(11) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(12) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(6) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(8) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(25) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(23) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(7) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(13) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(18) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(17) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(35) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(21) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(24) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(26) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(22) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(37) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(11): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(12): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(13): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(17): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(18): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(35): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(37): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\LoveSendClassInExe.h(688): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameCard.cpp(45): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::XShowMode”
+     1>GameCard.cpp(46): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::YShowMode”
+     1>GameCard.cpp(714): warning C4800: “BYTE”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>GameCard.cpp(745): warning C4800: “BYTE”: 将值强制为布尔值“true”或“false”(性能警告)
+         GameClient.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(11): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(12): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(13): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(17): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(18): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(35): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(37): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(11) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(12) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(6) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(8) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(25) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(23) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(7) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(13) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(18) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(17) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(35) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(21) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(24) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(26) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(22) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(37) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(11): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(12): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(13): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(17): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(18): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(35): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(37): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\LoveSendClassInExe.h(688): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         GameFinishdlg.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(11): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(12): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(13): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(17): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(18): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(35): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(37): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>GameFinishdlg.cpp(184): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameFinishdlg.cpp(184): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>GameFinishdlg.cpp(178): warning C4101: “szName”: 未引用的局部变量
+     1>GameFinishdlg.cpp(243): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+         HaveThing.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(11): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(12): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(13): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(17): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(18): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(35): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(37): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(11) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(12) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(6) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(8) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(25) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(23) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(7) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(13) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(18) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(17) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(35) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(21) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(24) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(26) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(22) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(37) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(11): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(12): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(13): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(17): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(18): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(35): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(37): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\LoveSendClassInExe.h(688): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         LeaveMessage.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(11): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(12): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(13): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(17): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(18): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(35): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(37): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(11) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(12) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(6) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(8) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(25) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(23) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(7) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(13) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(18) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(17) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(35) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(21) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(24) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(26) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(22) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(37) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(11): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(12): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(13): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(17): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(18): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(35): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(37): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\LoveSendClassInExe.h(688): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         playcardsound.cpp
+         shockwaveflash1.cpp
+         UpGradeLogic.cpp
+         brgamevideoclient.cpp
+         BRGameVideoSDK.cpp
+     1>BRGameVideoSDK.cpp(52): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>BRGameVideoSDK.cpp(59): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>BRGameVideoSDK.cpp(102): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         GameNoteWnd.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(11): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(12): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(13): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(17): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(18): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(35): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(37): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>GameNoteWnd.cpp(18): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameNoteWnd.cpp(18): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>GameNoteWnd.cpp(100): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>GameNoteWnd.cpp(143): warning C4101: “sz”: 未引用的局部变量
+     1>GameNoteWnd.cpp(220): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+         GameSet.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(11): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(12): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(13): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(17): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(18): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(35): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(37): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(11) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(12) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(6) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(8) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(25) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(23) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(7) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(13) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(18) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(17) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(35) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(21) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(24) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(26) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(22) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\Resource.h(37) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(11): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(12): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(13): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(17): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(18): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(35): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003300_斗地主3人\gamecode\client\resource.h(37): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\LoveSendClassInExe.h(688): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0710 /D _AFXDLL /l"0x0804" /Irelease\ /nologo /fo"release\GameClient.res" GameClient.rc 
+     1>e:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxres.h(32): warning RC4005: 'IDR_MANIFEST' : redefinition
+         
+       MakeDirsForLink:
+         正在创建目录“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\10003300_斗地主3人\GameCode\Client\..\..\..\..\run\Client\release\10003300”。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\10003300_斗地主3人\GameCode\Client\Release\client.dll) 与 Linker 的 OutputFile 属性值(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\run\Client\release\10003300\10003300.ico)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(991,5): warning MSB8012: TargetExt(.dll) 与 Linker 的 OutputFile 属性值(.ico)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(client) 与 Linker 的 OutputFile 属性值(10003300)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../../run/Client/release/10003300/10003300.ico" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../../../SDK/lib/Common /LIBPATH:../../../../SDK/lib/Game DllForGame.lib Winmm.lib cfgEngine.lib video.lib bzsound.lib /DEF:".\GameClient.def" /MANIFEST /ManifestFile:"release\client.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\10003300_斗地主3人\GameCode\Client\Release\client.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\GameClient.lib" /MACHINE:X86 /DLL release\GameClient.res
+         release\ClientGameDlg.obj
+         release\ClientView.obj
+         release\Counter.obj
+         release\Dialect.obj
+         release\DisplayTalkDialog.obj
+         release\GameCard.obj
+         release\GameClient.obj
+         release\GameFinishdlg.obj
+         release\HaveThing.obj
+         release\LeaveMessage.obj
+         release\playcardsound.obj
+         release\shockwaveflash1.obj
+         release\stdafx.obj
+         release\UpGradeLogic.obj
+         release\brgamevideoclient.obj
+         release\BRGameVideoSDK.obj
+         release\GameNoteWnd.obj
+         release\GameSet.obj
+            正在创建库 Release\GameClient.lib 和对象 Release\GameClient.exp
+     1>GameClient.exp : warning LNK4070: .EXP 中的 /OUT:GameClient.dll 指令与输出文件名“../../../../run/Client/release/10003300/10003300.ico”不同；忽略指令
+         client.vcxproj -> G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\10003300_斗地主3人\GameCode\Client\Release\client.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../../../run/Client/release/10003300/10003300.ico;#2" /manifest res\UpGrade.manifest release\client.dll.intermediate.manifest "e:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“release\client.unsuccessfulbuild”。
+         正在对“release\client.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\10003300_斗地主3人\GameCode\Client\client.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.17

@@ -1,0 +1,91 @@
+﻿生成启动时间为 2012-11-14 9:05:50。
+     1>项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\30300400_4GJQ\GameCode\Client\Client.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\Client.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../../SDK/include/common /I../../../../SDK/include/GameLaunchSdk /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\Client.pch" /FAcs /Fa"Release\\" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\../../common/commonuse.h(254): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\../../common/commonuse.h(314): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\../../common/commonuse.h(491): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\../../common/commonuse.h(876): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\direct.h(124) : 参见“mkdir”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\../../common/commonuse.h(881): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\WndAnimate.h(153): warning C4018: “>”: 有符号/无符号不匹配
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(270): warning C4005: “IDQUXIAO”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\ConfirmDlg.h(5) : 参见“IDQUXIAO”的前一个定义
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\CommonDefine.h(148): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\CommonDefine.h(149): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\CommonDefine.h(166): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\CommonDefine.h(174): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../../SDK/include/common /I../../../../SDK/include/GameLaunchSdk /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Client.pch" /FAcs /Fa"Release\\" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ClientGameDlg.cpp ClientView.cpp Jq.cpp JqBoard.cpp JQClient.cpp ..\GameMessage\JqLogic0.cpp MsgBox.cpp Result.cpp GameInfoDlg.cpp GameNoteWnd.cpp GameSet.cpp HaveThing.cpp LeaveMessage.cpp PlaySetDlg.cpp Stop.cpp StopMessage.cpp
+         ClientGameDlg.cpp
+     1>ClientGameDlg.cpp(338): warning C4018: “<”: 有符号/无符号不匹配
+     1>ClientGameDlg.cpp(403): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>ClientGameDlg.cpp(1506): warning C4805: “!=”: 在操作中将类型“bool”与类型“BOOL”混合不安全
+         ClientView.cpp
+         Jq.cpp
+         JqBoard.cpp
+         JQClient.cpp
+         JqLogic0.cpp
+         MsgBox.cpp
+         Result.cpp
+         GameInfoDlg.cpp
+         GameNoteWnd.cpp
+         GameSet.cpp
+         HaveThing.cpp
+         LeaveMessage.cpp
+         PlaySetDlg.cpp
+         Stop.cpp
+         StopMessage.cpp
+     1>StopMessage.cpp(86): warning C4101: “hRgn”: 未引用的局部变量
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0710 /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\JQClient.res" JQClient.rc 
+     1>e:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxres.h(32): warning RC4005: 'IDR_MANIFEST' : redefinition
+         
+       MakeDirsForLink:
+         正在创建目录“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\30300400_4GJQ\GameCode\Client\..\..\..\..\run\Client\release\30300400”。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\30300400_4GJQ\GameCode\Client\Release\Client.dll) 与 Linker 的 OutputFile 属性值(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\run\Client\release\30300400\30300400.ico)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(991,5): warning MSB8012: TargetExt(.dll) 与 Linker 的 OutputFile 属性值(.ico)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(Client) 与 Linker 的 OutputFile 属性值(30300400)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../../run/Client/release/30300400/30300400.ico" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../../../SDK/lib/Common /LIBPATH:../../../../SDK/lib/Game DllForGame.lib Winmm.lib cfgEngine.lib video.lib bzsound.lib /DEF:".\JQClient.def" /MANIFEST /ManifestFile:"Release\Client.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\30300400_4GJQ\GameCode\Client\Release\Client.pdb" /MAP /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\JQClient.lib" /MACHINE:X86 /DLL Release\JQClient.res
+         Release\ClientGameDlg.obj
+         Release\ClientView.obj
+         Release\Jq.obj
+         Release\JqBoard.obj
+         Release\JQClient.obj
+         Release\JqLogic0.obj
+         Release\MsgBox.obj
+         Release\Result.obj
+         Release\stdafx.obj
+         Release\GameInfoDlg.obj
+         Release\GameNoteWnd.obj
+         Release\GameSet.obj
+         Release\HaveThing.obj
+         Release\LeaveMessage.obj
+         Release\PlaySetDlg.obj
+         Release\Stop.obj
+         Release\StopMessage.obj
+            正在创建库 Release\JQClient.lib 和对象 Release\JQClient.exp
+     1>JQClient.exp : warning LNK4070: .EXP 中的 /OUT:JQClient.dll 指令与输出文件名“../../../../run/Client/release/30300400/30300400.ico”不同；忽略指令
+         Client.vcxproj -> G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\30300400_4GJQ\GameCode\Client\Release\Client.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../../../run/Client/release/30300400/30300400.ico;#2" /manifest Release\Client.dll.intermediate.manifest "e:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\Client.unsuccessfulbuild”。
+         正在对“Release\Client.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\30300400_4GJQ\GameCode\Client\Client.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.59

@@ -1,0 +1,31 @@
+﻿生成启动时间为 2012-11-14 9:05:50。
+     1>项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\30300400_4GJQ\GameCode\Server\Server.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\Server.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         所有输出均为最新。
+       ResourceCompile:
+         所有输出均为最新。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\30300400_4GJQ\GameCode\Server\Release\Server.dll) 与 Linker 的 OutputFile 属性值(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\run\Server\release\30300400.DLL)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(Server) 与 Linker 的 OutputFile 属性值(30300400)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../../run/Server/release/30300400.DLL" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../../../SDK/lib/common /LIBPATH:../../../../SDK/lib/Server AFCComDllEx.lib CfgEngine.lib GameManage.lib /DEF:".\JQSrv.def" /MANIFEST /ManifestFile:"Release\Server.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\30300400_4GJQ\GameCode\Server\Release\Server.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\JQSrv.lib" /MACHINE:X86 /DLL Release\JQSrv.res
+         Release\JqLogic.obj
+         Release\JqLogic0.obj
+         Release\JQSrv.obj
+         Release\ServerManage.obj
+         Release\stdafx.obj
+            正在创建库 Release\JQSrv.lib 和对象 Release\JQSrv.exp
+     1>JQSrv.exp : warning LNK4070: .EXP 中的 /OUT:JQSrv.dll 指令与输出文件名“../../../../run/Server/release/30300400.DLL”不同；忽略指令
+         Server.vcxproj -> G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\30300400_4GJQ\GameCode\Server\Release\Server.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../../../run/Server/release/30300400.DLL;#2" /manifest Release\Server.dll.intermediate.manifest "e:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\Server.unsuccessfulbuild”。
+         正在对“Release\Server.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\30300400_4GJQ\GameCode\Server\Server.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.25

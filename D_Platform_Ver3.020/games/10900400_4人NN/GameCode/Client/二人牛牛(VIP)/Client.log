@@ -1,0 +1,68 @@
+﻿生成启动时间为 2012-11-14 9:01:25。
+     1>项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\10900400_4人NN\GameCode\Client\Client.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“二人牛牛(VIP)\Client.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../../SDK/include/common /I../../../../SDK/include/GameLaunchSdk /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D TWO_NN /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"二人牛牛(VIP)\Client.pch" /Fo"二人牛牛(VIP)\\" /Fd"二人牛牛(VIP)\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CeasyNtList.cpp ClientGameDlg.cpp ClientView.cpp ControlWin.cpp GameCard.cpp GameClient.cpp GameFinishDlg.cpp GameSet.cpp ShowNotebtn.cpp
+         CeasyNtList.cpp
+     1>CeasyNtList.cpp(336): warning C4305: “参数”: 从“int”到“BYTE”截断
+     1>CeasyNtList.cpp(336): warning C4309: “参数”: 截断常量值
+         ClientGameDlg.cpp
+     1>ClientGameDlg.cpp(818): warning C4244: “+=”: 从“__int64”转换到“int”，可能丢失数据
+     1>ClientGameDlg.cpp(1084): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+     1>ClientGameDlg.cpp(2710): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>ClientGameDlg.cpp(2710): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>ClientGameDlg.cpp(2756): warning C4244: “=”: 从“double”转换到“__int64”，可能丢失数据
+     1>ClientGameDlg.cpp(2775): warning C4244: “=”: 从“double”转换到“__int64”，可能丢失数据
+         ClientView.cpp
+     1>ClientView.cpp(2957): warning C4244: “参数”: 从“double”转换到“__int64”，可能丢失数据
+     1>ClientView.cpp(2959): warning C4244: “参数”: 从“double”转换到“__int64”，可能丢失数据
+     1>ClientView.cpp(2919): warning C4101: “szMsg”: 未引用的局部变量
+     1>ClientView.cpp(3654): warning C4101: “szMsg”: 未引用的局部变量
+         ControlWin.cpp
+         GameCard.cpp
+         GameClient.cpp
+         GameFinishDlg.cpp
+         GameSet.cpp
+         ShowNotebtn.cpp
+         正在生成代码...
+       ResourceCompile:
+         所有输出均为最新。
+       MakeDirsForLink:
+         正在创建目录“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\10900400_4人NN\GameCode\Client\..\..\..\..\run\client\release\10900200”。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\10900400_4人NN\GameCode\Client\二人牛牛(VIP)\Client.dll) 与 Linker 的 OutputFile 属性值(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\run\client\release\10900200\10900200.ico)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(991,5): warning MSB8012: TargetExt(.dll) 与 Linker 的 OutputFile 属性值(.ico)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(Client) 与 Linker 的 OutputFile 属性值(10900200)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../../run/client/release\10900200\10900200.ico" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../../../SDK/lib/Common /LIBPATH:../../../../SDK/lib/Game DllForGame.lib Winmm.lib cfgEngine.lib video.lib /DEF:".\GameClient.def" /MANIFEST /ManifestFile:"二人牛牛(VIP)\Client.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\10900400_4人NN\GameCode\Client\二人牛牛(VIP)\Client.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"二人牛牛(VIP)\GameClient.lib" /MACHINE:X86 /DLL "二人牛牛(VIP)\GameClient.res"
+         "二人牛牛(VIP)\BeginAnimal.obj"
+         "二人牛牛(VIP)\CardShape.obj"
+         "二人牛牛(VIP)\CeasyNtList.obj"
+         "二人牛牛(VIP)\ClientGameDlg.obj"
+         "二人牛牛(VIP)\ClientView.obj"
+         "二人牛牛(VIP)\ControlWin.obj"
+         "二人牛牛(VIP)\GameCard.obj"
+         "二人牛牛(VIP)\GameClient.obj"
+         "二人牛牛(VIP)\GameFinishDlg.obj"
+         "二人牛牛(VIP)\GameNoteWnd.obj"
+         "二人牛牛(VIP)\GameSet.obj"
+         "二人牛牛(VIP)\NoteAnimal.obj"
+         "二人牛牛(VIP)\playcardsound.obj"
+         "二人牛牛(VIP)\PlayVideo.obj"
+         "二人牛牛(VIP)\ShowNotebtn.obj"
+         "二人牛牛(VIP)\stdafx.obj"
+         "二人牛牛(VIP)\UpGradeLogic.obj"
+            正在创建库 二人牛牛(VIP)\GameClient.lib 和对象 二人牛牛(VIP)\GameClient.exp
+     1>GameClient.exp : warning LNK4070: .EXP 中的 /OUT:GameClient.dll 指令与输出文件名“../../../../run/client/release\10900200\10900200.ico”不同；忽略指令
+         Client.vcxproj -> G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\10900400_4人NN\GameCode\Client\二人牛牛(VIP)\Client.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../../../run/client/release\10900200\10900200.ico;#2" /manifest "二人牛牛(VIP)\Client.dll.intermediate.manifest" "e:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“二人牛牛(VIP)\Client.unsuccessfulbuild”。
+         正在对“二人牛牛(VIP)\Client.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\10900400_4人NN\GameCode\Client\Client.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.59

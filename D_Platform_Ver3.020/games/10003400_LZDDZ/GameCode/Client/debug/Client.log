@@ -1,0 +1,1070 @@
+﻿生成启动时间为 2012-11-14 8:58:23。
+     1>项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\10003400_LZDDZ\GameCode\Client\Client.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“debug\Client.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../../SDK/include/common /I../../../../SDK/include/GameLaunchSdk /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"debug\Client.pch" /Fo"debug\\" /Fd"debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ClientGameDlg.cpp ClientView.cpp DisplayTalkDialog.cpp GameCard.cpp GameClient.cpp GameNoteWnd.cpp GameSet.cpp HaveThing.cpp Laizhidlg.cpp LeaveMessage.cpp
+         ClientGameDlg.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(11): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(12): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(13): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(14): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(18): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(19): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(28): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(12) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(13) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(6) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(8) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(25) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(23) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(7) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(14) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(19) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(18) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(28) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(21) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(24) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(26) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(22) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(11) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(11): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(12): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(13): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(14): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(18): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(19): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(28): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\LoveSendClassInExe.h(688): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>ClientGameDlg.cpp(47): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : 参见“_vsnprintf”的声明
+     1>ClientGameDlg.cpp(155): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : 参见“strcat”的声明
+     1>ClientGameDlg.cpp(155): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>ClientGameDlg.cpp(449): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>ClientGameDlg.cpp(1477): warning C4101: “byteVal1”: 未引用的局部变量
+     1>ClientGameDlg.cpp(1475): warning C4101: “byteTempCardVal”: 未引用的局部变量
+     1>ClientGameDlg.cpp(3181): warning C4805: “!=”: 在操作中将类型“bool”与类型“BOOL”混合不安全
+     1>ClientGameDlg.cpp(3182): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>ClientGameDlg.cpp(3183): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>ClientGameDlg.cpp(3184): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+         ClientView.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(11): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(12): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(13): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(14): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(18): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(19): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(28): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(12) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(13) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(6) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(8) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(25) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(23) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(7) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(14) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(19) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(18) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(28) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(21) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(24) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(26) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(22) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(11) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(11): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(12): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(13): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(14): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(18): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(19): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(28): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\LoveSendClassInExe.h(688): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>ClientView.cpp(81): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>ClientView.cpp(82): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>ClientView.cpp(824): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::XShowMode”
+     1>ClientView.cpp(824): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::YShowMode”
+     1>ClientView.cpp(835): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::XShowMode”
+     1>ClientView.cpp(835): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::YShowMode”
+     1>ClientView.cpp(839): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::XShowMode”
+     1>ClientView.cpp(839): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::YShowMode”
+     1>ClientView.cpp(844): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::XShowMode”
+     1>ClientView.cpp(844): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::YShowMode”
+     1>ClientView.cpp(846): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::XShowMode”
+     1>ClientView.cpp(846): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::YShowMode”
+     1>ClientView.cpp(848): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::XShowMode”
+     1>ClientView.cpp(848): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::YShowMode”
+     1>ClientView.cpp(851): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::XShowMode”
+     1>ClientView.cpp(851): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::YShowMode”
+     1>ClientView.cpp(855): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::XShowMode”
+     1>ClientView.cpp(855): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::YShowMode”
+         DisplayTalkDialog.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(11): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(12): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(13): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(14): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(18): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(19): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(28): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(12) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(13) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(6) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(8) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(25) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(23) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(7) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(14) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(19) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(18) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(28) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(21) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(24) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(26) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(22) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(11) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(11): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(12): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(13): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(14): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(18): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(19): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(28): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\LoveSendClassInExe.h(688): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         GameCard.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(11): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(12): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(13): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(14): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(18): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(19): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(28): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(12) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(13) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(6) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(8) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(25) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(23) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(7) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(14) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(19) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(18) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(28) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(21) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(24) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(26) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(22) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(11) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(11): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(12): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(13): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(14): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(18): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(19): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(28): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\LoveSendClassInExe.h(688): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>GameCard.cpp(41): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::XShowMode”
+     1>GameCard.cpp(42): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“CUpGradeGameCard::YShowMode”
+         GameClient.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(11): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(12): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(13): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(14): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(18): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(19): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(28): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(12) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(13) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(6) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(8) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(25) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(23) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(7) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(14) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(19) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(18) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(28) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(21) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(24) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(26) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(22) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(11) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(11): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(12): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(13): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(14): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(18): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(19): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(28): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\LoveSendClassInExe.h(688): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         GameNoteWnd.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(11): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(12): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(13): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(14): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(18): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(19): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(28): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(12) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(13) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(6) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(8) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(25) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(23) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(7) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(14) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(19) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(18) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(28) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(21) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(24) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(26) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(22) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(11) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(11): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(12): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(13): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(14): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(18): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(19): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(28): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\LoveSendClassInExe.h(688): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         GameSet.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(11): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(12): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(13): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(14): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(18): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(19): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(28): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(12) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(13) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(6) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(8) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(25) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(23) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(7) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(14) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(19) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(18) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(28) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(21) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(24) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(26) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(22) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(11) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(11): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(12): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(13): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(14): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(18): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(19): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(28): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\LoveSendClassInExe.h(688): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         HaveThing.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(11): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(12): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(13): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(14): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(18): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(19): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(28): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(12) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(13) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(6) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(8) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(25) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(23) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(7) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(14) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(19) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(18) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(28) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(21) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(24) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(26) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(22) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(11) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(11): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(12): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(13): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(14): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(18): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(19): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(28): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\LoveSendClassInExe.h(688): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         Laizhidlg.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(11): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(12): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(13): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(14): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(18): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(19): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(28): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(12) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(13) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(6) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(8) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(25) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(23) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(7) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(14) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(19) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(18) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(28) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(21) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(24) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(26) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(22) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(11) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(11): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(12): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(13): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(14): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(18): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(19): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(28): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\LoveSendClassInExe.h(688): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         LeaveMessage.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(11): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(12): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(13): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(14): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(18): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(19): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(28): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(12) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(13) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(6) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(8) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(25) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(23) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(7) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(14) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(19) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(18) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(28) : 参见“IDC_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(21) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(24) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(26) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(22) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\Resource.h(11) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(11): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(12): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(13): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(14): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(18): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(19): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(21): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(22): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(23): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(24): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(25): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(26): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\10003400_lzddz\gamecode\client\resource.h(28): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSdk\LoveSendClassInExe.h(688): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+         正在生成代码...
+       ResourceCompile:
+         所有输出均为最新。
+       MakeDirsForLink:
+         正在创建目录“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\10003400_LZDDZ\GameCode\Client\..\..\..\..\run\Client\release\10003400”。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\10003400_LZDDZ\GameCode\Client\debug\Client.dll) 与 Linker 的 OutputFile 属性值(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\run\Client\release\10003400\10003400.ico)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(991,5): warning MSB8012: TargetExt(.dll) 与 Linker 的 OutputFile 属性值(.ico)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(Client) 与 Linker 的 OutputFile 属性值(10003400)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../../run/Client/release/10003400/10003400.ico" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../../../SDK/lib/Common /LIBPATH:../../../../SDK/lib/Game DllForGame.lib Winmm.lib cfgEngine.lib video.lib bzsound.lib /DEF:".\GameClient.def" /MANIFEST /ManifestFile:"debug\Client.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\10003400_LZDDZ\GameCode\Client\debug\Client.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"debug\GameClient.lib" /MACHINE:X86 /DLL debug\GameClient.res
+         debug\Animal.obj
+         debug\CardAnimal.obj
+         debug\ClientGameDlg.obj
+         debug\ClientView.obj
+         debug\CombineAnimal.obj
+         debug\DisplayTalkDialog.obj
+         debug\GameCard.obj
+         debug\GameClient.obj
+         debug\GameFinishdlg.obj
+         debug\HaveThing.obj
+         debug\Laizhidlg.obj
+         debug\LeaveMessage.obj
+         debug\playcardsound.obj
+         debug\stdafx.obj
+         debug\UpGradeLogic.obj
+         debug\GameNoteWnd.obj
+         debug\GameSet.obj
+            正在创建库 debug\GameClient.lib 和对象 debug\GameClient.exp
+     1>GameClient.exp : warning LNK4070: .EXP 中的 /OUT:GameClient.dll 指令与输出文件名“../../../../run/Client/release/10003400/10003400.ico”不同；忽略指令
+         Client.vcxproj -> G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\10003400_LZDDZ\GameCode\Client\debug\Client.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../../../run/Client/release/10003400/10003400.ico;#2" /manifest debug\Client.dll.intermediate.manifest "e:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“debug\Client.unsuccessfulbuild”。
+         正在对“debug\Client.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\10003400_LZDDZ\GameCode\Client\Client.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.64

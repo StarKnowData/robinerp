@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="不常用">
+      <UniqueIdentifier>{43d8da09-a10b-47a0-bc5d-1aed2593f296}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ClientGameDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Jq.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JqBoard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="JQClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameMessage\JqLogic0.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Result.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInfoDlg.cpp">
+      <Filter>不常用</Filter>
+    </ClCompile>
+    <ClCompile Include="GameNoteWnd.cpp">
+      <Filter>不常用</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSet.cpp">
+      <Filter>不常用</Filter>
+    </ClCompile>
+    <ClCompile Include="HaveThing.cpp">
+      <Filter>不常用</Filter>
+    </ClCompile>
+    <ClCompile Include="LeaveMessage.cpp">
+      <Filter>不常用</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaySetDlg.cpp">
+      <Filter>不常用</Filter>
+    </ClCompile>
+    <ClCompile Include="Stop.cpp">
+      <Filter>不常用</Filter>
+    </ClCompile>
+    <ClCompile Include="StopMessage.cpp">
+      <Filter>不常用</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="JQClient.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="res\BeginGame.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CLIENT_LIST.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CLIENT_ROOM.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GameOver.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\JQClient.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\NTCard.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\OutCard.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Warning.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="A_Star.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientGameDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Jq.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="JqBoard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameMessage\JqConst.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameMessage\JqLogic0.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Result.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="JQClient.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="res\UpGrade.manifest" />
+  </ItemGroup>
+</Project>
