@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="不常用">
+      <UniqueIdentifier>{995d4e35-5dbb-4c3a-a31c-109500320135}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AdmitDefeat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChessManual.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientGameDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DianMu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameFinishdlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="playcardsound.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RegretChess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="WQStack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="brgamevideoclient.cpp">
+      <Filter>不常用</Filter>
+    </ClCompile>
+    <ClCompile Include="BRGameVideoSDK.cpp">
+      <Filter>不常用</Filter>
+    </ClCompile>
+    <ClCompile Include="GameInfoDlg.cpp">
+      <Filter>不常用</Filter>
+    </ClCompile>
+    <ClCompile Include="GameNoteWnd.cpp">
+      <Filter>不常用</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSet.cpp">
+      <Filter>不常用</Filter>
+    </ClCompile>
+    <ClCompile Include="HaveThing.cpp">
+      <Filter>不常用</Filter>
+    </ClCompile>
+    <ClCompile Include="LeaveMessage.cpp">
+      <Filter>不常用</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaySetDlg.cpp">
+      <Filter>不常用</Filter>
+    </ClCompile>
+    <ClCompile Include="Stop.cpp">
+      <Filter>不常用</Filter>
+    </ClCompile>
+    <ClCompile Include="StopMessage.cpp">
+      <Filter>不常用</Filter>
+    </ClCompile>
+    <ClCompile Include="UpGradeLogic.cpp">
+      <Filter>不常用</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GameClient.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="res\BACK.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\back1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Back_Center.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BACK_LOGO.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bcross.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BeginGame.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap4.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Bitmap_GSQ_BACK.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BottomBar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BottomBarLeft.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BottomBarRight.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BUTTON.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\BUTTON_BACKCARD.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Button_LastTurn.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Card_Num.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CLIENT_BACK_800.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CLIENT_LIST.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CLIENT_ROOM.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CONTROL_BACK.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\cursor1.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\desk.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DIS.CUR">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GAME_END.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GAME_NOTE.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GameClient.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\GameOver.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\KBUTTON.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\KIESS_CARD.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\KIESS_CARD_EX.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Mode_Bmp.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\NT.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\NT_LOGO.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\NTCard.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\OutCard.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\playing.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Setup.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\TopBar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\TopBarLeft.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\TopBarRight.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\VIEW_BLUE.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\VIEW_GREEN.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\VIEW_PURPLE.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\VIEW_RED.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Warning.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\wcross.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\wqbaiguan.BMP">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\wqbaizi.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\wqboard.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\wqcurBlack.BMP">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\wqcurWhite.BMP">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\wqfocus.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\wqheiguan.BMP">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\wqheizi.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AdmitDefeat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChessManual.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DianMu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameFinishdlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Playcardsound.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RegretChess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameMessage\UpgradeMessage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="brgamevideoclient.h">
+      <Filter>不常用</Filter>
+    </ClInclude>
+    <ClInclude Include="BRGameVideoSDK.h">
+      <Filter>不常用</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientGameDlg.h">
+      <Filter>不常用</Filter>
+    </ClInclude>
+    <ClInclude Include="GameInfoDlg.h">
+      <Filter>不常用</Filter>
+    </ClInclude>
+    <ClInclude Include="GameNoteWnd.h">
+      <Filter>不常用</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSet.h">
+      <Filter>不常用</Filter>
+    </ClInclude>
+    <ClInclude Include="HaveThing.h">
+      <Filter>不常用</Filter>
+    </ClInclude>
+    <ClInclude Include="LeaveMessage.h">
+      <Filter>不常用</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaySetDlg.h">
+      <Filter>不常用</Filter>
+    </ClInclude>
+    <ClInclude Include="Stop.h">
+      <Filter>不常用</Filter>
+    </ClInclude>
+    <ClInclude Include="StopMessage.h">
+      <Filter>不常用</Filter>
+    </ClInclude>
+    <ClInclude Include="UpGradeLogic.h">
+      <Filter>不常用</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="GameClient.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuildStep Include="res\UpGrade.manifest" />
+  </ItemGroup>
+</Project>

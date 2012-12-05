@@ -1,0 +1,356 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\GameClient.rc2""  // 不是由 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 3,4,2,7
+ PRODUCTVERSION 3,4,2,7
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "FileDescription", "牛牛"
+            VALUE "FileVersion", "3, 4, 2, 7"
+            VALUE "InternalName", "nn.dll"
+            VALUE "OriginalFilename", "nn.dll"
+            VALUE "ProductName", "牛牛"
+            VALUE "ProductVersion", "3, 4, 2, 7"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_CLIENT_LIST         ICON                    "RES\\CLIENT_LIST.ico"
+IDI_CLIENT_ROOM         ICON                    "res\\CLIENT_ROOM.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_THING_MESSAGE DIALOGEX 0, 0, 198, 90
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "",IDOK,38,68,38,15
+    PUSHBUTTON      "",IDCANCEL,113,67,38,15
+    EDITTEXT        IDC_LEAVE_MSG,12,39,172,25,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "玩家名字",IDC_LEFT_USER,12,26,172,8
+END
+
+IDD_THING DIALOGEX 0, 0, 200, 82
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_THING,12,28,178,13,ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    DEFPUSHBUTTON   "",IDOK,44,58,35,15
+    PUSHBUTTON      "",IDCANCEL,113,58,35,15
+END
+
+IDD_NT_LIST DIALOGEX 0, 0, 241, 78
+STYLE DS_SETFONT | DS_3DLOOK | WS_CHILD
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_MAX,"Button",BS_OWNERDRAW | WS_DISABLED,238,6,20,30
+    CONTROL         "",IDC_OK,"Button",BS_OWNERDRAW | WS_DISABLED,196,6,20,30
+    CONTROL         "",IDC_CANCEL,"Button",BS_OWNERDRAW | WS_DISABLED,216,36,20,30
+END
+
+IDD_BACK_CARD DIALOGEX 0, 0, 92, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "请求时间："
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,19,31,54,16
+    EDITTEXT        IDC_EDIT,17,10,61,14,ES_AUTOHSCROLL
+END
+
+IDD_STOP DIALOGEX 0, 0, 186, 66
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "提前结束"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,27,45,50,14
+    PUSHBUTTON      "取消",IDCANCEL,108,45,50,14
+END
+
+IDD_STOP_MESSAGE DIALOGEX 0, 0, 186, 73
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "对家请求提前结束"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "同意",IDOK,34,52,50,14
+    PUSHBUTTON      "不同意",IDCANCEL,101,52,50,14
+END
+
+IDD_SHOW_NOTE DIALOGEX 0, 0, 134, 164
+STYLE DS_SETFONT | DS_3DLOOK | WS_CHILD | WS_VISIBLE
+FONT 9, "宋体", 0, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_SHOW,"Button",BS_OWNERDRAW | WS_DISABLED,17,6,29,15
+    CONTROL         "",IDC_BULL,"Button",BS_OWNERDRAW | WS_DISABLED,9,53,29,15
+    CONTROL         "",IDC_NOTE,"Button",BS_OWNERDRAW | WS_DISABLED,14,29,29,15
+    CONTROL         "",IDC_FOLLOW,"Button",BS_OWNERDRAW | WS_DISABLED,65,28,29,15
+    CONTROL         "",IDC_GIVEUP,"Button",BS_OWNERDRAW | WS_DISABLED,61,6,29,15
+    CONTROL         "",IDC_LOOK,"Button",BS_OWNERDRAW | WS_DISABLED,58,53,29,15
+END
+
+IDD_BEGIN_ANIMAL DIALOGEX 0, 0, 186, 95
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_NOTE_ANIMAL DIALOGEX 0, 0, 186, 95
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_END_ANIMAL DIALOGEX 0, 0, 186, 95
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_GAME_END DIALOGEX 0, 0, 186, 95
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_EASY_LIST DIALOGEX 0, 0, 186, 95
+STYLE DS_SETFONT | DS_3DLOOK | WS_CHILD
+FONT 9, "宋体", 400, 0, 0x86
+BEGIN
+    CONTROL         "",IDC_MAX,"Button",BS_OWNERDRAW | WS_DISABLED,50,22,29,14
+    CONTROL         "",IDC_CANCEL,"Button",BS_OWNERDRAW | WS_DISABLED,131,21,29,14
+    CONTROL         "",IDC_OK,"Button",BS_OWNERDRAW | WS_DISABLED,87,25,29,14
+END
+
+IDD_GAME_SET DIALOGEX 0, 0, 186, 109
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+EXSTYLE WS_EX_ACCEPTFILES | WS_EX_APPWINDOW
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "声音效果",IDC_SOUND,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,18,80,9
+    CONTROL         "允许别人旁观我的游戏",IDC_WATCH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,60,95,9
+    CONTROL         "显示用户进出消息",IDC_USER_MESSAGE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,18,40,80,9
+    DEFPUSHBUTTON   "",1,21,79,49,15
+    PUSHBUTTON      "",2,93,79,49,15
+END
+
+IDD_CONTROLWIN DIALOGEX 0, 0, 158, 135
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "请在游戏开始前控制"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | WS_GROUP,77,8,16,10
+    CONTROL         "",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,123,43,16,10
+    CONTROL         "",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,73,75,16,10
+    CONTROL         "",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,42,43,16,10
+    DEFPUSHBUTTON   "确定",IDOK,46,105,50,14
+    CONTROL         "",IDC_RADIO16,"Button",BS_AUTORADIOBUTTON | WS_GROUP,77,18,16,10
+    CONTROL         "",IDC_RADIO17,"Button",BS_AUTORADIOBUTTON,123,53,16,10
+    CONTROL         "",IDC_RADIO18,"Button",BS_AUTORADIOBUTTON,73,86,16,10
+    CONTROL         "",IDC_RADIO19,"Button",BS_AUTORADIOBUTTON,42,54,16,10
+    LTEXT           "上方赢",IDC_STATIC,41,8,28,16
+    LTEXT           "本方赢",IDC_STATIC,38,76,28,13
+    LTEXT           "右方赢",IDC_STATIC2,87,43,28,16
+    LTEXT           "左方赢",IDC_STATIC1,7,43,28,16
+    LTEXT           "上方输",IDC_STATIC5,40,18,28,16
+    LTEXT           "右方输",IDC_STATIC4,86,53,28,16
+    LTEXT           "左方输",IDC_STATIC3,6,52,28,16
+    LTEXT           "本方输",IDC_STATIC6,37,86,28,13
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+IDR_MANIFEST            RT_MANIFEST             "res\\UpGrade.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_THING_MESSAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 191
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 78
+    END
+
+    "IDD_BACK_CARD", DIALOG
+    BEGIN
+        BOTTOMMARGIN, 52
+    END
+
+    IDD_STOP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 59
+    END
+
+    IDD_STOP_MESSAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_BEGIN_ANIMAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_END_ANIMAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_EASY_LIST, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_GAME_SET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 102
+    END
+
+    IDD_CONTROLWIN, DIALOG
+    BEGIN
+        TOPMARGIN, 8
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\GameClient.rc2"  // 不是由 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

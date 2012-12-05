@@ -1,0 +1,395 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\GameClient.rc2""  // 不是由 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,9
+ PRODUCTVERSION 1,0,0,9
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "FileDescription", "围棋游戏"
+            VALUE "FileVersion", "1, 0, 0, 9"
+            VALUE "InternalName", "GameClient.dll"
+            VALUE "OriginalFilename", "ShowHand.dll"
+            VALUE "ProductName", "围棋游戏"
+            VALUE "ProductVersion", "1, 0, 0, 9"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_CLIENT_LIST         ICON                    "RES\\CLIENT_LIST.ico"
+IDI_CLIENT_ROOM         ICON                    "res\\CLIENT_ROOM.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_THING_MESSAGE DIALOGEX 0, 0, 249, 103
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "",IDOK,52,74,42,15
+    PUSHBUTTON      "",IDCANCEL,148,74,42,15
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME | NOT WS_VISIBLE,9,15,228,56
+    EDITTEXT        IDC_LEAVE_MSG,19,31,210,29,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | WS_VSCROLL
+    LTEXT           "玩家名字",IDC_LEFT_USER,15,21,169,8
+END
+
+IDD_THING DIALOGEX 0, 0, 269, 91
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    EDITTEXT        IDC_THING,7,16,227,33,ES_MULTILINE | ES_AUTOVSCROLL | WS_VSCROLL,WS_EX_CLIENTEDGE
+    DEFPUSHBUTTON   "",IDOK,74,69,44,14
+    PUSHBUTTON      "",IDCANCEL,148,69,45,13
+END
+
+IDD_SET_PLAY DIALOGEX 0, 0, 207, 142
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_CENTER | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "",IDOK,45,109,50,16
+    PUSHBUTTON      "",IDCANCEL,107,109,50,16
+    LTEXT           "本局各方总用时 (局时) ：",IDC_STATIC,18,37,100,8
+    EDITTEXT        IDC_EDIT_JU_TIME_MINUTE,118,35,16,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "分",IDC_STATIC,136,36,8,8
+    EDITTEXT        IDC_EDIT_JU_TIME_SECOND,146,35,16,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "秒",IDC_STATIC,164,37,8,8
+    LTEXT           "局时超时前每步限(步时)：",IDC_STATIC,18,59,104,8
+    EDITTEXT        IDC_EDIT_BU_TIME_MINUTE,118,57,16,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "分",IDC_STATIC,136,59,8,8
+    EDITTEXT        IDC_EDIT_BU_TIME_SECOND,146,57,16,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "秒",IDC_STATIC,164,59,8,8
+    LTEXT           "局时超时后每步限(读秒)：",IDC_STATIC,18,81,104,8
+    EDITTEXT        IDC_EDIT_DU_MIAO_MINUTE,118,78,16,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "分",IDC_STATIC,136,80,8,8
+    EDITTEXT        IDC_EDIT_DU_MIAO_SECOND,146,78,16,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "秒",IDC_STATIC,164,81,8,8
+END
+
+IDD_GAME_SET DIALOGEX 0, 0, 204, 131
+STYLE DS_SETFONT | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    CONTROL         "声音效果",IDC_SOUND,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,22,30,48,10
+    CONTROL         "允许别人旁观我的游戏",IDC_WATCH,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,86,26,96,10
+    CONTROL         "显示用户进出消息",IDC_USER_MESSAGE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,22,58,80,10
+    DEFPUSHBUTTON   "",1,22,84,49,16
+    PUSHBUTTON      "",2,92,84,49,16
+    CONTROL         "右键选相同花色的牌(默认为出牌)",IDC_RIGHT_POWER,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,61,45,136,10
+END
+
+IDD_GAME_INFO DIALOGEX 0, 0, 185, 134
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_SYSMENU
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "",IDOK,39,112,47,15
+    PUSHBUTTON      "",IDCANCEL,107,112,43,15
+    LTEXT           "本局各方总用时 （局时）：",IDC_STATIC,16,43,100,10
+    EDITTEXT        IDC_EDIT_SET_JU_TIME_MINUTE,115,41,18,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "分",IDC_STATIC,133,43,8,8
+    EDITTEXT        IDC_EDIT_SET_JU_TIME_SECOND,141,41,17,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "秒",IDC_STATIC,159,43,8,8
+    LTEXT           "局时超时前每步限（步时）：",IDC_STATIC,14,62,104,11
+    EDITTEXT        IDC_EDIT_SET_BU_TIME_MINUTE,116,60,17,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "分",IDC_STATIC,135,62,8,8
+    EDITTEXT        IDC_EDIT_SET_BU_TIME_SECOND,142,60,17,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "秒",IDC_STATIC,160,62,8,8
+    LTEXT           "局时超时后每步限（读秒）：",IDC_STATIC,15,81,104,12
+    EDITTEXT        IDC_EDIT_SET_DU_MIAO_MINUTE,116,79,17,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "分",IDC_STATIC,135,82,8,8
+    EDITTEXT        IDC_EDIT_SET_DU_MIAO_SECOND,143,80,17,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "秒",IDC_STATIC,162,82,8,8
+END
+
+IDD_BACK_CARD DIALOGEX 0, 0, 92, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "请求时间："
+FONT 9, "宋体", 400, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,19,31,54,16
+    EDITTEXT        IDC_EDIT1,17,10,61,14,ES_AUTOHSCROLL
+END
+
+IDD_STOP DIALOGEX 0, 0, 186, 66
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "",IDOK,27,45,50,14
+    PUSHBUTTON      "",IDCANCEL,108,45,50,14
+END
+
+IDD_STOP_MESSAGE DIALOGEX 0, 0, 186, 73
+STYLE DS_SETFONT | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "",IDOK,34,52,50,14
+    PUSHBUTTON      "",IDCANCEL,101,52,50,14
+END
+
+IDD_DLG_QI_PU DIALOGEX 0, 0, 116, 118
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "棋谱"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,28,92,50,14
+    EDITTEXT        IDC_EDIT_QIPU,13,7,91,79,ES_MULTILINE | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL
+END
+
+IDD_REN_SHU DIALOGEX 0, 0, 170, 70
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "",IDOK,29,41,50,14
+    PUSHBUTTON      "",IDCANCEL,97,41,50,14
+END
+
+IDD_DLG_HUI_QI DIALOGEX 0, 0, 158, 70
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "",IDOK,25,45,50,14
+    PUSHBUTTON      "",IDCANCEL,95,45,50,14
+END
+
+IDD_DIAN_MU DIALOGEX 0, 0, 163, 66
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "",IDOK,14,44,36,14
+    PUSHBUTTON      "",IDCANCEL,71,45,31,14
+    PUSHBUTTON      "",IDC_BUTTON_CONTINUE,122,44,34,15
+END
+
+IDD_MSGBOX DIALOGEX 0, 0, 186, 95
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "离开",IDOK,26,65,50,14
+    PUSHBUTTON      "确定",IDCANCEL,94,63,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+IDR_MANIFEST            RT_MANIFEST             "res\\UpGrade.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_THING_MESSAGE, DIALOG
+    BEGIN
+        RIGHTMARGIN, 244
+        BOTTOMMARGIN, 98
+    END
+
+    IDD_THING, DIALOG
+    BEGIN
+        RIGHTMARGIN, 234
+    END
+
+    IDD_SET_PLAY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 8
+        BOTTOMMARGIN, 137
+    END
+
+    IDD_GAME_INFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 178
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 127
+    END
+
+    IDD_BACK_CARD, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 52
+    END
+
+    IDD_STOP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 59
+    END
+
+    IDD_STOP_MESSAGE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_DLG_QI_PU, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 109
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 111
+    END
+
+    IDD_REN_SHU, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 63
+    END
+
+    IDD_DLG_HUI_QI, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 151
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 63
+    END
+
+    IDD_DIAN_MU, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 156
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 59
+    END
+
+    IDD_MSGBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_HAND                CURSOR                  "res\\cursor1.cur"
+IDC_DIS                 CURSOR                  "res\\DIS.CUR"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\GameClient.rc2"  // 不是由 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

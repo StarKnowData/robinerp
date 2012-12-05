@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Client">
+</Property><Property Name="解决方案文件" Value="F:\vss\A_Platform\Games\10900400_NN\GameCode1\Client\Client.sln">
+</Property><Property Name="Date" Value="2010年7月13日">
+</Property><Property Name="Time" Value="11:28:25">
+</Property></Properties><Event ErrorLevel="2" Project="Client" Source="Client.vcproj" Description="项目文件“F:\vss\A_Platform\Games\10900400_NN\GameCode1\Client\Client.vcproj”无法更新为此 Visual Studio 2008 版本格式，因为它在磁盘上是只读的。请设置该项目文件的权限，然后重新打开它以迁移项目。">
+</Event></UpgradeLog>

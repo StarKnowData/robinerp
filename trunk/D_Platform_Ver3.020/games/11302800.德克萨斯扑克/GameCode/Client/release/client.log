@@ -1,0 +1,75 @@
+﻿生成启动时间为 2012-11-14 9:02:03。
+     1>项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\11302800.德克萨斯扑克\GameCode\Client\client.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“release\client.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../../SDK/include/GameLaunchSDK /I../../../../sdk/include/NewGameFrame/Client /IirrKlang/ /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D _CRT_SECURE_NO_DEPRECATE /D NO_PICTURE_COMPRESSION /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"release\client.pch" /Fo"release\\" /Fd"release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\../../common/commonuse.h(876): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\direct.h(124) : 参见“mkdir”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\WndAnimate.h(153): warning C4018: “>”: 有符号/无符号不匹配
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(270): warning C4005: “IDQUXIAO”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\ConfirmDlg.h(5) : 参见“IDQUXIAO”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\11302800.德克萨斯扑克\gamecode\client\..\GameMessage\UpGradeMessage.h(7): warning C4010: 单行注释包含行继续符
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../../SDK/include/GameLaunchSDK /I../../../../sdk/include/NewGameFrame/Client /IirrKlang/ /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _AFXEXT /D _CRT_SECURE_NO_DEPRECATE /D NO_PICTURE_COMPRESSION /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"release\client.pch" /Fo"release\\" /Fd"release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt NewGameClient.cpp ..\GameMessage\UpGradeLogic.cpp UserDataCliObject.cpp
+         NewGameClient.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\11302800.德克萨斯扑克\gamecode\client\UserDataCliObject.h(7): warning C4010: 单行注释包含行继续符
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\11302800.德克萨斯扑克\gamecode\client\NewGameClient.h(55): warning C4099: “IGameFrame”: 类型名称以前使用“class”现在使用的是“struct”
+                 G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\NewGameFrame\Client\IGameImpl.h(9) : 参见“IGameFrame”的声明
+     1>NewGameClient.cpp(8): warning C4273: “CreateNewGameImpl”: dll 链接不一致
+                 G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\NewGameFrame\Client\IGameImpl.h(44) : 参见“CreateNewGameImpl”的前一个定义
+     1>NewGameClient.cpp(12): warning C4273: “DestroyNewGameImpl”: dll 链接不一致
+                 G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\NewGameFrame\Client\IGameImpl.h(45) : 参见“DestroyNewGameImpl”的前一个定义
+     1>NewGameClient.cpp(43): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>NewGameClient.cpp(44): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>NewGameClient.cpp(1112): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>NewGameClient.cpp(1345): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>NewGameClient.cpp(1602): warning C4806: “==”: 不安全操作: 从类型“bool”提升到类型“int”的值不能等于给定的常量
+     1>NewGameClient.cpp(2833): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>NewGameClient.cpp(2893): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>NewGameClient.cpp(2945): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>NewGameClient.cpp(2993): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>NewGameClient.cpp(3230): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>NewGameClient.cpp(3235): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>NewGameClient.cpp(3242): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>NewGameClient.cpp(3247): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>NewGameClient.cpp(3254): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>NewGameClient.cpp(3259): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>NewGameClient.cpp(3266): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>NewGameClient.cpp(3271): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>NewGameClient.cpp(3283): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>NewGameClient.cpp(3648): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>NewGameClient.cpp(4450): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>NewGameClient.cpp(4475): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>NewGameClient.cpp(4524): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+     1>NewGameClient.cpp(4567): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+         UpGradeLogic.cpp
+         UserDataCliObject.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\11302800.德克萨斯扑克\gamecode\client\UserDataCliObject.h(7): warning C4010: 单行注释包含行继续符
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0710 /D _AFXDLL /l"0x0804" /Irelease\ /nologo /fo"release\Client.res" Client.rc 
+       MakeDirsForLink:
+         正在创建目录“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\11302800.德克萨斯扑克\GameCode\Client\..\..\..\..\run\client\release\11302800”。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\11302800.德克萨斯扑克\GameCode\Client\Release\client.dll) 与 Linker 的 OutputFile 属性值(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\run\client\release\11302800\11302800.ico)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(991,5): warning MSB8012: TargetExt(.dll) 与 Linker 的 OutputFile 属性值(.ico)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(client) 与 Linker 的 OutputFile 属性值(11302800)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../../run/client/release/11302800/11302800.ico" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../../../SDK/lib/Common /LIBPATH:../../../../SDK/lib/Game /LIBPATH:irrKlang/ DllForGame.lib Winmm.lib cfgEngine.lib video.lib BZSound.lib irrKlang.lib /DEF:".\GameClient.def" /MANIFEST /ManifestFile:"release\client.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\11302800.德克萨斯扑克\GameCode\Client\Release\client.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\GameClient.lib" /MACHINE:X86 /DLL release\Client.res
+         release\NewGameClient.obj
+         release\stdafx.obj
+         release\UpGradeLogic.obj
+         release\UserDataCliObject.obj
+            正在创建库 Release\GameClient.lib 和对象 Release\GameClient.exp
+     1>GameClient.exp : warning LNK4070: .EXP 中的 /OUT:GameClient.dll 指令与输出文件名“../../../../run/client/release/11302800/11302800.ico”不同；忽略指令
+         client.vcxproj -> G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\11302800.德克萨斯扑克\GameCode\Client\Release\client.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../../../run/client/release/11302800/11302800.ico;#2" /manifest release\client.dll.intermediate.manifest "e:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“release\client.unsuccessfulbuild”。
+         正在对“release\client.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\11302800.德克萨斯扑克\GameCode\Client\client.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.62

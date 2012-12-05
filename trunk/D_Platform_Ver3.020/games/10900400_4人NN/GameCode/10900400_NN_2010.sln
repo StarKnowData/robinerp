@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Server", "Server\Server.vcxproj", "{281240FB-FEC4-4673-B33C-B0B7E08EDB5C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\Client.vcxproj", "{96886AFE-6306-46EE-8B50-FE93DA107F6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		2RSuper|Win32 = 2RSuper|Win32
+		4RSuper|Win32 = 4RSuper|Win32
+		Debug|Win32 = Debug|Win32
+		SendCard|Win32 = SendCard|Win32
+		二人牛牛(VIP)|Win32 = 二人牛牛(VIP)|Win32
+		邵阳四人牛牛|Win32 = 邵阳四人牛牛|Win32
+		视频版|Win32 = 视频版|Win32
+		四人牛牛|Win32 = 四人牛牛|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{281240FB-FEC4-4673-B33C-B0B7E08EDB5C}.2RSuper|Win32.ActiveCfg = 2RSuper|Win32
+		{281240FB-FEC4-4673-B33C-B0B7E08EDB5C}.2RSuper|Win32.Build.0 = 2RSuper|Win32
+		{281240FB-FEC4-4673-B33C-B0B7E08EDB5C}.4RSuper|Win32.ActiveCfg = 4RSuper|Win32
+		{281240FB-FEC4-4673-B33C-B0B7E08EDB5C}.4RSuper|Win32.Build.0 = 4RSuper|Win32
+		{281240FB-FEC4-4673-B33C-B0B7E08EDB5C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{281240FB-FEC4-4673-B33C-B0B7E08EDB5C}.Debug|Win32.Build.0 = Debug|Win32
+		{281240FB-FEC4-4673-B33C-B0B7E08EDB5C}.SendCard|Win32.ActiveCfg = SendCard|Win32
+		{281240FB-FEC4-4673-B33C-B0B7E08EDB5C}.SendCard|Win32.Build.0 = SendCard|Win32
+		{281240FB-FEC4-4673-B33C-B0B7E08EDB5C}.二人牛牛(VIP)|Win32.ActiveCfg = 二人牛牛(VIP)|Win32
+		{281240FB-FEC4-4673-B33C-B0B7E08EDB5C}.二人牛牛(VIP)|Win32.Build.0 = 二人牛牛(VIP)|Win32
+		{281240FB-FEC4-4673-B33C-B0B7E08EDB5C}.邵阳四人牛牛|Win32.ActiveCfg = 邵阳四人牛牛|Win32
+		{281240FB-FEC4-4673-B33C-B0B7E08EDB5C}.邵阳四人牛牛|Win32.Build.0 = 邵阳四人牛牛|Win32
+		{281240FB-FEC4-4673-B33C-B0B7E08EDB5C}.视频版|Win32.ActiveCfg = 视频版|Win32
+		{281240FB-FEC4-4673-B33C-B0B7E08EDB5C}.视频版|Win32.Build.0 = 视频版|Win32
+		{281240FB-FEC4-4673-B33C-B0B7E08EDB5C}.四人牛牛|Win32.ActiveCfg = 四人牛牛|Win32
+		{281240FB-FEC4-4673-B33C-B0B7E08EDB5C}.四人牛牛|Win32.Build.0 = 四人牛牛|Win32
+		{96886AFE-6306-46EE-8B50-FE93DA107F6A}.2RSuper|Win32.ActiveCfg = 2RSuper|Win32
+		{96886AFE-6306-46EE-8B50-FE93DA107F6A}.2RSuper|Win32.Build.0 = 2RSuper|Win32
+		{96886AFE-6306-46EE-8B50-FE93DA107F6A}.4RSuper|Win32.ActiveCfg = 4RSuper|Win32
+		{96886AFE-6306-46EE-8B50-FE93DA107F6A}.4RSuper|Win32.Build.0 = 4RSuper|Win32
+		{96886AFE-6306-46EE-8B50-FE93DA107F6A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{96886AFE-6306-46EE-8B50-FE93DA107F6A}.Debug|Win32.Build.0 = Debug|Win32
+		{96886AFE-6306-46EE-8B50-FE93DA107F6A}.SendCard|Win32.ActiveCfg = SendCard|Win32
+		{96886AFE-6306-46EE-8B50-FE93DA107F6A}.SendCard|Win32.Build.0 = SendCard|Win32
+		{96886AFE-6306-46EE-8B50-FE93DA107F6A}.二人牛牛(VIP)|Win32.ActiveCfg = 二人牛牛(VIP)|Win32
+		{96886AFE-6306-46EE-8B50-FE93DA107F6A}.二人牛牛(VIP)|Win32.Build.0 = 二人牛牛(VIP)|Win32
+		{96886AFE-6306-46EE-8B50-FE93DA107F6A}.邵阳四人牛牛|Win32.ActiveCfg = 邵阳四人牛牛|Win32
+		{96886AFE-6306-46EE-8B50-FE93DA107F6A}.邵阳四人牛牛|Win32.Build.0 = 邵阳四人牛牛|Win32
+		{96886AFE-6306-46EE-8B50-FE93DA107F6A}.视频版|Win32.ActiveCfg = 视频版|Win32
+		{96886AFE-6306-46EE-8B50-FE93DA107F6A}.视频版|Win32.Build.0 = 视频版|Win32
+		{96886AFE-6306-46EE-8B50-FE93DA107F6A}.四人牛牛|Win32.ActiveCfg = 四人牛牛|Win32
+		{96886AFE-6306-46EE-8B50-FE93DA107F6A}.四人牛牛|Win32.Build.0 = 四人牛牛|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

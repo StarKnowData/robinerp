@@ -1,0 +1,141 @@
+﻿生成启动时间为 2012-11-16 11:28:37。
+     1>项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\30500400_FXQ\GameCode\Client\client.vcxproj”在节点 3 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“release\client.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../../SDK/include/GameLaunchSDK /I../../../../sdk/include/NewGameFrame/Client /I../ /IirrKlang/ /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "_AFXEXT；" /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"release\client.pch" /Fo"release\\" /Fd"release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\../../common/commonuse.h(254): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\../../common/commonuse.h(314): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\../../common/commonuse.h(491): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\../../common/commonuse.h(876): warning C4996: 'mkdir': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _mkdir. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\direct.h(124) : 参见“mkdir”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\../../common/commonuse.h(881): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\WndAnimate.h(153): warning C4018: “>”: 有符号/无符号不匹配
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(270): warning C4005: “IDQUXIAO”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\ConfirmDlg.h(5) : 参见“IDQUXIAO”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\CommonDefine.h(92): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\CommonDefine.h(93): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\CommonDefine.h(110): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\CommonDefine.h(117): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\stdafx.h(66): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : 参见“_vsnprintf”的声明
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../../../SDK/include/GameLaunchSDK /I../../../../sdk/include/NewGameFrame/Client /I../ /IirrKlang/ /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "_AFXEXT；" /D _VC80_UPGRADE=0x0710 /D _WINDLL /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"release\client.pch" /Fo"release\\" /Fd"release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GameClient.cpp NewGameClient.cpp PlaneMoveAni.cpp ..\GameMessage\UpGradeLogic.cpp
+         GameClient.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\Resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\Resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\Resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\Resource.h(11): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\Resource.h(12): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\Resource.h(13): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\Resource.h(14): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\Resource.h(18): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\Resource.h(19): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\Resource.h(22): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\Resource.h(23): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\Resource.h(24): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\Resource.h(25): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\Resource.h(26): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\Resource.h(27): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\Resource.h(30): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+         NewGameClient.cpp
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\NewGameClient.h(45): warning C4099: “IGameFrame”: 类型名称以前使用“class”现在使用的是“struct”
+                 G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\NewGameFrame\Client\IGameImpl.h(9) : 参见“IGameFrame”的声明
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\resource.h(6): warning C4005: “IDD_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(32) : 参见“IDD_THING”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\resource.h(7): warning C4005: “IDD_THING_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(40) : 参见“IDD_THING_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\resource.h(8): warning C4005: “IDD_GAME_END”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(34) : 参见“IDD_GAME_END”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\resource.h(11): warning C4005: “IDD_GAME_SET”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(74) : 参见“IDD_GAME_SET”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\resource.h(12): warning C4005: “IDI_CLIENT_LIST”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(18) : 参见“IDI_CLIENT_LIST”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\resource.h(13): warning C4005: “IDI_CLIENT_ROOM”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(20) : 参见“IDI_CLIENT_ROOM”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\resource.h(14): warning C4005: “IDC_FOLLOW”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(63) : 参见“IDC_FOLLOW”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\resource.h(18): warning C4005: “IDC_LEFT_USER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(68) : 参见“IDC_LEFT_USER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\resource.h(19): warning C4005: “IDC_LEAVE_MSG”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(67) : 参见“IDC_LEAVE_MSG”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\resource.h(22): warning C4005: “IDC_SOUND”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(70) : 参见“IDC_SOUND”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\resource.h(23): warning C4005: “IDC_WATCH”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(73) : 参见“IDC_WATCH”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\resource.h(24): warning C4005: “IDD_STOP”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(39) : 参见“IDD_STOP”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\resource.h(25): warning C4005: “IDC_USER_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(71) : 参见“IDC_USER_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\resource.h(26): warning C4005: “IDD_STOP_MESSAGE”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(36) : 参见“IDD_STOP_MESSAGE”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\resource.h(27): warning C4005: “IDC_RIGHT_POWER”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(72) : 参见“IDC_RIGHT_POWER”的前一个定义
+     1>g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\games\30500400_fxq\gamecode\client\resource.h(30): warning C4005: “IDC_THING”: 宏重定义
+                 g:\1.d平台产品库【测试】版本\d_platform(x64 nversion3.020)\sdk\include\gamelaunchsdk\platform\Resource.h(69) : 参见“IDC_THING”的前一个定义
+     1>G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\SDK\include\GameLaunchSDK\LoveSendClassInExe.h(688): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>NewGameClient.cpp(19): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : 参见“_vsnprintf”的声明
+     1>NewGameClient.cpp(28): warning C4273: “CreateNewGameImpl”: dll 链接不一致
+                 G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\NewGameFrame\Client\IGameImpl.h(44) : 参见“CreateNewGameImpl”的前一个定义
+     1>NewGameClient.cpp(32): warning C4273: “DestroyNewGameImpl”: dll 链接不一致
+                 G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\sdk\include\NewGameFrame\Client\IGameImpl.h(45) : 参见“DestroyNewGameImpl”的前一个定义
+     1>NewGameClient.cpp(121): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>NewGameClient.cpp(122): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>NewGameClient.cpp(123): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>NewGameClient.cpp(755): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+         PlaneMoveAni.cpp
+         UpGradeLogic.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _VC80_UPGRADE=0x0710 /D _AFXDLL /l"0x0804" /Irelease\ /nologo /fo"release\Client.res" Client.rc 
+     1>e:\Program Files\Microsoft Visual Studio 10.0\VC\atlmfc\include\afxres.h(32): warning RC4005: 'IDR_MANIFEST' : redefinition
+         
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\30500400_FXQ\GameCode\Client\Release\client.dll) 与 Linker 的 OutputFile 属性值(G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\run\client\release\30500400\30500400.ico)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(991,5): warning MSB8012: TargetExt(.dll) 与 Linker 的 OutputFile 属性值(.ico)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+     1>C:\Program Files\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(client) 与 Linker 的 OutputFile 属性值(30500400)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         e:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"../../../../run/client/release/30500400/30500400.ico" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../../../SDK/lib/Common /LIBPATH:../../../../SDK/lib/Game /LIBPATH:irrKlang/ DllForGame.lib Winmm.lib cfgEngine.lib video.lib BZSound.lib irrKlang.lib /DEF:".\GameClient.def" /MANIFEST /ManifestFile:"release\client.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\30500400_FXQ\GameCode\Client\Release\client.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release\GameClient.lib" /MACHINE:X86 /DLL release\Client.res
+         release\GameClient.obj
+         release\NewGameClient.obj
+         release\PlaneMoveAni.obj
+         release\stdafx.obj
+         release\UpGradeLogic.obj
+            正在创建库 Release\GameClient.lib 和对象 Release\GameClient.exp
+     1>GameClient.exp : warning LNK4070: .EXP 中的 /OUT:GameClient.dll 指令与输出文件名“../../../../run/client/release/30500400/30500400.ico”不同；忽略指令
+         client.vcxproj -> G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\30500400_FXQ\GameCode\Client\Release\client.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"../../../../run/client/release/30500400/30500400.ico;#2" /manifest release\client.dll.intermediate.manifest "e:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“release\client.unsuccessfulbuild”。
+         正在对“release\client.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\1.D平台产品库【测试】版本\D_Platform(x64 NVersion3.020)\games\30500400_FXQ\GameCode\Client\client.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.60
