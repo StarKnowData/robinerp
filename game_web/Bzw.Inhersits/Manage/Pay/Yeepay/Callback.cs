@@ -1,5 +1,6 @@
 using System;
 using System.Data;
+using System.Data.SqlClient;
 using System.Configuration;
 using System.Collections;
 using System.Web;
@@ -10,6 +11,7 @@ using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
 using com.yeepay;
 using UiCommon;
+using Utility;
 namespace Bzw.Inhersits.Manage.Pay.Yeepay
 {
     public partial class Manage_Pay_Yeepay_Callback : UiCommon.BasePage
@@ -19,6 +21,8 @@ namespace Bzw.Inhersits.Manage.Pay.Yeepay
 
         protected void Page_Load(object sender, EventArgs e)
         {
+            bool res = false;
+
             if (!IsPostBack)
             {
                 //p1_MerId = "10000432521";                                     // 商家ID
@@ -39,20 +43,62 @@ namespace Bzw.Inhersits.Manage.Pay.Yeepay
                         if (result.R9_BType == "1")
                         {
                             //  callback方式:浏览器重定向
+                            res = true;
                             UpdateDB(result);
+
                             Response.Write("支付成功！<br />充值金额：" + result.R5_Pid + "<br />支付金额：" + result.R3_Amt + "<br><a href='/Manage/' title='返回会员中心'>返回会员中心</a>");
                         }
                         else if (result.R9_BType == "2")
                         {
+                            res = true;
                             UpdateDB(result);
                             // * 如果是服务器返回或者电话支付返回(result.R9_BType==2 or result.R9_BType==3)则需要回应一个特定字符串'SUCCESS',且在'SUCCESS'之前不可以有任何其他字符输出,保证首先输出的是'SUCCESS'字符串
                             Response.Write("SUCCESS");
                         }
                         else if (result.R9_BType == "3")
                         {
+                            res = true;
                             UpdateDB(result);
                             // * 如果是服务器返回或者电话支付返回(result.R9_BType==2 or result.R9_BType==3)则需要回应一个特定字符串'SUCCESS',且在'SUCCESS'之前不可以有任何其他字符输出,保证首先输出的是'SUCCESS'字符串
                             Response.Write("SUCCESS");
+                        }
+
+                        if(res)
+                        {
+                            string r8mp = result.R8_MP;
+                            int pos = r8mp.IndexOf("$");
+                            string username = r8mp.Substring(0, pos);
+                            int couponNum = Convert.ToInt32(
+                                r8mp.Substring(pos + 1)
+                                );
+
+                            string strsql =
+                                "select UserID from TUsers where UserName=@username";
+                            DataTable dt=
+                                SqlHelper.ExecuteDataset(CommandType.Text,
+                                strsql,
+                                new SqlParameter[]
+                                {
+                                    new SqlParameter("@username",username)
+                                }
+                                ).Tables[0];
+                            int userid = Convert.ToInt32( dt.Rows[0]["UserID"] );
+
+                            strsql =
+                                "insert into TCoupon(UserID,CouponNum)values(@userid,@coupon)";
+                            int num =
+                                SqlHelper.ExecuteNonQuery
+                                (CommandType.Text,
+                                strsql,
+                                new SqlParameter[]
+                                {
+                                    new SqlParameter("@userid",userid),
+                                    new SqlParameter("@coupon",couponNum)
+                                });
+                            if(num!=1)
+                            {
+                                Response.Write("<script>alert('充值成功，但赠送奖劵失败！')</script>");
+                            }
                         }
                     }
                     else

@@ -47,7 +47,7 @@
                 <div class="cz">
                     <h6>
                         您选择了易宝充值方式</h6>
-                    <form id="Form1" action="" class="democss" runat="server" onsubmit="return onFormSubmit(this)">
+                    <form id="Form1" action="" class="democss" runat="server" onsubmit="return onFormSubmit(this)" fileds>
                     <table border="0" cellpadding="2" cellspacing="0" class="tab03">
                         <tr>
                             <td colspan="2">
@@ -91,7 +91,15 @@
                             </td>
                         </tr>
                         <tr>
-                            <th height="65" scope="row" height="35">
+                            <th align="right" height="35">
+                                赠送奖劵
+                            </th>
+                            <td>
+                                <input id="CouponNum" readonly="readonly"  value="0" />张
+                            </td>
+                        </tr>
+                        <tr>
+                            <th height="65" scope="row">
                                 &nbsp;
                             </th>
                             <td>
@@ -121,12 +129,20 @@
     <script type="text/javascript">
 <!--
 			function CalculationMoney() {
+                var couponNum;
 				KeyPressNum(this,$("#PayMoney").val());
 				if(isNaN($("#PayMoney").val())){
+                    $("#CouponNum").val("0");
 					$("#ExchangeMoney").val("0");
 					return false;
 					
 				}else{
+                    couponNum=parseInt($("#PayMoney").val()*<%= CouponRate %>);
+                    if(couponNum<0)
+                    {
+                        couponNum=0;
+                    }
+                    $("#CouponNum").val(couponNum);
 					$("#ExchangeMoney").val($("#PayMoney").val()*<%= UiCommon.StringConfig.AddZeros(MoneyRate) %>);
 				}	
 			}
