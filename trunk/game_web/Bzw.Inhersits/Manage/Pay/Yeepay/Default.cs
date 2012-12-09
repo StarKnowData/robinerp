@@ -11,6 +11,8 @@ using com.yeepay;
 using UiCommon;
 using BCST.Common;
 using Bzw.WebLibrary;
+using Utility;
+
 namespace Bzw.Inhersits.Manage.Pay.Yeepay
 {
     public partial class Manage_Pay_Yeepay_Default : UiCommon.BasePage
@@ -107,6 +109,8 @@ namespace Bzw.Inhersits.Manage.Pay.Yeepay
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox PayMoney;
 
+
+
         /// <summary>
         /// Button1 控件。
         /// </summary>
@@ -139,6 +143,10 @@ namespace Bzw.Inhersits.Manage.Pay.Yeepay
         private string pd_FrpId = "";
         private string pr_NeedResponse = "";
         protected string MoneyRate = string.Empty;
+        protected string CouponRate = string.Empty;
+
+
+
         protected void Page_Load(object sender, EventArgs e)
         {
             SeoSetting(SeoConfig.Config.PaySeo);
@@ -148,6 +156,7 @@ namespace Bzw.Inhersits.Manage.Pay.Yeepay
                 txtUserName2.Text = UiCommon.UserLoginInfo.UserName;
             }
             MoneyRate = BLL.Config.GetInfoOfCard()["Con_MoneyChangeRate"].ToString();
+            CouponRate = GetCouponRate();
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -200,7 +209,7 @@ namespace Bzw.Inhersits.Manage.Pay.Yeepay
             //#region 测试代码
             //p1_MerId = "10000432521";                                     // 商家ID
             //keyValue = "8UPp0KE8sq73zVP370vko7C39403rtK1YwX40Td6irH216036H27Eb12792t";  // 商家密钥
-            //// 设置请求地址
+            // 设置请求地址
             //Buy.NodeAuthorizationURL = @"http://tech.yeepay.com:8080/robot/debug.action"; //test 
             //#endregion
 
@@ -236,7 +245,11 @@ namespace Bzw.Inhersits.Manage.Pay.Yeepay
 
             //商户扩展信息
             //商户可以任意填写1K 的字符串,支付成功时将原样返回.	
-            pa_MP = "";
+            double poupon=Convert.ToDouble(CouponRate)*Convert.ToDouble( PayMoney.Text);
+            if(poupon<0)
+                poupon=0;
+
+            pa_MP = userName + "$" + Convert.ToInt32(poupon).ToString();
 
             //银行编码
             //默认为""，到易宝支付网关.若不需显示易宝支付的页面，直接跳转到各银行、神州行支付、骏网一卡通等支付页面，该字段可依照附录:银行列表设置参数值.
@@ -250,6 +263,18 @@ namespace Bzw.Inhersits.Manage.Pay.Yeepay
             Response.Redirect(Buy.CreateBuyUrl(p1_MerId, keyValue, p2_Order, p3_Amt, p4_Cur, p5_Pid, p6_Pcat, p7_Pdesc, p8_Url, p9_SAF, pa_MP, pd_FrpId, pr_NeedResponse));
 
         }
+
+        public static string GetCouponRate()
+        {
+            string strsql = "select top 1 CouponRate from TRechargeCouponType";
+            DataTable table = SqlHelper.ExecuteDataset(CommandType.Text, strsql, null).Tables[0];
+            if (table.Rows.Count > 0)
+            {
+                return table.Rows[0]["CouponRate"].ToString();
+            }
+            return "";
+        }
+
 
     }
 }
