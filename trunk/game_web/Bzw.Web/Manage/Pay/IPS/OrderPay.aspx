@@ -10,7 +10,11 @@
 
 
 <body onload="document.getElementById('frmPay').submit();">
+    <!-- 
+    [modify for debug] jeffery
     <form id="frmPay" method="post" action="https://pay.ips.com.cn/ipayment.aspx">
+    -->
+    <form id="frmPay" method="post" action="https://pay.ips.net.cn/ipayment.aspx">
     <input type="hidden" id="Mer_code" runat="server" />
     <input type="hidden" id="Billno" runat="server" />
     <input type="hidden" id="Amount" runat="server" />
