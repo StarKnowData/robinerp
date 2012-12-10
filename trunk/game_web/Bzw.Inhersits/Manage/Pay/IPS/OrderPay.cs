@@ -170,6 +170,9 @@ namespace Bzw.Inhersits.Manage.Pay.IPS
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden Bankco;
+
+        protected global::System.Web.UI.HtmlControls.HtmlInputHidden CouponNum;
+
        protected void Page_Load(object sender, EventArgs e)
        {
            //string toServerURL = "https://pay.ips.com.cn/ipayment.aspx";//IPS支付接口路径
@@ -190,6 +193,10 @@ namespace Bzw.Inhersits.Manage.Pay.IPS
                Response.End();
            }
             
+           // [add] jeffery
+           string strCouponNum = Utility.Common.GetStringOfForm("CouponNum"); //获取应赠送奖劵数量
+           Attach.Value = txtUserName + "!@#" + strCouponNum;
+           // --- end
            
          //支付金额
             string payMoney = Utility.Common.GetStringOfForm("PayMoney"); 
@@ -212,7 +219,9 @@ namespace Bzw.Inhersits.Manage.Pay.IPS
 
            Amount.Value = payMoney + ".00";  //订单金额
 
+
            Mer_code.Value = UiCommon.StringConfig.IPS_Mer_code; //商户编号
+
 
            Billno.Value = DateTime.Now.ToString("yyyyMMddHHmmssfffffff"); //商户定单编号
 
@@ -222,8 +231,9 @@ namespace Bzw.Inhersits.Manage.Pay.IPS
 
            failUrl.Value = UiCommon.StringConfig.WebSiteName + "/Manage/Pay/IPS/OrderReturn.aspx"; //支付失败通知的URL 
 
+
            signMD5.Value = Utility.Common.md5("billno" + Billno.Value + "currencytype" + Currency_Type.Value + "amount" + Amount.Value + "date" + Date.Value + "orderencodetype" + OrderEncodeType.Value + UiCommon.StringConfig.IPS_Letter);   //MD5加密签名
-            
+
               //如果是神舟卡
            if (Utility.Common.GetStringOfForm("Type") == "phone")
            {

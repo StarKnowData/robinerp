@@ -12,6 +12,7 @@ using UiCommon;
 using BCST.Common;
 using Bzw.WebLibrary;
 using Utility;
+using System.Data.SqlClient;
 
 namespace Bzw.Inhersits.Manage.Pay.Yeepay
 {
@@ -249,7 +250,7 @@ namespace Bzw.Inhersits.Manage.Pay.Yeepay
             if(poupon<0)
                 poupon=0;
 
-            pa_MP = userName + "$" + Convert.ToInt32(poupon).ToString();
+            pa_MP = userName + "!@#" + Convert.ToInt32(poupon).ToString();
 
             //银行编码
             //默认为""，到易宝支付网关.若不需显示易宝支付的页面，直接跳转到各银行、神州行支付、骏网一卡通等支付页面，该字段可依照附录:银行列表设置参数值.
@@ -264,10 +265,16 @@ namespace Bzw.Inhersits.Manage.Pay.Yeepay
 
         }
 
-        public static string GetCouponRate()
+        private string GetCouponRate()
         {
-            string strsql = "select top 1 CouponRate from TRechargeCouponType";
-            DataTable table = SqlHelper.ExecuteDataset(CommandType.Text, strsql, null).Tables[0];
+            string strsql = "select top 1 CouponRate from TRechargeCouponType where Way=@way";
+            DataTable table = SqlHelper.ExecuteDataset(
+                CommandType.Text,
+                strsql,
+                new SqlParameter[]{
+                    new SqlParameter("@way",3)
+                }
+                ).Tables[0];
             if (table.Rows.Count > 0)
             {
                 return table.Rows[0]["CouponRate"].ToString();
