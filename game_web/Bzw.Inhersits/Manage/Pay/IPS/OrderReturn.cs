@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Data;
+using System.Data.SqlClient;
 using BLL;
+using Utility;
 
 namespace Bzw.Inhersits.Manage.Pay.IPS
 {
-   public partial class Manage_Pay_IPS_OrderReturn:UiCommon.BasePage
+    public partial class Manage_Pay_IPS_OrderReturn : UiCommon.BasePage
     {
 
         /// <summary>
@@ -106,6 +109,10 @@ namespace Bzw.Inhersits.Manage.Pay.IPS
 
             string retencodetype = Utility.Common.GetStringOfUrl("retencodetype");//交易返回签名方式
 
+            // [add] jeffery
+            string strAttach = Utility.Common.GetStringOfUrl("attach");
+            // ---end
+
             if (string.IsNullOrEmpty(billno) || string.IsNullOrEmpty(amount) || string.IsNullOrEmpty(date) ||
                 string.IsNullOrEmpty(succ) || string.IsNullOrEmpty(ipsbillno) || string.IsNullOrEmpty(currency_Type) || string.IsNullOrEmpty(signature))
             {
@@ -116,7 +123,7 @@ namespace Bzw.Inhersits.Manage.Pay.IPS
 
             PayMoney = amount;
 
-           
+
 
             if (succ.Equals("Y"))
             {
@@ -127,7 +134,7 @@ namespace Bzw.Inhersits.Manage.Pay.IPS
                     currency_Type = "RMB";
                 }
                 string signatureVal = Utility.Common.md5("billno" + billno + "currencytype" + currency_Type + "amount" + amount + "date" + date + "succ" + succ + "ipsbillno" + ipsbillno + "retencodetype" + retencodetype + UiCommon.StringConfig.IPS_Letter).ToLower();
-              
+
                 if (signature.Equals(signatureVal.ToLower()))
                 {
                     Member mem = new Member();
@@ -135,6 +142,66 @@ namespace Bzw.Inhersits.Manage.Pay.IPS
                     {
                         mem.Update3PayOrder((int)(float.Parse(PayMoney)), PayOrderID);
                     }
+
+                    // [add] jeffery
+                    int pos = strAttach.IndexOf("!@#");
+                    string username = strAttach.Substring(0, pos);
+                    int couponNum =
+                        Convert.ToInt32(
+                        strAttach.Substring(pos + 1)
+                        );
+                    string strsql =
+                        "select UserID from TUsers where UserName=@username";
+
+                    DataTable dt =
+                        SqlHelper.ExecuteDataset(CommandType.Text,
+                        strsql,
+                        new SqlParameter[]
+                                {
+                                    new SqlParameter("@username",username)
+                                }
+                        ).Tables[0];
+
+                    int userid = Convert.ToInt32(dt.Rows[0]["UserID"]);
+
+                    strsql =
+                               "select count(*) from TCoupon where UserID=@userid";
+                    int num = Convert.ToInt32(
+                        SqlHelper.ExecuteScalar(CommandType.Text,
+                        strsql,
+                        new SqlParameter[]{
+                                    new SqlParameter("@userid",userid)
+                                }
+                        )
+                        );
+                    if (num <= 0)
+                    {
+                        strsql =
+                            "insert into TCoupon(UserID,CouponNum)values(@userid,@coupon)";
+                    }
+                    else
+                    {
+                        strsql =
+                            "update TCoupon set CouponNum=@coupon where UserID=@userid";
+                    }
+                    num = 0;
+
+
+                    num =
+                        SqlHelper.ExecuteNonQuery
+                        (CommandType.Text,
+                        strsql,
+                        new SqlParameter[]
+                                {
+                                    new SqlParameter("@userid",userid),
+                                    new SqlParameter("@coupon",couponNum)
+                                });
+
+                    if (num != 1)
+                    {
+                        Response.Write("<script>alert('充值成功，但赠送奖劵失败！')</script>");
+                    }
+                    // ---end
                 }
                 else
                 {
@@ -148,7 +215,7 @@ namespace Bzw.Inhersits.Manage.Pay.IPS
                 //交易失败
                 PayResult = "充值失败，请稍后再试！";
             }
-          
+
         }
 
 

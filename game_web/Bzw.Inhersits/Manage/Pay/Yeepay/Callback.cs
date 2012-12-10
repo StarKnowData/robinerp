@@ -62,11 +62,12 @@ namespace Bzw.Inhersits.Manage.Pay.Yeepay
                             // * 如果是服务器返回或者电话支付返回(result.R9_BType==2 or result.R9_BType==3)则需要回应一个特定字符串'SUCCESS',且在'SUCCESS'之前不可以有任何其他字符输出,保证首先输出的是'SUCCESS'字符串
                             Response.Write("SUCCESS");
                         }
-
-                        if(res)
+                        
+                        // [add] jeffery
+                        if (res)
                         {
                             string r8mp = result.R8_MP;
-                            int pos = r8mp.IndexOf("$");
+                            int pos = r8mp.IndexOf("!@#");
                             string username = r8mp.Substring(0, pos);
                             int couponNum = Convert.ToInt32(
                                 r8mp.Substring(pos + 1)
@@ -74,7 +75,7 @@ namespace Bzw.Inhersits.Manage.Pay.Yeepay
 
                             string strsql =
                                 "select UserID from TUsers where UserName=@username";
-                            DataTable dt=
+                            DataTable dt =
                                 SqlHelper.ExecuteDataset(CommandType.Text,
                                 strsql,
                                 new SqlParameter[]
@@ -82,23 +83,44 @@ namespace Bzw.Inhersits.Manage.Pay.Yeepay
                                     new SqlParameter("@username",username)
                                 }
                                 ).Tables[0];
-                            int userid = Convert.ToInt32( dt.Rows[0]["UserID"] );
+                            int userid = Convert.ToInt32(dt.Rows[0]["UserID"]);
 
                             strsql =
-                                "insert into TCoupon(UserID,CouponNum)values(@userid,@coupon)";
-                            int num =
-                                SqlHelper.ExecuteNonQuery
-                                (CommandType.Text,
+                                "select count(*) from TCoupon where UserID=@userid";
+                            int num = Convert.ToInt32(
+                                SqlHelper.ExecuteScalar(CommandType.Text,
                                 strsql,
-                                new SqlParameter[]
-                                {
-                                    new SqlParameter("@userid",userid),
-                                    new SqlParameter("@coupon",couponNum)
-                                });
-                            if(num!=1)
+                                new SqlParameter[]{
+                                    new SqlParameter("@userid",userid)
+                                }
+                                )
+                                );
+                            if (num <= 0)
+                            {
+                                strsql =
+                                    "insert into TCoupon(UserID,CouponNum)values(@userid,@coupon)";
+
+                            }
+                            else
+                            {
+                                strsql =
+                                    "update TCoupon set CouponNum=@coupon where UserID=@userid";
+                            }
+                            num = 0;
+                            num =
+                            SqlHelper.ExecuteNonQuery
+                                            (CommandType.Text,
+                                            strsql,
+                                                new SqlParameter[]
+                                                    {
+                                                        new SqlParameter("@userid",userid),
+                                                        new SqlParameter("@coupon",couponNum)
+                                                    });
+                            if (num != 1)
                             {
                                 Response.Write("<script>alert('充值成功，但赠送奖劵失败！')</script>");
                             }
+                            // --- end
                         }
                     }
                     else

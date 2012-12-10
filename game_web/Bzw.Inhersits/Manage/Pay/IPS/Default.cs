@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Data;
+using System.Data.SqlClient;
+using Utility;
 
 namespace Bzw.Inhersits.Manage.Pay.IPS
 {
@@ -107,6 +110,9 @@ namespace Bzw.Inhersits.Manage.Pay.IPS
         protected global::System.Web.UI.UserControl Control1;
         protected string MoneyRate = string.Empty;
       protected  string username = string.Empty;
+
+      protected string CouponRate = string.Empty;
+
         protected void Page_Load(object sender, EventArgs e)
         {
             if (UiCommon.UserLoginInfo.IsLogin)
@@ -118,7 +124,24 @@ namespace Bzw.Inhersits.Manage.Pay.IPS
                 username = "";
             }
             MoneyRate = BLL.Config.GetInfoOfCard()["Con_MoneyChangeRate"].ToString();
+            CouponRate = GetCouponRate();
         }
 
+        private string GetCouponRate()
+        {
+            string strsql = "select top 1 CouponRate from TRechargeCouponType where Way=@way";
+            DataTable table = SqlHelper.ExecuteDataset(
+                CommandType.Text,
+                strsql,
+                new SqlParameter[]{
+                    new SqlParameter("@way",2)
+                }
+                ).Tables[0];
+            if (table.Rows.Count > 0)
+            {
+                return table.Rows[0]["CouponRate"].ToString();
+            }
+            return "";
+        }
     }
 }
