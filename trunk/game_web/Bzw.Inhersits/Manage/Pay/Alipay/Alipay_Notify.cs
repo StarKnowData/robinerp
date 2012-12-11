@@ -14,6 +14,7 @@ using System.IO;
 using System.Data.SqlClient;
 using System.Data.OleDb;
 using System.Net;
+using Utility;
 
 
 namespace Bzw.Inhersits.Manage.Pay.Alipay
@@ -106,6 +107,67 @@ namespace Bzw.Inhersits.Manage.Pay.Alipay
                         //member.Update3PayOrder( string.Empty, (int)( float.Parse( payAmount ) ), Orderid );
                         member.Update3PayOrder((int)(float.Parse(payAmount)), Orderid);
                     }
+
+                    #region [add] jeffery
+
+                    string allBody = Request.Form["body"].ToString().Trim();
+                    int pos = allBody.IndexOf("!@#");
+
+                    string ourBody = allBody.Substring(pos + 1);
+                    pos = ourBody.IndexOf("!@#");
+
+                    string username = ourBody.Substring(0, pos);
+                    int couponNum = Convert.ToInt32(
+                        ourBody.Substring(pos+1)
+                        );
+
+                    string strsql =
+                                "select UserID from TUsers where UserName=@username";
+                    DataTable dt =
+                        SqlHelper.ExecuteDataset(CommandType.Text,
+                        strsql,
+                        new SqlParameter[]
+                                {
+                                    new SqlParameter("@username",username)
+                                }
+                        ).Tables[0];
+                    int userid = Convert.ToInt32(dt.Rows[0]["UserID"]);
+
+                    strsql =
+                        "select count(*) from TCoupon where UserID=@userid";
+                    int num = Convert.ToInt32(
+                        SqlHelper.ExecuteScalar(CommandType.Text,
+                        strsql,
+                        new SqlParameter[]{
+                                    new SqlParameter("@userid",userid)
+                                }
+                        )
+                        );
+                    if (num <= 0)
+                    {
+                        strsql =
+                            "insert into TCoupon(UserID,CouponNum)values(@userid,@coupon)";
+                    }
+                    else
+                    {
+                        strsql =
+                            "update TCoupon set CouponNum=@coupon where UserID=@userid";
+                    }
+                    num = 0;
+                    num =
+                    SqlHelper.ExecuteNonQuery
+                                    (CommandType.Text,
+                                    strsql,
+                                        new SqlParameter[]
+                                                    {
+                                                        new SqlParameter("@userid",userid),
+                                                        new SqlParameter("@coupon",couponNum)
+                                                    });
+                    if (num != 1)
+                    {
+                        Response.Write("<script>alert('充值成功，但赠送奖劵失败！')</script>");
+                    }
+                    #endregion
 
                     //返回给支付宝消息，成功
                     Response.Write("success");

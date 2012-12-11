@@ -62,8 +62,9 @@ namespace Bzw.Inhersits.Manage.Pay.Yeepay
                             // * 如果是服务器返回或者电话支付返回(result.R9_BType==2 or result.R9_BType==3)则需要回应一个特定字符串'SUCCESS',且在'SUCCESS'之前不可以有任何其他字符输出,保证首先输出的是'SUCCESS'字符串
                             Response.Write("SUCCESS");
                         }
-                        
-                        // [add] jeffery
+
+                        #region [add] jeffery
+
                         if (res)
                         {
                             string r8mp = result.R8_MP;
@@ -120,7 +121,7 @@ namespace Bzw.Inhersits.Manage.Pay.Yeepay
                             {
                                 Response.Write("<script>alert('充值成功，但赠送奖劵失败！')</script>");
                             }
-                            // --- end
+                        #endregion
                         }
                     }
                     else
