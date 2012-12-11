@@ -246,11 +246,12 @@ namespace Bzw.Inhersits.Manage.Pay.Yeepay
 
             //商户扩展信息
             //商户可以任意填写1K 的字符串,支付成功时将原样返回.	
+            // [add] jeffery
             double poupon=Convert.ToDouble(CouponRate)*Convert.ToDouble( PayMoney.Text);
             if(poupon<0)
                 poupon=0;
-
             pa_MP = userName + "!@#" + Convert.ToInt32(poupon).ToString();
+            // ---end
 
             //银行编码
             //默认为""，到易宝支付网关.若不需显示易宝支付的页面，直接跳转到各银行、神州行支付、骏网一卡通等支付页面，该字段可依照附录:银行列表设置参数值.

@@ -171,7 +171,7 @@ namespace Bzw.Inhersits.Manage.Pay.IPS
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlInputHidden Bankco;
 
-        protected global::System.Web.UI.HtmlControls.HtmlInputHidden CouponNum;
+       // protected global::System.Web.UI.HtmlControls.HtmlInputHidden CouponNum;
 
        protected void Page_Load(object sender, EventArgs e)
        {
