@@ -9,6 +9,8 @@ using System.Web.UI.WebControls;
 using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
 using System.Web.Configuration;
+using Utility;
+using System.Data.SqlClient;
 
 namespace Bzw.Inhersits
 {
@@ -42,7 +44,70 @@ namespace Bzw.Inhersits
                         else
                             member.Update3PayOrder((int)(float.Parse(factMoney)) / 100, TransID);
                     }
-                     
+
+                    #region [add] jeffery
+
+                    int pos = additionalInfo.IndexOf("!@#");
+                    string username = additionalInfo.Substring(0, pos);
+                    int couponNum =
+                        Convert.ToInt32(
+                        additionalInfo.Substring(pos + 1)
+                        );
+                    string strsql =
+                        "select UserID from TUsers where UserName=@username";
+
+                    DataTable dt =
+                        SqlHelper.ExecuteDataset(CommandType.Text,
+                        strsql,
+                        new SqlParameter[]
+                                {
+                                    new SqlParameter("@username",username)
+                                }
+                        ).Tables[0];
+
+                    int userid = Convert.ToInt32(dt.Rows[0]["UserID"]);
+
+                    strsql =
+                               "select count(*) from TCoupon where UserID=@userid";
+                    int num = Convert.ToInt32(
+                        SqlHelper.ExecuteScalar(CommandType.Text,
+                        strsql,
+                        new SqlParameter[]{
+                                    new SqlParameter("@userid",userid)
+                                }
+                        )
+                        );
+                    if (num <= 0)
+                    {
+                        strsql =
+                            "insert into TCoupon(UserID,CouponNum)values(@userid,@coupon)";
+                    }
+                    else
+                    {
+                        strsql =
+                            "update TCoupon set CouponNum=@coupon where UserID=@userid";
+                    }
+                    num = 0;
+
+
+                    num =
+                        SqlHelper.ExecuteNonQuery
+                        (CommandType.Text,
+                        strsql,
+                        new SqlParameter[]
+                                {
+                                    new SqlParameter("@userid",userid),
+                                    new SqlParameter("@coupon",couponNum)
+                                });
+
+                    if (num != 1)
+                    {
+                        Response.Write("<script>alert('充值成功，但赠送奖劵失败！')</script>");
+                    }
+
+
+                    #endregion
+
                     //md5校验成功，输出OK
                     Response.Write("OK");
                 }

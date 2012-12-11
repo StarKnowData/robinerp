@@ -241,14 +241,21 @@
                         <script type="text/javascript">
 <!--
 			function CalculationMoney() {
-			
+			    var couponNum;
 				KeyPressNum(this,$("#PayMoney").val());
 				
 				if(isNaN($("#PayMoney").val())){
-					$("#ExchangeMoney").val("0");
+                    $("#CouponNum").val("0");
+
 					return false;
 				}else{
-					$("#ExchangeMoney").val($("#PayMoney").val()*<%= UiCommon.StringConfig.AddZeros(MoneyRate) %>);
+                    couponNum=parseInt($("#PayMoney").val()*<%= CouponRate %>);
+                    if(couponNum<0)
+                    {
+                        couponNum=0;
+                    }
+                    $("#CouponNum").val(couponNum);
+					
 				}	
 			}
  
@@ -265,6 +272,14 @@
                                 <input type="text" id="PayMoney" name="PayMoney" maxlength="9" class="input" onkeypress="return KeyPressNum(this,event);"
                                     onkeyup="CalculationMoney()" />
                                 * 金额请输入大于零的整数,点卡为点卡面值
+                            </td>
+                        </tr>
+                        <tr>
+                            <th height="30" scope="row">
+                                赠送奖劵
+                            </th>
+                            <td>
+                                <input id="CouponNum" name="CouponNum" readonly="readonly"  value="0" />张
                             </td>
                         </tr>
                         <tr>

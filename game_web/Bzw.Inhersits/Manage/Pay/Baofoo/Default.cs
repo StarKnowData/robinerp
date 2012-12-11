@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 using Bzw.WebLibrary;
+using Utility;
+using System.Data;
+using System.Data.SqlClient;
 
 namespace Bzw.Inhersits
 {
@@ -108,6 +111,8 @@ namespace Bzw.Inhersits
         protected global::System.Web.UI.UserControl Control1;
         protected string MoneyRate = string.Empty;
         protected string username = string.Empty;
+        protected string CouponRate = string.Empty;
+
         protected void Page_Load(object sender, EventArgs e)
         {
             SeoSetting(SeoConfig.Config.PaySeo);
@@ -120,6 +125,24 @@ namespace Bzw.Inhersits
                 username = "";
             }
             MoneyRate = BLL.Config.GetInfoOfCard()["Con_MoneyChangeRate"].ToString();
+            CouponRate = GetCouponRate();
+        }
+
+        private string GetCouponRate()
+        {
+            string strsql = "select top 1 CouponRate from TRechargeCouponType where Way=@way";
+            DataTable table = SqlHelper.ExecuteDataset(
+                CommandType.Text,
+                strsql,
+                new SqlParameter[]{
+                    new SqlParameter("@way",5)
+                }
+                ).Tables[0];
+            if (table.Rows.Count > 0)
+            {
+                return table.Rows[0]["CouponRate"].ToString();
+            }
+            return "";
         }
 
     }
