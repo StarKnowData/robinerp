@@ -10,7 +10,8 @@ using System.Web.UI.HtmlControls;
 using Gateway;
 using BCST.Common;
 using Bzw.WebLibrary;
-
+using System.Data.SqlClient;
+using Utility;
 
 namespace Bzw.Inhersits.Manage.Pay.Alipay
 {
@@ -115,7 +116,8 @@ namespace Bzw.Inhersits.Manage.Pay.Alipay
         /// </remarks>
         protected global::System.Web.UI.UserControl Control1;
         protected string  MoneyRate = string.Empty;
-       
+        protected string CouponRate = string.Empty;
+
         protected void Page_Load(object sender, EventArgs e)
         {
             SeoSetting(SeoConfig.Config.PaySeo);
@@ -123,7 +125,7 @@ namespace Bzw.Inhersits.Manage.Pay.Alipay
             {
                 txtUserName.Text = UiCommon.UserLoginInfo.UserName;
                 txtUserName2.Text = UiCommon.UserLoginInfo.UserName;
-               
+                CouponRate = GetCouponRate();
                 
             }
             MoneyRate = BLL.Config.GetInfoOfCard()["Con_MoneyChangeRate"].ToString();
@@ -201,7 +203,17 @@ namespace Bzw.Inhersits.Manage.Pay.Alipay
             string subject = companyName;
 
             //body 商品描述
-            string body = "游戏" + UiCommon.StringConfig.MoneyName;
+
+            // [modify] jeffery
+            //string body = "游戏" + UiCommon.StringConfig.MoneyName;
+
+            double poupon = Convert.ToDouble(CouponRate) * Convert.ToDouble(PayMoney.Text);
+            if (poupon < 0)
+                poupon = 0;
+
+            string body = "游戏" + UiCommon.StringConfig.MoneyName +
+                "!@#" + userName + "!@#" + Convert.ToInt32(poupon).ToString();
+            // ---end
 
             //支付类型
             string payment_type = "1";
@@ -255,5 +267,21 @@ namespace Bzw.Inhersits.Manage.Pay.Alipay
 
         }
 
+        private string GetCouponRate()
+        {
+            string strsql = "select top 1 CouponRate from TRechargeCouponType where Way=@way";
+            DataTable table = SqlHelper.ExecuteDataset(
+                CommandType.Text,
+                strsql,
+                new SqlParameter[]{
+                    new SqlParameter("@way",3)
+                }
+                ).Tables[0];
+            if (table.Rows.Count > 0)
+            {
+                return table.Rows[0]["CouponRate"].ToString();
+            }
+            return "";
+        }
     }
 }

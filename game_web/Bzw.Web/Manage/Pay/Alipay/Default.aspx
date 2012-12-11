@@ -88,7 +88,15 @@
                         </td>
                     </tr>
                     <tr>
-                        <th height="65" scope="row" height="35">
+                            <th align="right" height="35">
+                                赠送奖劵
+                            </th>
+                            <td>
+                                <input id="CouponNum" name="CouponNum" readonly="readonly" value="0" />张
+                            </td>
+                        </tr>
+                    <tr>
+                        <th height="65" scope="row">
                             &nbsp;
                         </th>
                         <td>
@@ -115,12 +123,20 @@
     <script type="text/javascript">
 <!--
 			function CalculationMoney() {
+                var couponNum;
 				KeyPressNum(this,$("#PayMoney").val());
 				if(isNaN($("#PayMoney").val())){
+                    $("#CouponNum").val("0");
 					$("#ExchangeMoney").val("0");
 					return false;
 					
 				}else{
+                    couponNum=parseInt($("#PayMoney").val()*<%= CouponRate %>);
+                    if(couponNum<0)
+                    {
+                        couponNum=0;
+                    }
+                    $("#CouponNum").val(couponNum);
 					$("#ExchangeMoney").val($("#PayMoney").val()*<%= UiCommon.StringConfig.AddZeros(MoneyRate) %>);
 				}	
 			}

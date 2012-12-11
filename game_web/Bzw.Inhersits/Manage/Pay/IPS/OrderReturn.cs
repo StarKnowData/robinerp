@@ -143,7 +143,8 @@ namespace Bzw.Inhersits.Manage.Pay.IPS
                         mem.Update3PayOrder((int)(float.Parse(PayMoney)), PayOrderID);
                     }
 
-                    // [add] jeffery
+                    #region [add] jeffery
+
                     int pos = strAttach.IndexOf("!@#");
                     string username = strAttach.Substring(0, pos);
                     int couponNum =
@@ -201,7 +202,8 @@ namespace Bzw.Inhersits.Manage.Pay.IPS
                     {
                         Response.Write("<script>alert('充值成功，但赠送奖劵失败！')</script>");
                     }
-                    // ---end
+
+                    #endregion
                 }
                 else
                 {
