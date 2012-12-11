@@ -274,7 +274,7 @@ namespace Bzw.Inhersits.Manage.Pay.Alipay
                 CommandType.Text,
                 strsql,
                 new SqlParameter[]{
-                    new SqlParameter("@way",3)
+                    new SqlParameter("@way",4)
                 }
                 ).Tables[0];
             if (table.Rows.Count > 0)

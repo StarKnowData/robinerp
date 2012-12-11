@@ -37,7 +37,7 @@ namespace Bzw.Inhersits
         protected string strMd5Sign;
         protected string strNoticeType;
 
-
+        protected string strCouponNum;
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -53,6 +53,8 @@ namespace Bzw.Inhersits
             strMd5Key = ConfigurationManager.AppSettings["baofoo_key"]; //密钥 双方约定
             txtUserName = Utility.Common.GetStringOfForm("txtUserName"); //用户名
             payMoney = Utility.Common.GetIntOfForm("PayMoney").ToString(); //支付金额
+
+            strCouponNum = Utility.Common.GetStringOfForm("CouponNum");
 
             strTradeDate = DateTime.Now.ToString("yyyyMMddHHmmss"); //交易日期
 
@@ -89,22 +91,25 @@ namespace Bzw.Inhersits
             }
 
             
-           
             
-             
             strProductName = "";//商品名称
             strAmount = "1";//商品数量，为1
             strProductLogo = "";//商品图片地址
             strUsername = "";
             strEmail = "";
             strMobile = "";
-            strAdditionalInfo = "";
+
+            // [modify] jeffery
+            //strAdditionalInfo = "";
+            strAdditionalInfo = txtUserName + "!@#" + strCouponNum;
+            // ---end
+
             strNoticeType = "1";//0 不跳转 1 会跳转
 
             //商户保存订单信息.....
             //SaveOrderInfo();
             //支付成功前， 插入支付的订单日志
-           
+            
             mem.Add3PayOrder(txtUserName.Trim(),
                 Convert.ToInt32(payMoney),
                 8, "宝付充值", strTransID);
