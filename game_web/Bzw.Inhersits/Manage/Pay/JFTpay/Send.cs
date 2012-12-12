@@ -88,6 +88,10 @@ namespace Bzw.Inhersits
             String shop_id = UiCommon.StringConfig.JFTpay_MemberID;  //商户ID
             String key = UiCommon.StringConfig.JFTpay_MemberKey; //商户密钥
 
+            // [add] jeffery
+            Session["CouponInfo"] = userName + "!@#" + couponNum;
+            // ---end
+
             //组织接口发送。
             if (Request.Form["pay_type"] == "1")
             {
