@@ -1,60 +1,80 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PersonMaster.master.cs" Inherits="QPS.Web.UserMan.PersonMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="PersonMaster.master.cs"
+    Inherits="QPS.Web.UserMan.PersonMaster" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" >
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link href="../css/index.css"  rel="stylesheet" type="text/css" />
+    <link href="../css/index.css" rel="stylesheet" type="text/css" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
-    <div>
-<div class="header">
-     <div class="topa">
-          <div class="tdlc">
-              <span><a href="#">
-              <img src="../images/gzimg1.jpg"  alt=""></a><a href=""><img src="../images/gzimg2.jpg" alt=""></a><a href="#"><img src="../images/gzimg3.jpg" alt=""></a></span>
-              <p>
-                  <a href="#">设为首页</a><a href="#">加入收藏</a><a href="#">关于我们</a></p>
-          </div>
-     </div>
-     <div class="welaaaa">
-          <p>欢迎&nbsp;&nbsp;个人会员&nbsp;&nbsp;<asp:Label ID="lblpersonnalinfo" runat="server" Text=""></asp:Label>[ <a href="../MainPage.aspx">首页</a> ] [ <a href="../UserLogin.aspx">退出</a> ] </p>
-     </div>
-</div>
-<!--mid[[-->
-<div class="mid">
-     <div class="glleft">
-          <div class="gltitlea">
-               <span>我的八旗赢</span>       
-               <ul>
-                   <li><a href="#">普通会员</a></li></ul></div>
-          <div class="glmenu">
-               <ul>
-                   <li><a href="PersonnalInfo.aspx" >个人信息</a></li>
-                   <li><a href="OrderMan.aspx" >我的订单</a></li>
-                   <li><a href="ScoreInfo.aspx" >我的积分</a></li>
-                   <li><a href="ModPwd.aspx" >密码管理</a></li>
-                   <li><a href="LeavaWords.aspx" >留言管理</a></li>
-               </ul> 
-          </div>
-     </div>
-     <div class="glright">
-   <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
-        </asp:ContentPlaceHolder>
-     </div>
-</div>
-<!--mid]]-->
-      <div style="clear:both; overflow:hidden; height:0; font-size:1px; "></div>
-    <div class="footer">
-<span><a href="#">网站首页</a>|<a href="#">棋牌订房</a>|<a href="#">在线游戏</a>|<a href="#">最新动态</a>|<a href="#">在线充值</a>|<a href="#">意见反馈</a>|<a href="#">关于我们</a></span>
-<p>八棋赢（武汉)计算机技术有限公司  邮箱welcome@87win.cn  地址：武汉市洪山区光谷世界城尚都1栋1706室  客服电话：4000-911-987  邮编：430000</p>
-<p>Copyright © 2012 87win.cn All Rights Reserved  鄂ICP证：12012180号 </p>
-</div><div style="clear:both; overflow:hidden; height:0; font-size:1px; "></div> 
+    <div style="text-align:center;">
+        <div class="header">
+            <div class="topa">
+                <div class="tdlc">
+                    <span>
+                        <a href="#"><img src="../images/gzimg1.jpg" alt="" /></a>
+                        <a href=""><img src="../images/gzimg2.jpg" alt="" /></a>
+                        <a href="#"><img src="../images/gzimg3.jpg" alt="" /></a>
+                    </span>
+                    <p>
+                        <a href="#">设为首页</a><a href="#">加入收藏</a><a href="../AboutUs.aspx">关于我们</a></p>
+                </div>
+            </div>
+            <div class="welaaaa">
+                <p>
+                    欢迎&nbsp;&nbsp;个人会员&nbsp;&nbsp;<asp:Label ID="lblpersonnalinfo" runat="server" Text=""></asp:Label>[
+                    <a href="../MainPage.aspx">首页</a> ] [ <a href="../UserLogin.aspx">退出</a> ]
+                </p>
+            </div>
+        </div>
+        <!--mid[[-->
+        <div class="mid">
+            <div class="glleft">
+                <div class="gltitlea">
+                    <span>我的八旗赢</span>
+                    <ul>
+                        <li><a href="#">普通会员</a></li></ul>
+                </div>
+                <div class="glmenu">
+                    <ul>
+                        <li><a href="PersonnalInfo.aspx">个人信息</a></li>
+                        <li><a href="OrderMan.aspx">我的订单</a></li>
+                        <li><a href="ScoreInfo.aspx">我的积分</a></li>
+                        <li><a href="ModPwd.aspx">密码管理</a></li>
+                        <li><a href="LeavaWords.aspx">留言管理</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="glright">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <!--mid]]-->
+
+        <div style="clear: both; overflow: hidden; height: 0; font-size: 1px;">
+        </div>
+
+        <div class="footer">
+            <span>
+            <a href="../MainPage.aspx">网站首页</a>|<a href="../RoomOrder.aspx">棋牌订房</a>|<a
+                href="../OnlineGame.aspx">在线游戏</a>|<a href="../NewsCenter.aspx">最新动态</a>|<a href="../ChargeOnline.aspx">在线充值</a>|<a
+                    href="../FeedBack.aspx">意见反馈</a>|<a href="../AboutUs.aspx">关于我们</a> 
+            </span>
+            <p>
+                八棋赢（武汉)计算机技术有限公司 邮箱welcome@87win.cn 地址：武汉市洪山区光谷世界城尚都1栋1706室 客服电话：4000-911-987 邮编：430000</p>
+            <p>
+                Copyright © 2012 87win.cn All Rights Reserved 鄂ICP证：12012180号
+            </p>
+        </div>
+
+        <div style="clear: both; overflow: hidden; height: 0; font-size: 1px;">
+        </div>
+
     </div>
     </form>
 </body>
