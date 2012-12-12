@@ -86,36 +86,17 @@ namespace Bzw.Inhersits.Manage.Pay.Yeepay
                                 ).Tables[0];
                             int userid = Convert.ToInt32(dt.Rows[0]["UserID"]);
 
-                            strsql =
-                                "select count(*) from TCoupon where UserID=@userid";
-                            int num = Convert.ToInt32(
-                                SqlHelper.ExecuteScalar(CommandType.Text,
-                                strsql,
-                                new SqlParameter[]{
-                                    new SqlParameter("@userid",userid)
-                                }
-                                )
-                                );
-                            if (num <= 0)
-                            {
-                                strsql =
-                                    "insert into TCoupon(UserID,CouponNum)values(@userid,@coupon)";
-
-                            }
-                            else
-                            {
-                                strsql =
-                                    "update TCoupon set CouponNum=@coupon where UserID=@userid";
-                            }
-                            num = 0;
-                            num =
+                            strsql = "insert into TCoupon(UserID,CouponNum,RechargeType,CreateTime)values(@userid,@coupon,@rechargeType,@createTime)";
+                            int num =
                             SqlHelper.ExecuteNonQuery
                                             (CommandType.Text,
                                             strsql,
                                                 new SqlParameter[]
                                                     {
                                                         new SqlParameter("@userid",userid),
-                                                        new SqlParameter("@coupon",couponNum)
+                                                        new SqlParameter("@coupon",couponNum),
+                                                        new SqlParameter("@rechargeType",3),
+                                                        new SqlParameter("@createTime",DateTime.Now)                                                    
                                                     });
                             if (num != 1)
                             {
