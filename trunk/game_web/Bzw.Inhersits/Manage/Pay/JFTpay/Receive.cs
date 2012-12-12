@@ -11,11 +11,12 @@ using System.Web.UI.WebControls.WebParts;
 using System.Text.RegularExpressions;
 using Bzw.Data;
 using BLL;
-
+using Utility;
+using System.Data.SqlClient;
 
 namespace Bzw.Inhersits
 {
-    public partial class Manage_Pay_JFTpay_Receive : UiCommon.BasePage 
+    public partial class Manage_Pay_JFTpay_Receive : UiCommon.BasePage
     {
 
         protected void Page_Load(object sender, EventArgs e)
@@ -43,6 +44,68 @@ namespace Bzw.Inhersits
                 //执行操作方法
                 if (opstate.Equals("0"))
                 {
+                    #region [add] jeffery
+
+                    if (Session["CouponInfo"] != null)
+                    {
+                        string strCouponInfo = Session["CouponInfo"].ToString();
+                        Session["CouponInfo"] = ""; // 用完后销毁
+                        if (strCouponInfo != "")
+                        {
+                            int pos = strCouponInfo.IndexOf("!@#");
+                            string username = strCouponInfo.Substring(0, pos);
+                            int couponNum = Convert.ToInt32(
+                                strCouponInfo.Substring(pos + 1)
+                                );
+
+                            string strsql =
+                                "select UserID from TUsers where UserName=@username";
+                            DataTable dt =
+                                SqlHelper.ExecuteDataset(CommandType.Text,
+                                strsql,
+                                new SqlParameter[]
+                                {
+                                    new SqlParameter("@username",username)
+                                }
+                                ).Tables[0];
+                            if (dt.Rows.Count > 0)
+                            {
+                                int userid = Convert.ToInt32(dt.Rows[0]["UserID"]);
+
+                                strsql = "select count(*) from TCoupon where UserID=@userid";
+                                int num = Convert.ToInt32(
+                                    SqlHelper.ExecuteScalar(CommandType.Text,strsql,
+                                    new SqlParameter[]{
+                                    new SqlParameter("@userid",userid)
+                                    }) );
+
+                                if (num <= 0)
+                                {
+                                    strsql = "insert into TCoupon(UserID,CouponNum)values(@userid,@coupon)";
+                                }
+                                else
+                                {
+                                    strsql = "update TCoupon set CouponNum=@coupon where UserID=@userid";
+                                }
+                                num = 0;
+                                num =
+                                SqlHelper.ExecuteNonQuery(CommandType.Text,strsql,
+                                                    new SqlParameter[]
+                                                    {
+                                                        new SqlParameter("@userid",userid),
+                                                        new SqlParameter("@coupon",couponNum)
+                                                    });
+
+                                if (num != 1)
+                                {
+                                    Response.Write("<script>alert('充值成功，但赠送奖劵失败！')</script>");
+                                }
+                            }
+
+                        }
+                    }
+                    #endregion
+
                     Member mem = new Member();
 
                     if (Reply == "1")
@@ -62,7 +125,7 @@ namespace Bzw.Inhersits
                                 mem.Update3PayOrder((int)(float.Parse(ovalue)), orderid);
 
 
-                        
+
                         }
 
                     }
@@ -99,7 +162,7 @@ namespace Bzw.Inhersits
 
 
 
-    
+
 
     }
 }
