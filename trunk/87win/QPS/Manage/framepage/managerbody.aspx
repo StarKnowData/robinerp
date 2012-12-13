@@ -96,8 +96,8 @@
 	        //            shortcutmenustr += '<dd><a href="javascript:void(0);" onclick="javascript:document.getElementById(\'main\').src=\'../rapidset/manageshortcutmenu.aspx\';" onfocus="this.blur();" >管理快捷菜单</a></dd>';
 	        //            shortcutmenustr += '<dd><a href="javascript:void(0);" onclick="javascript:document.getElementById(\'main\').src=\'../rapidset/onlineupgrade.aspx\';" onfocus="this.blur();" >在线升级</a></dd>';
 
-	        //shortcutmenustr += '<dd><a href="javascript:void(0);" onclick="javascript:top.location.href=\'../Default.aspx\';" onfocus="this.blur();" >退出</a></dd>';
-	        shortcutmenustr += '<dd><a href="javascript:void(0);" onclick="hrefexit()" onfocus="this.blur();" >退出</a></dd>';
+	        shortcutmenustr += '<dd><a href="javascript:void(0);" onclick="javascript:top.location.href=\'../Default.aspx\';" onfocus="this.blur();" >退出</a></dd>';
+	        //shortcutmenustr += '<dd><a href="javascript:void(0);" onclick="hrefexit()" onfocus="this.blur();" >退出</a></dd>';
             $("shortcutmenucontent").innerHTML = shortcutmenustr;
 	    }
 
