@@ -2,14 +2,15 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="ssou">
-          <span><a href="#">武昌区</a>><a href="#">棋牌室</a>><a href="#">预订</a></span>
-  </div>
+    
      <!--nymiddle[[-->
-     <div class="nymiddle">
+     <div class="mid">
+           <div class="titlec">
+            <span><a href="#">武昌区</a>><a href="#">棋牌室</a>><a href="#">预订</a></span>
+           </div>
           <div class="ydsx">
-          <h2><a href="#">免费在线预订</a></h2><h3><a href="#">填写预订信息</a></h3><h4><a href="#">预订成功</a></h4>
-     </div>
+              <h2><a href="#">免费在线预订</a></h2><h3><a href="#">填写预订信息</a></h3><h4><a href="#">预订成功</a></h4>
+           </div>
      <div class="titlec">
           <span>预订信息</span>
      </div>
