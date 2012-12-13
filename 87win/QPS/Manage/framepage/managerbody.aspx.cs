@@ -15,8 +15,8 @@ namespace QPS.Web.Manage.framepage
 
         public static void ClearAdminSession()
         {
-            Page p = new Page();
-            p.Session["admin"] = null;
+            //Page p = new Page();
+            //p.Session["admin"] = null;
         }
     }
 }
