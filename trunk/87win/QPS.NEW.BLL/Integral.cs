@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Data;
 using System.Data.SqlClient;
@@ -375,7 +374,7 @@ namespace QPS.NEW.BLL
             //strSql.Append((hasShowedPage * pageSize).ToString());
             //strSql.Append(" tt.id FROM (SELECT u.Id, u.Username, b.integral FROM users AS u, (SELECT s.userid, sum(s.content) integral FROM integral AS s WHERE 1=1 GROUP BY s.UserID) AS b WHERE u.id = b.userid ) AS tt)");
 
-            string strSql = "select ui.UserID,ui.WalletMoney+ui.BankMoney as TotalMoney,u.UserName from TUserInfo as ui,TUsers as u where ui.UserID=u.UserID";
+            string strSql = "select ui.UserID,(ui.WalletMoney+ui.BankMoney)/10000 as TotalMoney,u.UserName from TUserInfo as ui,TUsers as u where ui.UserID=u.UserID";
 
             DataSet ds = null;
             ds = sqlHelper_.GetDataSet(

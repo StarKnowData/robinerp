@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -12,6 +11,12 @@ namespace QPS.Web.Manage.framepage
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+
+        public static void ClearAdminSession()
+        {
+            Page p = new Page();
+            p.Session["admin"] = null;
         }
     }
 }

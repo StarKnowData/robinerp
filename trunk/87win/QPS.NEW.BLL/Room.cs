@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Data;
 using System.Data.SqlClient;
@@ -31,7 +30,7 @@ namespace QPS.NEW.BLL
         {
             DataSet ds = null;
             string strSql =
-                "select Id,ImagePath,Address,Name,Content,RoomPrice,Content,Are,RoomType from Room where ";
+                "select * from Room where ";
 
             strSql += strWhere;
             ds = sqlHelper_.GetDataSet(strSql, CommandType.Text, null);
