@@ -21,7 +21,10 @@ namespace QPS.Web
         {
             if (!IsPostBack)
             {
-                
+
+                this.Calendar1.SelectedDate = DateTime.Now;
+                this.Calendar2.SelectedDate = DateTime.Now;
+
                 roomid = Int32.Parse(Request.QueryString["id"].Trim());
                 StringBuilder sb = new StringBuilder();
                 sb.Append("Id=");
@@ -102,7 +105,8 @@ namespace QPS.Web
                 QPS.NEW.Model.Users Muser = Buser.GetModel(userid);
                 Muser.Phone = txbPhone.Text.Trim();
                 Buser.Update(Muser);
-                Response.Redirect("MainPage.aspx", false);
+                Response.Write("<script>alert('预定成功!');window.location.href='MainPage.aspx'</script>");
+                //Response.Redirect("MainPage.aspx", false);
             }
             catch (Exception ex)
             {
