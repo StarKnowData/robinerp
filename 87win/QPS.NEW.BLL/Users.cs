@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Data;
 using System.Data.SqlClient;
@@ -715,7 +714,7 @@ namespace QPS.NEW.BLL
             StringBuilder strSql = new StringBuilder();
             strSql.Append("select top ");
             strSql.Append((currentPage * pageSize).ToString());
-            strSql.Append(" u.UserID,u.UserName,i.BankMoney+i.WalletMoney as TotalMoney,i.PhoneNum from TUsers as u INNER JOIN TUserInfo as i ON u.UserID=i.UserID and u.UserID not in(select top ");
+            strSql.Append(" u.UserID,u.UserName,(i.BankMoney+i.WalletMoney)/10000 as TotalMoney,i.PhoneNum from TUsers as u INNER JOIN TUserInfo as i ON u.UserID=i.UserID and u.UserID not in(select top ");
             strSql.Append((hasShowedPage * pageSize).ToString());
             strSql.Append(" u.UserID from TUsers as u INNER JOIN TUserInfo as i ON u.UserID=i.UserID)");
             
