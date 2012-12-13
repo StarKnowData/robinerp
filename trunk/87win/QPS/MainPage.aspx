@@ -16,11 +16,11 @@
                <div class="ltop">
                     <div class="about">
                          <div class="titlea">
-                              <img src="images/limg1.jpg" alt=""><span><a href="#">更多&gt;&gt;</a></span>
+                              <img src="images/limg1.jpg" alt=""><span><a href="AboutUs.aspx">更多&gt;&gt;</a></span>
                          </div>
                          <div class="wza">
                              　　八棋赢（武汉）计算机技术有限公司创立于2011年7月，专注于国粹文化发展，采用线上游戏与线下游戏平台相结合的模式，致力于打造成为国内知名大型网络游戏社区，为客户提供最值得信赖的商家，让消费者享受超低折扣的优质服务。<br/>
-                             　　无论是八棋赢公司整体的在线生活模式布局，还是其产品布局，都是从用户的最基本需要、最简便应用入手，注重产品的可持续发展和长久生命力，打造绿色健康的国粹精品游戏。在开放性的发展模式下，八棋赢游戏采用内部自主研发和多元化的外部合作二者相结合的方式，逐步在网络游戏的多个细节市场领域形成专业化布局，并有望取得良好的市场业绩。八棋赢游戏平台拥有麻将、扑克等牌类游戏以及热门的桌游类游戏等，致力于打造强大的产品阵营，覆盖所有产品类型，为消费者提供最丰富、健康、时尚、轻松的游戏体验。<a href="#">[详细]</a>
+                             　　无论是八棋赢公司整体的在线生活模式布局，还是其产品布局，都是从用户的最基本需要、最简便应用入手，注重产品的可持续发展和长久生命力，打造绿色健康的国粹精品游戏。在开放性的发展模式下，八棋赢游戏采用内部自主研发和多元化的外部合作二者相结合的方式，逐步在网络游戏的多个细节市场领域形成专业化布局，并有望取得良好的市场业绩。八棋赢游戏平台拥有麻将、扑克等牌类游戏以及热门的桌游类游戏等，致力于打造强大的产品阵营，覆盖所有产品类型，为消费者提供最丰富、健康、时尚、轻松的游戏体验。<a href="AboutUs.aspx">[详细]</a>
                          </div>
                     </div>
                      <div class="sp">
@@ -37,8 +37,8 @@
                          <div class="xyl">
                               <ul>
                                   <li class="t"><img src="images/ximg1.jpg"></li>
-                                                         <li><a href="http://game.87win.cn/GameInfo3.aspx?id=10001300" target="_blank">欢乐斗地主</a></li>
-                                  <li><a href="http://game.87win.cn/GameInfo3.aspx?id=10003300" target="">斗地主３人</a></li>
+                                  <li><a href="http://game.87win.cn/GameInfo3.aspx?id=10001300" target="_blank">欢乐斗地主</a></li>
+                                  <li><a href="http://game.87win.cn/GameInfo3.aspx?id=10003300" target="_blank">斗地主３人</a></li>
                                   <li><a href="http://game.87win.cn/GameInfo3.aspx?id=10003400" target="_blank">癞子斗地主</a></li>
                                   <li><a href="http://game.87win.cn/GameInfo3.aspx?id=10306600" target="_blank">扎金花６人</a></li>
                                   <li><a href="http://game.87win.cn/GameInfo3.aspx?id=10900400" target="_blank">牛牛４人</a></li>
@@ -75,17 +75,17 @@
                     <ul>
                         <li><a href="UserLogin.aspx">登　　录</a></li>
                         <li><a href="UserReg.aspx">注册会员</a></li>
-                        <li><a href="http://202.114.18.39:81/RoomOrder.aspx">快速订房</a></li>
+                        <li><a href="RoomOrder.aspx">快速订房</a></li>
                         <li><a href="tencent://message/?uin=2637416916&Site=八棋赢棋牌游戏&Menu=yes">在线咨询</a></li>
                     </ul>
                </div>
                <div class="zxdt">
                     <div class="titleb">
-                         <span>最新动态</span><p><a href="#">更多&gt;&gt; </a></p>
+                         <span>最新动态</span><p><a href="NewsCenter.aspx">更多&gt;&gt; </a></p>
                     </div>
                     <div class="wzb">
                          <ul>
-                                                   <asp:DataList ID="Dlrecommand" runat="server" 
+                           <asp:DataList ID="Dlrecommand" runat="server" 
                                 onitemcommand="dlrecommand_ItemCommand" onselectedindexchanged="Dlrecommand_SelectedIndexChanged">
                             <ItemTemplate>  
                  <li><h3><asp:LinkButton ID="lbtRecommand" runat="server"   CommandArgument=' <%#Eval("Id")%>' CommandName="ShowDetail"> <%# Eval("Title").ToString()%></asp:LinkButton></h3>
@@ -137,16 +137,8 @@ var demo=document.getElementById("demo");
 
 function MarqueeLeft(){
 
-if(demo.scrollLeft==width){  //ձ c.scrollLeft ۍ width Рֈʱìё֚һٶimg׷ݓսخ۳Ħ
-                  		
-
-                   
-
-				  
+if(demo.scrollLeft==width){
 				    ul.appendChild(lis[0]);
-					
-					
-					
                     demo.scrollLeft = 0;
                 }
 
