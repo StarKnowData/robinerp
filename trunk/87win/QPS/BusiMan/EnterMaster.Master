@@ -4,8 +4,72 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head runat="server">
-    <title></title>
+
    <link href="../css/index.css"  rel="stylesheet" type="text/css" />
+   <title>八棋赢</title>
+<SCRIPT type=text/javascript>
+    function addFavorite() {
+        var thisURL = document.URL;
+        var favURL = "http://" + getHost(thisURL);
+        if (document.all) {
+            window.external.addFavorite(favURL, "网站名称");
+        } else {
+            window.sidebar.addPanel('网站名称', favURL, "");
+        }
+        return false;
+    }
+    function SetHome(obj) {
+        var vrl = "http://" + getHost(document.URL);
+        try {
+            obj.style.behavior = 'url(#default#homepage)'; obj.setHomePage(vrl);
+        }
+        catch (e) {
+            if (window.netscape) {
+                try {
+                    netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                }
+                catch (e) {
+                    alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将[signed.applets.codebase_principal_support]设置为'true'");
+                }
+                var prefs = Components.classes['@@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                prefs.setCharPref('browser.startup.homepage', vrl);
+            }
+        }
+    }
+
+    var getHost = function (url) {
+        var host = "null";
+        if (typeof url == "undefined" || null == url)
+            url = window.location.href;
+        var regex = /.*\:\/\/([^\/]*).*/;
+        var match = url.match(regex);
+        if (typeof match != "undefined" && null != match)
+            host = match[1];
+        return host;
+    }
+
+    function ChangeMenuItemw(type) {
+        if (type == 1) {
+            document.getElementById("MenuItem-1").className = "selected";
+            document.getElementById("MenuItem-2").className = "";
+            document.getElementById("cotant_1").style.display = "";
+            document.getElementById("cotant_2").style.display = "none";
+        }
+        else if (type == 2) {
+            document.getElementById("MenuItem-1").className = "";
+            document.getElementById("MenuItem-2").className = "selected";
+            document.getElementById("cotant_1").style.display = "none";
+            document.getElementById("cotant_2").style.display = "";
+        }
+    }
+
+    function show(elementId) {
+        document.getElementById(elementId).style.display = "block";
+    }
+    function hide(elementId) {
+        document.getElementById(elementId).style.display = "none";
+    }
+</script>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -17,13 +81,14 @@
           <div class="tdlc">
               <span><a href="#">
               <img src="../images/gzimg1.jpg"  alt=""></a><a href=""><img src="../images/gzimg2.jpg" alt=""></a><a href="#"><img src="../images/gzimg3.jpg" alt=""></a></span>
-              <p>
-                  <a href="#">设为首页</a><a href="#">加入收藏</a><a href="#">关于我们</a></p>
+              <p><a href="javascript:void(0)" onclick="SetHome(this)">设为主页</a>|<a href="javascript:void(0)"  onclick="addFavorite()">添加收藏</a></p>
           </div>
+      <div class="welaaaa">
+          <p>欢迎&nbsp;&nbsp;企业会员&nbsp;&nbsp;<asp:Label ID="lblpersonnalinfo" runat="server" Text=""></asp:Label> &nbsp;[<a href="../UserLogin.aspx">退出</a>] </p>
      </div>
-     <div class="welaaaa">
-          <p>欢迎&nbsp;&nbsp;企业会员&nbsp;&nbsp;<asp:Label ID="lblpersonnalinfo" runat="server" Text=""></asp:Label>[ <a href="../UserLogin.aspx">退出</a> ] </p>
      </div>
+     
+     
 </div>
 <!--mid[[-->
 <div class="mid">
@@ -50,13 +115,16 @@
      </div>
 </div>
 <!--mid]]-->
-      <div style="clear:both; overflow:hidden; height:0; font-size:1px; "></div>
+      
     <div class="footer">
-<span><a href="#">网站首页</a>|<a href="#">棋牌订房</a>|<a href="#">在线游戏</a>|<a href="#">最新动态</a>|<a href="#">在线充值</a>|<a href="#">意见反馈</a>|<a href="#">关于我们</a></span>
-<p>八棋赢（武汉)计算机技术有限公司  邮箱welcome@87win.cn  地址：武汉市洪山区光谷世界城尚都1栋1706室  客服电话：4000-911-987  邮编：430000</p>
-<p>Copyright © 2012 87win.cn All Rights Reserved  鄂ICP证：12012180号 </p>
-</div><div style="clear:both; overflow:hidden; height:0; font-size:1px; "></div> 
+    <span><a href="/MainPage.aspx">网站首页</a>|<a href="/RoomOrder.aspx">棋牌订房</a>|<a href="/OnlineGame.aspx">在线游戏</a>|<a href="/NewsCenter.aspx">最新动态</a>|
+    <a href="/ChargeOnline.aspx">在线充值</a>|<a href="/feedback.aspx">意见反馈</a>|<a href="/AboutUs.aspx">关于我们</a></span>
+    <p>八棋赢（武汉)计算机技术有限公司  邮箱welcome@87win.cn  地址：武汉市洪山区光谷世界城尚都1栋1706室  客服电话：4000-911-987  邮编：430000</p>
+    <p>Copyright © 2012 87win.cn All Rights Reserved  鄂ICP证：12012180号 </p>
+        </div>
+        <div style="clear:both; overflow:hidden; height:0; font-size:1px; "></div> 
     </div>
+
     </form>
 </body>
 </html>

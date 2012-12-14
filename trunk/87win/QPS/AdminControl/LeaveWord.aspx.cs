@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using QPS.BLL;
 using System.Data;
 using System.Web.UI.HtmlControls;
 using System.Configuration;
@@ -67,7 +66,7 @@ namespace QPS.Web.Manage.AdminControl
             if (e.CommandName == "delete")//删除
             {
                 string ID = e.CommandArgument.ToString();
-                QPS.BLL.Leaveword lw = new Leaveword();
+                QPS.NEW.BLL.Leaveword lw = new QPS.NEW.BLL.Leaveword();
 
                 if (lw.Delete(int.Parse(ID)))
                 {

@@ -64,22 +64,22 @@ function CheckForm()
 								<td height="56" background="imgs/loginpic_08.jpg">
 									<table width="100%" border="0" cellpadding="0" cellspacing="0">
 										<tr>
-											<td width="180">&nbsp;</td>
+											<td width="30">&nbsp;</td>
 											<td width="60">用户名：</td>
 											<td width="110">
 												<asp:TextBox id="txtAdminname" runat="server" Width="100px" MaxLength="20" onMouseOver="this.style.background='#E1F4EE';"
-													onMouseOut="this.style.background='#FFFFFF'">admin</asp:TextBox></td>
-											<td width="48">密&nbsp;&nbsp;码：</td>
-											<td width="110"><asp:TextBox id="txtAdminPW" runat="server" Width="100px" MaxLength="20" TextMode="Password"
+													onMouseOut="this.style.background='#FFFFFF'"></asp:TextBox></td>
+											<td width="48">密码：</td>
+											<td width="100"><asp:TextBox id="txtAdminPW" runat="server" Width="100px" MaxLength="20" TextMode="Password"
 													onMouseOver="this.style.background='#E1F4EE';" onMouseOut="this.style.background='#FFFFFF'"></asp:TextBox>
 											</td>
+                                            <td width="60">验证码：</td>
+											<td width="70" align="left" valign="middle"><input name="CheckCode" Width="70px" runat="server" id="checkcode" size="6" maxlength="4" onMouseOver="this.style.background='#E1F4EE';" onMouseOut="this.style.background='#FFFFFF'" onFocus="this.select(); ">
+                                            </td>
+                                            <td width="60">
+                                            <img src="gif.aspx" border="0" onclick="this.src='gif.aspx?time='+Math.random();"></td>
+											
 											<td width="106"><asp:ImageButton Runat="server" ID="imgbtn" ImageUrl="imgs/login_04.jpg" Border="0" width="92" height="30" OnClick="imgbtn_Click"></asp:ImageButton></td>
-										</tr>
-										<tr>
-											<td width="220"></td>
-											<td>验证码：</td>
-											<td width="147" align="left" valign="middle"><input name="CheckCode" runat="server" id="checkcode" size="6" maxlength="4" onMouseOver="this.style.background='#E1F4EE';" onMouseOut="this.style.background='#FFFFFF'" onFocus="this.select(); "><img src="gif.aspx" border="0" onclick="this.src='gif.aspx?time='+Math.random();"></td>
-											<td colspan="3" align="center">&nbsp;</td>
 										</tr>
 									</table>
 								</td>
