@@ -23,8 +23,8 @@ namespace QPS.Web.BusiMan
             QPS.NEW.BLL.Room Broom = new QPS.NEW.BLL.Room();
             QPS.NEW.BLL.Orderform Border = new QPS.NEW.BLL.Orderform();
             QPS.NEW.BLL.Integral Bint = new QPS.NEW.BLL.Integral();
-            List<QPS.Model.Room> roomList = new List<QPS.Model.Room>();
-            List<QPS.Model.Orderform> orderlist = new List<QPS.Model.Orderform>();
+            List<QPS.NEW.Model.Room> roomList = new List<QPS.NEW.Model.Room>();
+            List<QPS.NEW.Model.Orderform> orderlist = new List<QPS.NEW.Model.Orderform>();
             //创建新列
 
             //DataColumn dc0 = dt.Columns.Add("积分编号", typeof(int));

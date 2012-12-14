@@ -4,7 +4,6 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data;
-using QPS.BLL;
 
 namespace QPS.Web.AdminControl
 {
