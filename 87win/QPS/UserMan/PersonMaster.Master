@@ -2,12 +2,13 @@
     Inherits="QPS.Web.UserMan.PersonMaster" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:wb=“http://open.weibo.com/wb”>
 <head runat="server">
     
     <link href="../css/index.css" rel="stylesheet" type="text/css" />
 
     <title>八棋赢</title>
+    <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js" type="text/javascript" charset="utf-8"></script>
 <script type="text/javascript">
     function addFavorite() {
         var thisURL = document.URL;
@@ -81,13 +82,10 @@
         <div class="header">
             <div class="topa">
                 <div class="tdlc">
-                    <span>
-                        <a href="#"><img src="../images/gzimg1.jpg" alt="" /></a>
-                        <a href=""><img src="../images/gzimg2.jpg" alt="" /></a>
-                        <a href="#"><img src="../images/gzimg3.jpg" alt="" /></a>
-                    </span>
-                   <p><a href="javascript:void(0)" onclick="SetHome(this)">设为主页</a>|<a href="javascript:void(0)"  onclick="addFavorite()">添加收藏</a></p>
-                </div>
+                 <wb:follow-button uid="2753617351" type="red_1" width="70px" height="24px" ></wb:follow-button>
+                 <iframe src="http://follow.v.t.qq.com/index.php?c=follow&a=quick&name=fastzch&style=4&t=1355567653618&f=0" frameborder="0" scrolling="no" width="125" height="27" marginwidth="0" top="-27px" marginheight="-20px" allowtransparency="true"></iframe>
+                <p><a href="javascript:void(0)" onclick="SetHome(this)">设为主页</a>|<a href="javascript:void(0)" onclick="addFavorite()">添加收藏</a></p>
+            </div>
             </div>
             <div class="welaaaa">
                 <p>
