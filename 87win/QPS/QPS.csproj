@@ -347,12 +347,8 @@
     <Content Include="images\010.gif" />
     <Content Include="images\037.gif" />
     <Content Include="images\083.gif" />
-    <Content Include="images\1.jpg" />
     <Content Include="images\114.gif" />
-    <Content Include="images\2.jpg" />
-    <Content Include="images\3.jpg" />
     <Content Include="images\311.gif" />
-    <Content Include="images\4.jpg" />
     <Content Include="images\a.gif" />
     <Content Include="images\a1.gif" />
     <Content Include="images\a1.jpg" />
@@ -534,7 +530,6 @@
     <Content Include="js\Html.js" />
     <Content Include="js\jLook-latest.js" />
     <Content Include="js\jquery.js" />
-    <Content Include="js\map.js" />
     <Content Include="MainPage.aspx" />
     <Content Include="Manage\framepage\managerbody.aspx" />
     <Content Include="Manage\framepage\top.aspx" />
@@ -895,29 +890,6 @@
     <Content Include="script\Modality.js" />
     <Content Include="script\validator.js" />
     <Content Include="swf\xixi.swf" />
-    <Content Include="upload\2012-08-18\18350843.jpg" />
-    <Content Include="upload\2012-08-22\91616234.jpg" />
-    <Content Include="upload\2012-08-22\9646265.jpg" />
-    <Content Include="upload\2012-08-23\134122343.jpg" />
-    <Content Include="upload\2012-08-23\14223493.jpg" />
-    <Content Include="upload\2012-08-23\142619906.jpg" />
-    <Content Include="upload\2012-08-23\14295906.jpg" />
-    <Content Include="upload\2012-08-23\1443812.jpg" />
-    <Content Include="upload\2012-08-24\115016812.jpg" />
-    <Content Include="upload\2012-08-30\9381656.jpg" />
-    <Content Include="upload\2012-09-07\135847234.jpg" />
-    <Content Include="upload\2012-09-07\135939375.jpg" />
-    <Content Include="upload\2012-09-07\14146578.jpg" />
-    <Content Include="upload\2012-09-07\94343359.jpg" />
-    <Content Include="upload\2012-10-08\171016749.jpg" />
-    <Content Include="upload\2012-10-08\17102814.jpg" />
-    <Content Include="upload\2012-10-08\171855639.jpg" />
-    <Content Include="upload\2012-10-08\17189874.jpg" />
-    <Content Include="upload\2012-10-08\171916546.jpg" />
-    <Content Include="upload\2012-10-08\172318796.jpg" />
-    <Content Include="upload\2012-10-08\17234639.jpg" />
-    <Content Include="upload\2012-10-08\17262314.jpg" />
-    <Content Include="upload\2012-11-14\172029518.jpg" />
     <Content Include="UserHandler.aspx" />
     <Content Include="UserLogin.aspx" />
     <Content Include="UserMan\css\gruser.css" />
@@ -1471,6 +1443,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Manage\upfile\" />
+    <Folder Include="upload\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="BusiMan\EnterMaster.Master" />
