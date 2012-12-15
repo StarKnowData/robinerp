@@ -51,51 +51,6 @@ namespace QPS.NEW.BLL
             SqlParameter[] sqlParams = new SqlParameter[50];
             int Count = 0;
 
-            //if (model.Id == -999)
-            //    return false;
-
-            //if (model.Id != -999)
-            //{
-            //    filedName[Count] = "Id";
-            //    paramName[Count] = "@" + filedName[Count];
-            //    sqlParams[Count] = new SqlParameter(paramName[Count], model.Id);
-            //    Count++;
-            //}
-            //if (model.UserID != null)
-            //{
-            //    filedName[Count] = "UserID";
-            //    paramName[Count] = "@" + filedName[Count];
-            //    sqlParams[Count] = new SqlParameter(paramName[Count], model.UserID);
-            //    Count++;
-            //}
-            //if (model.Content != null)
-            //{
-            //    filedName[Count] = "Content";
-            //    paramName[Count] = "@" + filedName[Count];
-            //    sqlParams[Count] = new SqlParameter(paramName[Count], model.Content);
-            //    Count++;
-            //}
-            //if (model.CreateTime != null)
-            //{
-            //    filedName[Count] = "CreateTime";
-            //    paramName[Count] = "@" + filedName[Count];
-            //    sqlParams[Count] = new SqlParameter(paramName[Count], model.CreateTime);
-            //    Count++;
-            //}
-            //if (model.RoomId != null)
-            //{
-            //    filedName[Count] = "RoomId";
-            //    paramName[Count] = "@" + filedName[Count];
-            //    sqlParams[Count] = new SqlParameter(paramName[Count], model.RoomId);
-            //    Count++;
-            //}
-            //if (model.OrderId != null)
-            //{
-            //    filedName[Count] = "OrderId";
-            //    paramName[Count] = "@" + filedName[Count];
-            //    sqlParams[Count] = new SqlParameter(paramName[Count], model.OrderId);
-            //    Count++;
-            //}
 
             if (model.UserID == -999 && model.TotalMoney!=-999)
                 return false;
@@ -183,7 +138,7 @@ namespace QPS.NEW.BLL
         {
             DataSet ds = null;
             //string strSql = "select * from Integral where " + strWhere;
-            string strSql = "select UserID,WalletMoney,BankMoney from TUserInfo where " + strWhere;
+            string strSql = "select UserID as 用户ID,WalletMoney/10000 as 钱包中的积分,BankMoney/10000 as 银行中的积分 from TUserInfo where " + strWhere;
             ds = sqlHelper_.GetDataSet(strSql, CommandType.Text, null);
 
             return ds;
@@ -192,7 +147,7 @@ namespace QPS.NEW.BLL
         public DataSet GetSum(int userId)
         {
             DataSet ds = null;
-            string strSql = "select WalletMoney+BankMoney from TUserInfo where UserID=@UserID";
+            string strSql = "select (WalletMoney+BankMoney)/10000 from TUserInfo where UserID=@UserID";
 
             ds = sqlHelper_.GetDataSet(strSql, CommandType.Text,
                 new SqlParameter[]{
@@ -206,10 +161,8 @@ namespace QPS.NEW.BLL
         public DataSet GetList(string strWhere)
         {
             DataSet ds = null;
-            //ds = sqlHelper_.GetDataSet("select * from Integral where " + strWhere,
-            //    CommandType.Text,
-            //    null);
-            ds = sqlHelper_.GetDataSet("select UserID,WalletMoney+BankMoney as TotalMoney from TUserInfo where " + strWhere,
+
+            ds = sqlHelper_.GetDataSet("select UserID,(WalletMoney+BankMoney)/10000 as TotalMoney from TUserInfo where " + strWhere,
                 CommandType.Text,
                 null);
             return ds;
@@ -365,15 +318,6 @@ namespace QPS.NEW.BLL
             hasShowedPage = currentPage - 1 >= 0 ? currentPage - 1 : 0;
 
 
-
-            //StringBuilder strSql = new StringBuilder();
-            //strSql.Append("SELECT TOP ");
-            //strSql.Append((currentPage * pageSize).ToString());
-            //strSql.Append(" t.* FROM (SELECT u.Id, u.Username, b.integral FROM users AS u, (SELECT s.userid, sum(s.content) integral FROM integral AS s WHERE 1=1 GROUP BY s.UserID) AS b WHERE u.id = b.userid ) AS t");
-            //strSql.Append(" WHERE t.id NOT IN (SELECT TOP ");
-            //strSql.Append((hasShowedPage * pageSize).ToString());
-            //strSql.Append(" tt.id FROM (SELECT u.Id, u.Username, b.integral FROM users AS u, (SELECT s.userid, sum(s.content) integral FROM integral AS s WHERE 1=1 GROUP BY s.UserID) AS b WHERE u.id = b.userid ) AS tt)");
-
             string strSql = "select ui.UserID,(ui.WalletMoney+ui.BankMoney)/10000 as TotalMoney,u.UserName from TUserInfo as ui,TUsers as u where ui.UserID=u.UserID";
 
             DataSet ds = null;
@@ -392,7 +336,6 @@ namespace QPS.NEW.BLL
 
             res = Convert.ToInt32(
                 sqlHelper_.GetSingle(
-                //"select count(*) from Integral",
                 "select count(*) from TUserInfo",
                 CommandType.Text,
                 null
@@ -407,7 +350,7 @@ namespace QPS.NEW.BLL
             DataSet ds = null;
 
             string strSql =
-            "select u.UserID,u.UserName,WalletMoney+BankMoney as TotalMoney from TUserInfo as i,TUsers as u where i.UserID=u.UserID and  u.UserName=@username";
+            "select u.UserID,u.UserName,(WalletMoney+BankMoney)/10000 as TotalMoney from TUserInfo as i,TUsers as u where i.UserID=u.UserID and  u.UserName=@username";
             ds = sqlHelper_.GetDataSet
                 (
                 strSql,
@@ -452,7 +395,7 @@ namespace QPS.NEW.BLL
             DataSet ds = null;
 
             string strSql =
-            "select u.UserID,u.UserName,WalletMoney+BankMoney as TotalMoney from TUserInfo as i,TUsers as u where i.UserID=u.UserID and  u.UserID=@userid";
+            "select u.UserID,u.UserName,(WalletMoney+BankMoney)/10000 as TotalMoney from TUserInfo as i,TUsers as u where i.UserID=u.UserID and  u.UserID=@userid";
             ds = sqlHelper_.GetDataSet
                 (
                 strSql,
