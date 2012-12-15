@@ -20,6 +20,7 @@
                        <EditRowStyle BackColor="#2461BF" />
                        <AlternatingRowStyle BackColor="White" />
                    </asp:GridView>
+
                    总积分：<asp:Label ID="lblSum" runat="server" Text=""></asp:Label>
                </div>
                <!--grbox]]-->
