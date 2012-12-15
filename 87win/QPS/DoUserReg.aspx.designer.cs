@@ -7,9 +7,9 @@
 // </自动生成>
 //------------------------------------------------------------------------------
 
-namespace QPS.Web {
+namespace QPS {
     
     
-    public partial class UserReg {
+    public partial class DoUserReg {
     }
 }

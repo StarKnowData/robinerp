@@ -663,6 +663,22 @@ namespace QPS.NEW.BLL
             return ds;
         }
 
+        public int SelectUser(string userName)
+        {
+
+
+            int num=-1;
+            num= Convert.ToInt32(
+                sqlHelper_.GetSingle(
+                "select count(*) from TUsers where UserName=@username",
+                CommandType.Text,
+                new SqlParameter[] { new SqlParameter("@username", userName) }
+                )
+                );
+
+            return num;
+        }
+
         public QPS.NEW.Model.Users GetModel(int userID)
         {
             QPS.NEW.Model.Users u = new Model.Users();
