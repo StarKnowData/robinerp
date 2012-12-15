@@ -139,6 +139,7 @@
     <Content Include="BusiMan\ScoreMan.aspx" />
     <Content Include="ChargeOnline.aspx" />
     <Content Include="checkcode.aspx" />
+    <Content Include="CheckUserName.aspx" />
     <Content Include="ckeditor\adapters\jquery.js" />
     <Content Include="ckeditor\CHANGES.html" />
     <Content Include="ckeditor\ckeditor.js" />
@@ -336,6 +337,7 @@
     <Content Include="ckeditor\themes\default\theme.js" />
     <Content Include="css\index.css" />
     <Content Include="data.xml" />
+    <Content Include="DoUserReg.aspx" />
     <Content Include="FeedBack.aspx" />
     <Content Include="Global.asax" />
     <Content Include="images\001.gif" />
@@ -450,6 +452,7 @@
     <Content Include="images\pagebg1.jpg" />
     <Content Include="images\pagebg2.jpg" />
     <Content Include="images\places.jpg" />
+    <Content Include="images\progress.gif" />
     <Content Include="images\qbg1.jpg" />
     <Content Include="images\qbg2.jpg" />
     <Content Include="images\qpbg1.jpg" />
@@ -1229,6 +1232,20 @@
     <Compile Include="checkcode.aspx.designer.cs">
       <DependentUpon>checkcode.aspx</DependentUpon>
     </Compile>
+    <Compile Include="CheckUserName.aspx.cs">
+      <DependentUpon>CheckUserName.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckUserName.aspx.designer.cs">
+      <DependentUpon>CheckUserName.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoUserReg.aspx.cs">
+      <DependentUpon>DoUserReg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoUserReg.aspx.designer.cs">
+      <DependentUpon>DoUserReg.aspx</DependentUpon>
+    </Compile>
     <Compile Include="FeedBack.aspx.cs">
       <DependentUpon>FeedBack.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1483,7 +1500,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>5571</DevelopmentServerPort>
+          <DevelopmentServerPort>9166</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>
