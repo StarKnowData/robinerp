@@ -2,6 +2,14 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+<script type="text/javascript">
+    function searchRoomAddress(address) {
+        search(address);
+    }
+
+</script>
+
     <!--mid[[-->
 <div class="mid">
   <div class="ssou">
@@ -56,7 +64,13 @@
     </asp:DataList>
     </div>
           <div class="jsright">
-               <div class="ditu"><img src="images/jsimg1.jpg" alt=""/></div>
+                <!--
+               <div class="ditu">
+                    <img src="images/jsimg1.jpg" alt=""/> 
+                </div>
+                -->
+                <div id="mapBox" class="ditu"></div>
+                <input type="button" onclick="test_map()" value="test" />
           </div>
      </div>
      <!--nymiddle]]--></div>

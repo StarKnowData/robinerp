@@ -534,6 +534,7 @@
     <Content Include="js\Html.js" />
     <Content Include="js\jLook-latest.js" />
     <Content Include="js\jquery.js" />
+    <Content Include="js\map.js" />
     <Content Include="MainPage.aspx" />
     <Content Include="Manage\framepage\managerbody.aspx" />
     <Content Include="Manage\framepage\top.aspx" />
