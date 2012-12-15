@@ -12,6 +12,11 @@
     }
 
     function txtUser_onblur() {
+        if ($("#txtUser").val().length < 6 || $("#txtUser").val().length > 12) {
+            $("#showResult").text("*用户名由6-12位字符、字母或数字构成");
+            $("#showResult").css("color", "red");
+            return;
+        }
         $.ajax({
             type: "GET",
             url: "CheckUserName.aspx",
@@ -38,6 +43,40 @@
                 //错误处理
             }
         });
+    }
+
+    function password_onblur() {
+        if ($("#txtPwd").val().length < 6 || $("#txtPwd").val().length > 20) {
+            $("#passwordInfo").css("color", "red");
+            return;
+        }
+        $("#passwordInfo").css("color", "green");
+    }
+
+    function txtRePwd_onblur() {
+        if ($("#txtPwd").val() != $("#txtRePwd").val()) {
+            $("#rePwdInfo").css("color", "red");
+            return;
+        }
+
+        $("#rePwdInfo").css("color", "green");
+
+    }
+
+    function txtNickname_onblur() {
+        reg = /[\u4e00-\u9fa5]{2,6}/;
+        if (!reg.test($("#txtNickname").val())) {
+            $("#nicknameInfo").css("color", "red");
+            return;
+        }
+
+        if ($("#txtNickname").val().length < 2 || $("#txtNickname").val().length > 6) {
+            $("#nicknameInfo").css("color", "red");
+            return;
+        }
+
+        $("#nicknameInfo").css("color", "green");
+
     }
 
     function btn_Reg_onClick() {
@@ -152,9 +191,9 @@
                <div class="zcnra" id="cotant_1">
                     <ul>
                         <li><h3>用户名：</h3><input type="text" name="txtUser" id="txtUser" class="zca1" onfocus="txtUser_onfouce()" onblur="txtUser_onblur()"/><p id="showResult">*用户名由6-12位字符、字母或数字构成</p></li>
-                        <li><h3>密码：</h3><input type="password" name="txtPwd" id="txtPwd" class="zca1"  /><p>*密码由6-20位英文、字母或数字组成</p></li>
-                        <li><h3>确认密码：</h3><input type="password" name="txtRePwd" id="txtRePwd" class="zca1"  /><p>*和上面密码相同</p></li>
-                        <li><h3>昵称：</h3><input type="text" name="txtNickname" id="txtNickname" class="zca1" /><p>*用户昵称由2-6位汉字构成</p></li>
+                        <li><h3>密码：</h3><input type="password" name="txtPwd" id="txtPwd" class="zca1" onblur="password_onblur()"  /><p id="passwordInfo">*密码由6-20位英文、字母或数字组成</p></li>
+                        <li><h3>确认密码：</h3><input type="password" name="txtRePwd" id="txtRePwd" class="zca1" onblur="txtRePwd_onblur()" /><p id="rePwdInfo">*和上面密码相同</p></li>
+                        <li><h3>昵称：</h3><input type="text" name="txtNickname" id="txtNickname" class="zca1"  onblur="txtNickname_onblur()" /><p id="nicknameInfo">*用户昵称由2-6位汉字构成</p></li>
                         <li><h4>完善信息：</h4></li>
                         <li><h3>手机号：</h3><input type="text" name="txtShouj" id="txtShouj" class="zca1" /></li>
                         <li><h3>邮箱：</h3><input type="text" name="txtEm" id="txtEm" class="zca1" /></li>
