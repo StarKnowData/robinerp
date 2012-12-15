@@ -40,7 +40,7 @@ body { margin:0; padding:0;}
 .cja6 { width:410px; height:80px; line-height:23px; float:left; margin:15px 0 0 7px; display:inline; padding:0; border:1px solid #E6E6E6;}
 .grxxa ul li h4 { width:250px; height:23px; line-height:23px; float:left; margin:15px 0 0 10px; display:inline; padding:0 0 0 5px; font-size:12px; font-weight:normal; color:#000; text-align:left; border:1px solid #ff0000;}
 
-.footer { width:1003px; height:47px; float:left; margin:0; padding:5px 0 0 0; font-size:12px; font-weight:normal; color:#666666; text-align:center;}
+.footer {float:left; margin:0; padding:5px 0 0 0; font-size:12px; font-weight:normal; color:#666666; text-align:center;}
 .footer a { margin:0 8px 0 8px; font-size:12px; font-weight:normal; color:#666666; text-decoration:none;}
 
 

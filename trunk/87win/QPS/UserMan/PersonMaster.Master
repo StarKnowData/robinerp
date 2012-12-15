@@ -4,8 +4,74 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title></title>
+    
     <link href="../css/index.css" rel="stylesheet" type="text/css" />
+
+    <title>八棋赢</title>
+<script type="text/javascript">
+    function addFavorite() {
+        var thisURL = document.URL;
+        var favURL = "http://" + getHost(thisURL);
+        if (document.all) {
+            window.external.addFavorite(favURL, "网站名称");
+        } else {
+            window.sidebar.addPanel('网站名称', favURL, "");
+        }
+        return false;
+    }
+    function SetHome(obj) {
+        var vrl = "http://" + getHost(document.URL);
+        try {
+            obj.style.behavior = 'url(#default#homepage)'; obj.setHomePage(vrl);
+        }
+        catch (e) {
+            if (window.netscape) {
+                try {
+                    netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                }
+                catch (e) {
+                    alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将[signed.applets.codebase_principal_support]设置为'true'");
+                }
+                var prefs = Components.classes['@@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+                prefs.setCharPref('browser.startup.homepage', vrl);
+            }
+        }
+    }
+
+    var getHost = function (url) {
+        var host = "null";
+        if (typeof url == "undefined" || null == url)
+            url = window.location.href;
+        var regex = /.*\:\/\/([^\/]*).*/;
+        var match = url.match(regex);
+        if (typeof match != "undefined" && null != match)
+            host = match[1];
+        return host;
+    }
+
+    function ChangeMenuItemw(type) {
+        if (type == 1) {
+            document.getElementById("MenuItem-1").className = "selected";
+            document.getElementById("MenuItem-2").className = "";
+            document.getElementById("cotant_1").style.display = "";
+            document.getElementById("cotant_2").style.display = "none";
+        }
+        else if (type == 2) {
+            document.getElementById("MenuItem-1").className = "";
+            document.getElementById("MenuItem-2").className = "selected";
+            document.getElementById("cotant_1").style.display = "none";
+            document.getElementById("cotant_2").style.display = "";
+        }
+    }
+
+    function show(elementId) {
+        document.getElementById(elementId).style.display = "block";
+    }
+    function hide(elementId) {
+        document.getElementById(elementId).style.display = "none";
+    }
+</script>
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -20,8 +86,7 @@
                         <a href=""><img src="../images/gzimg2.jpg" alt="" /></a>
                         <a href="#"><img src="../images/gzimg3.jpg" alt="" /></a>
                     </span>
-                    <p>
-                        <a href="#">设为首页</a><a href="#">加入收藏</a><a href="../AboutUs.aspx">关于我们</a></p>
+                   <p><a href="javascript:void(0)" onclick="SetHome(this)">设为主页</a>|<a href="javascript:void(0)"  onclick="addFavorite()">添加收藏</a></p>
                 </div>
             </div>
             <div class="welaaaa">
