@@ -55,7 +55,7 @@
                               <ul class="xykf">
                               <span><a href="tencent://message/?uin=2637416916&Site=八棋赢棋牌游戏&Menu=yes">在线客服</a></span>
                               <span><a href="http://game.87win.cn/Manage/Login.aspx">个人中心</a></span>
-                              <span><a href="http://game.87win.cn/Manage/Login.aspx?url=http%3a%2f%2fgame.87win.cn%2fManage%2fLottery.aspx">幸运抽奖</a>
+                              <span><a href="http://game.87win.cn/JiangPin.aspx">奖品兑换</a>
                           </span>
                               <span><a href="http://game.87win.cn/Manage/Pay/Default.aspx">在线充值</a></span><div style="clear:both; overflow:hidden; height:0; font-size:1px"></div>
                               </ul>
