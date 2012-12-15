@@ -2,73 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <script type="text/javascript">
 
-function showElement(elementId)
-{
-  document.getElementById(elementId).style.display="block";
-}
-function hideElement(elementId)
-{
-  document.getElementById(elementId).style.display="none";
-}
-
-    function addFavorite() {
-        var thisURL = document.URL;
-        var favURL = "http://" + getHost(thisURL);
-        if (document.all) {
-            window.external.addFavorite(favURL, "网站名称");
-        } else {
-            window.sidebar.addPanel('网站名称', favURL, "");
-        }
-        return false;
-    }
-    function SetHome(obj) {
-        var vrl = "http://" + getHost(document.URL);
-        try {
-            obj.style.behavior = 'url(#default#homepage)'; obj.setHomePage(vrl);
-        }
-        catch (e) {
-            if (window.netscape) {
-                try {
-                    netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
-                }
-                catch (e) {
-                    alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将[signed.applets.codebase_principal_support]设置为'true'");
-                }
-                var prefs = Components.classes['@@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
-                prefs.setCharPref('browser.startup.homepage', vrl);
-            }
-        }
-    }
-
-    var getHost = function(url) {
-        var host = "null";
-        if (typeof url == "undefined" || null == url)
-            url = window.location.href;
-        var regex = /.*\:\/\/([^\/]*).*/;
-        var match = url.match(regex);
-        if (typeof match != "undefined" && null != match)
-            host = match[1];
-        return host;
-    }
-
-　　
-    //得到焦点时触发事件
-    function onFocusFun(element, elementValue) {
-        if (element.value == elementValue) {
-            element.value = "";
-            element.style.color = "";
-        }
-    }
-    //离开输入框时触发事件
-    function onblurFun(element, elementValue) {
-        if (element.value == '') {
-            element.style.color = "#808080";
-            element.value = elementValue;
-        }
-    }
-        </script>
 <div class="middlea">
      <div class="mid">
           <div class="qptop"><div style="clear:both; overflow:hidden; height:0; font-size:1px; "></div></div>
