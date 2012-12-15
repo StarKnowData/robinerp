@@ -26,16 +26,6 @@ namespace QPS.Web
                 DataList2.DataBind();
                 DataList1.DataSource = ds;
                 DataList1.DataBind();
-
-                string roomAddress =
-                    ds.Tables[0].Rows[0]["Are"].ToString() + " " + ds.Tables[0].Rows[0]["Address"].ToString();
-
-                Page.ClientScript.RegisterStartupScript(
-                    ClientScript.GetType(),
-                    "",
-                    "<script>searchRoomAddress('"+roomAddress+"');</script>"
-                );
-                
             
             }
         }

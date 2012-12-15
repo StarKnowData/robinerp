@@ -1,16 +1,8 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/MainMaser.Master" AutoEventWireup="true" CodeBehind="RoomDetail.aspx.cs" Inherits="QPS.Web.RoomDetail" Title="无标题页" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/MainMaser.Master" AutoEventWireup="true" CodeBehind="RoomDetail.aspx.cs" Inherits="QPS.Web.RoomDetail" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
+
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
-<script type="text/javascript">
-    function searchRoomAddress(address) {
-        search(address);
-    }
-
-</script>
-
-    <!--mid[[-->
 <div class="mid">
   <div class="ssou">
                <span>
@@ -23,7 +15,7 @@
                    </asp:DataList>
                    </span>
           </div>
-     <!--nymiddle[[-->
+     
      <div class="nymiddle">
           <div class="jsleft">
        
@@ -35,7 +27,7 @@
                <div class="qpname">
                     <ul>
                         <li><h2><%# Eval("Name").ToString()%></h2></li>
-                        <li><h3>地址：<font class="ls"><%# Eval("Address").ToString()%></font></h3></li>
+                        <li><h3>地址：<font class="ls"><span id="add"><%# Eval("Address").ToString()%></span></font></h3></li>
                         <li><h3>价格：<font class="hs"><%# Eval("RoomPrice").ToString()%>元/小时</font></h3></li>
                         <li><h4>
                             <asp:ImageButton ID="ImageButton1"  runat="server" ImageUrl="images/nyimg2.jpg"    CommandArgument= '<%#Eval("Id") %>' CommandName="Order" /></h4>
@@ -64,14 +56,64 @@
     </asp:DataList>
     </div>
           <div class="jsright">
-                <!--
-               <div class="ditu">
-                    <img src="images/jsimg1.jpg" alt=""/> 
-                </div>
-                -->
-                <div id="mapBox" class="ditu"></div>
-                <input type="button" onclick="test_map()" value="test" />
+                
+                <div id="mapBox" class="ditu" style="background-color:white;"></div>
+                <br />
+                <br />
+                 <form action="#">
+			        从这里出发：<input type="text" name="startPoint" id="startPoint" style="" value=""/>
+			        <input type="button" onclick="getTrans();" id="getBusBtn" value="查看路线">
+		        </form>
           </div>
      </div>
-     <!--nymiddle]]--></div>
+    </div>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.4"></script>
+    <script type="text/javascript">
+        var map;
+        function $(id) {
+            return document.getElementById(id);
+        }
+
+        function initMap() {
+            map = new BMap.Map("mapBox");            // 创建Map实例
+            var point = new BMap.Point(116.404, 39.915);    // 创建点坐标
+            map.centerAndZoom(point, 15);                     // 初始化地图,设置中心点坐标和地图级别。
+            map.enableScrollWheelZoom();                            //启用滚轮放大缩小 
+        }
+
+        function search() {
+            var areaName = $("add").innerHTML;
+            if (areaName == "") return;
+            if (map == null) {
+                initMap();
+            }
+            var local = new BMap.LocalSearch(map, {
+                renderOptions: { map: map }
+            });
+            var searchAdd = "武汉市" + areaName;
+            local.search(searchAdd);
+        }
+
+        search();
+
+        function getTrans() {
+            var areaName = $("add").innerHTML;
+            if (areaName == "") return;
+            var startPoint = $("startPoint").value;
+            if (startPoint == "") {
+                alert("请输入您当前的地址。");
+                return;
+            }
+            var transit = new BMap.TransitRoute(map, {
+                renderOptions: { map: map }
+            });
+            var searchAdd = "武汉市" + areaName;
+            transit.search(startPoint, searchAdd);
+
+        }
+        
+
+</script>
 </asp:Content>
+
+
