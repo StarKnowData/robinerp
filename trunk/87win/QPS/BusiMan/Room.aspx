@@ -24,9 +24,30 @@
                     <div class="grxxa">
                     <ul>
                         <li><h3>棋牌室名：</h3><input type="text" name="textfield2" id="txfName" class="cja1" runat="server" /></li>
-                        <li><h3>棋牌室类型：</h3><input type="text" name="textfield2" id="txfRoomType" class="cja1" runat="server"/></li>
+                        <li><h3>棋牌室类型：</h3>
+                            <asp:DropDownList ID="txfRoomType" CssClass="cja1" runat="server">
+                                <asp:ListItem>标准</asp:ListItem>
+                                <asp:ListItem>豪华</asp:ListItem>
+                            </asp:DropDownList>
+                            </li>
                         <li><h3>棋牌室价格：</h3><input type="text" name="textfield2" id="txfRoomPrice" class="cja1" runat="server"/></li>
-                        <li><h3>地区：</h3><input type="text" name="textfield2" id="txfArea" class="cja1" runat="server"/></li>
+                        <li><h3>地区：</h3>
+                            <asp:DropDownList ID="txfArea" CssClass="cja1" runat="server">
+                                <asp:ListItem>江岸区</asp:ListItem>
+                                <asp:ListItem>江汉区</asp:ListItem>
+                                <asp:ListItem>硚口区</asp:ListItem>
+                                <asp:ListItem>汉阳区</asp:ListItem>
+                                <asp:ListItem>武昌区</asp:ListItem>
+                                <asp:ListItem>青山区</asp:ListItem>
+                                <asp:ListItem>洪山区</asp:ListItem>
+                                <asp:ListItem>东西湖区</asp:ListItem>
+                                <asp:ListItem>汉南区</asp:ListItem>
+                                <asp:ListItem>蔡甸区</asp:ListItem>
+                                <asp:ListItem>江夏区</asp:ListItem>
+                                <asp:ListItem>黄陂区</asp:ListItem>
+                                <asp:ListItem>新洲区</asp:ListItem>
+                            </asp:DropDownList>
+                            </li>
                          <li><h3>地址：</h3><input type="text" name="textfield2" id="txfAddress" class="cja1" runat="server"/></li>
                               <li><h3>图片：</h3>
                                   <asp:FileUpload ID="fulImg" runat="server"  cssClass="cja1" /></li>

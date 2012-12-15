@@ -52,7 +52,7 @@ namespace QPS.Web.BusiMan
                     Response.Write("<script>alert('地址不能为空，请重新输入')</script>");
                     return;
                 }
-                if (txfArea.Value == string.Empty)
+                if (txfArea.Text == string.Empty)
                 {
                     Response.Write("<script>alert('地区不能为空，请重新输入')</script>");
                     return;
@@ -62,7 +62,7 @@ namespace QPS.Web.BusiMan
                     Response.Write("<script>alert('内容不能为空，请重新输入')</script>");
                     return;
                 }
-                if (txfRoomType.Value == string.Empty)
+                if (txfRoomType.Text == string.Empty)
                 {
                     Response.Write("<script>alert('房间类型不能为空，请重新输入')</script>");
                     return;
@@ -72,9 +72,9 @@ namespace QPS.Web.BusiMan
                 Mroom.RoomState = 0;
                 Mroom.IfRecommend =1;
                 Mroom.Address = txfAddress.Value;
-                Mroom.Are = txfArea.Value;
+                Mroom.Are = txfArea.Text;
                 Mroom.Content = txfContent.Value.Length > 100 ? txfContent.Value.Substring(0, 100) : txfContent.Value;
-                Mroom.RoomType = txfRoomType.Value;
+                Mroom.RoomType = txfRoomType.Text;
                 Mroom.OwnerID = userid;
                 Mroom.ImagePath = Upload(fulImg);
                 Mroom.Examine = 0;
