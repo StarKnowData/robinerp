@@ -157,7 +157,7 @@ namespace Bzw.Inhersits.Manage.Pay.Yeepay
                 txtUserName2.Text = UiCommon.UserLoginInfo.UserName;
             }
             MoneyRate = BLL.Config.GetInfoOfCard()["Con_MoneyChangeRate"].ToString();
-            CouponRate = GetCouponRate();
+            //CouponRate = GetCouponRate();
         }
 
         protected void Button1_Click(object sender, EventArgs e)
@@ -247,10 +247,10 @@ namespace Bzw.Inhersits.Manage.Pay.Yeepay
             //商户扩展信息
             //商户可以任意填写1K 的字符串,支付成功时将原样返回.	
             // [add] jeffery
-            double poupon=Convert.ToDouble(CouponRate)*Convert.ToDouble( PayMoney.Text);
-            if(poupon<0)
-                poupon=0;
-            pa_MP = userName + "!@#" + Convert.ToInt32(poupon).ToString();
+            //double poupon=Convert.ToDouble(CouponRate)*Convert.ToDouble( PayMoney.Text);
+            //if(poupon<0)
+            //    poupon=0;
+            //pa_MP = userName + "!@#" + Convert.ToInt32(poupon).ToString();
             // ---end
 
             //银行编码

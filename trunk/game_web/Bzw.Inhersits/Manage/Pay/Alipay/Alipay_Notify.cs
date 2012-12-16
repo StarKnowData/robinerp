@@ -110,46 +110,46 @@ namespace Bzw.Inhersits.Manage.Pay.Alipay
 
                     #region [add] jeffery
 
-                    string allBody = Request.Form["body"].ToString().Trim();
-                    int pos = allBody.IndexOf("!@#");
+                    //string allBody = Request.Form["body"].ToString().Trim();
+                    //int pos = allBody.IndexOf("!@#");
 
-                    string ourBody = allBody.Substring(pos + 1);
-                    pos = ourBody.IndexOf("!@#");
+                    //string ourBody = allBody.Substring(pos + 1);
+                    //pos = ourBody.IndexOf("!@#");
 
-                    string username = ourBody.Substring(0, pos);
-                    int couponNum = Convert.ToInt32(
-                        ourBody.Substring(pos+1)
-                        );
+                    //string username = ourBody.Substring(0, pos);
+                    //int couponNum = Convert.ToInt32(
+                    //    ourBody.Substring(pos+1)
+                    //    );
 
-                    string strsql =
-                                "select UserID from TUsers where UserName=@username";
-                    DataTable dt =
-                        SqlHelper.ExecuteDataset(CommandType.Text,
-                        strsql,
-                        new SqlParameter[]
-                                {
-                                    new SqlParameter("@username",username)
-                                }
-                        ).Tables[0];
-                    int userid = Convert.ToInt32(dt.Rows[0]["UserID"]);
+                    //string strsql =
+                    //            "select UserID from TUsers where UserName=@username";
+                    //DataTable dt =
+                    //    SqlHelper.ExecuteDataset(CommandType.Text,
+                    //    strsql,
+                    //    new SqlParameter[]
+                    //            {
+                    //                new SqlParameter("@username",username)
+                    //            }
+                    //    ).Tables[0];
+                    //int userid = Convert.ToInt32(dt.Rows[0]["UserID"]);
 
-                    strsql = "insert into TCoupon(UserID,CouponNum,RechargeType,CreateTime)values(@userid,@coupon,@rechargeType,@createTime)";
-                    int num =
-                        SqlHelper.ExecuteNonQuery
-                        (CommandType.Text,
-                        strsql,
-                        new SqlParameter[]
-                                {
-                                    new SqlParameter("@userid",userid),
-                                    new SqlParameter("@coupon",couponNum),
-                                    new SqlParameter("@rechargeType",4),
-                                    new SqlParameter("@createTime",DateTime.Now) 
-                                });
+                    //strsql = "insert into TCoupon(UserID,CouponNum,RechargeType,CreateTime)values(@userid,@coupon,@rechargeType,@createTime)";
+                    //int num =
+                    //    SqlHelper.ExecuteNonQuery
+                    //    (CommandType.Text,
+                    //    strsql,
+                    //    new SqlParameter[]
+                    //            {
+                    //                new SqlParameter("@userid",userid),
+                    //                new SqlParameter("@coupon",couponNum),
+                    //                new SqlParameter("@rechargeType",4),
+                    //                new SqlParameter("@createTime",DateTime.Now) 
+                    //            });
 
-                    if (num != 1)
-                    {
-                        Response.Write("<script>alert('充值成功，但赠送奖劵失败！')</script>");
-                    }
+                    //if (num != 1)
+                    //{
+                    //    Response.Write("<script>alert('充值成功，但赠送奖劵失败！')</script>");
+                    //}
                     #endregion
 
                     //返回给支付宝消息，成功

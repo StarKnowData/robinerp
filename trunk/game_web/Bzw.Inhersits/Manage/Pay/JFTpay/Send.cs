@@ -32,7 +32,7 @@ namespace Bzw.Inhersits
             string txtCardPass = Utility.Common.GetStringOfForm("txtCardPass"); //卡密 
             string OrderNo;
 
-            string strCouponNum = Utility.Common.GetStringOfForm("CouponNum");
+            //string strCouponNum = Utility.Common.GetStringOfForm("CouponNum");
 
             //1,支付类型
             if (PayType == "1")  
@@ -70,7 +70,7 @@ namespace Bzw.Inhersits
 
 
             //5, 跳转到支付平台
-            jftpay(OrderNo, BackUrl, payMoney,txtUserName,strCouponNum);
+            jftpay(OrderNo, BackUrl, payMoney,txtUserName,"");
 
 
         }
@@ -89,7 +89,7 @@ namespace Bzw.Inhersits
             String key = UiCommon.StringConfig.JFTpay_MemberKey; //商户密钥
 
             // [add] jeffery
-            Session["CouponInfo"] = userName + "!@#" + couponNum;
+            //Session["CouponInfo"] = userName + "!@#" + couponNum;
             // ---end
 
             //组织接口发送。

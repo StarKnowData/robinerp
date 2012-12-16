@@ -110,7 +110,7 @@ namespace Bzw.Inhersits.Manage.Pay.IPS
             string retencodetype = Utility.Common.GetStringOfUrl("retencodetype");//交易返回签名方式
 
             // [add] jeffery
-            string strAttach = Utility.Common.GetStringOfUrl("attach");
+            //string strAttach = Utility.Common.GetStringOfUrl("attach");
             // ---end
 
             if (string.IsNullOrEmpty(billno) || string.IsNullOrEmpty(amount) || string.IsNullOrEmpty(date) ||
@@ -145,44 +145,44 @@ namespace Bzw.Inhersits.Manage.Pay.IPS
 
                     #region [add] jeffery
 
-                    int pos = strAttach.IndexOf("!@#");
-                    string username = strAttach.Substring(0, pos);
-                    int couponNum =
-                        Convert.ToInt32(
-                        strAttach.Substring(pos + 1)
-                        );
-                    string strsql =
-                        "select UserID from TUsers where UserName=@username";
+                    //int pos = strAttach.IndexOf("!@#");
+                    //string username = strAttach.Substring(0, pos);
+                    //int couponNum =
+                    //    Convert.ToInt32(
+                    //    strAttach.Substring(pos + 1)
+                    //    );
+                    //string strsql =
+                    //    "select UserID from TUsers where UserName=@username";
 
-                    DataTable dt =
-                        SqlHelper.ExecuteDataset(CommandType.Text,
-                        strsql,
-                        new SqlParameter[]
-                                {
-                                    new SqlParameter("@username",username)
-                                }
-                        ).Tables[0];
+                    //DataTable dt =
+                    //    SqlHelper.ExecuteDataset(CommandType.Text,
+                    //    strsql,
+                    //    new SqlParameter[]
+                    //            {
+                    //                new SqlParameter("@username",username)
+                    //            }
+                    //    ).Tables[0];
 
-                    int userid = Convert.ToInt32(dt.Rows[0]["UserID"]);
+                    //int userid = Convert.ToInt32(dt.Rows[0]["UserID"]);
 
 
-                    strsql = "insert into TCoupon(UserID,CouponNum,RechargeType,CreateTime)values(@userid,@coupon,@rechargeType,@createTime)";
-                    int num =
-                        SqlHelper.ExecuteNonQuery
-                        (CommandType.Text,
-                        strsql,
-                        new SqlParameter[]
-                                {
-                                    new SqlParameter("@userid",userid),
-                                    new SqlParameter("@coupon",couponNum),
-                                    new SqlParameter("@rechargeType",2),
-                                    new SqlParameter("@createTime",DateTime.Now) 
-                                });
+                    //strsql = "insert into TCoupon(UserID,CouponNum,RechargeType,CreateTime)values(@userid,@coupon,@rechargeType,@createTime)";
+                    //int num =
+                    //    SqlHelper.ExecuteNonQuery
+                    //    (CommandType.Text,
+                    //    strsql,
+                    //    new SqlParameter[]
+                    //            {
+                    //                new SqlParameter("@userid",userid),
+                    //                new SqlParameter("@coupon",couponNum),
+                    //                new SqlParameter("@rechargeType",2),
+                    //                new SqlParameter("@createTime",DateTime.Now) 
+                    //            });
 
-                    if (num != 1)
-                    {
-                        Response.Write("<script>alert('充值成功，但赠送奖劵失败！')</script>");
-                    }
+                    //if (num != 1)
+                    //{
+                    //    Response.Write("<script>alert('充值成功，但赠送奖劵失败！')</script>");
+                    //}
 
                     #endregion
                 }
