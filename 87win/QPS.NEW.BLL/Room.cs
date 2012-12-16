@@ -214,7 +214,7 @@ namespace QPS.NEW.BLL
 
             if (num != 1)
             {
-                throw new Exception("Error:更新数据库失败");
+                res = false;
             }
             else
             {
@@ -352,7 +352,7 @@ namespace QPS.NEW.BLL
 
             if (res != 1)
             {
-                throw new Exception("Error:写入数据库失败");
+                return 0;
             }
 
             return 1;

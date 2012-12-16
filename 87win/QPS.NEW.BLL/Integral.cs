@@ -123,7 +123,7 @@ namespace QPS.NEW.BLL
 
             if (num != 1)
             {
-                throw new Exception("Error:更新数据库失败");
+                res = false;
             }
             else
             {
@@ -137,7 +137,7 @@ namespace QPS.NEW.BLL
         public DataSet GetListlocalize(string strWhere)
         {
             DataSet ds = null;
-            //string strSql = "select * from Integral where " + strWhere;
+
             string strSql = "select UserID as 用户ID,WalletMoney/10000 as 钱包中的积分,BankMoney/10000 as 银行中的积分 from TUserInfo where " + strWhere;
             ds = sqlHelper_.GetDataSet(strSql, CommandType.Text, null);
 
@@ -172,14 +172,6 @@ namespace QPS.NEW.BLL
         {
             bool res = false;
 
-            //int num =
-            //    sqlHelper_.ExecuteCommand("delete from Integral where Id=@Id",
-            //    CommandType.Text,
-            //    new SqlParameter[]
-            //    {
-            //        new SqlParameter("@Id",Id)
-            //    }
-            //    );
             int num = sqlHelper_.ExecuteCommand(
                 "update TUserInfo set WalletMoney=0,BankMoney=0 where UserID=@userid",
                                 CommandType.Text,
@@ -197,107 +189,12 @@ namespace QPS.NEW.BLL
 
         public bool DeleteByUid(int userId)
         {
-            //bool res = false;
-
-            //int num =
-            //    sqlHelper_.ExecuteCommand("delete from Integral where UserID=@Id",
-            //    CommandType.Text,
-            //    new SqlParameter[]
-            //    {
-            //        new SqlParameter("@Id",userId)
-            //    }
-            //    );
-            //if (num >= 0)
-            //    res = true;
-
-            //return res;
 
             return Delete(userId);
         }
 
         public int Add(QPS.NEW.Model.Integral model)
         {
-            //string[] filedName = new string[50];
-            //string[] paramName = new string[50];
-            //SqlParameter[] sqlParams = new SqlParameter[50];
-            //int Count = 0;
-
-
-
-            //if (model.UserID != null)
-            //{
-            //    filedName[Count] = "UserID";
-            //    paramName[Count] = "@" + filedName[Count];
-            //    sqlParams[Count] = new SqlParameter(paramName[Count], model.UserID);
-            //    Count++;
-            //}
-            //if (model.Content != null)
-            //{
-            //    filedName[Count] = "Content";
-            //    paramName[Count] = "@" + filedName[Count];
-            //    sqlParams[Count] = new SqlParameter(paramName[Count], model.Content);
-            //    Count++;
-            //}
-            //if (model.CreateTime != null)
-            //{
-            //    filedName[Count] = "CreateTime";
-            //    paramName[Count] = "@" + filedName[Count];
-            //    sqlParams[Count] = new SqlParameter(paramName[Count], model.CreateTime);
-            //    Count++;
-            //}
-            //if (model.RoomId != null)
-            //{
-            //    filedName[Count] = "RoomId";
-            //    paramName[Count] = "@" + filedName[Count];
-            //    sqlParams[Count] = new SqlParameter(paramName[Count], model.RoomId);
-            //    Count++;
-            //}
-            //if (model.OrderId != null)
-            //{
-            //    filedName[Count] = "OrderId";
-            //    paramName[Count] = "@" + filedName[Count];
-            //    sqlParams[Count] = new SqlParameter(paramName[Count], model.OrderId);
-            //    Count++;
-            //}
-
-
-
-            //StringBuilder strSql = new StringBuilder();
-            //strSql.Append("insert into Integral(");
-            //for (int i = 0; i < Count; i++)
-            //{
-            //    strSql.Append(filedName[i]);
-            //    if (i != Count - 1)
-            //    {
-            //        strSql.Append(",");
-            //    }
-            //}
-            //strSql.Append(")values(");
-            //for (int i = 0; i < Count; i++)
-            //{
-            //    strSql.Append(paramName[i]);
-            //    if (i != Count - 1)
-            //    {
-            //        strSql.Append(",");
-            //    }
-            //}
-            //strSql.Append(")");
-
-
-            //int res = -1;
-            //res = sqlHelper_.ExecuteCommand(
-            //    strSql.ToString(),
-            //    CommandType.Text,
-            //    sqlParams
-            //    );
-
-            //if (res != 1)
-            //{
-            //    throw new Exception("Error:写入数据库失败");
-            //}
-
-            //return 1;
-
             int bankMoney = GetBankMoney(model.UserID) + model.BankMoney;
             int num = sqlHelper_.ExecuteCommand(
                 "update TUserInfo set BankMoney=@bankmoney",
@@ -365,28 +262,6 @@ namespace QPS.NEW.BLL
 
         public bool UpdateContent(QPS.NEW.Model.Integral model)
         {
-            //bool res = false;
-
-            //int num = Convert.ToInt32(sqlHelper_.ExecuteCommand(
-            //   "update Integral set Content=@content",
-            //   CommandType.Text,
-            //   new SqlParameter[]
-            //   {
-            //       new SqlParameter("@content",model.Content)
-            //   }
-            //   ));
-
-            //if (num != 1)
-            //{
-            //    throw new Exception("Error:更新数据库失败");
-            //}
-            //else
-            //{
-            //    res = true;
-            //}
-
-            //return res;
-
             return Update(model);
         }
 

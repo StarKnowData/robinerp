@@ -9,14 +9,13 @@ namespace QPS.NEW.DAL
     public class SQLHelper
     {
         private string connectString_;
-
+        private static SqlConnection SQLCONN = null;
 
         public SQLHelper(string connectString)
         {
             if (connectString == null || connectString == "")
             {
                 connectString_ = ConfigurationSettings.AppSettings["dbConnString"].ToString();
-                //connectString_ = "Server =127.0.0.1;database=QPS;uid=sa;pwd=sa;Integrated Security=false";
             }
             else
             {
@@ -27,32 +26,69 @@ namespace QPS.NEW.DAL
 
         public SqlConnection Connection()
         {
-            try
+            SqlConnection conn = null;
+
+            if (SQLCONN == null)
             {
-                return new SqlConnection(connectString_);
+                try
+                {
+                    SQLCONN = new SqlConnection(connectString_);
+                    conn = SQLCONN;
+                }
+                catch (Exception e)
+                {
+                    conn = null;
+                    SQLCONN = null;
+                }
+
             }
-            catch (SqlException E)
+            else
             {
-                throw E;
+                conn = SQLCONN;
             }
+            return conn;
         }
 
 
-        public void OpenConnection(SqlConnection conn)
+        public bool OpenConnection(SqlConnection conn)
         {
-            if (conn.State != ConnectionState.Open)
+            bool res = true;
+
+            try
             {
-                conn.Open();
+                if (conn.State != ConnectionState.Open)
+                {
+                    conn.Open();
+                }
             }
+            catch(Exception e)
+            {
+                CloseConnection(conn);
+
+                conn = Connection();
+                if (conn.State != ConnectionState.Open)
+                {
+                    conn.Open();
+                }
+            }
+
+            return res;
         }
 
 
         public void CloseConnection(SqlConnection conn)
         {
-            if (conn.State != ConnectionState.Closed)
+            try
             {
-                conn.Close();
-                conn.Dispose();
+                if (conn.State != ConnectionState.Closed)
+                {
+                    conn.Close();
+                    conn.Dispose();
+                }
+            }
+            catch(Exception e)
+            {
+                // do nothing
             }
         }
 
@@ -96,22 +132,29 @@ namespace QPS.NEW.DAL
         /// <returns>查询结果首行首列</returns>
         public object GetSingle(string commtxt, CommandType commtype, params SqlParameter[] parameters)
         {
+            object res = null;
             try
             {
-                using (SqlConnection Conn = Connection())
+                SqlConnection Conn = Connection();
+                if(Conn!=null)
                 {
                     using (SqlCommand Comm = new SqlCommand())
                     {
                         InitCommand(Comm, commtxt, commtype, Conn, parameters);
-                        OpenConnection(Conn);
-                        return Comm.ExecuteScalar();
+                        if(OpenConnection(Conn))
+                        {
+                            res = Comm.ExecuteScalar();
+                        }
+
                     }
                 }
             }
             catch (SqlException E)
             {
-                throw E;
+                res = null;
             }
+
+            return res;
         }
 
 
@@ -129,22 +172,26 @@ namespace QPS.NEW.DAL
             int res = -1;
             try
             {
-                using (SqlConnection Conn = Connection())
+                SqlConnection Conn = Connection();
+                if(Conn!=null)
                 {
                     using (SqlCommand Comm = new SqlCommand())
                     {
                         InitCommand(Comm, commtxt, commtype, Conn, parameters);
-                        OpenConnection(Conn);
-                        res = Comm.ExecuteNonQuery();
-
-                        return res;
+                        if(OpenConnection(Conn))
+                        {
+                            res = Comm.ExecuteNonQuery();                            
+                        }
                     }
                 }
+
             }
             catch (SqlException E)
             {
-                throw E;
+                res = -1;
             }
+
+            return res;
         }
 
 
@@ -158,28 +205,32 @@ namespace QPS.NEW.DAL
         /// <returns>查询结果集</returns>
         public DataSet GetDataSet(string commtxt, CommandType commtype, params SqlParameter[] parameters)
         {
+            DataSet dataset = new DataSet();
             try
             {
-                DataSet dataset = new DataSet();
-
-                using (SqlConnection Conn = Connection())
+                SqlConnection Conn = Connection();
+                if(Conn!=null)
                 {
                     using (SqlCommand Comm = new SqlCommand())
                     {
                         InitCommand(Comm, commtxt, commtype, Conn, parameters);
                         using (SqlDataAdapter Adapter = new SqlDataAdapter(Comm))
                         {
-                            OpenConnection(Conn);
-                            Adapter.Fill(dataset);
+                            if(OpenConnection(Conn))
+                            {
+                                Adapter.Fill(dataset);                                
+                            }
+
                         }
                     }
                 }
-                return dataset;
             }
             catch (SqlException E)
             {
-                throw E;
+                dataset = null;
             }
+
+            return dataset;
         }
 
 
@@ -194,14 +245,17 @@ namespace QPS.NEW.DAL
         /// <returns>查询结果集</returns>
         public DataTable GetDataTable(string commtxt, CommandType commtype, params SqlParameter[] parameters)
         {
+            DataTable dt = new DataTable();
             try
             {
-                return GetDataSet(commtxt, commtype, parameters).Tables[0];
+                dt = GetDataSet(commtxt, commtype, parameters).Tables[0];
             }
             catch (SqlException E)
             {
-                throw E;
+                dt = null;
             }
+
+            return dt;
         }
 
 
@@ -216,12 +270,21 @@ namespace QPS.NEW.DAL
         /// <returns>返回DataReader对象</returns>
         public SqlDataReader GetDataReader(string commtxt, CommandType commtype, params SqlParameter[] parameters)
         {
-            SqlConnection Conn = Connection();
-            SqlCommand Comm = new SqlCommand();
-            InitCommand(Comm, commtxt, commtype, Conn, parameters);
-            OpenConnection(Conn);
+            SqlDataReader reader = null;
 
-            SqlDataReader reader = Comm.ExecuteReader(CommandBehavior.CloseConnection);
+            SqlConnection Conn = Connection();
+            if(Conn!=null)
+            {
+                SqlCommand Comm = new SqlCommand();
+                InitCommand(Comm, commtxt, commtype, Conn, parameters);
+                
+                if(OpenConnection(Conn))
+                {
+                    reader = Comm.ExecuteReader(CommandBehavior.CloseConnection); 
+                }
+
+            }
+
 
             return reader;
         }
@@ -235,9 +298,11 @@ namespace QPS.NEW.DAL
         /// <returns></returns>
         public bool ExecuteSqlTransaction(params string[] sqlstrs)
         {
+            bool res = false;
             try
             {
-                using (SqlConnection Conn = Connection())
+                SqlConnection Conn = Connection();
+                if(Conn!=null)
                 {
                     using (SqlCommand Comm = new SqlCommand())
                     {
@@ -253,20 +318,22 @@ namespace QPS.NEW.DAL
                                 Comm.ExecuteNonQuery();
                             }
                             Tran.Commit();//提交事务
-                            return true;
+                            res = true;
                         }
                         catch
                         {
                             Tran.Rollback();//回滚
-                            return false;
+                            res = false;
                         }
                     }
                 }
             }
             catch (SqlException E)
             {
-                throw E;
+                res = false;
             }
+
+            return res;
         }
 
 

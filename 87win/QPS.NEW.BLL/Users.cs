@@ -443,8 +443,6 @@ namespace QPS.NEW.BLL
                 return false;
             }
 
-
-
             return true;
         }
 
@@ -503,8 +501,6 @@ namespace QPS.NEW.BLL
 
         public DataSet GetList(int userID)
         {
-
-
             DataTable dt = new DataTable();
             DataColumn dc1 = dt.Columns.Add("UserID", typeof(int));
             DataColumn dc2 = dt.Columns.Add("UserName", typeof(string));
@@ -557,7 +553,6 @@ namespace QPS.NEW.BLL
 
         public DataSet GetList(string userName, string nickName)
         {
-
             int userid;
             DataTable dt = new DataTable();
             DataColumn dc1 = dt.Columns.Add("UserID", typeof(int));
@@ -679,6 +674,7 @@ namespace QPS.NEW.BLL
             return num;
         }
 
+
         public QPS.NEW.Model.Users GetModel(int userID)
         {
             QPS.NEW.Model.Users u = new Model.Users();
@@ -713,8 +709,6 @@ namespace QPS.NEW.BLL
                 u.Mail = dtRes.Rows[0]["Email"].ToString();
                 u.Address = dtRes.Rows[0]["Address"].ToString();
             }
-
-
 
             return u;
         }
