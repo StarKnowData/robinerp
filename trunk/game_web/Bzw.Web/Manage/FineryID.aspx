@@ -22,12 +22,10 @@
   
     <link href="/css/layout.css" rel="stylesheet" type="text/css" />
     <link href="/css/lightbox.css" type="text/css" rel="stylesheet" />
-
+    <script type="text/javascript" src="/Public/Js/jquery.js"></script>
     <script type="text/javascript" src="/Public/Js/Global.js"></script>
 
     <script type="text/javascript" src="/Public/Js/common.js"></script>
-
-    <script type="text/javascript" src="/Public/Js/jquery.js"></script>
 
     <script type="text/javascript" src="/Public/Js/topbtn.js"></script>
 

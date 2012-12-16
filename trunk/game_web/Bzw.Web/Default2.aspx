@@ -15,19 +15,11 @@
 	</title>
 	 
     <link href="/css/layout.css" rel="stylesheet" type="text/css" />
-
-    <script type="text/javascript" src="/Public/Js/Global.js"></script>
-
-    <script type="text/javascript" src="/Public/Js/FlashPlayer.js"></script>
-
-    <script type="text/javascript" src="/Public/Js/marquee.js"></script>
-
     <script type="text/javascript" src="/Public/Js/jquery.js"></script>
-
-
-
+    <script type="text/javascript" src="/Public/Js/Global.js"></script>
+    <script type="text/javascript" src="/Public/Js/FlashPlayer.js"></script>
+    <script type="text/javascript" src="/Public/Js/marquee.js"></script>
     <script type="text/javascript" src="/Public/Js/topbtn.js"></script>
-
     <script type="text/javascript" src="/Public/Js/submu.js"></script>
      <script type="text/javascript" src="/Public/Js/index.js"></script>
     <script type="text/jscript">

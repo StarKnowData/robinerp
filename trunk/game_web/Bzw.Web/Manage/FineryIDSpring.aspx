@@ -15,7 +15,7 @@
     </title>
   
   <link href="/css/layout.css" rel="stylesheet" type="text/css" />
-
+    <script type="text/javascript" src="/Public/Js/jquery.js"></script>
     <script type="text/javascript" src="/Public/Js/common.js"></script>
 	<script type="text/javascript" src="/Public/Js/Global.js"></script>
 	<script type="text/javascript" src="/Public/Js/password_check.js"></script>
