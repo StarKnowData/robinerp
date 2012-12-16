@@ -197,7 +197,7 @@ namespace QPS.NEW.BLL
 
             if (res != 1)
             {
-                throw new Exception("Error:写入数据库失败");
+                return 0;
             }
 
             return 1;

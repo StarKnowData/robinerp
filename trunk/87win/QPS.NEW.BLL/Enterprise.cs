@@ -271,7 +271,7 @@ namespace QPS.NEW.BLL
 
             if (num != 1)
             {
-                throw new Exception("Error:更新数据库失败");
+                res = false;
             }
             else
             {
