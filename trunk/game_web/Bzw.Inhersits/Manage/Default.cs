@@ -10,6 +10,7 @@ using System.Web.UI.WebControls.WebParts;
 using System.Web.UI.HtmlControls;
 
 using UiCommon;
+using Utility;
 
 namespace Bzw.Inhersits.Manage
 {
@@ -183,13 +184,26 @@ namespace Bzw.Inhersits.Manage
                 UserHeadImg = "/Upload/" + UiCommon.StringConfig.UserCustHeadFolderName + "/" + childDirName + "/" + UiCommon.UserLoginInfo.UserID + ".png";
             }
 
-            GameTimeCount =member.ConverTimeToDHMS( member.GetPlayTimeSum(UserLoginInfo.UserID));
+            GameTimeCount = member.ConverTimeToDHMS(GetPlayTimeCount(UserLoginInfo.UserID));
         }
 
         public string GetMoneyPaiming(string Uid)
         {
             string strSQL = "select (select count(1) from TUserinfo where convert(bigint,BankMoney)+convert(bigint,WalletMoney)>convert(bigint,u.BankMoney)+convert(bigint,u.WalletMoney))+1 as iTop from TUserinfo as u where userid = " + Uid + "";
             return "";
+        }
+
+        private string GetPlayTimeCount(string userID)
+        {
+            string strsql = "SELECT max(PlayTimeCount) FROM TMatchTable where UserID=@userid";
+            int num =Convert.ToInt32(
+                SqlHelper.ExecuteScalar(CommandType.Text,strsql,
+                new System.Data.SqlClient.SqlParameter[]{
+                    new System.Data.SqlClient.SqlParameter("userid",Convert.ToInt32(userID))
+                }
+            ));
+
+            return num.ToString();
         }
     }
 }
