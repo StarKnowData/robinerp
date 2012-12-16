@@ -14,8 +14,8 @@
 	</title>
 	
 	<link href="/Style/mainstyle.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/Public/Js/jquery.js"></script>
 	<script type="text/javascript" src="/Public/Js/Global.js"></script>
-	<script src="/Public/Js/jquery.js" type="text/javascript"></script>
 	<script src="/Public/Js/public.js" type="text/javascript"></script>
     <style type="text/css">
         .style1

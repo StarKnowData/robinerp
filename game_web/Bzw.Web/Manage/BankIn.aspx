@@ -14,7 +14,7 @@
 	<title>
 		
 	</title>
-	
+	<script type="text/javascript" src="/Public/Js/jquery.js"></script>
 	<link href="/Style/mainstyle.css" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="/Public/Js/Global.js"></script>
 

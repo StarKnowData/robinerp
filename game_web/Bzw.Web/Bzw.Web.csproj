@@ -472,7 +472,9 @@
     <Content Include="UserInfo\Album.aspx" />
     <Content Include="UserInfo\Default.aspx" />
     <Content Include="UserInfo\PhotoList.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />

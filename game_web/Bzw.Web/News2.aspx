@@ -15,9 +15,10 @@
 	</title>
 	
 			  <link href="/css/layout.css" rel="stylesheet" type="text/css" />
+			  <script type="text/javascript" src="/Public/Js/jquery.js"></script>
 	<script type="text/javascript" src="/Public/Js/Global.js"></script>
 	<script type="text/javascript" src="/Public/Js/common.js"></script>
-	 <script type="text/javascript" src="/Public/Js/jquery.js"></script>
+	 
 	<style type="text/css">
     #r_content img {max-width: 500px;} /* for Firefox & IE7 */
     * html #r_content img { /* for IE6 */

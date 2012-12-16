@@ -16,13 +16,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   
     <link href="/css/layout.css" rel="stylesheet" type="text/css" />
-
+    <script type="text/javascript" src="/Public/Js/jquery.js"></script>
     <script type="text/javascript" src="/Public/Js/common.js"></script>
 
     <script type="text/javascript" src="/Public/Js/Global.js"></script>
-
-    <script type="text/javascript" src="/public/js/jquery.js"></script>
-
     <script type="text/javascript" src="/public/js/public.js"></script>
 
 </head>

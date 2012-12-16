@@ -11,8 +11,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
     <link href="/Style/mainstyle.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="/Public/Js/jquery.js"></script>
     <script type="text/javascript" src="/Public/Js/Global.js"></script>
-    <script src="/Public/Js/jquery.js" type="text/javascript"></script>
     <script src="/Public/Js/public.js" type="text/javascript"></script>
     <style type="text/css">
         .tbradio input

@@ -13,6 +13,7 @@
 	</title>
 	
 	<link href="/Style/mainstyle.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="/Public/Js/jquery.js"></script>
 	<script type="text/javascript" src="/Public/Js/Global.js"></script>
 </head>
 <body>

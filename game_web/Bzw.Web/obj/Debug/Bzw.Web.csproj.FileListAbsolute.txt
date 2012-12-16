@@ -137,7 +137,6 @@ C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Web\bin\Bzw.Web.dll
 C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Web\bin\Bzw.Web.pdb
 C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Web\bin\Bzw.Admin2.dll
 C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Web\bin\Bzw.Inhersits.dll
-C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Web\bin\dotnetCHARTING.dll
 C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Web\bin\Bzw.Admin2.pdb
 C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Web\bin\Bzw.Inhersits.pdb
 C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Web\obj\Debug\ResolveAssemblyReference.cache
