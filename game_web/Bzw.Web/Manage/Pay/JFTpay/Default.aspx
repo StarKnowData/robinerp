@@ -57,15 +57,15 @@
 				KeyPressNum(this,$("#PayMoney").val());
 				
 				if(isNaN($("#PayMoney").val())){
-                    $("#CouponNum").val("0");
+                    //$("#CouponNum").val("0");
 					return false;
 				}else{
-                    couponNum=parseInt($("#PayMoney").val()*<%= CouponRate %>);
-                    if(couponNum<0)
-                    {
-                        couponNum=0;
-                    }
-                    $("#CouponNum").val(couponNum);
+//                    couponNum=parseInt($("#PayMoney").val()*<%= CouponRate %>);
+//                    if(couponNum<0)
+//                    {
+//                        couponNum=0;
+//                    }
+//                    $("#CouponNum").val(couponNum);
 				}	
 			}
 
@@ -324,6 +324,7 @@
                                     * 金额请输入大于零的整数,点卡为点卡面值
                                 </td>
                             </tr>
+                            <!--
                             <tr>
                                 <th height="30" scope="row">
                                     赠送奖劵
@@ -332,6 +333,7 @@
                                     <input id="CouponNum" name="CouponNum" readonly="readonly" value="0" />张
                                 </td>
                             </tr>
+                            -->
                             <tr>
                                 <th height="65" scope="row">
                                     &nbsp;

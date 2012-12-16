@@ -87,6 +87,7 @@
 						<th align="right"  height="35"><label for="id01">兑换成<%=ConfigurationManager.AppSettings["moneyName"].ToString()%>：</label></th>
 						<td><input  type="text" id="ExchangeMoney" readonly="readonly" value="0" class="input"/></td>
 					</tr>
+                    <!--
 				    <tr>
                         <th align="right" height="35">
                             赠送奖劵
@@ -95,6 +96,7 @@
                             <input id="CouponNum" name="CouponNum" readonly="readonly"  value="0" />张
                         </td>
                     </tr>
+                    -->
 					<tr>
 						<th height="65" scope="row">
 							&nbsp;</th>
@@ -123,16 +125,16 @@
 				KeyPressNum(this,$("#PayMoney").val());
 				if(isNaN($("#PayMoney").val())){
 					$("#ExchangeMoney").val("0");
-					$("#CouponNum").val("0");
+					//$("#CouponNum").val("0");
 					return false;
 					
 				}else{
-                    couponNum=parseInt($("#PayMoney").val()*<%= CouponRate %>);
-                    if(couponNum<0)
-                    {
-                        couponNum=0;
-                    }
-                    $("#CouponNum").val(couponNum);
+//                    couponNum=parseInt($("#PayMoney").val()*<%= CouponRate %>);
+//                    if(couponNum<0)
+//                    {
+//                        couponNum=0;
+//                    }
+//                    $("#CouponNum").val(couponNum);
 					$("#ExchangeMoney").val($("#PayMoney").val()*<%= UiCommon.StringConfig.AddZeros(MoneyRate) %>);
 				}	
 			}

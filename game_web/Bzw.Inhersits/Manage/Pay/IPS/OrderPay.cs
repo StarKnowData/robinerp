@@ -193,8 +193,8 @@ namespace Bzw.Inhersits.Manage.Pay.IPS
            }
             
            // [add] jeffery
-           string strCouponNum = Utility.Common.GetStringOfForm("CouponNum"); //获取应赠送奖劵数量
-           Attach.Value = txtUserName + "!@#" + strCouponNum;
+           //string strCouponNum = Utility.Common.GetStringOfForm("CouponNum"); //获取应赠送奖劵数量
+           //Attach.Value = txtUserName + "!@#" + strCouponNum;
            // --- end
            
          //支付金额

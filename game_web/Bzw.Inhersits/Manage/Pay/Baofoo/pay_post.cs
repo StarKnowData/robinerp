@@ -100,8 +100,8 @@ namespace Bzw.Inhersits
             strMobile = "";
 
             // [modify] jeffery
-            //strAdditionalInfo = "";
-            strAdditionalInfo = txtUserName + "!@#" + strCouponNum;
+            strAdditionalInfo = "";
+            //strAdditionalInfo = txtUserName + "!@#" + strCouponNum;
             // ---end
 
             strNoticeType = "1";//0 不跳转 1 会跳转

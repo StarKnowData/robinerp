@@ -46,54 +46,54 @@ namespace Bzw.Inhersits
                 {
                     #region [add] jeffery
 
-                    if (Session["CouponInfo"] != null)
-                    {
-                        string strCouponInfo = Session["CouponInfo"].ToString();
-                        Session["CouponInfo"] = ""; // 用完后销毁
-                        if (strCouponInfo != "")
-                        {
-                            int pos = strCouponInfo.IndexOf("!@#");
-                            string username = strCouponInfo.Substring(0, pos);
-                            int couponNum = Convert.ToInt32(
-                                strCouponInfo.Substring(pos + 1)
-                                );
+                    //if (Session["CouponInfo"] != null)
+                    //{
+                    //    string strCouponInfo = Session["CouponInfo"].ToString();
+                    //    Session["CouponInfo"] = ""; // 用完后销毁
+                    //    if (strCouponInfo != "")
+                    //    {
+                    //        int pos = strCouponInfo.IndexOf("!@#");
+                    //        string username = strCouponInfo.Substring(0, pos);
+                    //        int couponNum = Convert.ToInt32(
+                    //            strCouponInfo.Substring(pos + 1)
+                    //            );
 
-                            string strsql =
-                                "select UserID from TUsers where UserName=@username";
-                            DataTable dt =
-                                SqlHelper.ExecuteDataset(CommandType.Text,
-                                strsql,
-                                new SqlParameter[]
-                                {
-                                    new SqlParameter("@username",username)
-                                }
-                                ).Tables[0];
+                    //        string strsql =
+                    //            "select UserID from TUsers where UserName=@username";
+                    //        DataTable dt =
+                    //            SqlHelper.ExecuteDataset(CommandType.Text,
+                    //            strsql,
+                    //            new SqlParameter[]
+                    //            {
+                    //                new SqlParameter("@username",username)
+                    //            }
+                    //            ).Tables[0];
 
-                            if (dt.Rows.Count > 0)
-                            {
-                                int userid = Convert.ToInt32(dt.Rows[0]["UserID"]);
+                    //        if (dt.Rows.Count > 0)
+                    //        {
+                    //            int userid = Convert.ToInt32(dt.Rows[0]["UserID"]);
 
-                                strsql = "insert into TCoupon(UserID,CouponNum,RechargeType,CreateTime)values(@userid,@coupon,@rechargeType,@createTime)";
+                    //            strsql = "insert into TCoupon(UserID,CouponNum,RechargeType,CreateTime)values(@userid,@coupon,@rechargeType,@createTime)";
 
 
-                                int num =
-                                SqlHelper.ExecuteNonQuery(CommandType.Text,strsql,
-                                                    new SqlParameter[]
-                                                    {
-                                                        new SqlParameter("@userid",userid),
-                                                        new SqlParameter("@coupon",couponNum),
-                                                        new SqlParameter("@rechargeType",6),
-                                                        new SqlParameter("@createTime",DateTime.Now)
-                                                    });
+                    //            int num =
+                    //            SqlHelper.ExecuteNonQuery(CommandType.Text,strsql,
+                    //                                new SqlParameter[]
+                    //                                {
+                    //                                    new SqlParameter("@userid",userid),
+                    //                                    new SqlParameter("@coupon",couponNum),
+                    //                                    new SqlParameter("@rechargeType",6),
+                    //                                    new SqlParameter("@createTime",DateTime.Now)
+                    //                                });
 
-                                if (num != 1)
-                                {
-                                    Response.Write("<script>alert('充值成功，但赠送奖劵失败！')</script>");
-                                }
-                            }
+                    //            if (num != 1)
+                    //            {
+                    //                Response.Write("<script>alert('充值成功，但赠送奖劵失败！')</script>");
+                    //            }
+                    //        }
 
-                        }
-                    }
+                    //    }
+                    //}
                     #endregion
 
                     Member mem = new Member();

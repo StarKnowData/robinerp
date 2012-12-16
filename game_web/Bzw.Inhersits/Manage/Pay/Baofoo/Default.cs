@@ -125,7 +125,7 @@ namespace Bzw.Inhersits
                 username = "";
             }
             MoneyRate = BLL.Config.GetInfoOfCard()["Con_MoneyChangeRate"].ToString();
-            CouponRate = GetCouponRate();
+            //CouponRate = GetCouponRate();
         }
 
         private string GetCouponRate()

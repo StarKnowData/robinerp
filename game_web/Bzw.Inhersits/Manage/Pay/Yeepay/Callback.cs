@@ -65,45 +65,45 @@ namespace Bzw.Inhersits.Manage.Pay.Yeepay
 
                         #region [add] jeffery
 
-                        if (res)
-                        {
-                            string r8mp = result.R8_MP;
-                            int pos = r8mp.IndexOf("!@#");
-                            string username = r8mp.Substring(0, pos);
-                            int couponNum = Convert.ToInt32(
-                                r8mp.Substring(pos + 1)
-                                );
+                        //if (res)
+                        //{
+                        //    string r8mp = result.R8_MP;
+                        //    int pos = r8mp.IndexOf("!@#");
+                        //    string username = r8mp.Substring(0, pos);
+                        //    int couponNum = Convert.ToInt32(
+                        //        r8mp.Substring(pos + 1)
+                        //        );
 
-                            string strsql =
-                                "select UserID from TUsers where UserName=@username";
-                            DataTable dt =
-                                SqlHelper.ExecuteDataset(CommandType.Text,
-                                strsql,
-                                new SqlParameter[]
-                                {
-                                    new SqlParameter("@username",username)
-                                }
-                                ).Tables[0];
-                            int userid = Convert.ToInt32(dt.Rows[0]["UserID"]);
+                        //    string strsql =
+                        //        "select UserID from TUsers where UserName=@username";
+                        //    DataTable dt =
+                        //        SqlHelper.ExecuteDataset(CommandType.Text,
+                        //        strsql,
+                        //        new SqlParameter[]
+                        //        {
+                        //            new SqlParameter("@username",username)
+                        //        }
+                        //        ).Tables[0];
+                        //    int userid = Convert.ToInt32(dt.Rows[0]["UserID"]);
 
-                            strsql = "insert into TCoupon(UserID,CouponNum,RechargeType,CreateTime)values(@userid,@coupon,@rechargeType,@createTime)";
-                            int num =
-                            SqlHelper.ExecuteNonQuery
-                                            (CommandType.Text,
-                                            strsql,
-                                                new SqlParameter[]
-                                                    {
-                                                        new SqlParameter("@userid",userid),
-                                                        new SqlParameter("@coupon",couponNum),
-                                                        new SqlParameter("@rechargeType",3),
-                                                        new SqlParameter("@createTime",DateTime.Now)                                                    
-                                                    });
-                            if (num != 1)
-                            {
-                                Response.Write("<script>alert('充值成功，但赠送奖劵失败！')</script>");
-                            }
-                        #endregion
-                        }
+                        //    strsql = "insert into TCoupon(UserID,CouponNum,RechargeType,CreateTime)values(@userid,@coupon,@rechargeType,@createTime)";
+                        //    int num =
+                        //    SqlHelper.ExecuteNonQuery
+                        //                    (CommandType.Text,
+                        //                    strsql,
+                        //                        new SqlParameter[]
+                        //                            {
+                        //                                new SqlParameter("@userid",userid),
+                        //                                new SqlParameter("@coupon",couponNum),
+                        //                                new SqlParameter("@rechargeType",3),
+                        //                                new SqlParameter("@createTime",DateTime.Now)                                                    
+                        //                            });
+                        //    if (num != 1)
+                        //    {
+                        //        Response.Write("<script>alert('充值成功，但赠送奖劵失败！')</script>");
+                        //    }
+                        //}
+                                            #endregion
                     }
                     else
                     {

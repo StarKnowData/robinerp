@@ -125,7 +125,7 @@ namespace Bzw.Inhersits.Manage.Pay.Alipay
             {
                 txtUserName.Text = UiCommon.UserLoginInfo.UserName;
                 txtUserName2.Text = UiCommon.UserLoginInfo.UserName;
-                CouponRate = GetCouponRate();
+                //CouponRate = GetCouponRate();
                 
             }
             MoneyRate = BLL.Config.GetInfoOfCard()["Con_MoneyChangeRate"].ToString();
@@ -205,14 +205,14 @@ namespace Bzw.Inhersits.Manage.Pay.Alipay
             //body 商品描述
 
             // [modify] jeffery
-            //string body = "游戏" + UiCommon.StringConfig.MoneyName;
+            string body = "游戏" + UiCommon.StringConfig.MoneyName;
 
-            double poupon = Convert.ToDouble(CouponRate) * Convert.ToDouble(PayMoney.Text);
-            if (poupon < 0)
-                poupon = 0;
+            //double poupon = Convert.ToDouble(CouponRate) * Convert.ToDouble(PayMoney.Text);
+            //if (poupon < 0)
+            //    poupon = 0;
 
-            string body = "游戏" + UiCommon.StringConfig.MoneyName +
-                "!@#" + userName + "!@#" + Convert.ToInt32(poupon).ToString();
+            //string body = "游戏" + UiCommon.StringConfig.MoneyName +
+            //    "!@#" + userName + "!@#" + Convert.ToInt32(poupon).ToString();
             // ---end
 
             //支付类型
