@@ -215,3 +215,19 @@ C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\bin\Bzw.Inher
 C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\obj\Debug\Bzw.Admin2.dll
 C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\obj\Debug\Bzw.Admin2.pdb
+E:\robinerp\game_web\Bzw.Admin\bin\Bzw.Admin2.dll
+E:\robinerp\game_web\Bzw.Admin\bin\Bzw.Admin2.pdb
+E:\robinerp\game_web\Bzw.Admin\bin\BCST.Common.dll
+E:\robinerp\game_web\Bzw.Admin\bin\Bzw.Appcode.dll
+E:\robinerp\game_web\Bzw.Admin\bin\BZW.Data.dll
+E:\robinerp\game_web\Bzw.Admin\bin\Bzw.E.dll
+E:\robinerp\game_web\Bzw.Admin\bin\Bzw.Entities.dll
+E:\robinerp\game_web\Bzw.Admin\bin\Bzw.Inhersits.dll
+E:\robinerp\game_web\Bzw.Admin\bin\com.yeepay.dll
+E:\robinerp\game_web\Bzw.Admin\bin\CustomControl.dll
+E:\robinerp\game_web\Bzw.Admin\bin\FredCK.FCKeditorV2.dll
+E:\robinerp\game_web\Bzw.Admin\bin\Pager.dll
+E:\robinerp\game_web\Bzw.Admin\bin\Bzw.Inhersits.pdb
+E:\robinerp\game_web\Bzw.Admin\obj\Debug\Bzw.Admin.csprojResolveAssemblyReference.cache
+E:\robinerp\game_web\Bzw.Admin\obj\Debug\Bzw.Admin2.dll
+E:\robinerp\game_web\Bzw.Admin\obj\Debug\Bzw.Admin2.pdb

@@ -143,3 +143,12 @@ C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Web\bin\Bzw.Inhersi
 C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Web\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Web\obj\Debug\Bzw.Web.dll
 C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Web\obj\Debug\Bzw.Web.pdb
+E:\robinerp\game_web\Bzw.Web\bin\Bzw.Web.dll
+E:\robinerp\game_web\Bzw.Web\bin\Bzw.Web.pdb
+E:\robinerp\game_web\Bzw.Web\bin\Bzw.Admin2.dll
+E:\robinerp\game_web\Bzw.Web\bin\Bzw.Inhersits.dll
+E:\robinerp\game_web\Bzw.Web\bin\Bzw.Admin2.pdb
+E:\robinerp\game_web\Bzw.Web\bin\Bzw.Inhersits.pdb
+E:\robinerp\game_web\Bzw.Web\obj\Debug\Bzw.Web.csprojResolveAssemblyReference.cache
+E:\robinerp\game_web\Bzw.Web\obj\Debug\Bzw.Web.dll
+E:\robinerp\game_web\Bzw.Web\obj\Debug\Bzw.Web.pdb
