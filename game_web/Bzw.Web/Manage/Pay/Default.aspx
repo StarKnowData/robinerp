@@ -34,6 +34,7 @@
                     当前位置：首页 > 账户充值</p>
             </div>
             <div id="sub_nr">
+                
                 <ul class="zhcz">
                     <li>
                         <div style="padding-right: 14px;  " class="fl">
@@ -45,19 +46,43 @@
                             <a href="/Manage/Pay/PointCard.aspx">
                                 <img src="/Images/cont_btn05.jpg" alt="" /></a></p>
                     </li>
-                    <%  if (UiCommon.StringConfig.IPS_Mer_code != "")
-                        { %>
+              
                     <li>
-                        <div class="fl" style="padding-right: 14px;">
-                            <img src="/Images/cont_tbl_img21.jpg" alt="" /></div>
-                        <strong class="text05">环迅在线充值</strong><br />
-                        支持工商、招商、农业、建设、中<br />
-                        国银行等国内27家银行及信用卡。
-                        <p style="padding-top: 15px;">
-                            <a href="/Manage/Pay/IPS/Default.aspx">
+                        <div style="padding-right: 14px;  " class="fl"><img src="/Images/taobao.jpg" width="110" height="100" alt="淘宝充值"/></div>
+                        <strong class="text05">淘宝官网充值</strong><br />
+                        由八棋赢官方开通的官方淘宝充值
+                        <p style="padding-top: 15px; ">
+                            <a href="http://shop100262618.taobao.com/shop/view_shop.htm?tracelog=twddp">
                                 <img src="/Images/cont_btn05.jpg" alt="" /></a></p>
                     </li>
-                    <%} %>
+                    <li>
+                        <div style="padding-right: 14px;  " class="fl">
+                            <img src="/Images/dianhua.jpg" width="110" height="100"/></div>
+                        <strong class="text05">易宝固话短信充值</strong><br />
+                        固话或短信购买易宝一卡通，在线进行支付和充值
+                        <p style="padding-top: 15px; ">
+                            <a href="/Manage/Pay/Yeepay/NotePay.aspx">
+                                <img src="/Images/cont_btn05.jpg" alt="" /></a></p>
+                    </li>
+                    <li>
+                        <div style="padding-right: 14px;  " class="fl">
+                            <img src="/Images/pay_06.jpg" width="110" height="100"/></div>
+                        <strong class="text05">联通充值卡</strong><br />
+                        联通用户，用联通充值卡面额进行充值
+                        <p style="padding-top: 15px; ">
+                            <a href="/Manage/Pay/Yeepay2/Yeepay.aspx?params=UNICOM-NET">
+                                <img src="/Images/cont_btn05.jpg" alt="" /></a></p>
+                    </li>
+                    <li>
+                        <div style="padding-right: 14px;  " class="fl"><img src="/Images/pay_05.jpg" width="110" height="100"/></div>
+                        <strong class="text05">神州行充值卡</strong><br />
+                        仅限移动用户，用神州行充值卡面额进行充值<br />
+                        
+                        <p style="padding-top: 15px; ">
+                            <a href="/Manage/Pay/Yeepay2/Yeepay.aspx?params=SZX-NET">
+                                <img src="/Images/cont_btn05.jpg" alt="" /></a></p>
+                    </li>
+
                     <%  if (UiCommon.StringConfig.YeepayMerID != "")
                         { %>
                     <li>
@@ -68,18 +93,6 @@
                         国内27家银行和信用卡，游戏点卡
                         <p style="padding-top: 15px;">
                             <a href="/Manage/Pay/Yeepay/Default.aspx">
-                                <img src="/Images/cont_btn05.jpg" alt="" /></a></p>
-                    </li>
-                    <%} if (UiCommon.StringConfig.BaofooMerchantID != "")
-                        { %>
-                    <li>
-                        <div class="fl" style="padding-right: 14px;">
-                            <img src="/Images/pay/pay_01.jpg" alt="" width="106px" height="84px" /></div>
-                        <strong class="text05">宝付在线支付</strong><br />
-                        支持工商、招商、农业、建设、等<br />
-                        国内27家银行和信用卡，游戏点卡
-                        <p style="padding-top: 15px;">
-                            <a href="/Manage/Pay/Baofoo/Default.aspx">
                                 <img src="/Images/cont_btn05.jpg" alt="" /></a></p>
                     </li>
                     <%} if (UiCommon.StringConfig.AlipayPartnerID != "")
@@ -94,19 +107,7 @@
                             <a href="/Manage/Pay/AliPay/Default.aspx">
                                 <img src="/Images/cont_btn05.jpg" alt="" /></a></p>
                     </li>
-                    <%} if (UiCommon.StringConfig.JFTpay_MemberID != "")
-                        { %>
-                    <li>
-                        <div class="fl" style="padding-right: 14px;">
-                            <img src="/Images/pay/pay_01.jpg" alt="" width="106px" height="84px" /></div>
-                        <strong class="text05">聚付通在线支付</strong><br />
-                        支持工商、招商、农业、建设等<br />
-                        国内20家银行卡充值
-                        <p style="padding-top: 15px;">
-                            <a href="/Manage/Pay/JFTpay/Default.aspx">
-                                <img src="/Images/cont_btn05.jpg" alt="" /></a></p>
-                    </li>
-                    <%} %>
+                    <%}%>
                 </ul>
             </div>
             <p>
