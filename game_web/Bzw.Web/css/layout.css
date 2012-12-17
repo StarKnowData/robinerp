@@ -34,7 +34,7 @@ h1 {position:absolute; float:left;}
 
 /* content */
 #left {width:194px; float:left;}
-#xszn {width:185px;height:139px;background-color:#ffffff;}
+#xszn {width:185px;height:175px;background-color:#ffffff;}
 #xszn ul {width:171px;margin-left:7px;}
 #xszn ul li {background:url('/Images/left_bullet01.jpg') 5px 8px no-repeat;border-bottom:1px solid #d0cccc;padding-left:12px;height:24px;clear:both;}
 
