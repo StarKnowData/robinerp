@@ -127,6 +127,10 @@
     <Content Include="app\UserLogin.aspx" />
     <Content Include="bin\Bzw.Appcode.pdb" />
     <Content Include="css\lightbox.css" />
+    <Content Include="Images\dianhua.jpg" />
+    <Content Include="Images\pay_05.jpg" />
+    <Content Include="Images\pay_06.jpg" />
+    <Content Include="Images\taobao.jpg" />
     <Content Include="Image\DaoJu\1.gif" />
     <Content Include="Image\DaoJu\2.gif" />
     <Content Include="Image\DaoJu\3.gif" />
