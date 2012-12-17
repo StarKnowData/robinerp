@@ -210,7 +210,6 @@ C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\bin\com.yeepa
 C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\bin\CustomControl.dll
 C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\bin\FredCK.FCKeditorV2.dll
 C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\bin\Pager.dll
-C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\bin\dotnetCHARTING.dll
 C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\bin\Bzw.Inhersits.pdb
 C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\obj\Debug\ResolveAssemblyReference.cache
 C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\obj\Debug\Bzw.Admin2.dll
@@ -231,3 +230,5 @@ E:\robinerp\game_web\Bzw.Admin\bin\Bzw.Inhersits.pdb
 E:\robinerp\game_web\Bzw.Admin\obj\Debug\Bzw.Admin.csprojResolveAssemblyReference.cache
 E:\robinerp\game_web\Bzw.Admin\obj\Debug\Bzw.Admin2.dll
 E:\robinerp\game_web\Bzw.Admin\obj\Debug\Bzw.Admin2.pdb
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\bin\dotnetCHARTING.dll
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Admin\bin\Bzw.Appcode.pdb
