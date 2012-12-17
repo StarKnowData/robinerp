@@ -11,7 +11,7 @@
 			<p><a href="/Manage/Pay/Default.aspx" title="在线充值"><img src="/Images/left_btn04.jpg" alt="在线充值"  border="0"/></a></p>
 			<p><a href="/Daoju.aspx" title="游戏商城"><img src="/Images/left_btn05.jpg" alt="游戏商城"  border="0"/></a></p>
 			<p><a href="/ContestRank.aspx" title="比赛专区"><img src="/Images/left_btn06.jpg" alt="比赛专区"  border="0"/></a></p>
-			<p><a href="#"><img src="/Images/left_btn07.jpg" alt=""  border="0"/></a></p>
+			<!--<p><a href="#"><img src="/Images/left_btn07.jpg" alt=""  border="0"/></a></p> -->
 			<p id="ad4" style="height:185px;"><a href="#"><img src="/Images/left_btn08.jpg" alt=""  border="0"/></a></p>
 			
 	 <script type="text/javascript">

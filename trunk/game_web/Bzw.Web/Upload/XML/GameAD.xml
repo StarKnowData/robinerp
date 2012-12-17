@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <bcaster>
+  <!--
   <item id="1">
     <title>登录框广告位显示(364*122)</title>
     <Content> 
@@ -28,5 +29,57 @@
   <item id="7">
     <title>游戏广告位7</title>
     <Content></Content>
+  </item>
+-->
+  <item id="1">
+    <title>登录框广告位显示(364*122)</title>
+    <Content>
+      <![CDATA[<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]>
+    </Content>
+  </item>
+  <item id="2">
+    <title>大厅登录广告位显示(240*65)</title>
+    <Content>
+      <![CDATA[<p><img width="340" height="58" alt="" src="/Upload/FCK/image/%E6%96%B0%E6%B8%B8%E6%88%8F%E5%B9%B3%E5%8F%B0%E9%A6%96%E9%A1%B5%E4%B8%8A%E9%9D%A2%E5%B9%BF%E5%91%8A4.gif" /></p>
+<p>&nbsp;</p>]]>
+    </Content>
+  </item>
+  <item id="3">
+    <title>游戏房间右侧广告位显示(324*100)</title>
+    <Content>
+      <![CDATA[<p><img width="340" height="100" alt="" src="/Upload/FCK/image/%E8%BF%9E%E6%8E%A5%E7%BD%91%E7%AB%99%E7%BA%A2%E5%AD%971.gif" /></p>
+<p>&nbsp;</p>]]>
+    </Content>
+  </item>
+  <item id="4">
+    <title>游戏广告位4 </title>
+    <Content>
+      <![CDATA[<p><img width="185" height="181" alt="" src="/Upload/FCK/image/%E6%96%B0%E6%96%B9%E5%BC%8F2(2).jpg" /></p>
+<p>&nbsp;</p>]]>
+    </Content>
+  </item>
+  <item id="5">
+    <title>游戏广告位5</title>
+    <Content>
+      <![CDATA[<p><img width="265" height="140" alt="" src="/Upload/FCK/image/%E6%B8%B8%E6%88%8F%E7%BD%91%E7%AB%99%E9%A6%96%E9%A1%B5%E5%8F%B3%E4%B8%8B%E8%A7%92(3).jpg" /></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>]]>
+    </Content>
+  </item>
+  <item id="6">
+    <title>游戏广告位6</title>
+    <Content>
+      <![CDATA[<p>&nbsp;</p>
+<p>&nbsp;</p>]]>
+    </Content>
+  </item>
+  <item id="7">
+    <title>游戏广告位7</title>
+    <Content>
+      <![CDATA[<p>&nbsp;</p>
+<p>&nbsp;</p>]]>
+    </Content>
   </item>
 </bcaster>

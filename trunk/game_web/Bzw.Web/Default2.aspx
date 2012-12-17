@@ -17,6 +17,7 @@
     <link href="/css/layout.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="/Public/Js/jquery.js"></script>
     <script type="text/javascript" src="/Public/Js/Global.js"></script>
+    <script type="text/javascript" src="/Public/Js/common.js"></script>
     <script type="text/javascript" src="/Public/Js/FlashPlayer.js"></script>
     <script type="text/javascript" src="/Public/Js/marquee.js"></script>
     <script type="text/javascript" src="/Public/Js/topbtn.js"></script>
@@ -368,7 +369,7 @@
                         <h3 class="fl">
                             <img src="/Images/cont_tit02.jpg" alt="" /></h3>
                             <div id="photolist" style="width:397px; overflow:hidden; position:relative;  ">
-                        <ul  style=" width:600%;  ">
+                        <ul  style=" width:1800%;  ">
                             <asp:Repeater ID="rptPhotoList" runat="server">
                                 <ItemTemplate>
                                   <li><a href='/UserInfo/PhotoList.aspx?params=<%# Eval( "ColumnID" ) %>' title='<%# Eval( "NickName" ).ToString()%>'>
