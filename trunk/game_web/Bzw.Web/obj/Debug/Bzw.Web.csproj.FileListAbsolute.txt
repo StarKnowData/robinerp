@@ -151,3 +151,5 @@ E:\robinerp\game_web\Bzw.Web\bin\Bzw.Inhersits.pdb
 E:\robinerp\game_web\Bzw.Web\obj\Debug\Bzw.Web.csprojResolveAssemblyReference.cache
 E:\robinerp\game_web\Bzw.Web\obj\Debug\Bzw.Web.dll
 E:\robinerp\game_web\Bzw.Web\obj\Debug\Bzw.Web.pdb
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Web\bin\dotnetCHARTING.dll
+C:\Documents and Settings\Robin\桌面\robinerp\game_web\Bzw.Web\bin\Bzw.Appcode.pdb
